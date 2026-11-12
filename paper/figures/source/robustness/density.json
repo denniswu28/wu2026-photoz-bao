@@ -1,0 +1,1823 @@
+{
+  "summary": [
+    {
+      "measurement_bin": "LRG2",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "prereconstruction",
+      "parameter": "qiso",
+      "variant": "primary",
+      "n_saved": 25,
+      "n_failed": 0,
+      "n_bestfit": 25,
+      "n_usable_interval": 14,
+      "n_boundary": 10,
+      "bias": -0.02067208096250269,
+      "bias_sem": 0.021834751446984095,
+      "scatter": 0.10917375723492048,
+      "mean_fit_value": 1.000247424489667,
+      "mean_fit_half_width": 0.03230563412912618,
+      "mean_fit_usable": true,
+      "spherex_nbar_h3_mpc3": 1.7625e-05,
+      "matched_nbar_h3_mpc3": 4.4590391916703e-05,
+      "attained_nbar_h3_mpc3": 4.4589998096063e-05,
+      "primary_nbar_h3_mpc3": 1.762461074839252e-05,
+      "veff_target_mpc_h3": 249248261.25299498,
+      "veff_attained_mpc_h3": 249245216.30606502,
+      "veff_primary_mpc_h3": 58839787.805572525,
+      "veff_fraction": 0.9999877834777476,
+      "bounded": false,
+      "selected_counts": {
+        "NGC": 74749,
+        "SGC": 42111
+      }
+    },
+    {
+      "measurement_bin": "LRG2",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "prereconstruction",
+      "parameter": "qiso",
+      "variant": "matched",
+      "n_saved": 25,
+      "n_failed": 0,
+      "n_bestfit": 25,
+      "n_usable_interval": 18,
+      "n_boundary": 4,
+      "bias": -0.0343961805070006,
+      "bias_sem": 0.015979630722923546,
+      "scatter": 0.07989815361461773,
+      "mean_fit_value": 0.9962320446148295,
+      "mean_fit_half_width": 0.01736107706663159,
+      "mean_fit_usable": true,
+      "spherex_nbar_h3_mpc3": 1.7625e-05,
+      "matched_nbar_h3_mpc3": 4.4590391916703e-05,
+      "attained_nbar_h3_mpc3": 4.4589998096063e-05,
+      "primary_nbar_h3_mpc3": 1.762461074839252e-05,
+      "veff_target_mpc_h3": 249248261.25299498,
+      "veff_attained_mpc_h3": 249245216.30606502,
+      "veff_primary_mpc_h3": 58839787.805572525,
+      "veff_fraction": 0.9999877834777476,
+      "bounded": false,
+      "selected_counts": {
+        "NGC": 74749,
+        "SGC": 42111
+      }
+    },
+    {
+      "measurement_bin": "LRG2",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "prereconstruction",
+      "parameter": "qap",
+      "variant": "primary",
+      "n_saved": 25,
+      "n_failed": 0,
+      "n_bestfit": 25,
+      "n_usable_interval": 1,
+      "n_boundary": 24,
+      "bias": 0.035650620344836834,
+      "bias_sem": 0.03261623854078942,
+      "scatter": 0.16308119270394708,
+      "mean_fit_value": 1.0629510819362369,
+      "mean_fit_half_width": 0.09425859808136566,
+      "mean_fit_usable": true,
+      "spherex_nbar_h3_mpc3": 1.7625e-05,
+      "matched_nbar_h3_mpc3": 4.4590391916703e-05,
+      "attained_nbar_h3_mpc3": 4.4589998096063e-05,
+      "primary_nbar_h3_mpc3": 1.762461074839252e-05,
+      "veff_target_mpc_h3": 249248261.25299498,
+      "veff_attained_mpc_h3": 249245216.30606502,
+      "veff_primary_mpc_h3": 58839787.805572525,
+      "veff_fraction": 0.9999877834777476,
+      "bounded": false,
+      "selected_counts": {
+        "NGC": 74749,
+        "SGC": 42111
+      }
+    },
+    {
+      "measurement_bin": "LRG2",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "prereconstruction",
+      "parameter": "qap",
+      "variant": "matched",
+      "n_saved": 25,
+      "n_failed": 0,
+      "n_bestfit": 25,
+      "n_usable_interval": 4,
+      "n_boundary": 20,
+      "bias": -0.015109137089574554,
+      "bias_sem": 0.033515651685180926,
+      "scatter": 0.16757825842590462,
+      "mean_fit_value": 1.0020457530786904,
+      "mean_fit_half_width": 0.04200807842973886,
+      "mean_fit_usable": true,
+      "spherex_nbar_h3_mpc3": 1.7625e-05,
+      "matched_nbar_h3_mpc3": 4.4590391916703e-05,
+      "attained_nbar_h3_mpc3": 4.4589998096063e-05,
+      "primary_nbar_h3_mpc3": 1.762461074839252e-05,
+      "veff_target_mpc_h3": 249248261.25299498,
+      "veff_attained_mpc_h3": 249245216.30606502,
+      "veff_primary_mpc_h3": 58839787.805572525,
+      "veff_fraction": 0.9999877834777476,
+      "bounded": false,
+      "selected_counts": {
+        "NGC": 74749,
+        "SGC": 42111
+      }
+    },
+    {
+      "measurement_bin": "LRG2",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "postreconstruction",
+      "parameter": "qiso",
+      "variant": "primary",
+      "n_saved": 25,
+      "n_failed": 0,
+      "n_bestfit": 25,
+      "n_usable_interval": 16,
+      "n_boundary": 9,
+      "bias": -0.03518408154290486,
+      "bias_sem": 0.023576018584710354,
+      "scatter": 0.11788009292355177,
+      "mean_fit_value": 0.8800347649791336,
+      "mean_fit_half_width": 0.04152777773413363,
+      "mean_fit_usable": true,
+      "spherex_nbar_h3_mpc3": 1.7625e-05,
+      "matched_nbar_h3_mpc3": 4.4590391916703e-05,
+      "attained_nbar_h3_mpc3": 4.4589998096063e-05,
+      "primary_nbar_h3_mpc3": 1.762461074839252e-05,
+      "veff_target_mpc_h3": 249248261.25299498,
+      "veff_attained_mpc_h3": 249245216.30606502,
+      "veff_primary_mpc_h3": 58839787.805572525,
+      "veff_fraction": 0.9999877834777476,
+      "bounded": false,
+      "selected_counts": {
+        "NGC": 74749,
+        "SGC": 42111
+      }
+    },
+    {
+      "measurement_bin": "LRG2",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "postreconstruction",
+      "parameter": "qiso",
+      "variant": "matched",
+      "n_saved": 25,
+      "n_failed": 0,
+      "n_bestfit": 25,
+      "n_usable_interval": 19,
+      "n_boundary": 4,
+      "bias": -0.02779132242351858,
+      "bias_sem": 0.01478675521670363,
+      "scatter": 0.07393377608351814,
+      "mean_fit_value": 0.9898279664119184,
+      "mean_fit_half_width": 0.010734347540361455,
+      "mean_fit_usable": true,
+      "spherex_nbar_h3_mpc3": 1.7625e-05,
+      "matched_nbar_h3_mpc3": 4.4590391916703e-05,
+      "attained_nbar_h3_mpc3": 4.4589998096063e-05,
+      "primary_nbar_h3_mpc3": 1.762461074839252e-05,
+      "veff_target_mpc_h3": 249248261.25299498,
+      "veff_attained_mpc_h3": 249245216.30606502,
+      "veff_primary_mpc_h3": 58839787.805572525,
+      "veff_fraction": 0.9999877834777476,
+      "bounded": false,
+      "selected_counts": {
+        "NGC": 74749,
+        "SGC": 42111
+      }
+    },
+    {
+      "measurement_bin": "LRG2",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "postreconstruction",
+      "parameter": "qap",
+      "variant": "primary",
+      "n_saved": 25,
+      "n_failed": 0,
+      "n_bestfit": 25,
+      "n_usable_interval": 3,
+      "n_boundary": 22,
+      "bias": 0.038143349603217754,
+      "bias_sem": 0.032044463537575604,
+      "scatter": 0.16022231768787804,
+      "mean_fit_value": 0.8952080135077597,
+      "mean_fit_half_width": 0.12690728404931573,
+      "mean_fit_usable": false,
+      "spherex_nbar_h3_mpc3": 1.7625e-05,
+      "matched_nbar_h3_mpc3": 4.4590391916703e-05,
+      "attained_nbar_h3_mpc3": 4.4589998096063e-05,
+      "primary_nbar_h3_mpc3": 1.762461074839252e-05,
+      "veff_target_mpc_h3": 249248261.25299498,
+      "veff_attained_mpc_h3": 249245216.30606502,
+      "veff_primary_mpc_h3": 58839787.805572525,
+      "veff_fraction": 0.9999877834777476,
+      "bounded": false,
+      "selected_counts": {
+        "NGC": 74749,
+        "SGC": 42111
+      }
+    },
+    {
+      "measurement_bin": "LRG2",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "postreconstruction",
+      "parameter": "qap",
+      "variant": "matched",
+      "n_saved": 25,
+      "n_failed": 0,
+      "n_bestfit": 25,
+      "n_usable_interval": 10,
+      "n_boundary": 15,
+      "bias": -0.0384952891052981,
+      "bias_sem": 0.025236598104160096,
+      "scatter": 0.12618299052080048,
+      "mean_fit_value": 0.978022635013535,
+      "mean_fit_half_width": 0.02849451480439935,
+      "mean_fit_usable": true,
+      "spherex_nbar_h3_mpc3": 1.7625e-05,
+      "matched_nbar_h3_mpc3": 4.4590391916703e-05,
+      "attained_nbar_h3_mpc3": 4.4589998096063e-05,
+      "primary_nbar_h3_mpc3": 1.762461074839252e-05,
+      "veff_target_mpc_h3": 249248261.25299498,
+      "veff_attained_mpc_h3": 249245216.30606502,
+      "veff_primary_mpc_h3": 58839787.805572525,
+      "veff_fraction": 0.9999877834777476,
+      "bounded": false,
+      "selected_counts": {
+        "NGC": 74749,
+        "SGC": 42111
+      }
+    },
+    {
+      "measurement_bin": "LRG2",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "prereconstruction",
+      "parameter": "qiso",
+      "variant": "primary",
+      "n_saved": 25,
+      "n_failed": 0,
+      "n_bestfit": 25,
+      "n_usable_interval": 22,
+      "n_boundary": 3,
+      "bias": 0.005727789695983807,
+      "bias_sem": 0.015592505809702475,
+      "scatter": 0.07796252904851238,
+      "mean_fit_value": 0.9891773647592921,
+      "mean_fit_half_width": 0.02074736918380321,
+      "mean_fit_usable": true,
+      "spherex_nbar_h3_mpc3": 7.05e-05,
+      "matched_nbar_h3_mpc3": 0.0005712074869064453,
+      "attained_nbar_h3_mpc3": 0.0005335502723575556,
+      "primary_nbar_h3_mpc3": 7.049958769658469e-05,
+      "veff_target_mpc_h3": 1898028049.4884224,
+      "veff_attained_mpc_h3": 1858719949.0258694,
+      "veff_primary_mpc_h3": 448079336.0704261,
+      "veff_fraction": 0.979290031844815,
+      "bounded": true,
+      "selected_counts": {
+        "NGC": 898010,
+        "SGC": 500301
+      }
+    },
+    {
+      "measurement_bin": "LRG2",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "prereconstruction",
+      "parameter": "qiso",
+      "variant": "matched",
+      "n_saved": 25,
+      "n_failed": 0,
+      "n_bestfit": 25,
+      "n_usable_interval": 25,
+      "n_boundary": 0,
+      "bias": -0.006822370214788136,
+      "bias_sem": 0.005250191801383369,
+      "scatter": 0.026250959006916843,
+      "mean_fit_value": 0.9941516821006173,
+      "mean_fit_half_width": 0.004997397005333193,
+      "mean_fit_usable": true,
+      "spherex_nbar_h3_mpc3": 7.05e-05,
+      "matched_nbar_h3_mpc3": 0.0005712074869064453,
+      "attained_nbar_h3_mpc3": 0.0005335502723575556,
+      "primary_nbar_h3_mpc3": 7.049958769658469e-05,
+      "veff_target_mpc_h3": 1898028049.4884224,
+      "veff_attained_mpc_h3": 1858719949.0258694,
+      "veff_primary_mpc_h3": 448079336.0704261,
+      "veff_fraction": 0.979290031844815,
+      "bounded": true,
+      "selected_counts": {
+        "NGC": 898010,
+        "SGC": 500301
+      }
+    },
+    {
+      "measurement_bin": "LRG2",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "prereconstruction",
+      "parameter": "qap",
+      "variant": "primary",
+      "n_saved": 25,
+      "n_failed": 0,
+      "n_bestfit": 25,
+      "n_usable_interval": 6,
+      "n_boundary": 19,
+      "bias": 0.01364645405098381,
+      "bias_sem": 0.02997876403315864,
+      "scatter": 0.1498938201657932,
+      "mean_fit_value": 0.9700495346710132,
+      "mean_fit_half_width": 0.05179901249601354,
+      "mean_fit_usable": true,
+      "spherex_nbar_h3_mpc3": 7.05e-05,
+      "matched_nbar_h3_mpc3": 0.0005712074869064453,
+      "attained_nbar_h3_mpc3": 0.0005335502723575556,
+      "primary_nbar_h3_mpc3": 7.049958769658469e-05,
+      "veff_target_mpc_h3": 1898028049.4884224,
+      "veff_attained_mpc_h3": 1858719949.0258694,
+      "veff_primary_mpc_h3": 448079336.0704261,
+      "veff_fraction": 0.979290031844815,
+      "bounded": true,
+      "selected_counts": {
+        "NGC": 898010,
+        "SGC": 500301
+      }
+    },
+    {
+      "measurement_bin": "LRG2",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "prereconstruction",
+      "parameter": "qap",
+      "variant": "matched",
+      "n_saved": 25,
+      "n_failed": 0,
+      "n_bestfit": 25,
+      "n_usable_interval": 22,
+      "n_boundary": 3,
+      "bias": -0.004890715249525206,
+      "bias_sem": 0.01222687129330855,
+      "scatter": 0.06113435646654275,
+      "mean_fit_value": 0.9962559443203483,
+      "mean_fit_half_width": 0.013277456828602985,
+      "mean_fit_usable": true,
+      "spherex_nbar_h3_mpc3": 7.05e-05,
+      "matched_nbar_h3_mpc3": 0.0005712074869064453,
+      "attained_nbar_h3_mpc3": 0.0005335502723575556,
+      "primary_nbar_h3_mpc3": 7.049958769658469e-05,
+      "veff_target_mpc_h3": 1898028049.4884224,
+      "veff_attained_mpc_h3": 1858719949.0258694,
+      "veff_primary_mpc_h3": 448079336.0704261,
+      "veff_fraction": 0.979290031844815,
+      "bounded": true,
+      "selected_counts": {
+        "NGC": 898010,
+        "SGC": 500301
+      }
+    },
+    {
+      "measurement_bin": "LRG2",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "postreconstruction",
+      "parameter": "qiso",
+      "variant": "primary",
+      "n_saved": 25,
+      "n_failed": 0,
+      "n_bestfit": 25,
+      "n_usable_interval": 20,
+      "n_boundary": 3,
+      "bias": -0.008726558135110784,
+      "bias_sem": 0.015037168113608437,
+      "scatter": 0.07518584056804219,
+      "mean_fit_value": 0.9865604615436048,
+      "mean_fit_half_width": 0.014655115557941356,
+      "mean_fit_usable": true,
+      "spherex_nbar_h3_mpc3": 7.05e-05,
+      "matched_nbar_h3_mpc3": 0.0005712074869064453,
+      "attained_nbar_h3_mpc3": 0.0005335502723575556,
+      "primary_nbar_h3_mpc3": 7.049958769658469e-05,
+      "veff_target_mpc_h3": 1898028049.4884224,
+      "veff_attained_mpc_h3": 1858719949.0258694,
+      "veff_primary_mpc_h3": 448079336.0704261,
+      "veff_fraction": 0.979290031844815,
+      "bounded": true,
+      "selected_counts": {
+        "NGC": 898010,
+        "SGC": 500301
+      }
+    },
+    {
+      "measurement_bin": "LRG2",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "postreconstruction",
+      "parameter": "qiso",
+      "variant": "matched",
+      "n_saved": 25,
+      "n_failed": 0,
+      "n_bestfit": 25,
+      "n_usable_interval": 25,
+      "n_boundary": 0,
+      "bias": -0.004935243715028039,
+      "bias_sem": 0.0033652461657072857,
+      "scatter": 0.016826230828536428,
+      "mean_fit_value": 0.995667637597383,
+      "mean_fit_half_width": 0.0032732519770486412,
+      "mean_fit_usable": true,
+      "spherex_nbar_h3_mpc3": 7.05e-05,
+      "matched_nbar_h3_mpc3": 0.0005712074869064453,
+      "attained_nbar_h3_mpc3": 0.0005335502723575556,
+      "primary_nbar_h3_mpc3": 7.049958769658469e-05,
+      "veff_target_mpc_h3": 1898028049.4884224,
+      "veff_attained_mpc_h3": 1858719949.0258694,
+      "veff_primary_mpc_h3": 448079336.0704261,
+      "veff_fraction": 0.979290031844815,
+      "bounded": true,
+      "selected_counts": {
+        "NGC": 898010,
+        "SGC": 500301
+      }
+    },
+    {
+      "measurement_bin": "LRG2",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "postreconstruction",
+      "parameter": "qap",
+      "variant": "primary",
+      "n_saved": 25,
+      "n_failed": 0,
+      "n_bestfit": 25,
+      "n_usable_interval": 6,
+      "n_boundary": 18,
+      "bias": -0.016030310194389448,
+      "bias_sem": 0.027698850194561538,
+      "scatter": 0.13849425097280768,
+      "mean_fit_value": 0.9832937342456192,
+      "mean_fit_half_width": 0.03527976460050297,
+      "mean_fit_usable": true,
+      "spherex_nbar_h3_mpc3": 7.05e-05,
+      "matched_nbar_h3_mpc3": 0.0005712074869064453,
+      "attained_nbar_h3_mpc3": 0.0005335502723575556,
+      "primary_nbar_h3_mpc3": 7.049958769658469e-05,
+      "veff_target_mpc_h3": 1898028049.4884224,
+      "veff_attained_mpc_h3": 1858719949.0258694,
+      "veff_primary_mpc_h3": 448079336.0704261,
+      "veff_fraction": 0.979290031844815,
+      "bounded": true,
+      "selected_counts": {
+        "NGC": 898010,
+        "SGC": 500301
+      }
+    },
+    {
+      "measurement_bin": "LRG2",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "postreconstruction",
+      "parameter": "qap",
+      "variant": "matched",
+      "n_saved": 25,
+      "n_failed": 0,
+      "n_bestfit": 25,
+      "n_usable_interval": 24,
+      "n_boundary": 0,
+      "bias": -0.005345681984565367,
+      "bias_sem": 0.010374394522586582,
+      "scatter": 0.05187197261293291,
+      "mean_fit_value": 0.9981083458733421,
+      "mean_fit_half_width": 0.009436234664605192,
+      "mean_fit_usable": true,
+      "spherex_nbar_h3_mpc3": 7.05e-05,
+      "matched_nbar_h3_mpc3": 0.0005712074869064453,
+      "attained_nbar_h3_mpc3": 0.0005335502723575556,
+      "primary_nbar_h3_mpc3": 7.049958769658469e-05,
+      "veff_target_mpc_h3": 1898028049.4884224,
+      "veff_attained_mpc_h3": 1858719949.0258694,
+      "veff_primary_mpc_h3": 448079336.0704261,
+      "veff_fraction": 0.979290031844815,
+      "bounded": true,
+      "selected_counts": {
+        "NGC": 898010,
+        "SGC": 500301
+      }
+    },
+    {
+      "measurement_bin": "LRG3",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "prereconstruction",
+      "parameter": "qiso",
+      "variant": "primary",
+      "n_saved": 25,
+      "n_failed": 0,
+      "n_bestfit": 25,
+      "n_usable_interval": 17,
+      "n_boundary": 8,
+      "bias": -0.005102204086972781,
+      "bias_sem": 0.02414981314958723,
+      "scatter": 0.12074906574793615,
+      "mean_fit_value": 0.9745115419371955,
+      "mean_fit_half_width": 0.02318403668118635,
+      "mean_fit_usable": true,
+      "spherex_nbar_h3_mpc3": 7.9e-06,
+      "matched_nbar_h3_mpc3": 1.7742329283382625e-05,
+      "attained_nbar_h3_mpc3": 1.774206622637615e-05,
+      "primary_nbar_h3_mpc3": 7.899554609910443e-06,
+      "veff_target_mpc_h3": 78043951.07139196,
+      "veff_attained_mpc_h3": 78041985.5762119,
+      "veff_primary_mpc_h3": 18422524.02160412,
+      "veff_fraction": 0.9999748155346689,
+      "bounded": false,
+      "selected_counts": {
+        "NGC": 39006,
+        "SGC": 21974
+      }
+    },
+    {
+      "measurement_bin": "LRG3",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "prereconstruction",
+      "parameter": "qiso",
+      "variant": "matched",
+      "n_saved": 25,
+      "n_failed": 0,
+      "n_bestfit": 25,
+      "n_usable_interval": 19,
+      "n_boundary": 6,
+      "bias": 0.006630426645927612,
+      "bias_sem": 0.01817693570566569,
+      "scatter": 0.09088467852832845,
+      "mean_fit_value": 1.000685548072589,
+      "mean_fit_half_width": 0.014294859240066848,
+      "mean_fit_usable": true,
+      "spherex_nbar_h3_mpc3": 7.9e-06,
+      "matched_nbar_h3_mpc3": 1.7742329283382625e-05,
+      "attained_nbar_h3_mpc3": 1.774206622637615e-05,
+      "primary_nbar_h3_mpc3": 7.899554609910443e-06,
+      "veff_target_mpc_h3": 78043951.07139196,
+      "veff_attained_mpc_h3": 78041985.5762119,
+      "veff_primary_mpc_h3": 18422524.02160412,
+      "veff_fraction": 0.9999748155346689,
+      "bounded": false,
+      "selected_counts": {
+        "NGC": 39006,
+        "SGC": 21974
+      }
+    },
+    {
+      "measurement_bin": "LRG3",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "prereconstruction",
+      "parameter": "qap",
+      "variant": "primary",
+      "n_saved": 25,
+      "n_failed": 0,
+      "n_bestfit": 25,
+      "n_usable_interval": 1,
+      "n_boundary": 24,
+      "bias": 0.008738563058152207,
+      "bias_sem": 0.03408503813526736,
+      "scatter": 0.1704251906763368,
+      "mean_fit_value": 1.0717547348739156,
+      "mean_fit_half_width": 0.06632575811509123,
+      "mean_fit_usable": true,
+      "spherex_nbar_h3_mpc3": 7.9e-06,
+      "matched_nbar_h3_mpc3": 1.7742329283382625e-05,
+      "attained_nbar_h3_mpc3": 1.774206622637615e-05,
+      "primary_nbar_h3_mpc3": 7.899554609910443e-06,
+      "veff_target_mpc_h3": 78043951.07139196,
+      "veff_attained_mpc_h3": 78041985.5762119,
+      "veff_primary_mpc_h3": 18422524.02160412,
+      "veff_fraction": 0.9999748155346689,
+      "bounded": false,
+      "selected_counts": {
+        "NGC": 39006,
+        "SGC": 21974
+      }
+    },
+    {
+      "measurement_bin": "LRG3",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "prereconstruction",
+      "parameter": "qap",
+      "variant": "matched",
+      "n_saved": 25,
+      "n_failed": 0,
+      "n_bestfit": 25,
+      "n_usable_interval": 6,
+      "n_boundary": 19,
+      "bias": -0.030595142367083758,
+      "bias_sem": 0.03163765022148303,
+      "scatter": 0.15818825110741513,
+      "mean_fit_value": 0.9749839592827894,
+      "mean_fit_half_width": 0.045423335887458116,
+      "mean_fit_usable": true,
+      "spherex_nbar_h3_mpc3": 7.9e-06,
+      "matched_nbar_h3_mpc3": 1.7742329283382625e-05,
+      "attained_nbar_h3_mpc3": 1.774206622637615e-05,
+      "primary_nbar_h3_mpc3": 7.899554609910443e-06,
+      "veff_target_mpc_h3": 78043951.07139196,
+      "veff_attained_mpc_h3": 78041985.5762119,
+      "veff_primary_mpc_h3": 18422524.02160412,
+      "veff_fraction": 0.9999748155346689,
+      "bounded": false,
+      "selected_counts": {
+        "NGC": 39006,
+        "SGC": 21974
+      }
+    },
+    {
+      "measurement_bin": "LRG3",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "postreconstruction",
+      "parameter": "qiso",
+      "variant": "primary",
+      "n_saved": 25,
+      "n_failed": 0,
+      "n_bestfit": 25,
+      "n_usable_interval": 7,
+      "n_boundary": 18,
+      "bias": -0.05208485663825886,
+      "bias_sem": 0.0244282345986458,
+      "scatter": 0.12214117299322899,
+      "mean_fit_value": 0.8388359586556052,
+      "mean_fit_half_width": 0.17092257559041524,
+      "mean_fit_usable": false,
+      "spherex_nbar_h3_mpc3": 7.9e-06,
+      "matched_nbar_h3_mpc3": 1.7742329283382625e-05,
+      "attained_nbar_h3_mpc3": 1.774206622637615e-05,
+      "primary_nbar_h3_mpc3": 7.899554609910443e-06,
+      "veff_target_mpc_h3": 78043951.07139196,
+      "veff_attained_mpc_h3": 78041985.5762119,
+      "veff_primary_mpc_h3": 18422524.02160412,
+      "veff_fraction": 0.9999748155346689,
+      "bounded": false,
+      "selected_counts": {
+        "NGC": 39006,
+        "SGC": 21974
+      }
+    },
+    {
+      "measurement_bin": "LRG3",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "postreconstruction",
+      "parameter": "qiso",
+      "variant": "matched",
+      "n_saved": 25,
+      "n_failed": 0,
+      "n_bestfit": 25,
+      "n_usable_interval": 14,
+      "n_boundary": 11,
+      "bias": -0.03140915242720765,
+      "bias_sem": 0.02093573383082063,
+      "scatter": 0.10467866915410315,
+      "mean_fit_value": 0.9778705763001431,
+      "mean_fit_half_width": 0.015745947389619652,
+      "mean_fit_usable": true,
+      "spherex_nbar_h3_mpc3": 7.9e-06,
+      "matched_nbar_h3_mpc3": 1.7742329283382625e-05,
+      "attained_nbar_h3_mpc3": 1.774206622637615e-05,
+      "primary_nbar_h3_mpc3": 7.899554609910443e-06,
+      "veff_target_mpc_h3": 78043951.07139196,
+      "veff_attained_mpc_h3": 78041985.5762119,
+      "veff_primary_mpc_h3": 18422524.02160412,
+      "veff_fraction": 0.9999748155346689,
+      "bounded": false,
+      "selected_counts": {
+        "NGC": 39006,
+        "SGC": 21974
+      }
+    },
+    {
+      "measurement_bin": "LRG3",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "postreconstruction",
+      "parameter": "qap",
+      "variant": "primary",
+      "n_saved": 25,
+      "n_failed": 0,
+      "n_bestfit": 25,
+      "n_usable_interval": 1,
+      "n_boundary": 24,
+      "bias": -0.03507388880390152,
+      "bias_sem": 0.03387785109294312,
+      "scatter": 0.1693892554647156,
+      "mean_fit_value": 0.8000000016421089,
+      "mean_fit_half_width": 0.2,
+      "mean_fit_usable": false,
+      "spherex_nbar_h3_mpc3": 7.9e-06,
+      "matched_nbar_h3_mpc3": 1.7742329283382625e-05,
+      "attained_nbar_h3_mpc3": 1.774206622637615e-05,
+      "primary_nbar_h3_mpc3": 7.899554609910443e-06,
+      "veff_target_mpc_h3": 78043951.07139196,
+      "veff_attained_mpc_h3": 78041985.5762119,
+      "veff_primary_mpc_h3": 18422524.02160412,
+      "veff_fraction": 0.9999748155346689,
+      "bounded": false,
+      "selected_counts": {
+        "NGC": 39006,
+        "SGC": 21974
+      }
+    },
+    {
+      "measurement_bin": "LRG3",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "postreconstruction",
+      "parameter": "qap",
+      "variant": "matched",
+      "n_saved": 25,
+      "n_failed": 0,
+      "n_bestfit": 25,
+      "n_usable_interval": 0,
+      "n_boundary": 25,
+      "bias": -0.01538900067708432,
+      "bias_sem": 0.03247661900275108,
+      "scatter": 0.16238309501375542,
+      "mean_fit_value": 0.8456691507659173,
+      "mean_fit_half_width": 0.048423239079933955,
+      "mean_fit_usable": false,
+      "spherex_nbar_h3_mpc3": 7.9e-06,
+      "matched_nbar_h3_mpc3": 1.7742329283382625e-05,
+      "attained_nbar_h3_mpc3": 1.774206622637615e-05,
+      "primary_nbar_h3_mpc3": 7.899554609910443e-06,
+      "veff_target_mpc_h3": 78043951.07139196,
+      "veff_attained_mpc_h3": 78041985.5762119,
+      "veff_primary_mpc_h3": 18422524.02160412,
+      "veff_fraction": 0.9999748155346689,
+      "bounded": false,
+      "selected_counts": {
+        "NGC": 39006,
+        "SGC": 21974
+      }
+    },
+    {
+      "measurement_bin": "LRG3",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "prereconstruction",
+      "parameter": "qiso",
+      "variant": "primary",
+      "n_saved": 25,
+      "n_failed": 0,
+      "n_bestfit": 25,
+      "n_usable_interval": 19,
+      "n_boundary": 4,
+      "bias": -0.01434543706356628,
+      "bias_sem": 0.016025153091518664,
+      "scatter": 0.08012576545759333,
+      "mean_fit_value": 0.999857208733321,
+      "mean_fit_half_width": 0.012883583116074404,
+      "mean_fit_usable": true,
+      "spherex_nbar_h3_mpc3": 3.16e-05,
+      "matched_nbar_h3_mpc3": 9.770696708793507e-05,
+      "attained_nbar_h3_mpc3": 9.77067632372559e-05,
+      "primary_nbar_h3_mpc3": 3.1599673184330715e-05,
+      "veff_target_mpc_h3": 839441317.4241589,
+      "veff_attained_mpc_h3": 839439545.744403,
+      "veff_primary_mpc_h3": 198170399.33232108,
+      "veff_fraction": 0.9999978894537127,
+      "bounded": false,
+      "selected_counts": {
+        "NGC": 214806,
+        "SGC": 121015
+      }
+    },
+    {
+      "measurement_bin": "LRG3",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "prereconstruction",
+      "parameter": "qiso",
+      "variant": "matched",
+      "n_saved": 25,
+      "n_failed": 0,
+      "n_bestfit": 25,
+      "n_usable_interval": 24,
+      "n_boundary": 0,
+      "bias": 0.015906653804744625,
+      "bias_sem": 0.008872007720870833,
+      "scatter": 0.04436003860435416,
+      "mean_fit_value": 1.0105019050212591,
+      "mean_fit_half_width": 0.007320082571459108,
+      "mean_fit_usable": true,
+      "spherex_nbar_h3_mpc3": 3.16e-05,
+      "matched_nbar_h3_mpc3": 9.770696708793507e-05,
+      "attained_nbar_h3_mpc3": 9.77067632372559e-05,
+      "primary_nbar_h3_mpc3": 3.1599673184330715e-05,
+      "veff_target_mpc_h3": 839441317.4241589,
+      "veff_attained_mpc_h3": 839439545.744403,
+      "veff_primary_mpc_h3": 198170399.33232108,
+      "veff_fraction": 0.9999978894537127,
+      "bounded": false,
+      "selected_counts": {
+        "NGC": 214806,
+        "SGC": 121015
+      }
+    },
+    {
+      "measurement_bin": "LRG3",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "prereconstruction",
+      "parameter": "qap",
+      "variant": "primary",
+      "n_saved": 25,
+      "n_failed": 0,
+      "n_bestfit": 25,
+      "n_usable_interval": 5,
+      "n_boundary": 20,
+      "bias": 0.01191758568275581,
+      "bias_sem": 0.031748134270958225,
+      "scatter": 0.1587406713547911,
+      "mean_fit_value": 0.9934070144263708,
+      "mean_fit_half_width": 0.04247629846560497,
+      "mean_fit_usable": true,
+      "spherex_nbar_h3_mpc3": 3.16e-05,
+      "matched_nbar_h3_mpc3": 9.770696708793507e-05,
+      "attained_nbar_h3_mpc3": 9.77067632372559e-05,
+      "primary_nbar_h3_mpc3": 3.1599673184330715e-05,
+      "veff_target_mpc_h3": 839441317.4241589,
+      "veff_attained_mpc_h3": 839439545.744403,
+      "veff_primary_mpc_h3": 198170399.33232108,
+      "veff_fraction": 0.9999978894537127,
+      "bounded": false,
+      "selected_counts": {
+        "NGC": 214806,
+        "SGC": 121015
+      }
+    },
+    {
+      "measurement_bin": "LRG3",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "prereconstruction",
+      "parameter": "qap",
+      "variant": "matched",
+      "n_saved": 25,
+      "n_failed": 0,
+      "n_bestfit": 25,
+      "n_usable_interval": 9,
+      "n_boundary": 15,
+      "bias": -0.005090474967596497,
+      "bias_sem": 0.026687328330919614,
+      "scatter": 0.13343664165459806,
+      "mean_fit_value": 0.9837690516719804,
+      "mean_fit_half_width": 0.02435923412770824,
+      "mean_fit_usable": true,
+      "spherex_nbar_h3_mpc3": 3.16e-05,
+      "matched_nbar_h3_mpc3": 9.770696708793507e-05,
+      "attained_nbar_h3_mpc3": 9.77067632372559e-05,
+      "primary_nbar_h3_mpc3": 3.1599673184330715e-05,
+      "veff_target_mpc_h3": 839441317.4241589,
+      "veff_attained_mpc_h3": 839439545.744403,
+      "veff_primary_mpc_h3": 198170399.33232108,
+      "veff_fraction": 0.9999978894537127,
+      "bounded": false,
+      "selected_counts": {
+        "NGC": 214806,
+        "SGC": 121015
+      }
+    },
+    {
+      "measurement_bin": "LRG3",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "postreconstruction",
+      "parameter": "qiso",
+      "variant": "primary",
+      "n_saved": 25,
+      "n_failed": 0,
+      "n_bestfit": 25,
+      "n_usable_interval": 17,
+      "n_boundary": 8,
+      "bias": 0.01585060776537563,
+      "bias_sem": 0.019858991966170476,
+      "scatter": 0.09929495983085239,
+      "mean_fit_value": 0.9939481117029544,
+      "mean_fit_half_width": 0.013725986252748235,
+      "mean_fit_usable": true,
+      "spherex_nbar_h3_mpc3": 3.16e-05,
+      "matched_nbar_h3_mpc3": 9.770696708793507e-05,
+      "attained_nbar_h3_mpc3": 9.77067632372559e-05,
+      "primary_nbar_h3_mpc3": 3.1599673184330715e-05,
+      "veff_target_mpc_h3": 839441317.4241589,
+      "veff_attained_mpc_h3": 839439545.744403,
+      "veff_primary_mpc_h3": 198170399.33232108,
+      "veff_fraction": 0.9999978894537127,
+      "bounded": false,
+      "selected_counts": {
+        "NGC": 214806,
+        "SGC": 121015
+      }
+    },
+    {
+      "measurement_bin": "LRG3",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "postreconstruction",
+      "parameter": "qiso",
+      "variant": "matched",
+      "n_saved": 25,
+      "n_failed": 0,
+      "n_bestfit": 25,
+      "n_usable_interval": 25,
+      "n_boundary": 0,
+      "bias": 0.007640502555434989,
+      "bias_sem": 0.005145256297468043,
+      "scatter": 0.025726281487340217,
+      "mean_fit_value": 1.0051224056916845,
+      "mean_fit_half_width": 0.0054668389297544695,
+      "mean_fit_usable": true,
+      "spherex_nbar_h3_mpc3": 3.16e-05,
+      "matched_nbar_h3_mpc3": 9.770696708793507e-05,
+      "attained_nbar_h3_mpc3": 9.77067632372559e-05,
+      "primary_nbar_h3_mpc3": 3.1599673184330715e-05,
+      "veff_target_mpc_h3": 839441317.4241589,
+      "veff_attained_mpc_h3": 839439545.744403,
+      "veff_primary_mpc_h3": 198170399.33232108,
+      "veff_fraction": 0.9999978894537127,
+      "bounded": false,
+      "selected_counts": {
+        "NGC": 214806,
+        "SGC": 121015
+      }
+    },
+    {
+      "measurement_bin": "LRG3",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "postreconstruction",
+      "parameter": "qap",
+      "variant": "primary",
+      "n_saved": 25,
+      "n_failed": 0,
+      "n_bestfit": 25,
+      "n_usable_interval": 5,
+      "n_boundary": 20,
+      "bias": 0.002250072529224707,
+      "bias_sem": 0.02946276916962438,
+      "scatter": 0.1473138458481219,
+      "mean_fit_value": 0.938496568655157,
+      "mean_fit_half_width": 0.04653699473634065,
+      "mean_fit_usable": true,
+      "spherex_nbar_h3_mpc3": 3.16e-05,
+      "matched_nbar_h3_mpc3": 9.770696708793507e-05,
+      "attained_nbar_h3_mpc3": 9.77067632372559e-05,
+      "primary_nbar_h3_mpc3": 3.1599673184330715e-05,
+      "veff_target_mpc_h3": 839441317.4241589,
+      "veff_attained_mpc_h3": 839439545.744403,
+      "veff_primary_mpc_h3": 198170399.33232108,
+      "veff_fraction": 0.9999978894537127,
+      "bounded": false,
+      "selected_counts": {
+        "NGC": 214806,
+        "SGC": 121015
+      }
+    },
+    {
+      "measurement_bin": "LRG3",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "postreconstruction",
+      "parameter": "qap",
+      "variant": "matched",
+      "n_saved": 25,
+      "n_failed": 0,
+      "n_bestfit": 25,
+      "n_usable_interval": 17,
+      "n_boundary": 8,
+      "bias": 0.006495391646259221,
+      "bias_sem": 0.01778724805203216,
+      "scatter": 0.0889362402601608,
+      "mean_fit_value": 0.9930062935706401,
+      "mean_fit_half_width": 0.01807992642900491,
+      "mean_fit_usable": true,
+      "spherex_nbar_h3_mpc3": 3.16e-05,
+      "matched_nbar_h3_mpc3": 9.770696708793507e-05,
+      "attained_nbar_h3_mpc3": 9.77067632372559e-05,
+      "primary_nbar_h3_mpc3": 3.1599673184330715e-05,
+      "veff_target_mpc_h3": 839441317.4241589,
+      "veff_attained_mpc_h3": 839439545.744403,
+      "veff_primary_mpc_h3": 198170399.33232108,
+      "veff_fraction": 0.9999978894537127,
+      "bounded": false,
+      "selected_counts": {
+        "NGC": 214806,
+        "SGC": 121015
+      }
+    }
+  ],
+  "matching": {
+    "rule": "g(n) = n P0/(1 + n P0); R = f_ref A_sky/(A_NGC + A_SGC); g_M = sqrt(R) g(n_S); n_M = g_M/((1 - g_M) P0) where g_M < 1, else unattainable and the primary selection is kept; N_req = floor(n_M V_cap); N_sel = min(N_req, min over realizations of the attainable count)",
+    "inputs": {
+      "count_authority": "veff_matched_lrg23_exact_counts",
+      "reference_area_deg2": 30000.0,
+      "reference_f_sky": 0.7272205216643038,
+      "full_sky_area_deg2": 41252.96124941928,
+      "cap_areas_deg2": {
+        "NGC": 4530.177644444443,
+        "SGC": 2552.158311111111
+      },
+      "volume_ratio": 4.235890557615709,
+      "p0_h3_mpc3": 10000.0,
+      "spherex_nbar_h3_mpc3": {
+        "sigma_0.001": {
+          "LRG1": 0.00012525,
+          "LRG2": 1.7625e-05,
+          "LRG3": 7.9e-06
+        },
+        "sigma_0.003": {
+          "LRG1": 0.000501,
+          "LRG2": 7.05e-05,
+          "LRG3": 3.16e-05
+        }
+      },
+      "measurement_bins": [
+        "LRG2",
+        "LRG3"
+      ],
+      "bounded_allowed": [
+        [
+          "sigma_0.003",
+          "LRG2"
+        ]
+      ],
+      "conditions": {
+        "sigma_0.001": {
+          "NGC": {
+            "counts": {
+              "LRG1": 135521,
+              "LRG2": 29545,
+              "LRG3": 17367
+            },
+            "volumes_mpc_h3": {
+              "LRG1": 1082009460.121595,
+              "LRG2": 1676359410.5531201,
+              "LRG3": 2198477031.083851
+            },
+            "attainable_counts_by_mock": [
+              [
+                588344,
+                898382,
+                847592
+              ],
+              [
+                586909,
+                901142,
+                847786
+              ],
+              [
+                585154,
+                903056,
+                849068
+              ],
+              [
+                582499,
+                899714,
+                848216
+              ],
+              [
+                584829,
+                902867,
+                851584
+              ],
+              [
+                587145,
+                908176,
+                846820
+              ],
+              [
+                583245,
+                914050,
+                848947
+              ],
+              [
+                587090,
+                911004,
+                845689
+              ],
+              [
+                584402,
+                901347,
+                852399
+              ],
+              [
+                586096,
+                905251,
+                853166
+              ],
+              [
+                595147,
+                901923,
+                850102
+              ],
+              [
+                588244,
+                908958,
+                841918
+              ],
+              [
+                579188,
+                907274,
+                845955
+              ],
+              [
+                580957,
+                910434,
+                848036
+              ],
+              [
+                587507,
+                905791,
+                851367
+              ],
+              [
+                595638,
+                902973,
+                846921
+              ],
+              [
+                583618,
+                903669,
+                847973
+              ],
+              [
+                583028,
+                908579,
+                852818
+              ],
+              [
+                593239,
+                901960,
+                850670
+              ],
+              [
+                586080,
+                905102,
+                846433
+              ],
+              [
+                585469,
+                908440,
+                848191
+              ],
+              [
+                587187,
+                906336,
+                849427
+              ],
+              [
+                592490,
+                905972,
+                845046
+              ],
+              [
+                586593,
+                903863,
+                849582
+              ],
+              [
+                583323,
+                903717,
+                852748
+              ]
+            ]
+          },
+          "SGC": {
+            "counts": {
+              "LRG1": 76348,
+              "LRG2": 16645,
+              "LRG3": 9784
+            },
+            "volumes_mpc_h3": {
+              "LRG1": 609569790.2126806,
+              "LRG2": 944407689.4642706,
+              "LRG3": 1238552186.4795694
+            },
+            "attainable_counts_by_mock": [
+              [
+                333167,
+                506149,
+                479758
+              ],
+              [
+                332892,
+                504177,
+                477471
+              ],
+              [
+                330820,
+                508661,
+                479201
+              ],
+              [
+                331950,
+                515310,
+                479194
+              ],
+              [
+                327606,
+                508599,
+                483781
+              ],
+              [
+                335266,
+                510539,
+                477903
+              ],
+              [
+                333543,
+                510898,
+                476766
+              ],
+              [
+                335633,
+                509614,
+                476837
+              ],
+              [
+                331278,
+                513944,
+                472855
+              ],
+              [
+                334519,
+                512027,
+                476580
+              ],
+              [
+                332680,
+                517314,
+                477147
+              ],
+              [
+                335628,
+                512454,
+                474534
+              ],
+              [
+                331089,
+                519441,
+                475774
+              ],
+              [
+                330451,
+                509312,
+                475676
+              ],
+              [
+                335435,
+                510145,
+                476732
+              ],
+              [
+                331060,
+                512085,
+                485213
+              ],
+              [
+                331893,
+                499909,
+                481805
+              ],
+              [
+                332608,
+                510711,
+                483078
+              ],
+              [
+                334020,
+                512303,
+                478665
+              ],
+              [
+                331428,
+                513574,
+                479432
+              ],
+              [
+                331723,
+                512666,
+                480659
+              ],
+              [
+                330480,
+                511838,
+                476852
+              ],
+              [
+                329213,
+                513784,
+                477562
+              ],
+              [
+                334748,
+                510073,
+                480539
+              ],
+              [
+                329721,
+                512066,
+                483076
+              ]
+            ]
+          }
+        },
+        "sigma_0.003": {
+          "NGC": {
+            "counts": {
+              "LRG1": 542086,
+              "LRG2": 118183,
+              "LRG3": 69471
+            },
+            "volumes_mpc_h3": {
+              "LRG1": 1082009460.121595,
+              "LRG2": 1676359410.5531201,
+              "LRG3": 2198477031.083851
+            },
+            "attainable_counts_by_mock": [
+              [
+                588446,
+                898010,
+                847361
+              ],
+              [
+                586960,
+                901165,
+                847379
+              ],
+              [
+                585262,
+                903056,
+                848504
+              ],
+              [
+                582637,
+                899761,
+                847763
+              ],
+              [
+                584837,
+                902710,
+                851255
+              ],
+              [
+                587273,
+                908132,
+                846558
+              ],
+              [
+                583228,
+                913885,
+                848466
+              ],
+              [
+                587444,
+                910712,
+                845279
+              ],
+              [
+                584568,
+                900803,
+                852517
+              ],
+              [
+                586368,
+                905450,
+                852537
+              ],
+              [
+                595453,
+                901545,
+                849927
+              ],
+              [
+                588327,
+                908859,
+                841721
+              ],
+              [
+                579343,
+                907269,
+                845385
+              ],
+              [
+                581104,
+                910627,
+                847593
+              ],
+              [
+                587770,
+                905838,
+                850817
+              ],
+              [
+                595813,
+                903045,
+                846311
+              ],
+              [
+                583837,
+                903590,
+                847541
+              ],
+              [
+                583018,
+                908783,
+                852222
+              ],
+              [
+                593401,
+                901978,
+                850216
+              ],
+              [
+                586175,
+                905093,
+                846125
+              ],
+              [
+                585411,
+                908645,
+                847744
+              ],
+              [
+                587220,
+                906409,
+                848992
+              ],
+              [
+                592394,
+                906139,
+                844454
+              ],
+              [
+                586836,
+                903792,
+                849132
+              ],
+              [
+                583358,
+                904031,
+                852170
+              ]
+            ]
+          },
+          "SGC": {
+            "counts": {
+              "LRG1": 305394,
+              "LRG2": 66580,
+              "LRG3": 39138
+            },
+            "volumes_mpc_h3": {
+              "LRG1": 609569790.2126806,
+              "LRG2": 944407689.4642706,
+              "LRG3": 1238552186.4795694
+            },
+            "attainable_counts_by_mock": [
+              [
+                333289,
+                506091,
+                479539
+              ],
+              [
+                332854,
+                504348,
+                477180
+              ],
+              [
+                330592,
+                508705,
+                479202
+              ],
+              [
+                331844,
+                515429,
+                479026
+              ],
+              [
+                327557,
+                508831,
+                483323
+              ],
+              [
+                334999,
+                510875,
+                477597
+              ],
+              [
+                333527,
+                510782,
+                476758
+              ],
+              [
+                335666,
+                509554,
+                476710
+              ],
+              [
+                331429,
+                514209,
+                472375
+              ],
+              [
+                334572,
+                512022,
+                476363
+              ],
+              [
+                332634,
+                517612,
+                476847
+              ],
+              [
+                335681,
+                512597,
+                474062
+              ],
+              [
+                331227,
+                519534,
+                475470
+              ],
+              [
+                330444,
+                509152,
+                475564
+              ],
+              [
+                335333,
+                510202,
+                476613
+              ],
+              [
+                331013,
+                511981,
+                485069
+              ],
+              [
+                331696,
+                500301,
+                481448
+              ],
+              [
+                332660,
+                510659,
+                482851
+              ],
+              [
+                334031,
+                512583,
+                478140
+              ],
+              [
+                331559,
+                513483,
+                479156
+              ],
+              [
+                331920,
+                512581,
+                480173
+              ],
+              [
+                330381,
+                511920,
+                476696
+              ],
+              [
+                329140,
+                513857,
+                477277
+              ],
+              [
+                334810,
+                510198,
+                480117
+              ],
+              [
+                329779,
+                512190,
+                482816
+              ]
+            ]
+          }
+        }
+      }
+    },
+    "conditions": {
+      "sigma_0.001": {
+        "LRG1": {
+          "in_experiment": false,
+          "unattainable": true,
+          "bounded": false,
+          "n_spherex_h3_mpc3": 0.00012525,
+          "g_spherex": 0.5560488346281909,
+          "g_matched": 1.1444196344755266,
+          "n_matched_h3_mpc3": null,
+          "n_primary_h3_mpc3": 0.00012524923083451884,
+          "n_attained_h3_mpc3": 0.00012524923083451884,
+          "factor_matched_over_spherex": null,
+          "factor_selected_over_primary": 1.0,
+          "veff_target_mpc_h3": 2215455084.935751,
+          "veff_attained_mpc_h3": 523017055.0170833,
+          "veff_primary_mpc_h3": 523017055.0170833,
+          "veff_fraction": 0.23607657793353592,
+          "shortfall": {
+            "NGC": 0,
+            "SGC": 0
+          },
+          "caps": {
+            "NGC": {
+              "volume_mpc_h3": 1082009460.121595,
+              "baseline": 135521,
+              "requested": null,
+              "ceiling": 579188,
+              "selected": 135521
+            },
+            "SGC": {
+              "volume_mpc_h3": 609569790.2126806,
+              "baseline": 76348,
+              "requested": null,
+              "ceiling": 327606,
+              "selected": 76348
+            }
+          }
+        },
+        "LRG2": {
+          "in_experiment": true,
+          "unattainable": false,
+          "bounded": false,
+          "n_spherex_h3_mpc3": 1.7625e-05,
+          "g_spherex": 0.14984059511158343,
+          "g_matched": 0.3083911131687855,
+          "n_matched_h3_mpc3": 4.4590391916703e-05,
+          "n_primary_h3_mpc3": 1.762461074839252e-05,
+          "n_attained_h3_mpc3": 4.4589998096063e-05,
+          "factor_matched_over_spherex": 2.529951314422865,
+          "factor_selected_over_primary": 2.5299848452045897,
+          "veff_target_mpc_h3": 249248261.25299498,
+          "veff_attained_mpc_h3": 249245216.30606502,
+          "veff_primary_mpc_h3": 58839787.805572525,
+          "veff_fraction": 0.9999877834777476,
+          "shortfall": {
+            "NGC": 0,
+            "SGC": 0
+          },
+          "caps": {
+            "NGC": {
+              "volume_mpc_h3": 1676359410.5531201,
+              "baseline": 29545,
+              "requested": 74749,
+              "ceiling": 898382,
+              "selected": 74749
+            },
+            "SGC": {
+              "volume_mpc_h3": 944407689.4642706,
+              "baseline": 16645,
+              "requested": 42111,
+              "ceiling": 499909,
+              "selected": 42111
+            }
+          }
+        },
+        "LRG3": {
+          "in_experiment": true,
+          "unattainable": false,
+          "bounded": false,
+          "n_spherex_h3_mpc3": 7.9e-06,
+          "g_spherex": 0.07321594068582021,
+          "g_matched": 0.150687772115331,
+          "n_matched_h3_mpc3": 1.7742329283382625e-05,
+          "n_primary_h3_mpc3": 7.899554609910443e-06,
+          "n_attained_h3_mpc3": 1.774206622637615e-05,
+          "factor_matched_over_spherex": 2.245864466250965,
+          "factor_selected_over_primary": 2.2459577916098854,
+          "veff_target_mpc_h3": 78043951.07139196,
+          "veff_attained_mpc_h3": 78041985.5762119,
+          "veff_primary_mpc_h3": 18422524.02160412,
+          "veff_fraction": 0.9999748155346689,
+          "shortfall": {
+            "NGC": 0,
+            "SGC": 0
+          },
+          "caps": {
+            "NGC": {
+              "volume_mpc_h3": 2198477031.083851,
+              "baseline": 17367,
+              "requested": 39006,
+              "ceiling": 841918,
+              "selected": 39006
+            },
+            "SGC": {
+              "volume_mpc_h3": 1238552186.4795694,
+              "baseline": 9784,
+              "requested": 21974,
+              "ceiling": 472855,
+              "selected": 21974
+            }
+          }
+        }
+      },
+      "sigma_0.003": {
+        "LRG1": {
+          "in_experiment": false,
+          "unattainable": true,
+          "bounded": false,
+          "n_spherex_h3_mpc3": 0.000501,
+          "g_spherex": 0.8336106489184693,
+          "g_matched": 1.7156773555115632,
+          "n_matched_h3_mpc3": null,
+          "n_primary_h3_mpc3": 0.0005009992879922878,
+          "n_attained_h3_mpc3": 0.0005009992879922878,
+          "factor_matched_over_spherex": null,
+          "factor_selected_over_primary": 1.0,
+          "veff_target_mpc_h3": 4979246052.491349,
+          "veff_attained_mpc_h3": 1175489222.371734,
+          "veff_primary_mpc_h3": 1175489222.371734,
+          "veff_fraction": 0.2360777535353132,
+          "shortfall": {
+            "NGC": 0,
+            "SGC": 0
+          },
+          "caps": {
+            "NGC": {
+              "volume_mpc_h3": 1082009460.121595,
+              "baseline": 542086,
+              "requested": null,
+              "ceiling": 579343,
+              "selected": 542086
+            },
+            "SGC": {
+              "volume_mpc_h3": 609569790.2126806,
+              "baseline": 305394,
+              "requested": null,
+              "ceiling": 327557,
+              "selected": 305394
+            }
+          }
+        },
+        "LRG2": {
+          "in_experiment": true,
+          "unattainable": false,
+          "bounded": true,
+          "n_spherex_h3_mpc3": 7.05e-05,
+          "g_spherex": 0.41348973607038125,
+          "g_matched": 0.8510147727033053,
+          "n_matched_h3_mpc3": 0.0005712074869064453,
+          "n_primary_h3_mpc3": 7.049958769658469e-05,
+          "n_attained_h3_mpc3": 0.0005335502723575556,
+          "factor_matched_over_spherex": 8.102233856829011,
+          "factor_selected_over_primary": 7.568133230138069,
+          "veff_target_mpc_h3": 1898028049.4884224,
+          "veff_attained_mpc_h3": 1858719949.0258694,
+          "veff_primary_mpc_h3": 448079336.0704261,
+          "veff_fraction": 0.979290031844815,
+          "shortfall": {
+            "NGC": 59539,
+            "SGC": 39151
+          },
+          "caps": {
+            "NGC": {
+              "volume_mpc_h3": 1676359410.5531201,
+              "baseline": 118183,
+              "requested": 957549,
+              "ceiling": 898010,
+              "selected": 898010
+            },
+            "SGC": {
+              "volume_mpc_h3": 944407689.4642706,
+              "baseline": 66580,
+              "requested": 539452,
+              "ceiling": 500301,
+              "selected": 500301
+            }
+          }
+        },
+        "LRG3": {
+          "in_experiment": true,
+          "unattainable": false,
+          "bounded": false,
+          "n_spherex_h3_mpc3": 3.16e-05,
+          "g_spherex": 0.24012158054711244,
+          "g_matched": 0.49420093043295477,
+          "n_matched_h3_mpc3": 9.770696708793507e-05,
+          "n_primary_h3_mpc3": 3.1599673184330715e-05,
+          "n_attained_h3_mpc3": 9.77067632372559e-05,
+          "factor_matched_over_spherex": 3.0919926293650337,
+          "factor_selected_over_primary": 3.0920181568746603,
+          "veff_target_mpc_h3": 839441317.4241589,
+          "veff_attained_mpc_h3": 839439545.744403,
+          "veff_primary_mpc_h3": 198170399.33232108,
+          "veff_fraction": 0.9999978894537127,
+          "shortfall": {
+            "NGC": 0,
+            "SGC": 0
+          },
+          "caps": {
+            "NGC": {
+              "volume_mpc_h3": 2198477031.083851,
+              "baseline": 69471,
+              "requested": 214806,
+              "ceiling": 841721,
+              "selected": 214806
+            },
+            "SGC": {
+              "volume_mpc_h3": 1238552186.4795694,
+              "baseline": 39138,
+              "requested": 121015,
+              "ceiling": 472375,
+              "selected": 121015
+            }
+          }
+        }
+      }
+    }
+  }
+}

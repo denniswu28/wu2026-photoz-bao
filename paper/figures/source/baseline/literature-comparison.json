@@ -1,0 +1,430 @@
+{
+  "current": [
+    {
+      "condition": "sigma_0.001",
+      "sigma0": 0.001,
+      "measurement_bin": "LRG1",
+      "prerecon": {
+        "median_minos_half_width": 0.03021633239843613,
+        "usable_intervals": 25,
+        "realizations": 25,
+        "spherex_prediction": {
+          "sigma": 0.009559841663174338,
+          "kind": "conditional_forecast"
+        }
+      },
+      "postrecon": {
+        "median_minos_half_width": 0.020437058747845988,
+        "usable_intervals": 24,
+        "realizations": 25,
+        "spherex_prediction": {
+          "sigma": 0.009023236766592061,
+          "kind": "conditional_forecast"
+        }
+      }
+    },
+    {
+      "condition": "sigma_0.003",
+      "sigma0": 0.003,
+      "measurement_bin": "LRG1",
+      "prerecon": {
+        "median_minos_half_width": 0.023428296296161277,
+        "usable_intervals": 25,
+        "realizations": 25,
+        "spherex_prediction": {
+          "sigma": 0.008370567195578832,
+          "kind": "conditional_forecast"
+        }
+      },
+      "postrecon": {
+        "median_minos_half_width": 0.017660080604931128,
+        "usable_intervals": 25,
+        "realizations": 25,
+        "spherex_prediction": {
+          "sigma": 0.007902838734301856,
+          "kind": "conditional_forecast"
+        }
+      }
+    },
+    {
+      "condition": "sigma_0.01",
+      "sigma0": 0.01,
+      "measurement_bin": "LRG1",
+      "prerecon": {
+        "median_minos_half_width": 0.0828491871104989,
+        "usable_intervals": 24,
+        "realizations": 25,
+        "spherex_prediction": {
+          "sigma": 0.0380547330681381,
+          "kind": "conditional_forecast"
+        }
+      },
+      "postrecon": {
+        "median_minos_half_width": 0.0606097199395535,
+        "usable_intervals": 25,
+        "realizations": 25,
+        "spherex_prediction": {
+          "sigma": 0.03741169717383796,
+          "kind": "conditional_forecast"
+        }
+      }
+    },
+    {
+      "condition": "sigma_0.03",
+      "sigma0": 0.03,
+      "measurement_bin": "LRG1",
+      "prerecon": {
+        "median_minos_half_width": 0.10899732693766273,
+        "usable_intervals": 20,
+        "realizations": 25,
+        "spherex_prediction": {
+          "sigma": 1.1514812580796305,
+          "kind": "conditional_forecast"
+        }
+      },
+      "postrecon": {
+        "median_minos_half_width": 0.10595069569936816,
+        "usable_intervals": 19,
+        "realizations": 25,
+        "spherex_prediction": {
+          "sigma": 1.0931083109119246,
+          "kind": "conditional_forecast"
+        }
+      }
+    },
+    {
+      "condition": "joint",
+      "sigma0": "0.001-0.03",
+      "measurement_bin": "LRG1",
+      "zmin": 0.4,
+      "zmax": 0.6,
+      "status": "available",
+      "prerecon": {
+        "spherex_prediction": {
+          "sigma": 0.007722709247844823,
+          "kind": "conditional_forecast"
+        },
+        "median_minos_half_width": 0.022278580470930683,
+        "usable_intervals": 20,
+        "realizations": 25,
+        "weights": [
+          0.2537503025003611,
+          0.7219769942707758,
+          0.0,
+          0.02427270322886293
+        ],
+        "removed_tiers": [
+          "sigma_0.01"
+        ],
+        "definition": "consensus combination (Sanchez et al. 2017) of the tiers' median Minos half-widths with the measured alpha_iso correlation; non-negative weights"
+      },
+      "postrecon": {
+        "spherex_prediction": {
+          "sigma": 0.007421053488532155,
+          "kind": "conditional_forecast"
+        },
+        "median_minos_half_width": 0.01657239241835439,
+        "usable_intervals": 19,
+        "realizations": 25,
+        "weights": [
+          0.3837031680829334,
+          0.5975203310401074,
+          0.0,
+          0.018776500876959222
+        ],
+        "removed_tiers": [
+          "sigma_0.01"
+        ],
+        "definition": "consensus combination (Sanchez et al. 2017) of the tiers' median Minos half-widths with the measured alpha_iso correlation; non-negative weights"
+      }
+    }
+  ],
+  "joint_by_bin": [
+    {
+      "condition": "joint",
+      "sigma0": "0.001-0.03",
+      "measurement_bin": "BGS1",
+      "zmin": 0.1,
+      "zmax": 0.2,
+      "status": "available",
+      "prerecon": {
+        "spherex_prediction": {
+          "sigma": 0.028460076111729408,
+          "kind": "conditional_forecast"
+        },
+        "median_minos_half_width": 0.0376547866314007,
+        "usable_intervals": 6,
+        "realizations": 25,
+        "weights": [
+          0.6733965888073246,
+          0.22470724619120314,
+          0.07599980082970871,
+          0.025896364171763216
+        ],
+        "removed_tiers": [],
+        "definition": "consensus combination (Sanchez et al. 2017) of the tiers' median Minos half-widths with the measured alpha_iso correlation; non-negative weights"
+      },
+      "postrecon": {
+        "spherex_prediction": {
+          "sigma": 0.027463609665438888,
+          "kind": "conditional_forecast"
+        },
+        "median_minos_half_width": 0.05552375312786105,
+        "usable_intervals": 3,
+        "realizations": 25,
+        "weights": [
+          0.030526426252464288,
+          0.7981835528269938,
+          0.0,
+          0.17129002092054252
+        ],
+        "removed_tiers": [
+          "sigma_0.01"
+        ],
+        "definition": "consensus combination (Sanchez et al. 2017) of the tiers' median Minos half-widths with the measured alpha_iso correlation; non-negative weights"
+      }
+    },
+    {
+      "condition": "joint",
+      "sigma0": "0.001-0.03",
+      "measurement_bin": "BGS2",
+      "zmin": 0.2,
+      "zmax": 0.4,
+      "status": "available",
+      "prerecon": {
+        "spherex_prediction": {
+          "sigma": 0.007868016068778773,
+          "kind": "conditional_forecast"
+        },
+        "median_minos_half_width": 0.029604590148340687,
+        "usable_intervals": 8,
+        "realizations": 25,
+        "weights": [
+          0.85646611215742,
+          0.14353388784258006,
+          0.0,
+          0.0
+        ],
+        "removed_tiers": [
+          "sigma_0.01",
+          "sigma_0.03"
+        ],
+        "definition": "consensus combination (Sanchez et al. 2017) of the tiers' median Minos half-widths with the measured alpha_iso correlation; non-negative weights"
+      },
+      "postrecon": {
+        "spherex_prediction": {
+          "sigma": 0.007393140638949603,
+          "kind": "conditional_forecast"
+        },
+        "median_minos_half_width": 0.017295241456085315,
+        "usable_intervals": 7,
+        "realizations": 25,
+        "weights": [
+          0.9908217642827097,
+          0.0,
+          0.009178235717290222,
+          0.0
+        ],
+        "removed_tiers": [
+          "sigma_0.003",
+          "sigma_0.03"
+        ],
+        "definition": "consensus combination (Sanchez et al. 2017) of the tiers' median Minos half-widths with the measured alpha_iso correlation; non-negative weights"
+      }
+    },
+    {
+      "condition": "joint",
+      "sigma0": "0.001-0.03",
+      "measurement_bin": "LRG1",
+      "zmin": 0.4,
+      "zmax": 0.6,
+      "status": "available",
+      "prerecon": {
+        "spherex_prediction": {
+          "sigma": 0.007722709247844823,
+          "kind": "conditional_forecast"
+        },
+        "median_minos_half_width": 0.022278580470930683,
+        "usable_intervals": 20,
+        "realizations": 25,
+        "weights": [
+          0.2537503025003611,
+          0.7219769942707758,
+          0.0,
+          0.02427270322886293
+        ],
+        "removed_tiers": [
+          "sigma_0.01"
+        ],
+        "definition": "consensus combination (Sanchez et al. 2017) of the tiers' median Minos half-widths with the measured alpha_iso correlation; non-negative weights"
+      },
+      "postrecon": {
+        "spherex_prediction": {
+          "sigma": 0.007421053488532155,
+          "kind": "conditional_forecast"
+        },
+        "median_minos_half_width": 0.01657239241835439,
+        "usable_intervals": 19,
+        "realizations": 25,
+        "weights": [
+          0.3837031680829334,
+          0.5975203310401074,
+          0.0,
+          0.018776500876959222
+        ],
+        "removed_tiers": [
+          "sigma_0.01"
+        ],
+        "definition": "consensus combination (Sanchez et al. 2017) of the tiers' median Minos half-widths with the measured alpha_iso correlation; non-negative weights"
+      }
+    },
+    {
+      "condition": "joint",
+      "sigma0": "0.001-0.03",
+      "measurement_bin": "LRG2",
+      "zmin": 0.6,
+      "zmax": 0.8,
+      "status": "available",
+      "prerecon": {
+        "spherex_prediction": {
+          "sigma": 0.021060472730085548,
+          "kind": "mixed"
+        },
+        "median_minos_half_width": 0.03734969471174909,
+        "usable_intervals": 14,
+        "realizations": 25,
+        "weights": [
+          0.3982687354534412,
+          0.4163471181108687,
+          0.1378123731362313,
+          0.0475717732994587
+        ],
+        "removed_tiers": [],
+        "definition": "consensus combination (Sanchez et al. 2017) of the tiers' median Minos half-widths with the measured alpha_iso correlation; non-negative weights"
+      },
+      "postrecon": {
+        "spherex_prediction": {
+          "sigma": 0.01371199633354328,
+          "kind": "mixed"
+        },
+        "median_minos_half_width": 0.02688809470977203,
+        "usable_intervals": 16,
+        "realizations": 25,
+        "weights": [
+          0.3152360161309053,
+          0.45747408430624936,
+          0.04269956555719072,
+          0.18459033400565453
+        ],
+        "removed_tiers": [],
+        "definition": "consensus combination (Sanchez et al. 2017) of the tiers' median Minos half-widths with the measured alpha_iso correlation; non-negative weights"
+      }
+    },
+    {
+      "condition": "joint",
+      "sigma0": "0.001-0.03",
+      "measurement_bin": "LRG3",
+      "zmin": 0.8,
+      "zmax": 1.0,
+      "status": "available",
+      "prerecon": {
+        "spherex_prediction": {
+          "sigma": 0.027177085161509212,
+          "kind": "mixed"
+        },
+        "median_minos_half_width": 0.03127171670242363,
+        "usable_intervals": 15,
+        "realizations": 25,
+        "weights": [
+          0.0,
+          0.7924033417570151,
+          0.030099221097791232,
+          0.17749743714519375
+        ],
+        "removed_tiers": [
+          "sigma_0.001"
+        ],
+        "definition": "consensus combination (Sanchez et al. 2017) of the tiers' median Minos half-widths with the measured alpha_iso correlation; non-negative weights"
+      },
+      "postrecon": {
+        "spherex_prediction": {
+          "sigma": 0.022850550346555296,
+          "kind": "mixed"
+        },
+        "median_minos_half_width": 0.030419710671690046,
+        "usable_intervals": 7,
+        "realizations": 25,
+        "weights": [
+          0.09631862370277364,
+          0.6953404919756191,
+          0.042831314759350446,
+          0.16550956956225668
+        ],
+        "removed_tiers": [],
+        "definition": "consensus combination (Sanchez et al. 2017) of the tiers' median Minos half-widths with the measured alpha_iso correlation; non-negative weights"
+      }
+    }
+  ],
+  "peek_bin": "LRG1",
+  "references": [
+    {
+      "group": "Spectroscopic",
+      "label": "DESI DR1, $0.4<z<0.6$ ($\\alpha_{\\rm iso}$)",
+      "sigma0": "spec.",
+      "precision": 0.0113,
+      "marker": "*",
+      "url": "https://arxiv.org/html/2404.03000v1#S7.T15",
+      "definition": "Table 15: LRG1 marginal alpha_iso SD, configuration space, post-reconstruction"
+    },
+    {
+      "group": "Spectroscopic",
+      "label": "eBOSS, $0.6<z<1.0$ ($D_V$)",
+      "sigma0": "spec.",
+      "precision": 0.012884115072679489,
+      "marker": "s",
+      "url": "https://arxiv.org/html/2007.08993v2#S5.E52",
+      "definition": "Linear propagation of Eqs. 52-53 to fractional D_V"
+    },
+    {
+      "group": "Photometric",
+      "label": "DES Y6 ($D_M$)",
+      "sigma0": "$\\approx$0.03",
+      "precision": 0.021,
+      "marker": "D",
+      "url": "https://arxiv.org/abs/2402.10696",
+      "definition": "Fractional transverse distance, 0.6<z_ph<1.2, ~3% photo-z precision"
+    },
+    {
+      "group": "Photometric",
+      "label": "DES Y3 ($D_M$)",
+      "sigma0": "$\\approx$0.03",
+      "precision": 0.027,
+      "marker": "d",
+      "url": "https://arxiv.org/html/2107.04646v2",
+      "definition": "Fractional transverse distance"
+    },
+    {
+      "group": "Photometric",
+      "label": "SDSS photometric",
+      "sigma0": "$\\approx$0.03",
+      "precision": 0.065,
+      "marker": "^",
+      "url": "https://arxiv.org/html/astro-ph/0605302v2",
+      "definition": "Fractional comoving distance; approximate redshift error"
+    },
+    {
+      "group": "Photometric",
+      "label": "Blake & Bridle (forecast)",
+      "sigma0": "0.03",
+      "precision": 0.02,
+      "marker": "v",
+      "url": "https://arxiv.org/pdf/astro-ph/0411713",
+      "definition": "Acoustic-scale forecast: 10000 deg2, r<22.5, sigma0=0.03"
+    }
+  ],
+  "current_definition": "Median native Minos half-width of alpha_iso over usable intervals (valid, no prior-boundary contact) of the 25 individual LRG1 fits",
+  "joint_definition": "Consensus combination of the tiers' median Minos half-widths with the measured alpha_iso correlation (Sanchez et al. 2017; BOSS DR12 and eBOSS DR16 practice), non-negative weights; usable interval counts per tier are kept in current",
+  "interpretation": "Context only: distinct estimators, footprints, densities and redshifts",
+  "spherex_forecast": "<checkout>/paper/figures/source/forecast/spherex-prediction.json",
+  "spherex_prediction_definition": "one survey at the SPHEREx effective volume: the matched-V_eff pipeline's median usable Minos half-width where it attains at least 90 per cent of that volume, else the one-survey conditional density-and-area forecast (revisions 2.11-F1/F3); joint rows combine the tier predictions with the measured correlation; predictions above 50 per cent are drawn at the axis edge"
+}

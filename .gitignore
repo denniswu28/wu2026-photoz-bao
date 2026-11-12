@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+wheels/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+
+# Catalogues, chains, runs and other products never belong in the repository.
+*.fits
+*.npy
+*.npz
+*.h5
+*.hdf5
+outputs/
+products/
+paper/build/

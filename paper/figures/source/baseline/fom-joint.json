@@ -1,0 +1,37 @@
+[
+  {
+    "measurement_bin": "BGS1",
+    "condition": "joint",
+    "pre": 669.6353252471908,
+    "post": 948.3937797764827,
+    "gain_percent": 41.62839743055524
+  },
+  {
+    "measurement_bin": "BGS2",
+    "condition": "joint",
+    "pre": 5853.773200178431,
+    "post": 21710.501132251822,
+    "gain_percent": 270.8804627345326
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "joint",
+    "pre": 15858.548975407613,
+    "post": 22856.03034182089,
+    "gain_percent": 44.12434818131536
+  },
+  {
+    "measurement_bin": "LRG2",
+    "condition": "joint",
+    "pre": 2562.06138111073,
+    "post": 4656.704325236121,
+    "gain_percent": 81.75615773956596
+  },
+  {
+    "measurement_bin": "LRG3",
+    "condition": "joint",
+    "pre": 3057.396979570601,
+    "post": 3845.102037522648,
+    "gain_percent": 25.76391169401484
+  }
+]

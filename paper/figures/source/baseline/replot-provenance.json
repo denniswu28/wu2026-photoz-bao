@@ -1,0 +1,43 @@
+{
+  "started_utc": "2026-10-28T08:26:42.568614+00:00",
+  "finished_utc": "2026-10-28T08:26:56.794884+00:00",
+  "slurm_job_id": "24438501",
+  "renderer_checkout": "<checkout>",
+  "renderer_commit": "2dba4503af582c2ec403fd76521308c4292cf5da",
+  "renderer_diff": "",
+  "method": "redrawn from the saved rows of the source render",
+  "source_render": {
+    "observed_utc": "2026-10-26T06:52:32.785147+00:00",
+    "baseline_report": "<storage>/runs/core-sensitivity/unified-fit-v3--primary",
+    "selection_run": "<storage>/runs/core-sensitivity/per-bin-v2--primary",
+    "measurement_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "renderer_commit": "9bf1bf1091698a669d1cdcaff0ae09f12dd1c474"
+  },
+  "figures": {
+    "fig_survey_landscape": [
+      "survey-veff.json"
+    ],
+    "fig_fom_2d": [
+      "fom-values.json",
+      "fom-joint.json"
+    ],
+    "fig_distance_ratios": [
+      "distance-ratios.json"
+    ],
+    "fig_recon_quality": [
+      "paired-gains.json"
+    ],
+    "fig_literature_comparison": [
+      "literature-comparison.json"
+    ],
+    "fig_los_damping": [
+      "los-damping.json"
+    ]
+  },
+  "visual_review": "Pending",
+  "scientific_acceptance": "Not established by this rendering"
+}

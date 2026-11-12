@@ -1,0 +1,416 @@
+{
+  "campaign": "bao_p1a_sigma003_2026-08-25",
+  "campaign_root": "/xdisk/timeifler/twu2/bao_p1a_sigma003_2026-08-25",
+  "displayed_precision": "six decimal places",
+  "kind": "frozen_shot_noise_rescaling_registry",
+  "never_recalculated": true,
+  "route_key": [
+    "measurement_bin",
+    "sigma_z_tier",
+    "reconstruction_state"
+  ],
+  "routes": [
+    {
+      "aggregation_rule": "arithmetic_mean_of_independently_optimized_realizations",
+      "authority_artifact_path": "/xdisk/timeifler/twu2/bao_p1a_sigma003_2026-08-25/alpha/authority_BGS1_postreconstruction.json",
+      "authority_sha256": "72cec649454a19409e085e5e707821be5bc5be3fbad03c23040b7e1ebaddd33a",
+      "calibration_rung_n_loops": 512,
+      "calibration_rung_sequence": [
+        128,
+        512,
+        1024,
+        3072,
+        6144
+      ],
+      "code_commit": "939012be78673c49a155c5699165861b143cfc2e",
+      "configuration_sha256": "3d2d33831650698c1ae46edf2f02abef2cff10cafff73e5286ac9810dcd96655",
+      "contributing_realizations": [
+        6,
+        7,
+        8
+      ],
+      "contributing_values": [
+        {
+          "calibration_vector_dimension": 22,
+          "loops_per_sample": 64,
+          "mock_id": 6,
+          "n_loops": 512,
+          "numerically_valid": true,
+          "offered_jackknife_regions": 60,
+          "retained_jackknife_regions": 60,
+          "seeds": [
+            4201
+          ],
+          "shot_noise_rescaling": 1.7647460937500017,
+          "source_artifact_path": "/xdisk/timeifler/twu2/bao_p1a_sigma003_2026-08-25/alpha/BGS1_postreconstruction_mock6_n512_record.json",
+          "source_artifact_sha256": "a17f73d700d30d2b313ae1274f39ba09ab31ecf60d909ba6f68996b7ac85b3ce",
+          "source_file_sha256": "9ecff1af7e1cef1dd696af0a72345d65d04b94d745eaa9e3505e2f4be6d6c90c"
+        },
+        {
+          "calibration_vector_dimension": 22,
+          "loops_per_sample": 64,
+          "mock_id": 7,
+          "n_loops": 512,
+          "numerically_valid": true,
+          "offered_jackknife_regions": 60,
+          "retained_jackknife_regions": 60,
+          "seeds": [
+            4201
+          ],
+          "shot_noise_rescaling": 1.7944335937500018,
+          "source_artifact_path": "/xdisk/timeifler/twu2/bao_p1a_sigma003_2026-08-25/alpha/BGS1_postreconstruction_mock7_n512_record.json",
+          "source_artifact_sha256": "a9ac4f49f0dc39a4bff5be8d10d45f375598e496f75a7b74a4a995f5db71b388",
+          "source_file_sha256": "19256a5b329e8ef9386155d385ea6ccd162253a080a3852d18a3721af10b75df"
+        },
+        {
+          "calibration_vector_dimension": 22,
+          "loops_per_sample": 64,
+          "mock_id": 8,
+          "n_loops": 512,
+          "numerically_valid": true,
+          "offered_jackknife_regions": 60,
+          "retained_jackknife_regions": 60,
+          "seeds": [
+            4201
+          ],
+          "shot_noise_rescaling": 1.861718750000002,
+          "source_artifact_path": "/xdisk/timeifler/twu2/bao_p1a_sigma003_2026-08-25/alpha/BGS1_postreconstruction_mock8_n512_record.json",
+          "source_artifact_sha256": "f63d4ec802fd46553a02a2af49aa90ecac2d6030dfd0769f49cb49fbd2314f07",
+          "source_file_sha256": "3030b9f821a2efbe14f6ce957679495a45658ac8fc77f5106401b75e7e0a2b5d"
+        }
+      ],
+      "displayed_realization_standard_deviation": 0.049686,
+      "displayed_shot_noise_rescaling": 1.806966,
+      "frozen_artifact_path": "/xdisk/timeifler/twu2/bao_p1a_sigma003_2026-08-25/alpha/frozen_BGS1_postreconstruction.json",
+      "frozen_artifact_sha256": "f382677e49ea11ff61e5b5ab288476ac8e693ab6260231b11e3e2eb2cb22a54e",
+      "frozen_file_sha256": "4f7ad8daa80629574825372e52edab199a3be5f81144b8201d491e9d00ec955f",
+      "jackknife": {
+        "installed_callables": {
+          "region_construction": {
+            "callable": "RascalC.pre_process.create_jackknives_pycorr:get_subsampler_xirunpc",
+            "source_sha256": "372f6ca89944f565fba0852caebe1c6bec28389b7c3b156cf12a89d70fc2eef7"
+          },
+          "rescaling_optimizer": {
+            "callable": "RascalC.post_process.utils:fit_shot_noise_rescaling",
+            "source_sha256": "4ef4b14b42ce9f7b893c9a282f199d0ab9a676bd15b1201190a37f978b65861f"
+          }
+        },
+        "realization_selection_rule": "three lowest-numbered realizations of the sample's largest single-code-revision block, evaluated once every one of the sample's units exists",
+        "region_construction": "angular_kmeans_over_sample_galaxies",
+        "region_count": 60,
+        "seed_source": "RascalC.pre_process.create_jackknives_pycorr:get_subsampler_xirunpc"
+      },
+      "model": "C(alpha_SN) = C4 + alpha_SN * C3 + alpha_SN**2 * C2",
+      "realization_standard_deviation": 0.049686242173626737,
+      "route": {
+        "measurement_bin": "BGS1",
+        "reconstruction_state": "postreconstruction",
+        "sigma_z_tier": "sigma_0.003"
+      },
+      "sample_identity": "BGS_BRIGHT-21.5|tier=sigma_0.003|density=primary_spherex_motivated|reconstruction=recsym|smoothing_mpc_h=15",
+      "shot_noise_rescaling": 1.806966145833335
+    },
+    {
+      "aggregation_rule": "arithmetic_mean_of_independently_optimized_realizations",
+      "authority_artifact_path": "/xdisk/timeifler/twu2/bao_p1a_sigma003_2026-08-25/alpha/authority_BGS1_prereconstruction.json",
+      "authority_sha256": "ae0e4feaaa65634120858f85fc91ed45f274c4e824df644b4d7c9fc9f52d3823",
+      "calibration_rung_n_loops": 6144,
+      "calibration_rung_sequence": [
+        128,
+        512,
+        1024,
+        3072,
+        6144
+      ],
+      "code_commit": "939012be78673c49a155c5699165861b143cfc2e",
+      "configuration_sha256": "3d2d33831650698c1ae46edf2f02abef2cff10cafff73e5286ac9810dcd96655",
+      "contributing_realizations": [
+        6,
+        7,
+        8
+      ],
+      "contributing_values": [
+        {
+          "calibration_vector_dimension": 22,
+          "loops_per_sample": 64,
+          "mock_id": 6,
+          "n_loops": 6144,
+          "numerically_valid": true,
+          "offered_jackknife_regions": 60,
+          "retained_jackknife_regions": 60,
+          "seeds": [
+            4201
+          ],
+          "shot_noise_rescaling": 1.740917968750002,
+          "source_artifact_path": "/xdisk/timeifler/twu2/bao_p1a_sigma003_2026-08-25/alpha/BGS1_prereconstruction_mock6_n6144_record.json",
+          "source_artifact_sha256": "1ba0601bc006d7744044589a8426a733e4dd5a54c9da43f80e0a4e1f9bc02911",
+          "source_file_sha256": "53e8de8116d90fad54ad112c08780fff601b5e21de0c9f39a01413696466435f"
+        },
+        {
+          "calibration_vector_dimension": 22,
+          "loops_per_sample": 64,
+          "mock_id": 7,
+          "n_loops": 6144,
+          "numerically_valid": true,
+          "offered_jackknife_regions": 60,
+          "retained_jackknife_regions": 60,
+          "seeds": [
+            4201
+          ],
+          "shot_noise_rescaling": 1.7718750000000016,
+          "source_artifact_path": "/xdisk/timeifler/twu2/bao_p1a_sigma003_2026-08-25/alpha/BGS1_prereconstruction_mock7_n6144_record.json",
+          "source_artifact_sha256": "b8a9baa9612346ceaf8b955964f8f1fb94aeb37869e24100f7c31e0a09b20f6f",
+          "source_file_sha256": "244cd60d92b3e21d6873d664970ca13fb180163280adb82648a3d839c4fc1f54"
+        },
+        {
+          "calibration_vector_dimension": 22,
+          "loops_per_sample": 64,
+          "mock_id": 8,
+          "n_loops": 6144,
+          "numerically_valid": true,
+          "offered_jackknife_regions": 60,
+          "retained_jackknife_regions": 60,
+          "seeds": [
+            4201
+          ],
+          "shot_noise_rescaling": 1.8436523437500019,
+          "source_artifact_path": "/xdisk/timeifler/twu2/bao_p1a_sigma003_2026-08-25/alpha/BGS1_prereconstruction_mock8_n6144_record.json",
+          "source_artifact_sha256": "1fd466d260b5ecc463eddde6fb5db9e51b9b6b92f3b7ed90654b1ae8d704d91e",
+          "source_file_sha256": "00a864268e1fc75327ebefa404a403ec84cceb45351aba711af591696924c760"
+        }
+      ],
+      "displayed_realization_standard_deviation": 0.052701,
+      "displayed_shot_noise_rescaling": 1.785482,
+      "frozen_artifact_path": "/xdisk/timeifler/twu2/bao_p1a_sigma003_2026-08-25/alpha/frozen_BGS1_prereconstruction.json",
+      "frozen_artifact_sha256": "d91f50a6c3824c26079343c100dc992145acbfe28e1ac1bbbfe47c4002b538c0",
+      "frozen_file_sha256": "048477991e6ea22f03f4d1b26e408f6a01a081905dd5ac66afa0ab4c95d8ddd1",
+      "jackknife": {
+        "installed_callables": {
+          "region_construction": {
+            "callable": "RascalC.pre_process.create_jackknives_pycorr:get_subsampler_xirunpc",
+            "source_sha256": "372f6ca89944f565fba0852caebe1c6bec28389b7c3b156cf12a89d70fc2eef7"
+          },
+          "rescaling_optimizer": {
+            "callable": "RascalC.post_process.utils:fit_shot_noise_rescaling",
+            "source_sha256": "4ef4b14b42ce9f7b893c9a282f199d0ab9a676bd15b1201190a37f978b65861f"
+          }
+        },
+        "realization_selection_rule": "three lowest-numbered realizations of the sample's largest single-code-revision block, evaluated once every one of the sample's units exists",
+        "region_construction": "angular_kmeans_over_sample_galaxies",
+        "region_count": 60,
+        "seed_source": "RascalC.pre_process.create_jackknives_pycorr:get_subsampler_xirunpc"
+      },
+      "model": "C(alpha_SN) = C4 + alpha_SN * C3 + alpha_SN**2 * C2",
+      "realization_standard_deviation": 0.052701481108630044,
+      "route": {
+        "measurement_bin": "BGS1",
+        "reconstruction_state": "prereconstruction",
+        "sigma_z_tier": "sigma_0.003"
+      },
+      "sample_identity": "BGS_BRIGHT-21.5|tier=sigma_0.003|density=primary_spherex_motivated|reconstruction=recsym|smoothing_mpc_h=15",
+      "shot_noise_rescaling": 1.785481770833335
+    },
+    {
+      "aggregation_rule": "arithmetic_mean_of_independently_optimized_realizations",
+      "authority_artifact_path": "/xdisk/timeifler/twu2/bao_p1a_sigma003_2026-08-25/alpha/authority_LRG3_postreconstruction.json",
+      "authority_sha256": "daf259834b865a4662b22b26f624b18ce64facdc99d8e77505fced4179842548",
+      "calibration_rung_n_loops": 3072,
+      "calibration_rung_sequence": [
+        128,
+        512,
+        1024,
+        3072,
+        6144
+      ],
+      "code_commit": "939012be78673c49a155c5699165861b143cfc2e",
+      "configuration_sha256": "3d2d33831650698c1ae46edf2f02abef2cff10cafff73e5286ac9810dcd96655",
+      "contributing_realizations": [
+        0,
+        1,
+        2
+      ],
+      "contributing_values": [
+        {
+          "calibration_vector_dimension": 44,
+          "loops_per_sample": 64,
+          "mock_id": 0,
+          "n_loops": 3072,
+          "numerically_valid": true,
+          "offered_jackknife_regions": 60,
+          "retained_jackknife_regions": 60,
+          "seeds": [
+            4201
+          ],
+          "shot_noise_rescaling": 2.0339843750000024,
+          "source_artifact_path": "/xdisk/timeifler/twu2/bao_p1a_sigma003_2026-08-25/alpha/LRG3_postreconstruction_mock0_n3072_record.json",
+          "source_artifact_sha256": "bb2cf67f27bbe80790797b01b12c2279588594c6cf81f727cd440fc00bf4063a",
+          "source_file_sha256": "9821990ba57385fb736ede4e043eee612e656d43d53537be7f823d666a9835c9"
+        },
+        {
+          "calibration_vector_dimension": 44,
+          "loops_per_sample": 64,
+          "mock_id": 1,
+          "n_loops": 3072,
+          "numerically_valid": true,
+          "offered_jackknife_regions": 60,
+          "retained_jackknife_regions": 60,
+          "seeds": [
+            4201
+          ],
+          "shot_noise_rescaling": 1.9295898437500023,
+          "source_artifact_path": "/xdisk/timeifler/twu2/bao_p1a_sigma003_2026-08-25/alpha/LRG3_postreconstruction_mock1_n3072_record.json",
+          "source_artifact_sha256": "d59e1cdbe8da3f3b72b4c7521ee80e1622696a5212f3181c1b77af8bad4b5873",
+          "source_file_sha256": "e0148c6091d6190cdede79f98b56a8d1503e7d4d43605167007414abd15fc91e"
+        },
+        {
+          "calibration_vector_dimension": 44,
+          "loops_per_sample": 64,
+          "mock_id": 2,
+          "n_loops": 3072,
+          "numerically_valid": true,
+          "offered_jackknife_regions": 60,
+          "retained_jackknife_regions": 60,
+          "seeds": [
+            4201
+          ],
+          "shot_noise_rescaling": 1.9777343750000025,
+          "source_artifact_path": "/xdisk/timeifler/twu2/bao_p1a_sigma003_2026-08-25/alpha/LRG3_postreconstruction_mock2_n3072_record.json",
+          "source_artifact_sha256": "9c2f0a7c3eca95326117ca8df008c2c1c66729d5900a6b6d1ffa097da55e6f25",
+          "source_file_sha256": "6f311fb8d79e341d48334f6d94c4bebe7617bc5106bfd6780fd8d9e3ae85a37b"
+        }
+      ],
+      "displayed_realization_standard_deviation": 0.05225,
+      "displayed_shot_noise_rescaling": 1.980436,
+      "frozen_artifact_path": "/xdisk/timeifler/twu2/bao_p1a_sigma003_2026-08-25/alpha/frozen_LRG3_postreconstruction.json",
+      "frozen_artifact_sha256": "3649e5d1f58c8129e8ce27cc851fde24444261c74cf790c6d2c471d4927fb761",
+      "frozen_file_sha256": "f33121d060f2eb01ca521c83f1911e241a9bbb256a835e24a23725076576c017",
+      "jackknife": {
+        "installed_callables": {
+          "region_construction": {
+            "callable": "RascalC.pre_process.create_jackknives_pycorr:get_subsampler_xirunpc",
+            "source_sha256": "372f6ca89944f565fba0852caebe1c6bec28389b7c3b156cf12a89d70fc2eef7"
+          },
+          "rescaling_optimizer": {
+            "callable": "RascalC.post_process.utils:fit_shot_noise_rescaling",
+            "source_sha256": "4ef4b14b42ce9f7b893c9a282f199d0ab9a676bd15b1201190a37f978b65861f"
+          }
+        },
+        "realization_selection_rule": "three lowest-numbered realizations of the sample's largest single-code-revision block, evaluated once every one of the sample's units exists",
+        "region_construction": "angular_kmeans_over_sample_galaxies",
+        "region_count": 60,
+        "seed_source": "RascalC.pre_process.create_jackknives_pycorr:get_subsampler_xirunpc"
+      },
+      "model": "C(alpha_SN) = C4 + alpha_SN * C3 + alpha_SN**2 * C2",
+      "realization_standard_deviation": 0.0522496834825971,
+      "route": {
+        "measurement_bin": "LRG3",
+        "reconstruction_state": "postreconstruction",
+        "sigma_z_tier": "sigma_0.003"
+      },
+      "sample_identity": "LRG|tier=sigma_0.003|density=primary_spherex_motivated|reconstruction=recsym|smoothing_mpc_h=15",
+      "shot_noise_rescaling": 1.980436197916669
+    },
+    {
+      "aggregation_rule": "arithmetic_mean_of_independently_optimized_realizations",
+      "authority_artifact_path": "/xdisk/timeifler/twu2/bao_p1a_sigma003_2026-08-25/alpha/authority_LRG3_prereconstruction.json",
+      "authority_sha256": "b0c64b1dc9df3227d87721fb2ce7b84444bdc45a609b25a2396486820ba0e540",
+      "calibration_rung_n_loops": 512,
+      "calibration_rung_sequence": [
+        128,
+        512,
+        1024,
+        3072,
+        6144
+      ],
+      "code_commit": "939012be78673c49a155c5699165861b143cfc2e",
+      "configuration_sha256": "3d2d33831650698c1ae46edf2f02abef2cff10cafff73e5286ac9810dcd96655",
+      "contributing_realizations": [
+        0,
+        1,
+        2
+      ],
+      "contributing_values": [
+        {
+          "calibration_vector_dimension": 44,
+          "loops_per_sample": 64,
+          "mock_id": 0,
+          "n_loops": 512,
+          "numerically_valid": true,
+          "offered_jackknife_regions": 60,
+          "retained_jackknife_regions": 60,
+          "seeds": [
+            4201
+          ],
+          "shot_noise_rescaling": 1.9787109375000023,
+          "source_artifact_path": "/xdisk/timeifler/twu2/bao_p1a_sigma003_2026-08-25/alpha/LRG3_prereconstruction_mock0_n512_record.json",
+          "source_artifact_sha256": "5f502ae625f8ae047081c968904e8edce62465dfdea3594c84e680a57f9caef1",
+          "source_file_sha256": "27e4e1207b0bd4e775544749b4f849c9159be2eed3574e4fb2bc270dc63d8226"
+        },
+        {
+          "calibration_vector_dimension": 44,
+          "loops_per_sample": 64,
+          "mock_id": 1,
+          "n_loops": 512,
+          "numerically_valid": true,
+          "offered_jackknife_regions": 60,
+          "retained_jackknife_regions": 60,
+          "seeds": [
+            4201
+          ],
+          "shot_noise_rescaling": 2.005664062500002,
+          "source_artifact_path": "/xdisk/timeifler/twu2/bao_p1a_sigma003_2026-08-25/alpha/LRG3_prereconstruction_mock1_n512_record.json",
+          "source_artifact_sha256": "4b25d68f74408530c5c9d7deeedafde1a576572512ad3169bc21d1d97bdbffae",
+          "source_file_sha256": "99dd0c7ca524637ae556f7e0919181985228acbeb518af489c30c416cac5f9d0"
+        },
+        {
+          "calibration_vector_dimension": 44,
+          "loops_per_sample": 64,
+          "mock_id": 2,
+          "n_loops": 512,
+          "numerically_valid": true,
+          "offered_jackknife_regions": 60,
+          "retained_jackknife_regions": 60,
+          "seeds": [
+            4201
+          ],
+          "shot_noise_rescaling": 1.9416992187500024,
+          "source_artifact_path": "/xdisk/timeifler/twu2/bao_p1a_sigma003_2026-08-25/alpha/LRG3_prereconstruction_mock2_n512_record.json",
+          "source_artifact_sha256": "9e44f0a9ccbe5dbee6013a48ca3e7d295f886abf664dec69780fd07a12c90050",
+          "source_file_sha256": "f33c66b9c95c039ffefb64f5965149e63923ec4f036fd644c2cfcfde6a00b85f"
+        }
+      ],
+      "displayed_realization_standard_deviation": 0.032114,
+      "displayed_shot_noise_rescaling": 1.975358,
+      "frozen_artifact_path": "/xdisk/timeifler/twu2/bao_p1a_sigma003_2026-08-25/alpha/frozen_LRG3_prereconstruction.json",
+      "frozen_artifact_sha256": "14121db547935cac4c813a19834c61026a336efa6d05148453309442badb7eaa",
+      "frozen_file_sha256": "d1f4393e93997ed171c6247379943caf699e35799b0cba04c93a3dd4d51649a6",
+      "jackknife": {
+        "installed_callables": {
+          "region_construction": {
+            "callable": "RascalC.pre_process.create_jackknives_pycorr:get_subsampler_xirunpc",
+            "source_sha256": "372f6ca89944f565fba0852caebe1c6bec28389b7c3b156cf12a89d70fc2eef7"
+          },
+          "rescaling_optimizer": {
+            "callable": "RascalC.post_process.utils:fit_shot_noise_rescaling",
+            "source_sha256": "4ef4b14b42ce9f7b893c9a282f199d0ab9a676bd15b1201190a37f978b65861f"
+          }
+        },
+        "realization_selection_rule": "three lowest-numbered realizations of the sample's largest single-code-revision block, evaluated once every one of the sample's units exists",
+        "region_construction": "angular_kmeans_over_sample_galaxies",
+        "region_count": 60,
+        "seed_source": "RascalC.pre_process.create_jackknives_pycorr:get_subsampler_xirunpc"
+      },
+      "model": "C(alpha_SN) = C4 + alpha_SN * C3 + alpha_SN**2 * C2",
+      "realization_standard_deviation": 0.032113962456789616,
+      "route": {
+        "measurement_bin": "LRG3",
+        "reconstruction_state": "prereconstruction",
+        "sigma_z_tier": "sigma_0.003"
+      },
+      "sample_identity": "LRG|tier=sigma_0.003|density=primary_spherex_motivated|reconstruction=recsym|smoothing_mpc_h=15",
+      "shot_noise_rescaling": 1.9753580729166689
+    }
+  ],
+  "schema_version": 1,
+  "transfer_rule": "One scalar per (measurement bin, sigma_z tier, reconstruction state). The scalar was measured on the retired twenty-two-element calibration vector and transfers unchanged to the twenty-six- and fifty-two-element fitted vectors, and from the per-bin reconstruction implementation to the parent-catalogue one: alpha_SN rescales the shot noise of the covariance estimator for a sample defined by its selection, weighting, geometry and attained density, none of which the vector length or the order of the solve changes. ONLY the scalar transfers. The covariance components measured beside it do not: each was integrated from one realization's correlation function on a grid this campaign has since redefined, and none is a route covariance."
+}

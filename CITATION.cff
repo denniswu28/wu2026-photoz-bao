@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper it accompanies and this repository."
+title: "wu2026-photoz-bao: analysis code for BAO reconstruction under photometric-redshift uncertainty"
+type: software
+license:
+  - MIT
+  - BSD-3-Clause
+repository-code: "https://github.com/denniswu28/wu2026-photoz-bao"
+version: 1.0.0
+authors:
+  - family-names: Wu
+    given-names: Tianrui
+    alias: Dennis Wu
+    affiliation: "Department of Physics, University of Arizona"
+  - family-names: Paillas
+    given-names: Enrique
+    affiliation: "Instituto de Estudios Astrofísicos, Universidad Diego Portales"
+keywords:
+  - cosmology
+  - baryon acoustic oscillations
+  - photometric redshift
+  - reconstruction
+  - DESI
+  - SPHEREx

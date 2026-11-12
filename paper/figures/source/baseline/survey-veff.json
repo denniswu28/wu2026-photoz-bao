@@ -1,0 +1,270 @@
+{
+  "definition": "V_eff = sum_shells f_sky V_shell [nbar P0/(1+nbar P0)]^2",
+  "p0_h3_mpc3": 10000.0,
+  "spherex": [
+    {
+      "sample": 1,
+      "sigma0": 0.003,
+      "z_edges": [
+        0.0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1.0,
+        1.6,
+        2.2,
+        2.8,
+        3.4,
+        4.0,
+        4.6
+      ],
+      "nbar_h3_mpc3": [
+        0.00997,
+        0.00411,
+        0.000501,
+        7.05e-05,
+        3.16e-05,
+        1.64e-05,
+        3.59e-06,
+        8.07e-07,
+        1.84e-06,
+        1.5e-06,
+        1.13e-06
+      ],
+      "f_sky": 0.7272205216643038,
+      "veff_gpc_h3": 12.68452966165072
+    },
+    {
+      "sample": 2,
+      "sigma0": 0.01,
+      "z_edges": [
+        0.0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1.0,
+        1.6,
+        2.2,
+        2.8,
+        3.4,
+        4.0,
+        4.6
+      ],
+      "nbar_h3_mpc3": [
+        0.0123,
+        0.00856,
+        0.00282,
+        0.000937,
+        0.00043,
+        "5e-05",
+        8.03e-06,
+        3.83e-06,
+        3.28e-06,
+        1.07e-06,
+        6.79e-07
+      ],
+      "f_sky": 0.7272205216643038,
+      "veff_gpc_h3": 36.087961522667534
+    },
+    {
+      "sample": 3,
+      "sigma0": 0.03,
+      "z_edges": [
+        0.0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1.0,
+        1.6,
+        2.2,
+        2.8,
+        3.4,
+        4.0,
+        4.6
+      ],
+      "nbar_h3_mpc3": [
+        0.0134,
+        0.00857,
+        0.00362,
+        0.00294,
+        0.00204,
+        0.000212,
+        6.97e-06,
+        2.02e-06,
+        1.43e-06,
+        1.93e-06,
+        6.79e-07
+      ],
+      "f_sky": 0.7272205216643038,
+      "veff_gpc_h3": 61.275537606997275
+    },
+    {
+      "sample": 4,
+      "sigma0": 0.1,
+      "z_edges": [
+        0.0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1.0,
+        1.6,
+        2.2,
+        2.8,
+        3.4,
+        4.0,
+        4.6
+      ],
+      "nbar_h3_mpc3": [
+        0.0229,
+        0.0129,
+        0.00535,
+        0.00495,
+        0.00415,
+        0.000796,
+        7.75e-05,
+        7.87e-06,
+        2.46e-06,
+        1.93e-06,
+        1.36e-06
+      ],
+      "f_sky": 0.7272205216643038,
+      "veff_gpc_h3": 94.46034970765035
+    },
+    {
+      "sample": 5,
+      "sigma0": 0.2,
+      "z_edges": [
+        0.0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1.0,
+        1.6,
+        2.2,
+        2.8,
+        3.4,
+        4.0,
+        4.6
+      ],
+      "nbar_h3_mpc3": [
+        0.0149,
+        0.00752,
+        0.00327,
+        0.0025,
+        0.00183,
+        0.000734,
+        0.000253,
+        5.41e-05,
+        2.99e-05,
+        9.41e-06,
+        2.04e-06
+      ],
+      "f_sky": 0.7272205216643038,
+      "veff_gpc_h3": 126.67482695866802
+    }
+  ],
+  "this_work": [
+    {
+      "condition": "sigma_0.001",
+      "sigma0": 0.001,
+      "veff_gpc_h3": 1.240665961847285,
+      "inputs": "attained density per measurement bin and cap, 0.1<z<1.0"
+    },
+    {
+      "condition": "sigma_0.003",
+      "sigma0": 0.003,
+      "veff_gpc_h3": 2.462213335532167,
+      "inputs": "attained density per measurement bin and cap, 0.1<z<1.0"
+    },
+    {
+      "condition": "sigma_0.01",
+      "sigma0": 0.01,
+      "veff_gpc_h3": 5.856775038978017,
+      "inputs": "attained density per measurement bin and cap, 0.1<z<1.0"
+    },
+    {
+      "condition": "sigma_0.03",
+      "sigma0": 0.03,
+      "veff_gpc_h3": 5.824574058028991,
+      "inputs": "attained density per measurement bin and cap, 0.1<z<1.0"
+    }
+  ],
+  "columns": [
+    {
+      "sigma0": 0.0,
+      "label": "$10^{-5}$"
+    },
+    {
+      "sigma0": 0.001,
+      "label": "0.001"
+    },
+    {
+      "sigma0": 0.003,
+      "label": "0.003"
+    },
+    {
+      "sigma0": 0.01,
+      "label": "0.01"
+    },
+    {
+      "sigma0": 0.03,
+      "label": "0.03"
+    },
+    {
+      "sigma0": 0.05,
+      "label": "0.05"
+    },
+    {
+      "sigma0": 0.1,
+      "label": "0.1"
+    },
+    {
+      "sigma0": 0.2,
+      "label": "0.2"
+    }
+  ],
+  "spherex_source": "SPHEREx/Public-products galaxy_density_v28_base_cbe.txt; f_sky = reporting.forecast_target_fsky (30,000 deg^2, arXiv:2312.04636)",
+  "surveys": [
+    {
+      "label": "DESI DR1, $0.4<z<1.1$",
+      "sigma0": 0.0,
+      "veff_gpc_h3": 4.241844687678138,
+      "inputs": "2,138,600 redshifts, 5,840 deg2, 0.4<z<1.1",
+      "source": "arXiv:2404.03000, Sec. 2.2 and Table 1"
+    },
+    {
+      "label": "DESI DR1, $0.1<z<0.4$",
+      "sigma0": 0.0,
+      "veff_gpc_h3": 0.545165216846659,
+      "inputs": "300,017 redshifts, 7,473 deg2, 0.1<z<0.4",
+      "source": "arXiv:2404.03000, Sec. 2.2 and Table 1"
+    },
+    {
+      "label": "LSST Y10",
+      "sigma0": 0.03,
+      "veff_gpc_h3": 25.386412153930248,
+      "inputs": "lens sample 48 arcmin-2, 14.3k deg2, dN/dz ~ z^2 exp[-(z/0.28)^0.90], 0.2<z<1.2",
+      "source": "arXiv:1809.01669, Appendices C1 and D1"
+    },
+    {
+      "label": "Euclid photometric",
+      "sigma0": 0.05,
+      "veff_gpc_h3": 92.34407593599597,
+      "inputs": "30 arcmin-2, 15,000 deg2, n(z) ~ (z/z0)^2 exp[-(z/z0)^1.5], z0=0.9/sqrt2, 0.001<z<2.5",
+      "source": "arXiv:1910.09273, Table 4 and Eqs. 113-114"
+    },
+    {
+      "label": "DES Y6",
+      "sigma0": 0.03,
+      "veff_gpc_h3": 5.682574886037564,
+      "inputs": "15,937,556 galaxies, 4,273.42 deg2, 0.6<z_ph<1.2, ~3% photo-z precision",
+      "source": "arXiv:2402.10696, Sec. II"
+    }
+  ],
+  "interpretation": "Volume and shot noise only; photo-z radial smearing is not included; columns are categorical redshift-precision classes"
+}

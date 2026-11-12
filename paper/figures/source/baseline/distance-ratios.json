@@ -1,0 +1,257 @@
+{
+  "rows": [
+    {
+      "measurement_bin": "BGS1",
+      "condition": "joint",
+      "reconstruction_state": "prereconstruction",
+      "z_eff": 0.15983037658087038,
+      "z_eff_spread": 0.0011890633808631923,
+      "ratios": {
+        "D_V/r_d": {
+          "value": 1.0211567060734315,
+          "error": 0.0259502096846315
+        },
+        "D_M/D_H": {
+          "value": 1.0133500688076167,
+          "error": 0.059232997310833965
+        },
+        "D_M/r_d": {
+          "value": 1.0256808038286942,
+          "error": 0.03391507502388502
+        },
+        "D_H/r_d": {
+          "value": 1.01216828754508,
+          "error": 0.04558684858655658
+        }
+      }
+    },
+    {
+      "measurement_bin": "BGS1",
+      "condition": "joint",
+      "reconstruction_state": "postreconstruction",
+      "z_eff": 0.15983037658087038,
+      "z_eff_spread": 0.0011890633808631923,
+      "ratios": {
+        "D_V/r_d": {
+          "value": 1.0181110047390458,
+          "error": 0.021244285479507154
+        },
+        "D_M/D_H": {
+          "value": 1.0485686293176923,
+          "error": 0.0549371231689174
+        },
+        "D_M/r_d": {
+          "value": 1.0343338836285365,
+          "error": 0.02969802322056926
+        },
+        "D_H/r_d": {
+          "value": 0.9864245932110152,
+          "error": 0.03804346408672986
+        }
+      }
+    },
+    {
+      "measurement_bin": "BGS2",
+      "condition": "joint",
+      "reconstruction_state": "prereconstruction",
+      "z_eff": 0.3171909721006853,
+      "z_eff_spread": 0.0026026774440099376,
+      "ratios": {
+        "D_V/r_d": {
+          "value": 1.014688104059426,
+          "error": 0.007425269822119403
+        },
+        "D_M/D_H": {
+          "value": 0.992763348236996,
+          "error": 0.02467077215564565
+        },
+        "D_M/r_d": {
+          "value": 1.0122345277955505,
+          "error": 0.008730861278463412
+        },
+        "D_H/r_d": {
+          "value": 1.0196131128260653,
+          "error": 0.020984196574688568
+        }
+      }
+    },
+    {
+      "measurement_bin": "BGS2",
+      "condition": "joint",
+      "reconstruction_state": "postreconstruction",
+      "z_eff": 0.3171909721006853,
+      "z_eff_spread": 0.0026026774440099376,
+      "ratios": {
+        "D_V/r_d": {
+          "value": 0.9970082502491071,
+          "error": 0.0037149455518282744
+        },
+        "D_M/D_H": {
+          "value": 1.00421404472791,
+          "error": 0.012766348096702136
+        },
+        "D_M/r_d": {
+          "value": 0.998406766734752,
+          "error": 0.005038281254628064
+        },
+        "D_H/r_d": {
+          "value": 0.9942170914421621,
+          "error": 0.00986550489803313
+        }
+      }
+    },
+    {
+      "measurement_bin": "LRG1",
+      "condition": "joint",
+      "reconstruction_state": "prereconstruction",
+      "z_eff": 0.5099443108571741,
+      "z_eff_spread": 0.00019320290809554663,
+      "ratios": {
+        "D_V/r_d": {
+          "value": 0.9944702707617434,
+          "error": 0.005129381680346405
+        },
+        "D_M/D_H": {
+          "value": 1.0208238562881455,
+          "error": 0.015270236724830267
+        },
+        "D_M/r_d": {
+          "value": 1.001325804488958,
+          "error": 0.004851291907472118
+        },
+        "D_H/r_d": {
+          "value": 0.9808996903049608,
+          "error": 0.013234597999192375
+        }
+      }
+    },
+    {
+      "measurement_bin": "LRG1",
+      "condition": "joint",
+      "reconstruction_state": "postreconstruction",
+      "z_eff": 0.5099443108571741,
+      "z_eff_spread": 0.00019320290809554663,
+      "ratios": {
+        "D_V/r_d": {
+          "value": 0.9952175424611034,
+          "error": 0.0038719584640310974
+        },
+        "D_M/D_H": {
+          "value": 1.001546602521229,
+          "error": 0.012093249917257064
+        },
+        "D_M/r_d": {
+          "value": 0.9957303468371607,
+          "error": 0.004499442179965165
+        },
+        "D_H/r_d": {
+          "value": 0.9941927258607569,
+          "error": 0.010029451325543953
+        }
+      }
+    },
+    {
+      "measurement_bin": "LRG2",
+      "condition": "joint",
+      "reconstruction_state": "prereconstruction",
+      "z_eff": 0.7058904052083156,
+      "z_eff_spread": 0.0015861088906079512,
+      "ratios": {
+        "D_V/r_d": {
+          "value": 0.988108822943633,
+          "error": 0.017711468079430196
+        },
+        "D_M/D_H": {
+          "value": 1.0173600092383241,
+          "error": 0.04806299195777994
+        },
+        "D_M/r_d": {
+          "value": 0.9937939104736825,
+          "error": 0.008453630236210721
+        },
+        "D_H/r_d": {
+          "value": 0.9768360280032188,
+          "error": 0.046919476755602554
+        }
+      }
+    },
+    {
+      "measurement_bin": "LRG2",
+      "condition": "joint",
+      "reconstruction_state": "postreconstruction",
+      "z_eff": 0.7058904052083156,
+      "z_eff_spread": 0.0015861088906079512,
+      "ratios": {
+        "D_V/r_d": {
+          "value": 0.9889278941134059,
+          "error": 0.010985671515618878
+        },
+        "D_M/D_H": {
+          "value": 1.0079852581093682,
+          "error": 0.03388400618988811
+        },
+        "D_M/r_d": {
+          "value": 0.9915532000444041,
+          "error": 0.00681646455560288
+        },
+        "D_H/r_d": {
+          "value": 0.9836981166810068,
+          "error": 0.03155551357437866
+        }
+      }
+    },
+    {
+      "measurement_bin": "LRG3",
+      "condition": "joint",
+      "reconstruction_state": "prereconstruction",
+      "z_eff": 0.8724705908729535,
+      "z_eff_spread": 0.0023816431359842127,
+      "ratios": {
+        "D_V/r_d": {
+          "value": 1.0044352172382776,
+          "error": 0.010604711371976477
+        },
+        "D_M/D_H": {
+          "value": 0.9952567647097955,
+          "error": 0.030550810786889815
+        },
+        "D_M/r_d": {
+          "value": 1.002844608848168,
+          "error": 0.014772427427577624
+        },
+        "D_H/r_d": {
+          "value": 1.007624006595509,
+          "error": 0.023166804230249957
+        }
+      }
+    },
+    {
+      "measurement_bin": "LRG3",
+      "condition": "joint",
+      "reconstruction_state": "postreconstruction",
+      "z_eff": 0.8724705908729535,
+      "z_eff_spread": 0.0023816431359842127,
+      "ratios": {
+        "D_V/r_d": {
+          "value": 1.00015149287605,
+          "error": 0.010875658214030593
+        },
+        "D_M/D_H": {
+          "value": 1.0151435953774686,
+          "error": 0.029819938949944256
+        },
+        "D_M/r_d": {
+          "value": 1.0051748501805482,
+          "error": 0.009756386390950056
+        },
+        "D_H/r_d": {
+          "value": 0.9901799654331526,
+          "error": 0.02696450088530517
+        }
+      }
+    }
+  ],
+  "unavailable": [],
+  "convention": "alpha_iso = D_V/r_d, alpha_AP = D_H/D_M (desilike qap = qpar/qper), alpha_perp = alpha_iso alpha_AP^(-1/3) = D_M/r_d, alpha_par = alpha_iso alpha_AP^(2/3) = D_H/r_d and D_M/D_H = 1/alpha_AP, each relative to the mock (Planck 2018) cosmology; errors by first-order propagation of the joint (alpha_iso, alpha_AP) covariance; z_eff is the mean of the four tiers' effective redshifts",
+  "source": "joint combination of the four photometric tiers (specification revision 2.14)"
+}

@@ -1,0 +1,46 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  tests:
+    # Most tests exercise the pinned pyrecon/pycorr/desilike stack, so there is one job: the full
+    # environment and the full suite. Tests that need a cluster job or the original runs skip.
+    name: Tests (pinned scientific stack)
+    runs-on: ubuntu-24.04
+    timeout-minutes: 120
+    defaults:
+      run:
+        shell: bash -el {0}
+    env:
+      OMP_NUM_THREADS: "2"
+    steps:
+      - uses: actions/checkout@v6
+      - uses: mamba-org/setup-micromamba@v2
+        with:
+          environment-file: environment.yml
+          cache-environment: true
+      # The git-pinned packages compile C/Cython extensions; build their wheels once per pin set.
+      # Corrfunc compiles with -march=native, so its wheels run only on the CPU type that built
+      # them, and GitHub's runners vary; the cache is therefore also keyed on the CPU's flags.
+      - id: cpu
+        run: echo "flags=$(grep -m1 '^flags' /proc/cpuinfo | sha256sum | cut -c1-16)" >> "$GITHUB_OUTPUT"
+      - uses: actions/cache@v4
+        with:
+          path: wheels
+          key: science-wheels-${{ steps.cpu.outputs.flags }}-${{ hashFiles('environment.yml', 'requirements-science.txt') }}
+      - name: Build pinned wheels
+        run: |
+          if ! ls wheels/*.whl >/dev/null 2>&1; then
+            python -m pip wheel --no-deps --no-build-isolation -r requirements-science.txt -w wheels
+          fi
+      - run: python -m pip install --no-deps wheels/*.whl
+      - run: python -m pip install --no-deps -e .
+      - run: python -m pytest -rs

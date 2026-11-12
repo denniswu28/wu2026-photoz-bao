@@ -1,0 +1,252 @@
+[
+  {
+    "measurement_bin": "BGS1",
+    "condition": "native",
+    "pre": 315.72289617942715,
+    "post": 615.2785166365434,
+    "gain_percent": 94.87928309351281,
+    "profile_flagged": false,
+    "sampling_limited": true,
+    "covariance_warning": false
+  },
+  {
+    "measurement_bin": "BGS1",
+    "condition": "sigma_0.001",
+    "pre": 365.41391456626525,
+    "post": 606.6057752313961,
+    "gain_percent": 66.00511120421291,
+    "profile_flagged": false,
+    "sampling_limited": true,
+    "covariance_warning": false
+  },
+  {
+    "measurement_bin": "BGS1",
+    "condition": "sigma_0.003",
+    "pre": 457.760565716535,
+    "post": 754.5315403839808,
+    "gain_percent": 64.8310485642005,
+    "profile_flagged": false,
+    "sampling_limited": true,
+    "covariance_warning": false
+  },
+  {
+    "measurement_bin": "BGS1",
+    "condition": "sigma_0.01",
+    "pre": 190.9546023838754,
+    "post": 237.08432987194237,
+    "gain_percent": 24.15743161577879,
+    "profile_flagged": true,
+    "sampling_limited": true,
+    "covariance_warning": false
+  },
+  {
+    "measurement_bin": "BGS1",
+    "condition": "sigma_0.03",
+    "pre": 79.31900822721514,
+    "post": 72.18719626300796,
+    "gain_percent": -8.991302493063923,
+    "profile_flagged": true,
+    "sampling_limited": true,
+    "covariance_warning": false
+  },
+  {
+    "measurement_bin": "BGS2",
+    "condition": "native",
+    "pre": 5834.202234466046,
+    "post": 21210.444973948357,
+    "gain_percent": 263.5534752060162,
+    "profile_flagged": false,
+    "sampling_limited": true,
+    "covariance_warning": false
+  },
+  {
+    "measurement_bin": "BGS2",
+    "condition": "sigma_0.001",
+    "pre": 5385.365367979006,
+    "post": 21454.057226253743,
+    "gain_percent": 298.37700434993735,
+    "profile_flagged": false,
+    "sampling_limited": true,
+    "covariance_warning": false
+  },
+  {
+    "measurement_bin": "BGS2",
+    "condition": "sigma_0.003",
+    "pre": 4065.9272560518975,
+    "post": 13377.488884197654,
+    "gain_percent": 229.01446685466485,
+    "profile_flagged": false,
+    "sampling_limited": true,
+    "covariance_warning": false
+  },
+  {
+    "measurement_bin": "BGS2",
+    "condition": "sigma_0.01",
+    "pre": 1010.2558906933178,
+    "post": 1436.2463734772034,
+    "gain_percent": 42.16659231667901,
+    "profile_flagged": true,
+    "sampling_limited": true,
+    "covariance_warning": false
+  },
+  {
+    "measurement_bin": "BGS2",
+    "condition": "sigma_0.03",
+    "pre": 307.2199191063517,
+    "post": 312.90765026285294,
+    "gain_percent": 1.8513549424288067,
+    "profile_flagged": true,
+    "sampling_limited": true,
+    "covariance_warning": false
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "native",
+    "pre": 19488.596069659103,
+    "post": 58394.53171779655,
+    "gain_percent": 199.63436826887855,
+    "profile_flagged": false,
+    "sampling_limited": true,
+    "covariance_warning": false
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.001",
+    "pre": 6617.301943599272,
+    "post": 16579.537078288737,
+    "gain_percent": 150.54829324095832,
+    "profile_flagged": false,
+    "sampling_limited": true,
+    "covariance_warning": false
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.003",
+    "pre": 13402.937474779312,
+    "post": 19483.554853299367,
+    "gain_percent": 45.367796350330856,
+    "profile_flagged": false,
+    "sampling_limited": true,
+    "covariance_warning": false
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.01",
+    "pre": 1845.0648305567279,
+    "post": 2727.4474617331334,
+    "gain_percent": 47.82393640391251,
+    "profile_flagged": true,
+    "sampling_limited": true,
+    "covariance_warning": false
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.03",
+    "pre": 806.941961126328,
+    "post": 916.0575858840485,
+    "gain_percent": 13.522115593718432,
+    "profile_flagged": true,
+    "sampling_limited": true,
+    "covariance_warning": false
+  },
+  {
+    "measurement_bin": "LRG2",
+    "condition": "native",
+    "pre": 21364.683096968387,
+    "post": 74571.464569593,
+    "gain_percent": 249.0408176481427,
+    "profile_flagged": false,
+    "sampling_limited": true,
+    "covariance_warning": false
+  },
+  {
+    "measurement_bin": "LRG2",
+    "condition": "sigma_0.001",
+    "pre": 346.8917880324448,
+    "post": 227.5789596783276,
+    "gain_percent": -34.39482641859423,
+    "profile_flagged": true,
+    "sampling_limited": true,
+    "covariance_warning": false
+  },
+  {
+    "measurement_bin": "LRG2",
+    "condition": "sigma_0.003",
+    "pre": 1275.1033216662836,
+    "post": 2064.2545429855595,
+    "gain_percent": 61.88919814654912,
+    "profile_flagged": false,
+    "sampling_limited": true,
+    "covariance_warning": false
+  },
+  {
+    "measurement_bin": "LRG2",
+    "condition": "sigma_0.01",
+    "pre": 1890.8967962865624,
+    "post": 2199.749842262256,
+    "gain_percent": 16.333680747793046,
+    "profile_flagged": false,
+    "sampling_limited": true,
+    "covariance_warning": false
+  },
+  {
+    "measurement_bin": "LRG2",
+    "condition": "sigma_0.03",
+    "pre": 877.8109078836328,
+    "post": 863.4612131047651,
+    "gain_percent": -1.634713655297848,
+    "profile_flagged": true,
+    "sampling_limited": true,
+    "covariance_warning": false
+  },
+  {
+    "measurement_bin": "LRG3",
+    "condition": "native",
+    "pre": 32335.53617943489,
+    "post": 91098.71376678695,
+    "gain_percent": 181.72940526257582,
+    "profile_flagged": false,
+    "sampling_limited": true,
+    "covariance_warning": false
+  },
+  {
+    "measurement_bin": "LRG3",
+    "condition": "sigma_0.001",
+    "pre": 586.9058008130712,
+    "post": 86.652212028785,
+    "gain_percent": -85.2357547141737,
+    "profile_flagged": true,
+    "sampling_limited": true,
+    "covariance_warning": false
+  },
+  {
+    "measurement_bin": "LRG3",
+    "condition": "sigma_0.003",
+    "pre": 1589.7071902240339,
+    "post": 1399.3268591113751,
+    "gain_percent": -11.975811160911265,
+    "profile_flagged": false,
+    "sampling_limited": true,
+    "covariance_warning": false
+  },
+  {
+    "measurement_bin": "LRG3",
+    "condition": "sigma_0.01",
+    "pre": 1949.2351886593503,
+    "post": 2340.1652808741906,
+    "gain_percent": 20.055563047972424,
+    "profile_flagged": true,
+    "sampling_limited": true,
+    "covariance_warning": false
+  },
+  {
+    "measurement_bin": "LRG3",
+    "condition": "sigma_0.03",
+    "pre": 616.8283718457801,
+    "post": 619.4407835844896,
+    "gain_percent": 0.42352327777859244,
+    "profile_flagged": true,
+    "sampling_limited": true,
+    "covariance_warning": false
+  }
+]

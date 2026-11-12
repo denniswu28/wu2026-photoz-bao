@@ -1,0 +1,510 @@
+{
+ "method": "pzbao.diagnostics.covariance.leave_one_out_calibration on each saved covariance.npz",
+ "search_limits": [
+  0.1,
+  10.0
+ ],
+ "search_points": 4096,
+ "routes": [
+  {
+   "route": "BGS1--native--postreconstruction",
+   "alpha_sn_full": 0.7068131868131868,
+   "alpha_sn_leave_one_out_min": 0.6995604395604396,
+   "alpha_sn_leave_one_out_max": 0.7164835164835165,
+   "max_relative_shift": 0.013681592039800978,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.0014318453574804213
+  },
+  {
+   "route": "BGS1--native--prereconstruction",
+   "alpha_sn_full": 0.6391208791208791,
+   "alpha_sn_leave_one_out_min": 0.6246153846153846,
+   "alpha_sn_leave_one_out_max": 0.6512087912087912,
+   "max_relative_shift": 0.022696011004126607,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.002111787121162556
+  },
+  {
+   "route": "BGS1--sigma_0.001--postreconstruction",
+   "alpha_sn_full": 0.8857142857142857,
+   "alpha_sn_leave_one_out_min": 0.8736263736263736,
+   "alpha_sn_leave_one_out_max": 0.8953846153846153,
+   "max_relative_shift": 0.013647642679900696,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.0018713570919303146
+  },
+  {
+   "route": "BGS1--sigma_0.001--prereconstruction",
+   "alpha_sn_full": 0.8131868131868132,
+   "alpha_sn_leave_one_out_min": 0.8059340659340659,
+   "alpha_sn_leave_one_out_max": 0.8228571428571428,
+   "max_relative_shift": 0.011891891891891876,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.0014664684984684317
+  },
+  {
+   "route": "BGS1--sigma_0.003--postreconstruction",
+   "alpha_sn_full": 1.2145054945054945,
+   "alpha_sn_leave_one_out_min": 1.204835164835165,
+   "alpha_sn_leave_one_out_max": 1.2193406593406595,
+   "max_relative_shift": 0.007962359753890598,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.00200185392149288
+  },
+  {
+   "route": "BGS1--sigma_0.003--prereconstruction",
+   "alpha_sn_full": 0.9679120879120879,
+   "alpha_sn_leave_one_out_min": 0.9558241758241758,
+   "alpha_sn_leave_one_out_max": 0.9727472527472527,
+   "max_relative_shift": 0.01248864668483204,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.0022908088401832893
+  },
+  {
+   "route": "BGS1--sigma_0.01--postreconstruction",
+   "alpha_sn_full": 1.0017582417582418,
+   "alpha_sn_leave_one_out_min": 0.9896703296703296,
+   "alpha_sn_leave_one_out_max": 1.0138461538461538,
+   "max_relative_shift": 0.012066695919262902,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.0044648207638913195
+  },
+  {
+   "route": "BGS1--sigma_0.01--prereconstruction",
+   "alpha_sn_full": 0.9848351648351649,
+   "alpha_sn_leave_one_out_min": 0.9751648351648351,
+   "alpha_sn_leave_one_out_max": 0.9945054945054945,
+   "max_relative_shift": 0.009819236777505121,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.0034902846793993803
+  },
+  {
+   "route": "BGS1--sigma_0.03--postreconstruction",
+   "alpha_sn_full": 1.0041758241758243,
+   "alpha_sn_leave_one_out_min": 0.9945054945054945,
+   "alpha_sn_leave_one_out_max": 1.0138461538461538,
+   "max_relative_shift": 0.009630115999124632,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.005788292979816534
+  },
+  {
+   "route": "BGS1--sigma_0.03--prereconstruction",
+   "alpha_sn_full": 0.9775824175824176,
+   "alpha_sn_leave_one_out_min": 0.9654945054945054,
+   "alpha_sn_leave_one_out_max": 0.9872527472527473,
+   "max_relative_shift": 0.012365107913669134,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.007104475537247579
+  },
+  {
+   "route": "BGS2--native--postreconstruction",
+   "alpha_sn_full": 0.7116483516483516,
+   "alpha_sn_leave_one_out_min": 0.6995604395604396,
+   "alpha_sn_leave_one_out_max": 0.7213186813186813,
+   "max_relative_shift": 0.016985793699814643,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.0015117178422938693
+  },
+  {
+   "route": "BGS2--native--prereconstruction",
+   "alpha_sn_full": 0.4771428571428572,
+   "alpha_sn_leave_one_out_min": 0.46263736263736266,
+   "alpha_sn_leave_one_out_max": 0.494065934065934,
+   "max_relative_shift": 0.035467526485490335,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.002132996320481695
+  },
+  {
+   "route": "BGS2--sigma_0.001--postreconstruction",
+   "alpha_sn_full": 0.8373626373626374,
+   "alpha_sn_leave_one_out_min": 0.8228571428571428,
+   "alpha_sn_leave_one_out_max": 0.847032967032967,
+   "max_relative_shift": 0.017322834645669336,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.0018904249259714678
+  },
+  {
+   "route": "BGS2--sigma_0.001--prereconstruction",
+   "alpha_sn_full": 0.7745054945054944,
+   "alpha_sn_leave_one_out_min": 0.76,
+   "alpha_sn_leave_one_out_max": 0.7817582417582417,
+   "max_relative_shift": 0.018728717366628737,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.001894741557093682
+  },
+  {
+   "route": "BGS2--sigma_0.003--postreconstruction",
+   "alpha_sn_full": 0.9268131868131868,
+   "alpha_sn_leave_one_out_min": 0.9123076923076923,
+   "alpha_sn_leave_one_out_max": 0.9364835164835165,
+   "max_relative_shift": 0.01565093668484709,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.0024893836301826955
+  },
+  {
+   "route": "BGS2--sigma_0.003--prereconstruction",
+   "alpha_sn_full": 0.9268131868131868,
+   "alpha_sn_leave_one_out_min": 0.9171428571428571,
+   "alpha_sn_leave_one_out_max": 0.9340659340659341,
+   "max_relative_shift": 0.01043395778989802,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.0015924201359915902
+  },
+  {
+   "route": "BGS2--sigma_0.01--postreconstruction",
+   "alpha_sn_full": 0.9437362637362637,
+   "alpha_sn_leave_one_out_min": 0.9268131868131868,
+   "alpha_sn_leave_one_out_max": 0.9534065934065934,
+   "max_relative_shift": 0.017931998136935266,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.005492784074032309
+  },
+  {
+   "route": "BGS2--sigma_0.01--prereconstruction",
+   "alpha_sn_full": 0.950989010989011,
+   "alpha_sn_leave_one_out_min": 0.9413186813186813,
+   "alpha_sn_leave_one_out_max": 0.9606593406593407,
+   "max_relative_shift": 0.010168708111855777,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.0031224795019226814
+  },
+  {
+   "route": "BGS2--sigma_0.03--postreconstruction",
+   "alpha_sn_full": 1.0114285714285716,
+   "alpha_sn_leave_one_out_min": 1.0041758241758243,
+   "alpha_sn_leave_one_out_max": 1.0186813186813186,
+   "max_relative_shift": 0.0071707953063885445,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.0038113935835641932
+  },
+  {
+   "route": "BGS2--sigma_0.03--prereconstruction",
+   "alpha_sn_full": 1.0863736263736263,
+   "alpha_sn_leave_one_out_min": 1.079120879120879,
+   "alpha_sn_leave_one_out_max": 1.0936263736263736,
+   "max_relative_shift": 0.006676107626947215,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.0036450551217550586
+  },
+  {
+   "route": "LRG1--native--postreconstruction",
+   "alpha_sn_full": 0.6463736263736264,
+   "alpha_sn_leave_one_out_min": 0.6367032967032967,
+   "alpha_sn_leave_one_out_max": 0.6608791208791208,
+   "max_relative_shift": 0.022441346480788733,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.0017392780106650907
+  },
+  {
+   "route": "LRG1--native--prereconstruction",
+   "alpha_sn_full": 0.5907692307692308,
+   "alpha_sn_leave_one_out_min": 0.5835164835164836,
+   "alpha_sn_leave_one_out_max": 0.598021978021978,
+   "max_relative_shift": 0.012276785714285745,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.0008634605968420583
+  },
+  {
+   "route": "LRG1--sigma_0.001--postreconstruction",
+   "alpha_sn_full": 0.9751648351648351,
+   "alpha_sn_leave_one_out_min": 0.9654945054945054,
+   "alpha_sn_leave_one_out_max": 0.9824175824175824,
+   "max_relative_shift": 0.009916610322289824,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.004805499186227302
+  },
+  {
+   "route": "LRG1--sigma_0.001--prereconstruction",
+   "alpha_sn_full": 0.9461538461538461,
+   "alpha_sn_leave_one_out_min": 0.9340659340659341,
+   "alpha_sn_leave_one_out_max": 0.9534065934065934,
+   "max_relative_shift": 0.012775842044134683,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.005806662645840621
+  },
+  {
+   "route": "LRG1--sigma_0.003--postreconstruction",
+   "alpha_sn_full": 0.9098901098901099,
+   "alpha_sn_leave_one_out_min": 0.9002197802197802,
+   "alpha_sn_leave_one_out_max": 0.9219780219780219,
+   "max_relative_shift": 0.013285024154589325,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.002160270346031057
+  },
+  {
+   "route": "LRG1--sigma_0.003--prereconstruction",
+   "alpha_sn_full": 0.8736263736263736,
+   "alpha_sn_leave_one_out_min": 0.8567032967032967,
+   "alpha_sn_leave_one_out_max": 0.8832967032967033,
+   "max_relative_shift": 0.019371069182389945,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.0028622518869244606
+  },
+  {
+   "route": "LRG1--sigma_0.01--postreconstruction",
+   "alpha_sn_full": 0.9872527472527473,
+   "alpha_sn_leave_one_out_min": 0.9751648351648351,
+   "alpha_sn_leave_one_out_max": 0.9969230769230769,
+   "max_relative_shift": 0.012243989314336668,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.0038831656503713896
+  },
+  {
+   "route": "LRG1--sigma_0.01--prereconstruction",
+   "alpha_sn_full": 1.0235164835164836,
+   "alpha_sn_leave_one_out_min": 1.0162637362637363,
+   "alpha_sn_leave_one_out_max": 1.0331868131868132,
+   "max_relative_shift": 0.009448142581060647,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.003065036346130201
+  },
+  {
+   "route": "LRG1--sigma_0.03--postreconstruction",
+   "alpha_sn_full": 0.9727472527472527,
+   "alpha_sn_leave_one_out_min": 0.9582417582417582,
+   "alpha_sn_leave_one_out_max": 0.98,
+   "max_relative_shift": 0.014911884319927739,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.007646307867415714
+  },
+  {
+   "route": "LRG1--sigma_0.03--prereconstruction",
+   "alpha_sn_full": 0.9775824175824176,
+   "alpha_sn_leave_one_out_min": 0.9703296703296703,
+   "alpha_sn_leave_one_out_max": 0.9848351648351649,
+   "max_relative_shift": 0.007419064748201458,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.003853561168221553
+  },
+  {
+   "route": "LRG2--native--postreconstruction",
+   "alpha_sn_full": 0.6101098901098901,
+   "alpha_sn_leave_one_out_min": 0.598021978021978,
+   "alpha_sn_leave_one_out_max": 0.6246153846153846,
+   "max_relative_shift": 0.02377521613832841,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.0017340964013563553
+  },
+  {
+   "route": "LRG2--native--prereconstruction",
+   "alpha_sn_full": 0.5327472527472528,
+   "alpha_sn_leave_one_out_min": 0.5206593406593407,
+   "alpha_sn_leave_one_out_max": 0.5448351648351648,
+   "max_relative_shift": 0.022689768976897607,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.0014293730805630123
+  },
+  {
+   "route": "LRG2--sigma_0.001--postreconstruction",
+   "alpha_sn_full": 1.0186813186813186,
+   "alpha_sn_leave_one_out_min": 1.0114285714285716,
+   "alpha_sn_leave_one_out_max": 1.0259340659340659,
+   "max_relative_shift": 0.007119741100323643,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.006632490783228029
+  },
+  {
+   "route": "LRG2--sigma_0.001--prereconstruction",
+   "alpha_sn_full": 0.9751648351648351,
+   "alpha_sn_leave_one_out_min": 0.9654945054945054,
+   "alpha_sn_leave_one_out_max": 0.9824175824175824,
+   "max_relative_shift": 0.009916610322289824,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.008989418177626995
+  },
+  {
+   "route": "LRG2--sigma_0.003--postreconstruction",
+   "alpha_sn_full": 0.9872527472527473,
+   "alpha_sn_leave_one_out_min": 0.9727472527472527,
+   "alpha_sn_leave_one_out_max": 0.9945054945054945,
+   "max_relative_shift": 0.014692787177203955,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.011307508104941855
+  },
+  {
+   "route": "LRG2--sigma_0.003--prereconstruction",
+   "alpha_sn_full": 0.9896703296703296,
+   "alpha_sn_leave_one_out_min": 0.9751648351648351,
+   "alpha_sn_leave_one_out_max": 0.9969230769230769,
+   "max_relative_shift": 0.014656895403064661,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.010845523414081959
+  },
+  {
+   "route": "LRG2--sigma_0.01--postreconstruction",
+   "alpha_sn_full": 0.963076923076923,
+   "alpha_sn_leave_one_out_min": 0.9534065934065934,
+   "alpha_sn_leave_one_out_max": 0.9727472527472527,
+   "max_relative_shift": 0.01004107713372888,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.0030845301486559507
+  },
+  {
+   "route": "LRG2--sigma_0.01--prereconstruction",
+   "alpha_sn_full": 0.9727472527472527,
+   "alpha_sn_leave_one_out_min": 0.963076923076923,
+   "alpha_sn_leave_one_out_max": 0.9824175824175824,
+   "max_relative_shift": 0.009941256213285121,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.003024988065712053
+  },
+  {
+   "route": "LRG2--sigma_0.03--postreconstruction",
+   "alpha_sn_full": 0.9848351648351649,
+   "alpha_sn_leave_one_out_min": 0.9606593406593407,
+   "alpha_sn_leave_one_out_max": 0.992087912087912,
+   "max_relative_shift": 0.024548091943762576,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.012738656060886644
+  },
+  {
+   "route": "LRG2--sigma_0.03--prereconstruction",
+   "alpha_sn_full": 0.9969230769230769,
+   "alpha_sn_leave_one_out_min": 0.9896703296703296,
+   "alpha_sn_leave_one_out_max": 1.0065934065934066,
+   "max_relative_shift": 0.00970017636684302,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.00507589085119764
+  },
+  {
+   "route": "LRG3--native--postreconstruction",
+   "alpha_sn_full": 0.5859340659340659,
+   "alpha_sn_leave_one_out_min": 0.5714285714285714,
+   "alpha_sn_leave_one_out_max": 0.5931868131868132,
+   "max_relative_shift": 0.02475618904726188,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.0020324583343194202
+  },
+  {
+   "route": "LRG3--native--prereconstruction",
+   "alpha_sn_full": 0.6415384615384615,
+   "alpha_sn_leave_one_out_min": 0.6318681318681318,
+   "alpha_sn_leave_one_out_max": 0.656043956043956,
+   "max_relative_shift": 0.022610483042137777,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.002008267472448644
+  },
+  {
+   "route": "LRG3--sigma_0.001--postreconstruction",
+   "alpha_sn_full": 1.0065934065934066,
+   "alpha_sn_leave_one_out_min": 0.9945054945054945,
+   "alpha_sn_leave_one_out_max": 1.0138461538461538,
+   "max_relative_shift": 0.012008733624454105,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.01154475730355875
+  },
+  {
+   "route": "LRG3--sigma_0.001--prereconstruction",
+   "alpha_sn_full": 0.992087912087912,
+   "alpha_sn_leave_one_out_min": 0.9824175824175824,
+   "alpha_sn_leave_one_out_max": 0.9993406593406593,
+   "max_relative_shift": 0.009747452370403179,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.009290278861728951
+  },
+  {
+   "route": "LRG3--sigma_0.003--postreconstruction",
+   "alpha_sn_full": 1.0283516483516484,
+   "alpha_sn_leave_one_out_min": 1.0162637362637363,
+   "alpha_sn_leave_one_out_max": 1.0331868131868132,
+   "max_relative_shift": 0.011754648429151486,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.010509079610060978
+  },
+  {
+   "route": "LRG3--sigma_0.003--prereconstruction",
+   "alpha_sn_full": 1.0356043956043957,
+   "alpha_sn_leave_one_out_min": 1.0138461538461538,
+   "alpha_sn_leave_one_out_max": 1.0452747252747252,
+   "max_relative_shift": 0.021010186757215672,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.018351040250656925
+  },
+  {
+   "route": "LRG3--sigma_0.01--postreconstruction",
+   "alpha_sn_full": 0.992087912087912,
+   "alpha_sn_leave_one_out_min": 0.9824175824175824,
+   "alpha_sn_leave_one_out_max": 0.9969230769230769,
+   "max_relative_shift": 0.009747452370403179,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.003640555792291389
+  },
+  {
+   "route": "LRG3--sigma_0.01--prereconstruction",
+   "alpha_sn_full": 0.9969230769230769,
+   "alpha_sn_leave_one_out_min": 0.9872527472527473,
+   "alpha_sn_leave_one_out_max": 1.0065934065934066,
+   "max_relative_shift": 0.00970017636684302,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.003552683242639354
+  },
+  {
+   "route": "LRG3--sigma_0.03--postreconstruction",
+   "alpha_sn_full": 1.0065934065934066,
+   "alpha_sn_leave_one_out_min": 0.9993406593406593,
+   "alpha_sn_leave_one_out_max": 1.0114285714285716,
+   "max_relative_shift": 0.007205240174672508,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.004331346383332213
+  },
+  {
+   "route": "LRG3--sigma_0.03--prereconstruction",
+   "alpha_sn_full": 1.0114285714285716,
+   "alpha_sn_leave_one_out_min": 1.0041758241758243,
+   "alpha_sn_leave_one_out_max": 1.0162637362637363,
+   "max_relative_shift": 0.0071707953063885445,
+   "full_on_search_boundary": false,
+   "leave_one_out_on_search_boundary": [],
+   "max_relative_change_sqrt_diag_covariance": 0.004288561065972085
+  }
+ ]
+}

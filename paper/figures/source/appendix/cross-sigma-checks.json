@@ -1,0 +1,4494 @@
+{
+ "source_runs": {
+  "self-R15": "unified-fit-v3--self--R15",
+  "self-R25": "unified-fit-v3--self--R25",
+  "cross-R15": "unified-fit-v3--sigma_0.003--R15",
+  "cross-R25": "unified-fit-v3--sigma_0.003--R25"
+ },
+ "mean_fits": [
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "BGS1",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "value": 1.0982341384308498,
+   "minos_bounds": [
+    0.950182479502864,
+    1.134147622992253
+   ],
+   "half_width": 0.09198257174469443,
+   "usable": true,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": false
+   }
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "BGS1",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "value": 1.1999998665731906,
+   "minos_bounds": [
+    0.8,
+    1.2
+   ],
+   "half_width": 0.19999999999999996,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": true,
+    "at_upper_limit": true
+   }
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "BGS1",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "value": 0.8000000004330579,
+   "minos_bounds": [
+    0.7999996189634525,
+    1.1999996189634525
+   ],
+   "half_width": 0.2,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": true,
+    "at_upper_limit": true
+   }
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "BGS1",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "value": 1.1999999974841085,
+   "minos_bounds": [
+    0.8000003789537138,
+    1.2000003789537137
+   ],
+   "half_width": 0.19999999999999996,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": true,
+    "at_upper_limit": true
+   }
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "BGS2",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "value": 1.021704022858775,
+   "minos_bounds": [
+    0.9566013974399117,
+    1.0702112186039028
+   ],
+   "half_width": 0.05680491058199555,
+   "usable": true,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": false
+   }
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "BGS2",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "value": 1.0662524743512343,
+   "minos_bounds": [
+    0.8568990979335687,
+    1.2
+   ],
+   "half_width": 0.17155045103321565,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": true
+   }
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "BGS2",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "value": 1.0517618821681827,
+   "minos_bounds": [
+    0.8975744241537074,
+    1.0804510402189225
+   ],
+   "half_width": 0.09143830803260755,
+   "usable": true,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": false
+   }
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "BGS2",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "value": 1.1999056446105782,
+   "minos_bounds": [
+    0.8,
+    1.2
+   ],
+   "half_width": 0.19999999999999996,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": true,
+    "at_upper_limit": true
+   }
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "LRG1",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "value": 0.9742703975305251,
+   "minos_bounds": [
+    0.927948506456781,
+    1.0336547481648228
+   ],
+   "half_width": 0.05285312085402094,
+   "usable": true,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": false
+   }
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "LRG1",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "value": 0.9261830142030267,
+   "minos_bounds": [
+    0.8,
+    1.1225036997024265
+   ],
+   "half_width": 0.1612518498512132,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": true,
+    "at_upper_limit": false
+   }
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "LRG1",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "value": 1.0612576754959457,
+   "minos_bounds": [
+    0.9165959958185317,
+    1.077200875238848
+   ],
+   "half_width": 0.08030243971015816,
+   "usable": true,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": false
+   }
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "LRG1",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "value": 1.1996591482593668,
+   "minos_bounds": [
+    0.8,
+    1.2
+   ],
+   "half_width": 0.19999999999999996,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": true,
+    "at_upper_limit": true
+   }
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "LRG2",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "value": 1.0202256607881257,
+   "minos_bounds": [
+    0.9546533594000803,
+    1.0693102869497784
+   ],
+   "half_width": 0.057328463774849014,
+   "usable": true,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": false
+   }
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "LRG2",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "value": 1.060661836288335,
+   "minos_bounds": [
+    0.8665531415499141,
+    1.2
+   ],
+   "half_width": 0.1667234292250429,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": true
+   }
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "LRG2",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "value": 0.9179045482755745,
+   "minos_bounds": [
+    0.902208155564592,
+    1.0603830778293293
+   ],
+   "half_width": 0.07908746113236864,
+   "usable": true,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": false
+   }
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "LRG2",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "value": 0.800003172032429,
+   "minos_bounds": [
+    0.8,
+    1.2
+   ],
+   "half_width": 0.19999999999999996,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": true,
+    "at_upper_limit": true
+   }
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "LRG3",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "value": 0.9797042659926691,
+   "minos_bounds": [
+    0.9312339200693884,
+    1.0729639378816378
+   ],
+   "half_width": 0.07086500890612468,
+   "usable": true,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": false
+   }
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "LRG3",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "value": 0.9058927959416728,
+   "minos_bounds": [
+    0.8,
+    1.2
+   ],
+   "half_width": 0.19999999999999996,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": true,
+    "at_upper_limit": true
+   }
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "LRG3",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "value": 1.0314547899307578,
+   "minos_bounds": [
+    0.9259042218827932,
+    1.0908732594689816
+   ],
+   "half_width": 0.08248451879309421,
+   "usable": true,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": false
+   }
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "LRG3",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "value": 1.0606464078549558,
+   "minos_bounds": [
+    0.8,
+    1.2
+   ],
+   "half_width": 0.19999999999999996,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": true,
+    "at_upper_limit": true
+   }
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "BGS1",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "value": 1.0076800509837833,
+   "minos_bounds": [
+    0.9474455466709821,
+    1.2
+   ],
+   "half_width": 0.1262772266645089,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": true
+   }
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "BGS1",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "value": 0.8000014053206451,
+   "minos_bounds": [
+    0.8,
+    1.2
+   ],
+   "half_width": 0.19999999999999996,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": true,
+    "at_upper_limit": true
+   }
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "BGS1",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "value": 1.127567599586316,
+   "minos_bounds": [
+    0.8,
+    1.2
+   ],
+   "half_width": 0.19999999999999996,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": true,
+    "at_upper_limit": true
+   }
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "BGS1",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "value": 0.9243332403168398,
+   "minos_bounds": [
+    0.8,
+    1.2
+   ],
+   "half_width": 0.19999999999999996,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": true,
+    "at_upper_limit": true
+   }
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "BGS2",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "value": 1.0137273293828724,
+   "minos_bounds": [
+    0.9419396918890733,
+    1.0658729957632973
+   ],
+   "half_width": 0.06196665193711198,
+   "usable": true,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": false
+   }
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "BGS2",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "value": 1.0537948042283505,
+   "minos_bounds": [
+    0.825410480610479,
+    1.2
+   ],
+   "half_width": 0.1872947596947605,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": true
+   }
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "BGS2",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "value": 1.0578640279849751,
+   "minos_bounds": [
+    0.9060131775732424,
+    1.0832862871078746
+   ],
+   "half_width": 0.08863655476731608,
+   "usable": true,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": false
+   }
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "BGS2",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "value": 1.1992269973075222,
+   "minos_bounds": [
+    0.8,
+    1.2
+   ],
+   "half_width": 0.19999999999999996,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": true,
+    "at_upper_limit": true
+   }
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "LRG1",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "value": 0.9667708743483452,
+   "minos_bounds": [
+    0.9267127367431172,
+    1.0269450656760029
+   ],
+   "half_width": 0.05011616446644285,
+   "usable": true,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": false
+   }
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "LRG1",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "value": 0.9029859104271105,
+   "minos_bounds": [
+    0.8,
+    1.1001824286239772
+   ],
+   "half_width": 0.15009121431198857,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": true,
+    "at_upper_limit": false
+   }
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "LRG1",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "value": 1.0594093749519995,
+   "minos_bounds": [
+    0.9156407756360745,
+    1.0761306632376246
+   ],
+   "half_width": 0.08024494380077507,
+   "usable": true,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": false
+   }
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "LRG1",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "value": 1.1963563257797392,
+   "minos_bounds": [
+    0.8,
+    1.2
+   ],
+   "half_width": 0.19999999999999996,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": true,
+    "at_upper_limit": true
+   }
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "LRG2",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "value": 1.0306981963390156,
+   "minos_bounds": [
+    0.9557136563712758,
+    1.0710579834495337
+   ],
+   "half_width": 0.05767216353912896,
+   "usable": true,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": false
+   }
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "LRG2",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "value": 1.0927867563388791,
+   "minos_bounds": [
+    0.8664100649252923,
+    1.2
+   ],
+   "half_width": 0.16679496753735384,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": true
+   }
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "LRG2",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "value": 0.9208669090438368,
+   "minos_bounds": [
+    0.9055401032819348,
+    1.0626780169316412
+   ],
+   "half_width": 0.07856895682485321,
+   "usable": true,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": false
+   }
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "LRG2",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "value": 0.800001214160333,
+   "minos_bounds": [
+    0.8,
+    1.2
+   ],
+   "half_width": 0.19999999999999996,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": true,
+    "at_upper_limit": true
+   }
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "LRG3",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "value": 1.0469774741859261,
+   "minos_bounds": [
+    0.952298630605906,
+    1.078272955913516
+   ],
+   "half_width": 0.062987162653805,
+   "usable": true,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": false
+   }
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "LRG3",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "value": 1.1522989567212487,
+   "minos_bounds": [
+    0.8516803371159287,
+    1.2
+   ],
+   "half_width": 0.17415983144203562,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": true
+   }
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "LRG3",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "value": 0.9395797841031089,
+   "minos_bounds": [
+    0.9243563230068382,
+    1.0899417310697055
+   ],
+   "half_width": 0.08279270403143363,
+   "usable": true,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": false
+   }
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "LRG3",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "value": 0.8000416433890943,
+   "minos_bounds": [
+    0.8,
+    1.2
+   ],
+   "half_width": 0.19999999999999996,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": true,
+    "at_upper_limit": true
+   }
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "BGS1",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "value": 0.97448721432355,
+   "minos_bounds": [
+    0.9143382651807288,
+    1.1480023030102509
+   ],
+   "half_width": 0.11683201891476103,
+   "usable": true,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": false
+   }
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "BGS1",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "value": 0.8000008396310915,
+   "minos_bounds": [
+    0.8,
+    1.2
+   ],
+   "half_width": 0.19999999999999996,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": true,
+    "at_upper_limit": true
+   }
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "BGS1",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "value": 0.8000000000867163,
+   "minos_bounds": [
+    0.799999618617111,
+    1.199999618617111
+   ],
+   "half_width": 0.19999999999999996,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": true,
+    "at_upper_limit": true
+   }
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "BGS1",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "value": 1.1999999998205229,
+   "minos_bounds": [
+    0.8000003812901282,
+    1.200000381290128
+   ],
+   "half_width": 0.19999999999999996,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": true,
+    "at_upper_limit": true
+   }
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "BGS2",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "value": 1.033170531011738,
+   "minos_bounds": [
+    0.972983299701235,
+    1.0675072242319885
+   ],
+   "half_width": 0.04726196226537677,
+   "usable": true,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": false
+   }
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "BGS2",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "value": 1.1188351044844105,
+   "minos_bounds": [
+    0.9169104299135934,
+    1.2
+   ],
+   "half_width": 0.14154478504320328,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": true
+   }
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "BGS2",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "value": 1.0714328756717135,
+   "minos_bounds": [
+    0.9165953391716788,
+    1.1029889259067165
+   ],
+   "half_width": 0.09319679336751885,
+   "usable": true,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": false
+   }
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "BGS2",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "value": 1.192236933951827,
+   "minos_bounds": [
+    0.8,
+    1.2
+   ],
+   "half_width": 0.19999999999999996,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": true,
+    "at_upper_limit": true
+   }
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "LRG1",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "value": 1.0469266210793307,
+   "minos_bounds": [
+    1.0142048102477315,
+    1.055945968856888
+   ],
+   "half_width": 0.02087057930457825,
+   "usable": true,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": false
+   }
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "LRG1",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "value": 1.199999911942419,
+   "minos_bounds": [
+    1.0847390043758136,
+    1.2
+   ],
+   "half_width": 0.05763049781209317,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": true
+   }
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "LRG1",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "value": 1.0541157099192218,
+   "minos_bounds": [
+    0.9112903210547187,
+    1.0692158883320353
+   ],
+   "half_width": 0.07896278363865827,
+   "usable": true,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": false
+   }
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "LRG1",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "value": 1.1996687883777515,
+   "minos_bounds": [
+    0.8,
+    1.2
+   ],
+   "half_width": 0.19999999999999996,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": true,
+    "at_upper_limit": true
+   }
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "LRG2",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "value": 0.9123614190021742,
+   "minos_bounds": [
+    0.8666959769949115,
+    0.9911823049548173
+   ],
+   "half_width": 0.06224316397995289,
+   "usable": true,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": false
+   }
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "LRG2",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "value": 0.8569792331473783,
+   "minos_bounds": [
+    0.8,
+    1.0997176437498024
+   ],
+   "half_width": 0.14985882187490118,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": true,
+    "at_upper_limit": false
+   }
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "LRG2",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "value": 0.9494231727159538,
+   "minos_bounds": [
+    0.9354589910568563,
+    1.0933464312876193
+   ],
+   "half_width": 0.07894372011538153,
+   "usable": true,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": false
+   }
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "LRG2",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "value": 0.8000026853580838,
+   "minos_bounds": [
+    0.8,
+    1.2
+   ],
+   "half_width": 0.19999999999999996,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": true,
+    "at_upper_limit": true
+   }
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "LRG3",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "value": 0.9814034167265736,
+   "minos_bounds": [
+    0.9360964646709757,
+    1.0831358373277669
+   ],
+   "half_width": 0.07351968632839556,
+   "usable": true,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": false
+   }
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "LRG3",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "value": 0.8860490308886799,
+   "minos_bounds": [
+    0.8,
+    1.2
+   ],
+   "half_width": 0.19999999999999996,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": true,
+    "at_upper_limit": true
+   }
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "LRG3",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "value": 0.9711547438795989,
+   "minos_bounds": [
+    0.9497490543238842,
+    1.1288432380920659
+   ],
+   "half_width": 0.08954709188409082,
+   "usable": true,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": false
+   }
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "LRG3",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "value": 0.8000125302553026,
+   "minos_bounds": [
+    0.8,
+    1.2
+   ],
+   "half_width": 0.19999999999999996,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": true,
+    "at_upper_limit": true
+   }
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "BGS1",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "value": 1.0030364225300836,
+   "minos_bounds": [
+    0.9336240744999345,
+    1.1545046346657617
+   ],
+   "half_width": 0.11044028008291362,
+   "usable": true,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": false
+   }
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "BGS1",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "value": 0.8630772269279443,
+   "minos_bounds": [
+    0.8,
+    1.2
+   ],
+   "half_width": 0.19999999999999996,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": true,
+    "at_upper_limit": true
+   }
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "BGS1",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "value": 1.1999999999984436,
+   "minos_bounds": [
+    0.800000381468049,
+    1.2000003814680489
+   ],
+   "half_width": 0.19999999999999996,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": true,
+    "at_upper_limit": true
+   }
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "BGS1",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "value": 0.8000000169879806,
+   "minos_bounds": [
+    0.8,
+    1.1337754505000293
+   ],
+   "half_width": 0.1668877252500146,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": true,
+    "at_upper_limit": false
+   }
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "BGS2",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "value": 1.0012750952302558,
+   "minos_bounds": [
+    0.9384039642031555,
+    1.0397244644918644
+   ],
+   "half_width": 0.050660250144354435,
+   "usable": true,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": false
+   }
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "BGS2",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "value": 1.0260051801927943,
+   "minos_bounds": [
+    0.8249314863634846,
+    1.2
+   ],
+   "half_width": 0.1875342568182577,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": true
+   }
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "BGS2",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "value": 0.9268112561408346,
+   "minos_bounds": [
+    0.9058300691160068,
+    1.0820801770488668
+   ],
+   "half_width": 0.08812505396643,
+   "usable": true,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": false
+   }
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "BGS2",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "value": 0.8005924205778142,
+   "minos_bounds": [
+    0.8,
+    1.2
+   ],
+   "half_width": 0.19999999999999996,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": true,
+    "at_upper_limit": true
+   }
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "LRG1",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "value": 1.0002739220663677,
+   "minos_bounds": [
+    0.9427596528621751,
+    1.0541025016223529
+   ],
+   "half_width": 0.055671424380088874,
+   "usable": true,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": false
+   }
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "LRG1",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "value": 1.032500367863852,
+   "minos_bounds": [
+    0.8494087999685154,
+    1.2
+   ],
+   "half_width": 0.1752956000157423,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": true
+   }
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "LRG1",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "value": 1.0575355607128514,
+   "minos_bounds": [
+    0.9143966580269851,
+    1.0724243847045791
+   ],
+   "half_width": 0.07901386333879701,
+   "usable": true,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": false
+   }
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "LRG1",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "value": 1.1995788450968106,
+   "minos_bounds": [
+    0.8,
+    1.2
+   ],
+   "half_width": 0.19999999999999996,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": true,
+    "at_upper_limit": true
+   }
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "LRG2",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "value": 0.9459352317652295,
+   "minos_bounds": [
+    0.9307225968233148,
+    0.995002956333162
+   ],
+   "half_width": 0.032140179754923615,
+   "usable": true,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": false
+   }
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "LRG2",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "value": 0.8000107310565815,
+   "minos_bounds": [
+    0.8,
+    0.9413599907342092
+   ],
+   "half_width": 0.07067999536710456,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": true,
+    "at_upper_limit": false
+   }
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "LRG2",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "value": 0.9492606460915987,
+   "minos_bounds": [
+    0.9389463067632285,
+    1.0901838183130372
+   ],
+   "half_width": 0.07561875577490434,
+   "usable": true,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": false
+   }
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "LRG2",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "value": 0.800000113748216,
+   "minos_bounds": [
+    0.8,
+    1.2
+   ],
+   "half_width": 0.19999999999999996,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": true,
+    "at_upper_limit": true
+   }
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "LRG3",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "value": 0.9455912744951891,
+   "minos_bounds": [
+    0.9259504117249309,
+    1.019161385836348
+   ],
+   "half_width": 0.04660548705570855,
+   "usable": true,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": false
+   }
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "LRG3",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "value": 0.8081180103109169,
+   "minos_bounds": [
+    0.8,
+    1.0328526421830846
+   ],
+   "half_width": 0.11642632109154227,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": true,
+    "at_upper_limit": false
+   }
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "LRG3",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "value": 0.9399053531173456,
+   "minos_bounds": [
+    0.921007288128008,
+    1.0926815691674436
+   ],
+   "half_width": 0.0858371405197178,
+   "usable": true,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": false,
+    "at_upper_limit": false
+   }
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "LRG3",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "value": 0.8000268871559197,
+   "minos_bounds": [
+    0.8,
+    1.2
+   ],
+   "half_width": 0.19999999999999996,
+   "usable": false,
+   "flags": {
+    "is_valid": true,
+    "lower_valid": true,
+    "upper_valid": true,
+    "at_lower_limit": true,
+    "at_upper_limit": true
+   }
+  }
+ ],
+ "paired": [
+  {
+   "radius": 15,
+   "bin": "BGS1",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "pairs": 25,
+   "mean_cross_minus_self": -0.031950495345303594,
+   "standard_error": 0.012838984853360682,
+   "scatter": 0.06419492426680341
+  },
+  {
+   "radius": 15,
+   "bin": "BGS1",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "pairs": 25,
+   "mean_cross_minus_self": -0.05071981334077472,
+   "standard_error": 0.03355024697518568,
+   "scatter": 0.1677512348759284
+  },
+  {
+   "radius": 15,
+   "bin": "BGS1",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "pairs": 25,
+   "mean_cross_minus_self": -0.025521979006133996,
+   "standard_error": 0.03302330772743649,
+   "scatter": 0.16511653863718243
+  },
+  {
+   "radius": 15,
+   "bin": "BGS1",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "pairs": 25,
+   "mean_cross_minus_self": 0.07340955291920243,
+   "standard_error": 0.0414589333620035,
+   "scatter": 0.2072946668100175
+  },
+  {
+   "radius": 15,
+   "bin": "BGS2",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "pairs": 25,
+   "mean_cross_minus_self": -0.009467313672529051,
+   "standard_error": 0.01716059327244176,
+   "scatter": 0.08580296636220879
+  },
+  {
+   "radius": 15,
+   "bin": "BGS2",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "pairs": 25,
+   "mean_cross_minus_self": 0.026636818251145212,
+   "standard_error": 0.025558899833706183,
+   "scatter": 0.12779449916853092
+  },
+  {
+   "radius": 15,
+   "bin": "BGS2",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "pairs": 25,
+   "mean_cross_minus_self": -0.0012631364337281604,
+   "standard_error": 0.019721135960770797,
+   "scatter": 0.09860567980385399
+  },
+  {
+   "radius": 15,
+   "bin": "BGS2",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "pairs": 25,
+   "mean_cross_minus_self": -0.04879880510341849,
+   "standard_error": 0.04975361560053624,
+   "scatter": 0.2487680780026812
+  },
+  {
+   "radius": 15,
+   "bin": "LRG1",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "pairs": 25,
+   "mean_cross_minus_self": 0.01241025620399011,
+   "standard_error": 0.015905978570720958,
+   "scatter": 0.07952989285360479
+  },
+  {
+   "radius": 15,
+   "bin": "LRG1",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "pairs": 25,
+   "mean_cross_minus_self": 0.04721510788194084,
+   "standard_error": 0.04809446806649329,
+   "scatter": 0.24047234033246645
+  },
+  {
+   "radius": 15,
+   "bin": "LRG1",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "pairs": 25,
+   "mean_cross_minus_self": -0.06299903215986392,
+   "standard_error": 0.022923152398340727,
+   "scatter": 0.11461576199170363
+  },
+  {
+   "radius": 15,
+   "bin": "LRG1",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "pairs": 25,
+   "mean_cross_minus_self": -0.05195408113773925,
+   "standard_error": 0.04613202101014476,
+   "scatter": 0.23066010505072382
+  },
+  {
+   "radius": 15,
+   "bin": "LRG2",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "pairs": 25,
+   "mean_cross_minus_self": -0.041084489951298424,
+   "standard_error": 0.023540535949198364,
+   "scatter": 0.11770267974599181
+  },
+  {
+   "radius": 15,
+   "bin": "LRG2",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "pairs": 25,
+   "mean_cross_minus_self": -0.07919374382946849,
+   "standard_error": 0.03494859929769968,
+   "scatter": 0.17474299648849842
+  },
+  {
+   "radius": 15,
+   "bin": "LRG2",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "pairs": 25,
+   "mean_cross_minus_self": -0.003127512151489671,
+   "standard_error": 0.020848272330235555,
+   "scatter": 0.10424136165117778
+  },
+  {
+   "radius": 15,
+   "bin": "LRG2",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "pairs": 25,
+   "mean_cross_minus_self": -0.04298516927818803,
+   "standard_error": 0.050467171730754025,
+   "scatter": 0.2523358586537701
+  },
+  {
+   "radius": 15,
+   "bin": "LRG3",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "pairs": 25,
+   "mean_cross_minus_self": 0.019243743837949672,
+   "standard_error": 0.012681399721359895,
+   "scatter": 0.06340699860679948
+  },
+  {
+   "radius": 15,
+   "bin": "LRG3",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "pairs": 25,
+   "mean_cross_minus_self": -0.04194719944116665,
+   "standard_error": 0.03809737401035905,
+   "scatter": 0.19048687005179524
+  },
+  {
+   "radius": 15,
+   "bin": "LRG3",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "pairs": 25,
+   "mean_cross_minus_self": 0.007665638361773684,
+   "standard_error": 0.02986014812404968,
+   "scatter": 0.1493007406202484
+  },
+  {
+   "radius": 15,
+   "bin": "LRG3",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "pairs": 25,
+   "mean_cross_minus_self": -0.01621811196839156,
+   "standard_error": 0.052079223870715355,
+   "scatter": 0.26039611935357676
+  },
+  {
+   "radius": 25,
+   "bin": "BGS1",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "pairs": 25,
+   "mean_cross_minus_self": 0.00965648541061217,
+   "standard_error": 0.02045910200815006,
+   "scatter": 0.1022955100407503
+  },
+  {
+   "radius": 25,
+   "bin": "BGS1",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "pairs": 25,
+   "mean_cross_minus_self": -0.05838834281775879,
+   "standard_error": 0.03936203495068488,
+   "scatter": 0.1968101747534244
+  },
+  {
+   "radius": 25,
+   "bin": "BGS1",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "pairs": 25,
+   "mean_cross_minus_self": -0.03912021256713333,
+   "standard_error": 0.024798957421283394,
+   "scatter": 0.12399478710641697
+  },
+  {
+   "radius": 25,
+   "bin": "BGS1",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "pairs": 25,
+   "mean_cross_minus_self": -0.049116435327392474,
+   "standard_error": 0.03619826650148217,
+   "scatter": 0.18099133250741084
+  },
+  {
+   "radius": 25,
+   "bin": "BGS2",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "pairs": 25,
+   "mean_cross_minus_self": 0.0017018621533584977,
+   "standard_error": 0.011020209150366665,
+   "scatter": 0.055101045751833326
+  },
+  {
+   "radius": 25,
+   "bin": "BGS2",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "pairs": 25,
+   "mean_cross_minus_self": 0.00370499016158238,
+   "standard_error": 0.028455363536084015,
+   "scatter": 0.14227681768042008
+  },
+  {
+   "radius": 25,
+   "bin": "BGS2",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "pairs": 25,
+   "mean_cross_minus_self": -0.0029931002134056593,
+   "standard_error": 0.016614486509825385,
+   "scatter": 0.08307243254912693
+  },
+  {
+   "radius": 25,
+   "bin": "BGS2",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "pairs": 25,
+   "mean_cross_minus_self": -0.01775281276096355,
+   "standard_error": 0.034340385594777936,
+   "scatter": 0.17170192797388967
+  },
+  {
+   "radius": 25,
+   "bin": "LRG1",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "pairs": 25,
+   "mean_cross_minus_self": -0.014369874169544215,
+   "standard_error": 0.014237851376953737,
+   "scatter": 0.07118925688476868
+  },
+  {
+   "radius": 25,
+   "bin": "LRG1",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "pairs": 25,
+   "mean_cross_minus_self": 0.015252919467520614,
+   "standard_error": 0.03587106635376752,
+   "scatter": 0.1793553317688376
+  },
+  {
+   "radius": 25,
+   "bin": "LRG1",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "pairs": 25,
+   "mean_cross_minus_self": -0.023034286134627543,
+   "standard_error": 0.023772922409188525,
+   "scatter": 0.11886461204594262
+  },
+  {
+   "radius": 25,
+   "bin": "LRG1",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "pairs": 25,
+   "mean_cross_minus_self": -0.030550035431157103,
+   "standard_error": 0.03735431623658965,
+   "scatter": 0.18677158118294823
+  },
+  {
+   "radius": 25,
+   "bin": "LRG2",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "pairs": 25,
+   "mean_cross_minus_self": -0.0031728815935261868,
+   "standard_error": 0.017247846418421697,
+   "scatter": 0.08623923209210849
+  },
+  {
+   "radius": 25,
+   "bin": "LRG2",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "pairs": 25,
+   "mean_cross_minus_self": -0.05467354819301762,
+   "standard_error": 0.04260243169439511,
+   "scatter": 0.21301215847197555
+  },
+  {
+   "radius": 25,
+   "bin": "LRG2",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "pairs": 25,
+   "mean_cross_minus_self": 0.0136441602043321,
+   "standard_error": 0.01785238569563184,
+   "scatter": 0.0892619284781592
+  },
+  {
+   "radius": 25,
+   "bin": "LRG2",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "pairs": 25,
+   "mean_cross_minus_self": 0.003398459241954064,
+   "standard_error": 0.038271641021456394,
+   "scatter": 0.19135820510728196
+  },
+  {
+   "radius": 25,
+   "bin": "LRG3",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "pairs": 25,
+   "mean_cross_minus_self": 0.010245502029088449,
+   "standard_error": 0.01619852341129181,
+   "scatter": 0.08099261705645905
+  },
+  {
+   "radius": 25,
+   "bin": "LRG3",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "pairs": 25,
+   "mean_cross_minus_self": 0.02140310903259592,
+   "standard_error": 0.03896340418669795,
+   "scatter": 0.19481702093348974
+  },
+  {
+   "radius": 25,
+   "bin": "LRG3",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "pairs": 25,
+   "mean_cross_minus_self": 0.023876436451951543,
+   "standard_error": 0.016666263198584653,
+   "scatter": 0.08333131599292326
+  },
+  {
+   "radius": 25,
+   "bin": "LRG3",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "pairs": 25,
+   "mean_cross_minus_self": 0.054831598230056934,
+   "standard_error": 0.03410652845402854,
+   "scatter": 0.1705326422701427
+  }
+ ],
+ "coverage": [
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "BGS1",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "subset": "all_finite",
+   "numerator": 23,
+   "denominator": 25,
+   "fraction": 0.92,
+   "wilson68": [
+    0.8487359395151884,
+    0.9592998927555202
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "BGS1",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "subset": "valid_non_boundary",
+   "numerator": 7,
+   "denominator": 7,
+   "fraction": 1.0,
+   "wilson68": [
+    0.8762106513329578,
+    1.0
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "BGS1",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "subset": "all_finite",
+   "numerator": 23,
+   "denominator": 25,
+   "fraction": 0.92,
+   "wilson68": [
+    0.8487359395151884,
+    0.9592998927555202
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "BGS1",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "subset": "valid_non_boundary",
+   "numerator": 0,
+   "denominator": 0,
+   "fraction": null,
+   "wilson68": [
+    null,
+    null
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "BGS1",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "subset": "all_finite",
+   "numerator": 21,
+   "denominator": 25,
+   "fraction": 0.84,
+   "wilson68": [
+    0.7543871233860902,
+    0.8997371217854357
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "BGS1",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "subset": "valid_non_boundary",
+   "numerator": 4,
+   "denominator": 4,
+   "fraction": 1.0,
+   "wilson68": [
+    0.8017724813947014,
+    1.0
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "BGS1",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "subset": "all_finite",
+   "numerator": 24,
+   "denominator": 25,
+   "fraction": 0.96,
+   "wilson68": [
+    0.9004527913504113,
+    0.9845388344698885
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "BGS1",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "subset": "valid_non_boundary",
+   "numerator": 0,
+   "denominator": 0,
+   "fraction": null,
+   "wilson68": [
+    null,
+    null
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "BGS2",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "subset": "all_finite",
+   "numerator": 23,
+   "denominator": 25,
+   "fraction": 0.92,
+   "wilson68": [
+    0.8487359395151884,
+    0.9592998927555202
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "BGS2",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "subset": "valid_non_boundary",
+   "numerator": 16,
+   "denominator": 16,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9417888282504032,
+    1.0
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "BGS2",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "subset": "all_finite",
+   "numerator": 24,
+   "denominator": 25,
+   "fraction": 0.96,
+   "wilson68": [
+    0.9004527913504113,
+    0.9845388344698885
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "BGS2",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "subset": "valid_non_boundary",
+   "numerator": 0,
+   "denominator": 0,
+   "fraction": null,
+   "wilson68": [
+    null,
+    null
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "BGS2",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "subset": "all_finite",
+   "numerator": 21,
+   "denominator": 25,
+   "fraction": 0.84,
+   "wilson68": [
+    0.7543871233860902,
+    0.8997371217854357
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "BGS2",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "subset": "valid_non_boundary",
+   "numerator": 5,
+   "denominator": 5,
+   "fraction": 1.0,
+   "wilson68": [
+    0.8348713777061572,
+    1.0
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "BGS2",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "subset": "all_finite",
+   "numerator": 23,
+   "denominator": 25,
+   "fraction": 0.92,
+   "wilson68": [
+    0.8487359395151884,
+    0.9592998927555202
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "BGS2",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "subset": "valid_non_boundary",
+   "numerator": 0,
+   "denominator": 0,
+   "fraction": null,
+   "wilson68": [
+    null,
+    null
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "LRG1",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "subset": "all_finite",
+   "numerator": 23,
+   "denominator": 25,
+   "fraction": 0.92,
+   "wilson68": [
+    0.8487359395151884,
+    0.9592998927555202
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "LRG1",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "subset": "valid_non_boundary",
+   "numerator": 22,
+   "denominator": 24,
+   "fraction": 0.9166666666666666,
+   "wilson68": [
+    0.8427745928918025,
+    0.9575792761608259
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "LRG1",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "subset": "all_finite",
+   "numerator": 24,
+   "denominator": 25,
+   "fraction": 0.96,
+   "wilson68": [
+    0.9004527913504113,
+    0.9845388344698885
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "LRG1",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "subset": "valid_non_boundary",
+   "numerator": 0,
+   "denominator": 0,
+   "fraction": null,
+   "wilson68": [
+    null,
+    null
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "LRG1",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "subset": "all_finite",
+   "numerator": 24,
+   "denominator": 25,
+   "fraction": 0.96,
+   "wilson68": [
+    0.9004527913504113,
+    0.9845388344698885
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "LRG1",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "subset": "valid_non_boundary",
+   "numerator": 15,
+   "denominator": 15,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9381481148477391,
+    1.0
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "LRG1",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "subset": "all_finite",
+   "numerator": 24,
+   "denominator": 25,
+   "fraction": 0.96,
+   "wilson68": [
+    0.9004527913504113,
+    0.9845388344698885
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "LRG1",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "subset": "valid_non_boundary",
+   "numerator": 0,
+   "denominator": 0,
+   "fraction": null,
+   "wilson68": [
+    null,
+    null
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "LRG2",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "subset": "all_finite",
+   "numerator": 24,
+   "denominator": 25,
+   "fraction": 0.96,
+   "wilson68": [
+    0.9004527913504113,
+    0.9845388344698885
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "LRG2",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "subset": "valid_non_boundary",
+   "numerator": 22,
+   "denominator": 22,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9569816528010621,
+    1.0
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "LRG2",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "subset": "all_finite",
+   "numerator": 25,
+   "denominator": 25,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9619474193698911,
+    1.0
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "LRG2",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "subset": "valid_non_boundary",
+   "numerator": 0,
+   "denominator": 0,
+   "fraction": null,
+   "wilson68": [
+    null,
+    null
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "LRG2",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "subset": "all_finite",
+   "numerator": 25,
+   "denominator": 25,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9619474193698911,
+    1.0
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "LRG2",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "subset": "valid_non_boundary",
+   "numerator": 15,
+   "denominator": 15,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9381481148477391,
+    1.0
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "LRG2",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "subset": "all_finite",
+   "numerator": 25,
+   "denominator": 25,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9619474193698911,
+    1.0
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "LRG2",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "subset": "valid_non_boundary",
+   "numerator": 0,
+   "denominator": 0,
+   "fraction": null,
+   "wilson68": [
+    null,
+    null
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "LRG3",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "subset": "all_finite",
+   "numerator": 23,
+   "denominator": 25,
+   "fraction": 0.92,
+   "wilson68": [
+    0.8487359395151884,
+    0.9592998927555202
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "LRG3",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "subset": "valid_non_boundary",
+   "numerator": 19,
+   "denominator": 19,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9505253324684023,
+    1.0
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "LRG3",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "subset": "all_finite",
+   "numerator": 25,
+   "denominator": 25,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9619474193698911,
+    1.0
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "LRG3",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "subset": "valid_non_boundary",
+   "numerator": 0,
+   "denominator": 0,
+   "fraction": null,
+   "wilson68": [
+    null,
+    null
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "LRG3",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "subset": "all_finite",
+   "numerator": 22,
+   "denominator": 25,
+   "fraction": 0.88,
+   "wilson68": [
+    0.8005212255034553,
+    0.9305588132176621
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "LRG3",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "subset": "valid_non_boundary",
+   "numerator": 16,
+   "denominator": 16,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9417888282504032,
+    1.0
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "LRG3",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "subset": "all_finite",
+   "numerator": 25,
+   "denominator": 25,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9619474193698911,
+    1.0
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 15,
+   "bin": "LRG3",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "subset": "valid_non_boundary",
+   "numerator": 0,
+   "denominator": 0,
+   "fraction": null,
+   "wilson68": [
+    null,
+    null
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "BGS1",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "subset": "all_finite",
+   "numerator": 20,
+   "denominator": 23,
+   "fraction": 0.8695652173913043,
+   "wilson68": [
+    0.7842732394210783,
+    0.9243864765495993
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "BGS1",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "subset": "valid_non_boundary",
+   "numerator": 4,
+   "denominator": 4,
+   "fraction": 1.0,
+   "wilson68": [
+    0.8017724813947014,
+    1.0
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "BGS1",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "subset": "all_finite",
+   "numerator": 23,
+   "denominator": 23,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9587749098426813,
+    1.0
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "BGS1",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "subset": "valid_non_boundary",
+   "numerator": 0,
+   "denominator": 0,
+   "fraction": null,
+   "wilson68": [
+    null,
+    null
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "BGS1",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "subset": "all_finite",
+   "numerator": 22,
+   "denominator": 25,
+   "fraction": 0.88,
+   "wilson68": [
+    0.8005212255034553,
+    0.9305588132176621
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "BGS1",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "subset": "valid_non_boundary",
+   "numerator": 4,
+   "denominator": 4,
+   "fraction": 1.0,
+   "wilson68": [
+    0.8017724813947014,
+    1.0
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "BGS1",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "subset": "all_finite",
+   "numerator": 24,
+   "denominator": 25,
+   "fraction": 0.96,
+   "wilson68": [
+    0.9004527913504113,
+    0.9845388344698885
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "BGS1",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "subset": "valid_non_boundary",
+   "numerator": 0,
+   "denominator": 0,
+   "fraction": null,
+   "wilson68": [
+    null,
+    null
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "BGS2",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "subset": "all_finite",
+   "numerator": 23,
+   "denominator": 25,
+   "fraction": 0.92,
+   "wilson68": [
+    0.8487359395151884,
+    0.9592998927555202
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "BGS2",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "subset": "valid_non_boundary",
+   "numerator": 15,
+   "denominator": 15,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9381481148477391,
+    1.0
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "BGS2",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "subset": "all_finite",
+   "numerator": 24,
+   "denominator": 25,
+   "fraction": 0.96,
+   "wilson68": [
+    0.9004527913504113,
+    0.9845388344698885
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "BGS2",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "subset": "valid_non_boundary",
+   "numerator": 0,
+   "denominator": 0,
+   "fraction": null,
+   "wilson68": [
+    null,
+    null
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "BGS2",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "subset": "all_finite",
+   "numerator": 23,
+   "denominator": 25,
+   "fraction": 0.92,
+   "wilson68": [
+    0.8487359395151884,
+    0.9592998927555202
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "BGS2",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "subset": "valid_non_boundary",
+   "numerator": 7,
+   "denominator": 7,
+   "fraction": 1.0,
+   "wilson68": [
+    0.8762106513329578,
+    1.0
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "BGS2",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "subset": "all_finite",
+   "numerator": 24,
+   "denominator": 25,
+   "fraction": 0.96,
+   "wilson68": [
+    0.9004527913504113,
+    0.9845388344698885
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "BGS2",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "subset": "valid_non_boundary",
+   "numerator": 0,
+   "denominator": 0,
+   "fraction": null,
+   "wilson68": [
+    null,
+    null
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "LRG1",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "subset": "all_finite",
+   "numerator": 23,
+   "denominator": 25,
+   "fraction": 0.92,
+   "wilson68": [
+    0.8487359395151884,
+    0.9592998927555202
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "LRG1",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "subset": "valid_non_boundary",
+   "numerator": 21,
+   "denominator": 23,
+   "fraction": 0.9130434782608695,
+   "wilson68": [
+    0.8363247363072356,
+    0.9557067109541099
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "LRG1",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "subset": "all_finite",
+   "numerator": 24,
+   "denominator": 25,
+   "fraction": 0.96,
+   "wilson68": [
+    0.9004527913504113,
+    0.9845388344698885
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "LRG1",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "subset": "valid_non_boundary",
+   "numerator": 0,
+   "denominator": 0,
+   "fraction": null,
+   "wilson68": [
+    null,
+    null
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "LRG1",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "subset": "all_finite",
+   "numerator": 24,
+   "denominator": 25,
+   "fraction": 0.96,
+   "wilson68": [
+    0.9004527913504113,
+    0.9845388344698885
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "LRG1",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "subset": "valid_non_boundary",
+   "numerator": 17,
+   "denominator": 17,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9450247693773355,
+    1.0
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "LRG1",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "subset": "all_finite",
+   "numerator": 24,
+   "denominator": 25,
+   "fraction": 0.96,
+   "wilson68": [
+    0.9004527913504113,
+    0.9845388344698885
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "LRG1",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "subset": "valid_non_boundary",
+   "numerator": 0,
+   "denominator": 0,
+   "fraction": null,
+   "wilson68": [
+    null,
+    null
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "LRG2",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "subset": "all_finite",
+   "numerator": 23,
+   "denominator": 25,
+   "fraction": 0.92,
+   "wilson68": [
+    0.8487359395151884,
+    0.9592998927555202
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "LRG2",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "subset": "valid_non_boundary",
+   "numerator": 22,
+   "denominator": 23,
+   "fraction": 0.9565217391304348,
+   "wilson68": [
+    0.892219031766189,
+    0.9831841467858246
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "LRG2",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "subset": "all_finite",
+   "numerator": 25,
+   "denominator": 25,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9619474193698911,
+    1.0
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "LRG2",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "subset": "valid_non_boundary",
+   "numerator": 0,
+   "denominator": 0,
+   "fraction": null,
+   "wilson68": [
+    null,
+    null
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "LRG2",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "subset": "all_finite",
+   "numerator": 25,
+   "denominator": 25,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9619474193698911,
+    1.0
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "LRG2",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "subset": "valid_non_boundary",
+   "numerator": 13,
+   "denominator": 13,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9293051494058233,
+    1.0
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "LRG2",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "subset": "all_finite",
+   "numerator": 25,
+   "denominator": 25,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9619474193698911,
+    1.0
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "LRG2",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "subset": "valid_non_boundary",
+   "numerator": 0,
+   "denominator": 0,
+   "fraction": null,
+   "wilson68": [
+    null,
+    null
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "LRG3",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "subset": "all_finite",
+   "numerator": 25,
+   "denominator": 25,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9619474193698911,
+    1.0
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "LRG3",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "subset": "valid_non_boundary",
+   "numerator": 16,
+   "denominator": 16,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9417888282504032,
+    1.0
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "LRG3",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "subset": "all_finite",
+   "numerator": 25,
+   "denominator": 25,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9619474193698911,
+    1.0
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "LRG3",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "subset": "valid_non_boundary",
+   "numerator": 0,
+   "denominator": 0,
+   "fraction": null,
+   "wilson68": [
+    null,
+    null
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "LRG3",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "subset": "all_finite",
+   "numerator": 23,
+   "denominator": 25,
+   "fraction": 0.92,
+   "wilson68": [
+    0.8487359395151884,
+    0.9592998927555202
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "LRG3",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "subset": "valid_non_boundary",
+   "numerator": 16,
+   "denominator": 16,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9417888282504032,
+    1.0
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "LRG3",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "subset": "all_finite",
+   "numerator": 25,
+   "denominator": 25,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9619474193698911,
+    1.0
+   ]
+  },
+  {
+   "source": "self",
+   "radius": 25,
+   "bin": "LRG3",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "subset": "valid_non_boundary",
+   "numerator": 0,
+   "denominator": 0,
+   "fraction": null,
+   "wilson68": [
+    null,
+    null
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "BGS1",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "subset": "all_finite",
+   "numerator": 22,
+   "denominator": 24,
+   "fraction": 0.9166666666666666,
+   "wilson68": [
+    0.8427745928918025,
+    0.9575792761608259
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "BGS1",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "subset": "valid_non_boundary",
+   "numerator": 6,
+   "denominator": 7,
+   "fraction": 0.8571428571428571,
+   "wilson68": [
+    0.6821178269050814,
+    0.9437469240470313
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "BGS1",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "subset": "all_finite",
+   "numerator": 24,
+   "denominator": 24,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9604246428631541,
+    1.0
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "BGS1",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "subset": "valid_non_boundary",
+   "numerator": 0,
+   "denominator": 0,
+   "fraction": null,
+   "wilson68": [
+    null,
+    null
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "BGS1",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "subset": "all_finite",
+   "numerator": 22,
+   "denominator": 24,
+   "fraction": 0.9166666666666666,
+   "wilson68": [
+    0.8427745928918025,
+    0.9575792761608259
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "BGS1",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "subset": "valid_non_boundary",
+   "numerator": 1,
+   "denominator": 1,
+   "fraction": 1.0,
+   "wilson68": [
+    0.5027787370411703,
+    1.0
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "BGS1",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "subset": "all_finite",
+   "numerator": 23,
+   "denominator": 24,
+   "fraction": 0.9583333333333334,
+   "wilson68": [
+    0.8964993349976978,
+    0.9838899209601933
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "BGS1",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "subset": "valid_non_boundary",
+   "numerator": 0,
+   "denominator": 0,
+   "fraction": null,
+   "wilson68": [
+    null,
+    null
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "BGS2",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "subset": "all_finite",
+   "numerator": 22,
+   "denominator": 25,
+   "fraction": 0.88,
+   "wilson68": [
+    0.8005212255034553,
+    0.9305588132176621
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "BGS2",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "subset": "valid_non_boundary",
+   "numerator": 17,
+   "denominator": 17,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9450247693773355,
+    1.0
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "BGS2",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "subset": "all_finite",
+   "numerator": 24,
+   "denominator": 25,
+   "fraction": 0.96,
+   "wilson68": [
+    0.9004527913504113,
+    0.9845388344698885
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "BGS2",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "subset": "valid_non_boundary",
+   "numerator": 0,
+   "denominator": 0,
+   "fraction": null,
+   "wilson68": [
+    null,
+    null
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "BGS2",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "subset": "all_finite",
+   "numerator": 21,
+   "denominator": 25,
+   "fraction": 0.84,
+   "wilson68": [
+    0.7543871233860902,
+    0.8997371217854357
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "BGS2",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "subset": "valid_non_boundary",
+   "numerator": 7,
+   "denominator": 7,
+   "fraction": 1.0,
+   "wilson68": [
+    0.8762106513329578,
+    1.0
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "BGS2",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "subset": "all_finite",
+   "numerator": 22,
+   "denominator": 25,
+   "fraction": 0.88,
+   "wilson68": [
+    0.8005212255034553,
+    0.9305588132176621
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "BGS2",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "subset": "valid_non_boundary",
+   "numerator": 0,
+   "denominator": 0,
+   "fraction": null,
+   "wilson68": [
+    null,
+    null
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "LRG1",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "subset": "all_finite",
+   "numerator": 23,
+   "denominator": 25,
+   "fraction": 0.92,
+   "wilson68": [
+    0.8487359395151884,
+    0.9592998927555202
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "LRG1",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "subset": "valid_non_boundary",
+   "numerator": 22,
+   "denominator": 23,
+   "fraction": 0.9565217391304348,
+   "wilson68": [
+    0.892219031766189,
+    0.9831841467858246
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "LRG1",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "subset": "all_finite",
+   "numerator": 25,
+   "denominator": 25,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9619474193698911,
+    1.0
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "LRG1",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "subset": "valid_non_boundary",
+   "numerator": 0,
+   "denominator": 0,
+   "fraction": null,
+   "wilson68": [
+    null,
+    null
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "LRG1",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "subset": "all_finite",
+   "numerator": 22,
+   "denominator": 25,
+   "fraction": 0.88,
+   "wilson68": [
+    0.8005212255034553,
+    0.9305588132176621
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "LRG1",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "subset": "valid_non_boundary",
+   "numerator": 13,
+   "denominator": 13,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9293051494058233,
+    1.0
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "LRG1",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "subset": "all_finite",
+   "numerator": 23,
+   "denominator": 25,
+   "fraction": 0.92,
+   "wilson68": [
+    0.8487359395151884,
+    0.9592998927555202
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "LRG1",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "subset": "valid_non_boundary",
+   "numerator": 0,
+   "denominator": 0,
+   "fraction": null,
+   "wilson68": [
+    null,
+    null
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "LRG2",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "subset": "all_finite",
+   "numerator": 20,
+   "denominator": 25,
+   "fraction": 0.8,
+   "wilson68": [
+    0.7097252833811302,
+    0.8674431682408047
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "LRG2",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "subset": "valid_non_boundary",
+   "numerator": 12,
+   "denominator": 12,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9238624562131931,
+    1.0
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "LRG2",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "subset": "all_finite",
+   "numerator": 25,
+   "denominator": 25,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9619474193698911,
+    1.0
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "LRG2",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "subset": "valid_non_boundary",
+   "numerator": 0,
+   "denominator": 0,
+   "fraction": null,
+   "wilson68": [
+    null,
+    null
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "LRG2",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "subset": "all_finite",
+   "numerator": 25,
+   "denominator": 25,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9619474193698911,
+    1.0
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "LRG2",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "subset": "valid_non_boundary",
+   "numerator": 11,
+   "denominator": 11,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9175118111498898,
+    1.0
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "LRG2",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "subset": "all_finite",
+   "numerator": 24,
+   "denominator": 24,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9604246428631541,
+    1.0
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "LRG2",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "subset": "valid_non_boundary",
+   "numerator": 0,
+   "denominator": 0,
+   "fraction": null,
+   "wilson68": [
+    null,
+    null
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "LRG3",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "subset": "all_finite",
+   "numerator": 24,
+   "denominator": 25,
+   "fraction": 0.96,
+   "wilson68": [
+    0.9004527913504113,
+    0.9845388344698885
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "LRG3",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "subset": "valid_non_boundary",
+   "numerator": 12,
+   "denominator": 12,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9238624562131931,
+    1.0
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "LRG3",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "subset": "all_finite",
+   "numerator": 24,
+   "denominator": 25,
+   "fraction": 0.96,
+   "wilson68": [
+    0.9004527913504113,
+    0.9845388344698885
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "LRG3",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "subset": "valid_non_boundary",
+   "numerator": 0,
+   "denominator": 0,
+   "fraction": null,
+   "wilson68": [
+    null,
+    null
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "LRG3",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "subset": "all_finite",
+   "numerator": 22,
+   "denominator": 25,
+   "fraction": 0.88,
+   "wilson68": [
+    0.8005212255034553,
+    0.9305588132176621
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "LRG3",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "subset": "valid_non_boundary",
+   "numerator": 10,
+   "denominator": 12,
+   "fraction": 0.8333333333333334,
+   "wilson68": [
+    0.7020354960145329,
+    0.9138728081275959
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "LRG3",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "subset": "all_finite",
+   "numerator": 25,
+   "denominator": 25,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9619474193698911,
+    1.0
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 15,
+   "bin": "LRG3",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "subset": "valid_non_boundary",
+   "numerator": 0,
+   "denominator": 0,
+   "fraction": null,
+   "wilson68": [
+    null,
+    null
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "BGS1",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "subset": "all_finite",
+   "numerator": 24,
+   "denominator": 25,
+   "fraction": 0.96,
+   "wilson68": [
+    0.9004527913504113,
+    0.9845388344698885
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "BGS1",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "subset": "valid_non_boundary",
+   "numerator": 5,
+   "denominator": 5,
+   "fraction": 1.0,
+   "wilson68": [
+    0.8348713777061572,
+    1.0
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "BGS1",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "subset": "all_finite",
+   "numerator": 24,
+   "denominator": 25,
+   "fraction": 0.96,
+   "wilson68": [
+    0.9004527913504113,
+    0.9845388344698885
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "BGS1",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "subset": "valid_non_boundary",
+   "numerator": 0,
+   "denominator": 0,
+   "fraction": null,
+   "wilson68": [
+    null,
+    null
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "BGS1",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "subset": "all_finite",
+   "numerator": 21,
+   "denominator": 25,
+   "fraction": 0.84,
+   "wilson68": [
+    0.7543871233860902,
+    0.8997371217854357
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "BGS1",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "subset": "valid_non_boundary",
+   "numerator": 1,
+   "denominator": 1,
+   "fraction": 1.0,
+   "wilson68": [
+    0.5027787370411703,
+    1.0
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "BGS1",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "subset": "all_finite",
+   "numerator": 24,
+   "denominator": 25,
+   "fraction": 0.96,
+   "wilson68": [
+    0.9004527913504113,
+    0.9845388344698885
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "BGS1",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "subset": "valid_non_boundary",
+   "numerator": 0,
+   "denominator": 0,
+   "fraction": null,
+   "wilson68": [
+    null,
+    null
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "BGS2",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "subset": "all_finite",
+   "numerator": 24,
+   "denominator": 25,
+   "fraction": 0.96,
+   "wilson68": [
+    0.9004527913504113,
+    0.9845388344698885
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "BGS2",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "subset": "valid_non_boundary",
+   "numerator": 17,
+   "denominator": 17,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9450247693773355,
+    1.0
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "BGS2",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "subset": "all_finite",
+   "numerator": 23,
+   "denominator": 25,
+   "fraction": 0.92,
+   "wilson68": [
+    0.8487359395151884,
+    0.9592998927555202
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "BGS2",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "subset": "valid_non_boundary",
+   "numerator": 0,
+   "denominator": 0,
+   "fraction": null,
+   "wilson68": [
+    null,
+    null
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "BGS2",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "subset": "all_finite",
+   "numerator": 21,
+   "denominator": 25,
+   "fraction": 0.84,
+   "wilson68": [
+    0.7543871233860902,
+    0.8997371217854357
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "BGS2",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "subset": "valid_non_boundary",
+   "numerator": 10,
+   "denominator": 10,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9100053419001629,
+    1.0
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "BGS2",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "subset": "all_finite",
+   "numerator": 24,
+   "denominator": 25,
+   "fraction": 0.96,
+   "wilson68": [
+    0.9004527913504113,
+    0.9845388344698885
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "BGS2",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "subset": "valid_non_boundary",
+   "numerator": 0,
+   "denominator": 0,
+   "fraction": null,
+   "wilson68": [
+    null,
+    null
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "LRG1",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "subset": "all_finite",
+   "numerator": 22,
+   "denominator": 25,
+   "fraction": 0.88,
+   "wilson68": [
+    0.8005212255034553,
+    0.9305588132176621
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "LRG1",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "subset": "valid_non_boundary",
+   "numerator": 20,
+   "denominator": 22,
+   "fraction": 0.9090909090909091,
+   "wilson68": [
+    0.8293238566727366,
+    0.9536611319826778
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "LRG1",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "subset": "all_finite",
+   "numerator": 24,
+   "denominator": 25,
+   "fraction": 0.96,
+   "wilson68": [
+    0.9004527913504113,
+    0.9845388344698885
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "LRG1",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "subset": "valid_non_boundary",
+   "numerator": 0,
+   "denominator": 0,
+   "fraction": null,
+   "wilson68": [
+    null,
+    null
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "LRG1",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "subset": "all_finite",
+   "numerator": 22,
+   "denominator": 25,
+   "fraction": 0.88,
+   "wilson68": [
+    0.8005212255034553,
+    0.9305588132176621
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "LRG1",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "subset": "valid_non_boundary",
+   "numerator": 14,
+   "denominator": 14,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9340216150147661,
+    1.0
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "LRG1",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "subset": "all_finite",
+   "numerator": 22,
+   "denominator": 25,
+   "fraction": 0.88,
+   "wilson68": [
+    0.8005212255034553,
+    0.9305588132176621
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "LRG1",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "subset": "valid_non_boundary",
+   "numerator": 0,
+   "denominator": 0,
+   "fraction": null,
+   "wilson68": [
+    null,
+    null
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "LRG2",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "subset": "all_finite",
+   "numerator": 22,
+   "denominator": 25,
+   "fraction": 0.88,
+   "wilson68": [
+    0.8005212255034553,
+    0.9305588132176621
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "LRG2",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "subset": "valid_non_boundary",
+   "numerator": 19,
+   "denominator": 20,
+   "fraction": 0.95,
+   "wilson68": [
+    0.8769546515282016,
+    0.9806396072348258
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "LRG2",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "subset": "all_finite",
+   "numerator": 25,
+   "denominator": 25,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9619474193698911,
+    1.0
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "LRG2",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "subset": "valid_non_boundary",
+   "numerator": 0,
+   "denominator": 0,
+   "fraction": null,
+   "wilson68": [
+    null,
+    null
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "LRG2",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "subset": "all_finite",
+   "numerator": 25,
+   "denominator": 25,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9619474193698911,
+    1.0
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "LRG2",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "subset": "valid_non_boundary",
+   "numerator": 16,
+   "denominator": 16,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9417888282504032,
+    1.0
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "LRG2",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "subset": "all_finite",
+   "numerator": 25,
+   "denominator": 25,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9619474193698911,
+    1.0
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "LRG2",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "subset": "valid_non_boundary",
+   "numerator": 0,
+   "denominator": 0,
+   "fraction": null,
+   "wilson68": [
+    null,
+    null
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "LRG3",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "subset": "all_finite",
+   "numerator": 22,
+   "denominator": 25,
+   "fraction": 0.88,
+   "wilson68": [
+    0.8005212255034553,
+    0.9305588132176621
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "LRG3",
+   "target": "sigma_0.01",
+   "parameter": "qiso",
+   "subset": "valid_non_boundary",
+   "numerator": 13,
+   "denominator": 13,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9293051494058233,
+    1.0
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "LRG3",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "subset": "all_finite",
+   "numerator": 25,
+   "denominator": 25,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9619474193698911,
+    1.0
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "LRG3",
+   "target": "sigma_0.01",
+   "parameter": "qap",
+   "subset": "valid_non_boundary",
+   "numerator": 0,
+   "denominator": 0,
+   "fraction": null,
+   "wilson68": [
+    null,
+    null
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "LRG3",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "subset": "all_finite",
+   "numerator": 23,
+   "denominator": 25,
+   "fraction": 0.92,
+   "wilson68": [
+    0.8487359395151884,
+    0.9592998927555202
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "LRG3",
+   "target": "sigma_0.03",
+   "parameter": "qiso",
+   "subset": "valid_non_boundary",
+   "numerator": 13,
+   "denominator": 13,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9293051494058233,
+    1.0
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "LRG3",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "subset": "all_finite",
+   "numerator": 25,
+   "denominator": 25,
+   "fraction": 1.0,
+   "wilson68": [
+    0.9619474193698911,
+    1.0
+   ]
+  },
+  {
+   "source": "cross",
+   "radius": 25,
+   "bin": "LRG3",
+   "target": "sigma_0.03",
+   "parameter": "qap",
+   "subset": "valid_non_boundary",
+   "numerator": 0,
+   "denominator": 0,
+   "fraction": null,
+   "wilson68": [
+    null,
+    null
+   ]
+  }
+ ]
+}

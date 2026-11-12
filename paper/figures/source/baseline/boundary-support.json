@@ -1,0 +1,402 @@
+[
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "cap": "NGC",
+    "condition": "native",
+    "side": "below",
+    "minimum_available_depth": 0.08686232138425112,
+    "maximum_available_depth": 0.09906507035484538,
+    "required_guard": 0.05,
+    "maximum_shortfall": 0.0
+  },
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "cap": "NGC",
+    "condition": "sigma_0.001",
+    "side": "below",
+    "minimum_available_depth": 0.08686232138425112,
+    "maximum_available_depth": 0.09906507035484538,
+    "required_guard": 0.05,
+    "maximum_shortfall": 0.0
+  },
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "cap": "NGC",
+    "condition": "sigma_0.003",
+    "side": "below",
+    "minimum_available_depth": 0.08686232138425112,
+    "maximum_available_depth": 0.09906507035484538,
+    "required_guard": 0.05,
+    "maximum_shortfall": 0.0
+  },
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "cap": "NGC",
+    "condition": "sigma_0.01",
+    "side": "below",
+    "minimum_available_depth": 0.08686232138425112,
+    "maximum_available_depth": 0.09906507035484538,
+    "required_guard": 0.066,
+    "maximum_shortfall": 0.0
+  },
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "cap": "NGC",
+    "condition": "sigma_0.03",
+    "side": "below",
+    "minimum_available_depth": 0.08686232138425112,
+    "maximum_available_depth": 0.09906507035484538,
+    "required_guard": 0.198,
+    "maximum_shortfall": 0.11113767861574889
+  },
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "cap": "NGC",
+    "condition": "native",
+    "side": "above",
+    "minimum_available_depth": 0.29967079162597654,
+    "maximum_available_depth": 0.29999945163726804,
+    "required_guard": 0.05,
+    "maximum_shortfall": 0.0
+  },
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "cap": "NGC",
+    "condition": "sigma_0.001",
+    "side": "above",
+    "minimum_available_depth": 0.29967079162597654,
+    "maximum_available_depth": 0.29999945163726804,
+    "required_guard": 0.05,
+    "maximum_shortfall": 0.0
+  },
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "cap": "NGC",
+    "condition": "sigma_0.003",
+    "side": "above",
+    "minimum_available_depth": 0.29967079162597654,
+    "maximum_available_depth": 0.29999945163726804,
+    "required_guard": 0.05,
+    "maximum_shortfall": 0.0
+  },
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "cap": "NGC",
+    "condition": "sigma_0.01",
+    "side": "above",
+    "minimum_available_depth": 0.29967079162597654,
+    "maximum_available_depth": 0.29999945163726804,
+    "required_guard": 0.08399999999999999,
+    "maximum_shortfall": 0.0
+  },
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "cap": "NGC",
+    "condition": "sigma_0.03",
+    "side": "above",
+    "minimum_available_depth": 0.29967079162597654,
+    "maximum_available_depth": 0.29999945163726804,
+    "required_guard": 0.252,
+    "maximum_shortfall": 0.0
+  },
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "cap": "SGC",
+    "condition": "native",
+    "side": "below",
+    "minimum_available_depth": 0.08654722049832345,
+    "maximum_available_depth": 0.09986033346795012,
+    "required_guard": 0.05,
+    "maximum_shortfall": 0.0
+  },
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "cap": "SGC",
+    "condition": "sigma_0.001",
+    "side": "below",
+    "minimum_available_depth": 0.08654722049832345,
+    "maximum_available_depth": 0.09986033346795012,
+    "required_guard": 0.05,
+    "maximum_shortfall": 0.0
+  },
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "cap": "SGC",
+    "condition": "sigma_0.003",
+    "side": "below",
+    "minimum_available_depth": 0.08654722049832345,
+    "maximum_available_depth": 0.09986033346795012,
+    "required_guard": 0.05,
+    "maximum_shortfall": 0.0
+  },
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "cap": "SGC",
+    "condition": "sigma_0.01",
+    "side": "below",
+    "minimum_available_depth": 0.08654722049832345,
+    "maximum_available_depth": 0.09986033346795012,
+    "required_guard": 0.066,
+    "maximum_shortfall": 0.0
+  },
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "cap": "SGC",
+    "condition": "sigma_0.03",
+    "side": "below",
+    "minimum_available_depth": 0.08654722049832345,
+    "maximum_available_depth": 0.09986033346795012,
+    "required_guard": 0.198,
+    "maximum_shortfall": 0.11145277950167656
+  },
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "cap": "SGC",
+    "condition": "native",
+    "side": "above",
+    "minimum_available_depth": 0.29878506660461424,
+    "maximum_available_depth": 0.2999903917312622,
+    "required_guard": 0.05,
+    "maximum_shortfall": 0.0
+  },
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "cap": "SGC",
+    "condition": "sigma_0.001",
+    "side": "above",
+    "minimum_available_depth": 0.29878506660461424,
+    "maximum_available_depth": 0.2999903917312622,
+    "required_guard": 0.05,
+    "maximum_shortfall": 0.0
+  },
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "cap": "SGC",
+    "condition": "sigma_0.003",
+    "side": "above",
+    "minimum_available_depth": 0.29878506660461424,
+    "maximum_available_depth": 0.2999903917312622,
+    "required_guard": 0.05,
+    "maximum_shortfall": 0.0
+  },
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "cap": "SGC",
+    "condition": "sigma_0.01",
+    "side": "above",
+    "minimum_available_depth": 0.29878506660461424,
+    "maximum_available_depth": 0.2999903917312622,
+    "required_guard": 0.08399999999999999,
+    "maximum_shortfall": 0.0
+  },
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "cap": "SGC",
+    "condition": "sigma_0.03",
+    "side": "above",
+    "minimum_available_depth": 0.29878506660461424,
+    "maximum_available_depth": 0.2999903917312622,
+    "required_guard": 0.252,
+    "maximum_shortfall": 0.0
+  },
+  {
+    "tracer": "LRG",
+    "cap": "NGC",
+    "condition": "native",
+    "side": "below",
+    "minimum_available_depth": 0.29994877576828005,
+    "maximum_available_depth": 0.29999987930059435,
+    "required_guard": 0.05,
+    "maximum_shortfall": 0.0
+  },
+  {
+    "tracer": "LRG",
+    "cap": "NGC",
+    "condition": "sigma_0.001",
+    "side": "below",
+    "minimum_available_depth": 0.29994877576828005,
+    "maximum_available_depth": 0.29999987930059435,
+    "required_guard": 0.05,
+    "maximum_shortfall": 0.0
+  },
+  {
+    "tracer": "LRG",
+    "cap": "NGC",
+    "condition": "sigma_0.003",
+    "side": "below",
+    "minimum_available_depth": 0.29994877576828005,
+    "maximum_available_depth": 0.29999987930059435,
+    "required_guard": 0.05,
+    "maximum_shortfall": 0.0
+  },
+  {
+    "tracer": "LRG",
+    "cap": "NGC",
+    "condition": "sigma_0.01",
+    "side": "below",
+    "minimum_available_depth": 0.29994877576828005,
+    "maximum_available_depth": 0.29999987930059435,
+    "required_guard": 0.08399999999999999,
+    "maximum_shortfall": 0.0
+  },
+  {
+    "tracer": "LRG",
+    "cap": "NGC",
+    "condition": "sigma_0.03",
+    "side": "below",
+    "minimum_available_depth": 0.29994877576828005,
+    "maximum_available_depth": 0.29999987930059435,
+    "required_guard": 0.252,
+    "maximum_shortfall": 0.0
+  },
+  {
+    "tracer": "LRG",
+    "cap": "NGC",
+    "condition": "native",
+    "side": "above",
+    "minimum_available_depth": 0.29996156692504883,
+    "maximum_available_depth": 0.2999999523162842,
+    "required_guard": 0.05,
+    "maximum_shortfall": 0.0
+  },
+  {
+    "tracer": "LRG",
+    "cap": "NGC",
+    "condition": "sigma_0.001",
+    "side": "above",
+    "minimum_available_depth": 0.29996156692504883,
+    "maximum_available_depth": 0.2999999523162842,
+    "required_guard": 0.05,
+    "maximum_shortfall": 0.0
+  },
+  {
+    "tracer": "LRG",
+    "cap": "NGC",
+    "condition": "sigma_0.003",
+    "side": "above",
+    "minimum_available_depth": 0.29996156692504883,
+    "maximum_available_depth": 0.2999999523162842,
+    "required_guard": 0.05,
+    "maximum_shortfall": 0.0
+  },
+  {
+    "tracer": "LRG",
+    "cap": "NGC",
+    "condition": "sigma_0.01",
+    "side": "above",
+    "minimum_available_depth": 0.29996156692504883,
+    "maximum_available_depth": 0.2999999523162842,
+    "required_guard": 0.12,
+    "maximum_shortfall": 0.0
+  },
+  {
+    "tracer": "LRG",
+    "cap": "NGC",
+    "condition": "sigma_0.03",
+    "side": "above",
+    "minimum_available_depth": 0.29996156692504883,
+    "maximum_available_depth": 0.2999999523162842,
+    "required_guard": 0.36,
+    "maximum_shortfall": 0.06003843307495116
+  },
+  {
+    "tracer": "LRG",
+    "cap": "SGC",
+    "condition": "native",
+    "side": "below",
+    "minimum_available_depth": 0.29992313832044604,
+    "maximum_available_depth": 0.2999992534518242,
+    "required_guard": 0.05,
+    "maximum_shortfall": 0.0
+  },
+  {
+    "tracer": "LRG",
+    "cap": "SGC",
+    "condition": "sigma_0.001",
+    "side": "below",
+    "minimum_available_depth": 0.29992313832044604,
+    "maximum_available_depth": 0.2999992534518242,
+    "required_guard": 0.05,
+    "maximum_shortfall": 0.0
+  },
+  {
+    "tracer": "LRG",
+    "cap": "SGC",
+    "condition": "sigma_0.003",
+    "side": "below",
+    "minimum_available_depth": 0.29992313832044604,
+    "maximum_available_depth": 0.2999992534518242,
+    "required_guard": 0.05,
+    "maximum_shortfall": 0.0
+  },
+  {
+    "tracer": "LRG",
+    "cap": "SGC",
+    "condition": "sigma_0.01",
+    "side": "below",
+    "minimum_available_depth": 0.29992313832044604,
+    "maximum_available_depth": 0.2999992534518242,
+    "required_guard": 0.08399999999999999,
+    "maximum_shortfall": 0.0
+  },
+  {
+    "tracer": "LRG",
+    "cap": "SGC",
+    "condition": "sigma_0.03",
+    "side": "below",
+    "minimum_available_depth": 0.29992313832044604,
+    "maximum_available_depth": 0.2999992534518242,
+    "required_guard": 0.252,
+    "maximum_shortfall": 0.0
+  },
+  {
+    "tracer": "LRG",
+    "cap": "SGC",
+    "condition": "native",
+    "side": "above",
+    "minimum_available_depth": 0.299923300743103,
+    "maximum_available_depth": 0.2999999523162842,
+    "required_guard": 0.05,
+    "maximum_shortfall": 0.0
+  },
+  {
+    "tracer": "LRG",
+    "cap": "SGC",
+    "condition": "sigma_0.001",
+    "side": "above",
+    "minimum_available_depth": 0.299923300743103,
+    "maximum_available_depth": 0.2999999523162842,
+    "required_guard": 0.05,
+    "maximum_shortfall": 0.0
+  },
+  {
+    "tracer": "LRG",
+    "cap": "SGC",
+    "condition": "sigma_0.003",
+    "side": "above",
+    "minimum_available_depth": 0.299923300743103,
+    "maximum_available_depth": 0.2999999523162842,
+    "required_guard": 0.05,
+    "maximum_shortfall": 0.0
+  },
+  {
+    "tracer": "LRG",
+    "cap": "SGC",
+    "condition": "sigma_0.01",
+    "side": "above",
+    "minimum_available_depth": 0.299923300743103,
+    "maximum_available_depth": 0.2999999523162842,
+    "required_guard": 0.12,
+    "maximum_shortfall": 0.0
+  },
+  {
+    "tracer": "LRG",
+    "cap": "SGC",
+    "condition": "sigma_0.03",
+    "side": "above",
+    "minimum_available_depth": 0.299923300743103,
+    "maximum_available_depth": 0.2999999523162842,
+    "required_guard": 0.36,
+    "maximum_shortfall": 0.06007669925689696
+  }
+]

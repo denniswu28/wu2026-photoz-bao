@@ -1,0 +1,39 @@
+# Matplotlib rcParams for the PRD BAO paper.
+#
+# Apply with:
+#     plt.style.use(Path(__file__).parents[1] / "paper" / "prd.mplstyle")
+# or, if CWD is the project root:
+#     plt.style.use("paper/prd.mplstyle")
+
+# --- Typography ---------------------------------------------------------
+font.family       : serif
+font.serif        : cmr10, Computer Modern Roman, DejaVu Serif
+mathtext.fontset  : cm
+font.size         : 10
+axes.labelsize    : 11
+axes.titlesize    : 0
+xtick.labelsize   : 9
+ytick.labelsize   : 9
+legend.fontsize   : 9
+axes.formatter.use_mathtext : True
+
+# --- Lines & axes -------------------------------------------------------
+lines.linewidth   : 1.2
+lines.markersize  : 5
+axes.linewidth    : 0.8
+xtick.major.width : 0.8
+ytick.major.width : 0.8
+xtick.minor.visible : True
+ytick.minor.visible : True
+axes.grid         : False
+
+# --- Figure sizing ------------------------------------------------------
+figure.figsize    : 3.4, 2.5
+figure.dpi        : 150
+savefig.dpi       : 600
+savefig.bbox      : tight
+savefig.pad_inches : 0.02
+
+# --- Color & legend -----------------------------------------------------
+image.cmap        : Paired
+legend.frameon    : False

@@ -1,0 +1,37 @@
+[
+  {
+    "measurement_bin": "LRG1",
+    "condition": "desi_baseline",
+    "reconstruction_state": "postreconstruction",
+    "delta_chi2": 816.7998514445255,
+    "sqrt_delta_chi2_proxy": 28.579710485666673
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.001",
+    "reconstruction_state": "postreconstruction",
+    "delta_chi2": 231.44641440383228,
+    "sqrt_delta_chi2_proxy": 15.213363020839024
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "delta_chi2": 539.387140560574,
+    "sqrt_delta_chi2_proxy": 23.224709698090393
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.01",
+    "reconstruction_state": "postreconstruction",
+    "delta_chi2": 272.99798561672793,
+    "sqrt_delta_chi2_proxy": 16.522650683734977
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.03",
+    "reconstruction_state": "postreconstruction",
+    "delta_chi2": 75.1846963174717,
+    "sqrt_delta_chi2_proxy": 8.670910927778678
+  }
+]

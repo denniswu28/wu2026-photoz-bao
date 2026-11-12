@@ -1,0 +1,15 @@
+# Install with: python -m pip install --no-deps --no-build-isolation -r requirements-science.txt
+# These are the commits the paper's results were produced with. --no-deps matters: several of
+# these declare unpinned git dependencies (pyrecon -> pmesh, desilike -> cosmoprimo) that pip
+# would otherwise replace with their latest commits.
+mpsort==0.1.19
+pfft-python==0.1.24
+pmesh @ git+https://github.com/MP-Gadget/pmesh@da7b574ab930836fac2410394592d62f3f04a68d
+Corrfunc @ git+https://github.com/cosmodesi/Corrfunc@4a1543a801bce914e009ad185de45556dab73948
+pyclass @ git+https://github.com/adematti/pyclass@240a84f494312e2efdbd86ba565a5d66caee6e75
+cosmoprimo @ git+https://github.com/cosmodesi/cosmoprimo@d1de01c1f3b265fe8b6627c21ca7166eb4f8f936
+pyrecon @ git+https://github.com/cosmodesi/pyrecon@02241b0217609bb58966246cd06b6022f3b1cfb0
+pycorr @ git+https://github.com/cosmodesi/pycorr@eaac8808c0866422b09bfa7351a39eb79607afd4
+pypower @ git+https://github.com/cosmodesi/pypower@ae9a53446f299f64338e22352d0ced3068d3309c
+desilike @ git+https://github.com/cosmodesi/desilike@41f082f01a54eba18686b1ad5f92a73c6d610f4c
+RascalC @ git+https://github.com/oliverphilcox/RascalC@4a65bfb6f465669cefa8dbc516aa5809d53e1f42

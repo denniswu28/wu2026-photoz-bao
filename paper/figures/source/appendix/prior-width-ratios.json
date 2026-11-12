@@ -1,0 +1,506 @@
+{
+ "definition": "posterior standard deviation / standard deviation of the uniform prior",
+ "run": "unified-fit-v3--primary",
+ "rows": [
+  {
+   "bin": "BGS1",
+   "condition": "native",
+   "parameter": "qiso",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.03509940755998892,
+   "post_std": 0.023228639497878633,
+   "pre_over_prior": 0.3039697860473399,
+   "post_over_prior": 0.20116591900513506
+  },
+  {
+   "bin": "BGS1",
+   "condition": "native",
+   "parameter": "qap",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.09709408365019921,
+   "post_std": 0.07762805610550434,
+   "pre_over_prior": 0.8408594299824385,
+   "post_over_prior": 0.6722786863377047
+  },
+  {
+   "bin": "BGS1",
+   "condition": "sigma_0.001",
+   "parameter": "qiso",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.03184827815895642,
+   "post_std": 0.0227759124757421,
+   "pre_over_prior": 0.27581417952449355,
+   "post_over_prior": 0.19724518798363588
+  },
+  {
+   "bin": "BGS1",
+   "condition": "sigma_0.001",
+   "parameter": "qap",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.09252442011215462,
+   "post_std": 0.07590141214186122,
+   "pre_over_prior": 0.8012849828754975,
+   "post_over_prior": 0.6573255109796446
+  },
+  {
+   "bin": "BGS1",
+   "condition": "sigma_0.003",
+   "parameter": "qiso",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.027721131926528267,
+   "post_std": 0.0215701074328596,
+   "pre_over_prior": 0.2400720447003334,
+   "post_over_prior": 0.18680260999215959
+  },
+  {
+   "bin": "BGS1",
+   "condition": "sigma_0.003",
+   "parameter": "qap",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.08284953969197226,
+   "post_std": 0.0625049682008456,
+   "pre_over_prior": 0.7174980606509516,
+   "post_over_prior": 0.5413089032467081
+  },
+  {
+   "bin": "BGS1",
+   "condition": "sigma_0.01",
+   "parameter": "qiso",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.05708570183155338,
+   "post_std": 0.04969453716758475,
+   "pre_over_prior": 0.4943766797898909,
+   "post_over_prior": 0.43036731616438384
+  },
+  {
+   "bin": "BGS1",
+   "condition": "sigma_0.01",
+   "parameter": "qap",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.11197678922358374,
+   "post_std": 0.10903617764387574,
+   "pre_over_prior": 0.969747441018391,
+   "post_over_prior": 0.9442809977114929
+  },
+  {
+   "bin": "BGS1",
+   "condition": "sigma_0.03",
+   "parameter": "qiso",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.1103062430888269,
+   "post_std": 0.12031667625165757,
+   "pre_over_prior": 0.9552800871094578,
+   "post_over_prior": 1.0419729813284333
+  },
+  {
+   "bin": "BGS1",
+   "condition": "sigma_0.03",
+   "parameter": "qap",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.11516004986150202,
+   "post_std": 0.11564916920476717,
+   "pre_over_prior": 0.9973152868114339,
+   "post_over_prior": 1.0015511845789338
+  },
+  {
+   "bin": "BGS2",
+   "condition": "native",
+   "parameter": "qiso",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.007027625663998271,
+   "post_std": 0.0036831402996155603,
+   "pre_over_prior": 0.06086102353309988,
+   "post_over_prior": 0.031896930651693044
+  },
+  {
+   "bin": "BGS2",
+   "condition": "native",
+   "parameter": "qap",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.025568675227287833,
+   "post_std": 0.012876473523881183,
+   "pre_over_prior": 0.22143122287945122,
+   "post_over_prior": 0.11151353182838837
+  },
+  {
+   "bin": "BGS2",
+   "condition": "sigma_0.001",
+   "parameter": "qiso",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.007425269822119403,
+   "post_std": 0.003714945551828277,
+   "pre_over_prior": 0.06430472295909363,
+   "post_over_prior": 0.03217237221559288
+  },
+  {
+   "bin": "BGS2",
+   "condition": "sigma_0.001",
+   "parameter": "qap",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.02706420547874482,
+   "post_std": 0.012889551900037845,
+   "pre_over_prior": 0.23438289477835003,
+   "post_over_prior": 0.11162679388830755
+  },
+  {
+   "bin": "BGS2",
+   "condition": "sigma_0.003",
+   "parameter": "qiso",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.009376660722990574,
+   "post_std": 0.004989234465987814,
+   "pre_over_prior": 0.08120426388777599,
+   "post_over_prior": 0.043208037929823355
+  },
+  {
+   "bin": "BGS2",
+   "condition": "sigma_0.003",
+   "parameter": "qap",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.034305300648412494,
+   "post_std": 0.01826647269960093,
+   "pre_over_prior": 0.29709261845988,
+   "post_over_prior": 0.15819229395389325
+  },
+  {
+   "bin": "BGS2",
+   "condition": "sigma_0.01",
+   "parameter": "qiso",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.03254832634380646,
+   "post_std": 0.030308117180485,
+   "pre_over_prior": 0.2818767746440267,
+   "post_over_prior": 0.2624759941917561
+  },
+  {
+   "bin": "BGS2",
+   "condition": "sigma_0.01",
+   "parameter": "qap",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.10202041270998367,
+   "post_std": 0.09676814511567804,
+   "pre_over_prior": 0.883522691114187,
+   "post_over_prior": 0.8380367194727624
+  },
+  {
+   "bin": "BGS2",
+   "condition": "sigma_0.03",
+   "parameter": "qiso",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.04619679518541026,
+   "post_std": 0.04737489784170706,
+   "pre_over_prior": 0.4000759820399194,
+   "post_over_prior": 0.41027865032610894
+  },
+  {
+   "bin": "BGS2",
+   "condition": "sigma_0.03",
+   "parameter": "qap",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.11617394761637405,
+   "post_std": 0.11655899431132546,
+   "pre_over_prior": 1.0060958989370257,
+   "post_over_prior": 1.0094305011317375
+  },
+  {
+   "bin": "LRG1",
+   "condition": "native",
+   "parameter": "qiso",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.003979948897033213,
+   "post_std": 0.002300327852194717,
+   "pre_over_prior": 0.0344673685059462,
+   "post_over_prior": 0.019921423570335207
+  },
+  {
+   "bin": "LRG1",
+   "condition": "native",
+   "parameter": "qap",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.013594391445758134,
+   "post_std": 0.00744925967841262,
+   "pre_over_prior": 0.11773088341016409,
+   "post_over_prior": 0.06451248120892428
+  },
+  {
+   "bin": "LRG1",
+   "condition": "sigma_0.001",
+   "parameter": "qiso",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.007133584541085264,
+   "post_std": 0.004327367714447584,
+   "pre_over_prior": 0.06177865432623796,
+   "post_over_prior": 0.03747610372228213
+  },
+  {
+   "bin": "LRG1",
+   "condition": "sigma_0.001",
+   "parameter": "qap",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.02401031048335666,
+   "post_std": 0.014233366233394173,
+   "pre_over_prior": 0.20793538831338695,
+   "post_over_prior": 0.12326456739486985
+  },
+  {
+   "bin": "LRG1",
+   "condition": "sigma_0.003",
+   "parameter": "qiso",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.005310149325758953,
+   "post_std": 0.004493908000411702,
+   "pre_over_prior": 0.045987242139960624,
+   "post_over_prior": 0.038918384906266645
+  },
+  {
+   "bin": "LRG1",
+   "condition": "sigma_0.003",
+   "parameter": "qap",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.017084363947463356,
+   "post_std": 0.01681196237624185,
+   "pre_over_prior": 0.14795493186002262,
+   "post_over_prior": 0.1455958650529364
+  },
+  {
+   "bin": "LRG1",
+   "condition": "sigma_0.01",
+   "parameter": "qiso",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.03079673259666228,
+   "post_std": 0.024585712851227962,
+   "pre_over_prior": 0.2667075278226584,
+   "post_over_prior": 0.2129185189931296
+  },
+  {
+   "bin": "LRG1",
+   "condition": "sigma_0.01",
+   "parameter": "qap",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.09773003203578069,
+   "post_std": 0.08080672498359573,
+   "pre_over_prior": 0.8463669045565311,
+   "post_over_prior": 0.6998067663241658
+  },
+  {
+   "bin": "LRG1",
+   "condition": "sigma_0.03",
+   "parameter": "qiso",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.03933952662750515,
+   "post_std": 0.03904944399101005,
+   "pre_over_prior": 0.3406902943227383,
+   "post_over_prior": 0.33817810499872303
+  },
+  {
+   "bin": "LRG1",
+   "condition": "sigma_0.03",
+   "parameter": "qap",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.1150616164528633,
+   "post_std": 0.11422263883306714,
+   "pre_over_prior": 0.9964628284868116,
+   "post_over_prior": 0.9891970691673109
+  },
+  {
+   "bin": "LRG2",
+   "condition": "native",
+   "parameter": "qiso",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.004020292653136659,
+   "post_std": 0.0021236767447030324,
+   "pre_over_prior": 0.03481675568264288,
+   "post_over_prior": 0.018391580103390662
+  },
+  {
+   "bin": "LRG2",
+   "condition": "native",
+   "parameter": "qap",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.011643491103988513,
+   "post_std": 0.006402517145545724,
+   "pre_over_prior": 0.10083559084792172,
+   "post_over_prior": 0.05544742496208028
+  },
+  {
+   "bin": "LRG2",
+   "condition": "sigma_0.001",
+   "parameter": "qiso",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.0351272805847551,
+   "post_std": 0.04308271213833386,
+   "pre_over_prior": 0.3042111735226181,
+   "post_over_prior": 0.3731072317572932
+  },
+  {
+   "bin": "LRG2",
+   "condition": "sigma_0.001",
+   "parameter": "qap",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.08751185541053402,
+   "post_std": 0.10278299011574794,
+   "pre_over_prior": 0.7578748991783315,
+   "post_over_prior": 0.8901268051716259
+  },
+  {
+   "bin": "LRG2",
+   "condition": "sigma_0.003",
+   "parameter": "qiso",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.022011642758977278,
+   "post_std": 0.01593528066433824,
+   "pre_over_prior": 0.19062641808302117,
+   "post_over_prior": 0.13800357871751884
+  },
+  {
+   "bin": "LRG2",
+   "condition": "sigma_0.003",
+   "parameter": "qap",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.05697752424482352,
+   "post_std": 0.03919979531584917,
+   "pre_over_prior": 0.49343983440760936,
+   "post_over_prior": 0.3394801856667563
+  },
+  {
+   "bin": "LRG2",
+   "condition": "sigma_0.01",
+   "parameter": "qiso",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.031123134894154827,
+   "post_std": 0.028766760569136848,
+   "pre_over_prior": 0.2695342546374799,
+   "post_over_prior": 0.2491274543745701
+  },
+  {
+   "bin": "LRG2",
+   "condition": "sigma_0.01",
+   "parameter": "qap",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.09282139889596983,
+   "post_std": 0.08815228519947266,
+   "pre_over_prior": 0.8038568945871872,
+   "post_over_prior": 0.7634211838439432
+  },
+  {
+   "bin": "LRG2",
+   "condition": "sigma_0.03",
+   "parameter": "qiso",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.03959402839861687,
+   "post_std": 0.039377651448854314,
+   "pre_over_prior": 0.3428943443136471,
+   "post_over_prior": 0.3410204649607695
+  },
+  {
+   "bin": "LRG2",
+   "condition": "sigma_0.03",
+   "parameter": "qap",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.11520743025361194,
+   "post_std": 0.11552398252571161,
+   "pre_over_prior": 0.9977256130435185,
+   "post_over_prior": 1.0004670361361585
+  },
+  {
+   "bin": "LRG3",
+   "condition": "native",
+   "parameter": "qiso",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.003081802085435786,
+   "post_std": 0.0018168482565214547,
+   "pre_over_prior": 0.02668918895423252,
+   "post_over_prior": 0.015734367449690465
+  },
+  {
+   "bin": "LRG3",
+   "condition": "native",
+   "parameter": "qap",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.01006849713214259,
+   "post_std": 0.006045320343884108,
+   "pre_over_prior": 0.0871957429436625,
+   "post_over_prior": 0.05235400991818517
+  },
+  {
+   "bin": "LRG3",
+   "condition": "sigma_0.001",
+   "parameter": "qiso",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.02743924440739753,
+   "post_std": 0.1004221988301156,
+   "pre_over_prior": 0.2376308271745635,
+   "post_over_prior": 0.8696817529077207
+  },
+  {
+   "bin": "LRG3",
+   "condition": "sigma_0.001",
+   "parameter": "qap",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.07035221930198694,
+   "post_std": 0.11560661965225241,
+   "pre_over_prior": 0.6092680912813463,
+   "post_over_prior": 1.0011826946449593
+  },
+  {
+   "bin": "LRG3",
+   "condition": "sigma_0.003",
+   "parameter": "qiso",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.013833907356463847,
+   "post_std": 0.01482208800599731,
+   "pre_over_prior": 0.11980515204298121,
+   "post_over_prior": 0.12836304750322305
+  },
+  {
+   "bin": "LRG3",
+   "condition": "sigma_0.003",
+   "parameter": "qap",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.04672917930059023,
+   "post_std": 0.04977780110409299,
+   "pre_over_prior": 0.4046865637230909,
+   "post_over_prior": 0.4310884030067361
+  },
+  {
+   "bin": "LRG3",
+   "condition": "sigma_0.01",
+   "parameter": "qiso",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.02694025498462898,
+   "post_std": 0.024760470531932092,
+   "pre_over_prior": 0.23330945201119052,
+   "post_over_prior": 0.21443196490309188
+  },
+  {
+   "bin": "LRG3",
+   "condition": "sigma_0.01",
+   "parameter": "qap",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.08370047952868183,
+   "post_std": 0.07889428779746656,
+   "pre_over_prior": 0.7248674158077784,
+   "post_over_prior": 0.683244574460867
+  },
+  {
+   "bin": "LRG3",
+   "condition": "sigma_0.03",
+   "parameter": "qiso",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.04049666410462255,
+   "post_std": 0.040882728952959066,
+   "pre_over_prior": 0.3507113988312853,
+   "post_over_prior": 0.3540548184929614
+  },
+  {
+   "bin": "LRG3",
+   "condition": "sigma_0.03",
+   "parameter": "qap",
+   "prior_std": 0.11547005383792514,
+   "pre_std": 0.11475980454896592,
+   "post_std": 0.11641224211851932,
+   "pre_over_prior": 0.9938490607274149,
+   "post_over_prior": 1.0081595898614255
+  }
+ ]
+}

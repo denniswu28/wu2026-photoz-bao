@@ -1,0 +1,2362 @@
+[
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "measurement_bin": "BGS1",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qiso",
+    "variant": "baseline",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/BGS1--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 1.0140753301461847,
+    "minos_bounds": [
+      0.9956070053560483,
+      1.0338522992373793
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.01912264694066551,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "measurement_bin": "BGS1",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "prereconstruction",
+    "realization_id": null,
+    "parameter": "qiso",
+    "variant": "pre",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/BGS1--sigma_0.003--prereconstruction--mean/profiles.npy",
+    "value": 1.0090669137109192,
+    "minos_bounds": [
+      0.987314326235151,
+      1.0315512675904372
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.02211847067764311,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "measurement_bin": "BGS1",
+    "parameter": "qiso",
+    "variant": "pk",
+    "status": "missing",
+    "reason": "Requires matched P(k) measurements, window, covariance and native mean fits."
+  },
+  {
+    "measurement_bin": "BGS1",
+    "parameter": "qiso",
+    "variant": "ngc",
+    "status": "missing",
+    "reason": "Requires NGC-only measurements, window, covariance and native mean fits."
+  },
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "measurement_bin": "BGS1",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qiso",
+    "variant": "flat",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary--flat/fit/units/BGS1--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 1.025473669449383,
+    "minos_bounds": [
+      1.0023311998758948,
+      1.0553964086901526
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.0265326044071289,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "measurement_bin": "BGS1",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qiso",
+    "variant": "pcs2",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary--pcs2/fit/units/BGS1--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 1.0130295314382876,
+    "minos_bounds": [
+      0.994339883807892,
+      1.0333680740709588
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.019514095131533404,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "measurement_bin": "BGS1",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qiso",
+    "variant": "reciso",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--reciso--R15/fit/units/BGS1--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 1.0061993915943532,
+    "minos_bounds": [
+      0.9887124895067246,
+      1.0253837125642118
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.01833561152874358,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "measurement_bin": "BGS1",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qiso",
+    "variant": "r25",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--scan--R25/fit/units/BGS1--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 1.009189295124126,
+    "minos_bounds": [
+      0.9908758910106589,
+      1.029167997574428
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.019146053281884512,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "measurement_bin": "BGS1",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qap",
+    "variant": "baseline",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/BGS1--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 0.8913055387655313,
+    "minos_bounds": [
+      0.8351934908130852,
+      0.950371858637479
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.05758918391219686,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "measurement_bin": "BGS1",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "prereconstruction",
+    "realization_id": null,
+    "parameter": "qap",
+    "variant": "pre",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/BGS1--sigma_0.003--prereconstruction--mean/profiles.npy",
+    "value": 0.9484297897855996,
+    "minos_bounds": [
+      0.8770662343371004,
+      1.0219245673836421
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.07242916652327086,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "measurement_bin": "BGS1",
+    "parameter": "qap",
+    "variant": "pk",
+    "status": "missing",
+    "reason": "Requires matched P(k) measurements, window, covariance and native mean fits."
+  },
+  {
+    "measurement_bin": "BGS1",
+    "parameter": "qap",
+    "variant": "ngc",
+    "status": "missing",
+    "reason": "Requires NGC-only measurements, window, covariance and native mean fits."
+  },
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "measurement_bin": "BGS1",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qap",
+    "variant": "flat",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary--flat/fit/units/BGS1--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 0.851651049861561,
+    "minos_bounds": [
+      0.8,
+      0.9193638336802709
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": true,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": true,
+    "optimizer_ok": true,
+    "usable": false,
+    "half_width": 0.05968191684013541,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "measurement_bin": "BGS1",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qap",
+    "variant": "pcs2",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary--pcs2/fit/units/BGS1--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 0.909883283633265,
+    "minos_bounds": [
+      0.8487738415618543,
+      0.9797226319618891
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.06547439520001741,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "measurement_bin": "BGS1",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qap",
+    "variant": "reciso",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--reciso--R15/fit/units/BGS1--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 0.9257096470229199,
+    "minos_bounds": [
+      0.8698798077778882,
+      0.9863246263346142
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.058222409278362974,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "measurement_bin": "BGS1",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qap",
+    "variant": "r25",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--scan--R25/fit/units/BGS1--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 0.9109600411401316,
+    "minos_bounds": [
+      0.8543111268293926,
+      0.9690788510724658
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.05738386212153662,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "measurement_bin": "BGS2",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qiso",
+    "variant": "baseline",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/BGS2--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 0.9954679428315677,
+    "minos_bounds": [
+      0.9906649811294509,
+      1.0003626636559093
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.004848841263229209,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "measurement_bin": "BGS2",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "prereconstruction",
+    "realization_id": null,
+    "parameter": "qiso",
+    "variant": "pre",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/BGS2--sigma_0.003--prereconstruction--mean/profiles.npy",
+    "value": 1.0052967134183073,
+    "minos_bounds": [
+      0.9965074180919969,
+      1.0143537617200804
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.00892317181404173,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "measurement_bin": "BGS2",
+    "parameter": "qiso",
+    "variant": "pk",
+    "status": "missing",
+    "reason": "Requires matched P(k) measurements, window, covariance and native mean fits."
+  },
+  {
+    "measurement_bin": "BGS2",
+    "parameter": "qiso",
+    "variant": "ngc",
+    "status": "missing",
+    "reason": "Requires NGC-only measurements, window, covariance and native mean fits."
+  },
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "measurement_bin": "BGS2",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qiso",
+    "variant": "flat",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary--flat/fit/units/BGS2--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 0.9955675053850392,
+    "minos_bounds": [
+      0.9907256472531104,
+      1.0005298586250106
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.00490210568595012,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "measurement_bin": "BGS2",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qiso",
+    "variant": "pcs2",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary--pcs2/fit/units/BGS2--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 0.9936248526979713,
+    "minos_bounds": [
+      0.9890313618343303,
+      0.9982574902340272
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.004613064199848471,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "measurement_bin": "BGS2",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qiso",
+    "variant": "reciso",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--reciso--R15/fit/units/BGS2--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 0.9970203968283043,
+    "minos_bounds": [
+      0.9921853947014453,
+      1.0019587515067834
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.004886678402669042,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "measurement_bin": "BGS2",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qiso",
+    "variant": "r25",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--scan--R25/fit/units/BGS2--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 0.9996545837454467,
+    "minos_bounds": [
+      0.9943982645054458,
+      1.0050032561404663
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.005302495817510244,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "measurement_bin": "BGS2",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qap",
+    "variant": "baseline",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/BGS2--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 0.987438462788171,
+    "minos_bounds": [
+      0.9700170889734564,
+      1.0054142818497054
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.017698596438124492,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "measurement_bin": "BGS2",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "prereconstruction",
+    "realization_id": null,
+    "parameter": "qap",
+    "variant": "pre",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/BGS2--sigma_0.003--prereconstruction--mean/profiles.npy",
+    "value": 0.9720062297797436,
+    "minos_bounds": [
+      0.940607577671588,
+      1.0051301712196437
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.03226129677402784,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "measurement_bin": "BGS2",
+    "parameter": "qap",
+    "variant": "pk",
+    "status": "missing",
+    "reason": "Requires matched P(k) measurements, window, covariance and native mean fits."
+  },
+  {
+    "measurement_bin": "BGS2",
+    "parameter": "qap",
+    "variant": "ngc",
+    "status": "missing",
+    "reason": "Requires NGC-only measurements, window, covariance and native mean fits."
+  },
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "measurement_bin": "BGS2",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qap",
+    "variant": "flat",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary--flat/fit/units/BGS2--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 0.987781210765861,
+    "minos_bounds": [
+      0.9701375111741728,
+      1.0061461148974584
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.018004301861642813,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "measurement_bin": "BGS2",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qap",
+    "variant": "pcs2",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary--pcs2/fit/units/BGS2--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 0.9798264340885525,
+    "minos_bounds": [
+      0.9631155464112225,
+      0.9968607026305776
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.016872578109677516,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "measurement_bin": "BGS2",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qap",
+    "variant": "reciso",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--reciso--R15/fit/units/BGS2--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 0.9938926558684834,
+    "minos_bounds": [
+      0.9761938747261859,
+      1.012239016694212
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.018022570984012998,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "BGS_BRIGHT-21.5",
+    "measurement_bin": "BGS2",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qap",
+    "variant": "r25",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--scan--R25/fit/units/BGS2--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 0.9944645609505544,
+    "minos_bounds": [
+      0.9756577219859954,
+      1.013902137179211
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.019122207596607765,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "LRG",
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qiso",
+    "variant": "baseline",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/LRG1--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 0.996680760649507,
+    "minos_bounds": [
+      0.9929138434519692,
+      1.0004287465418837
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.0037574515449572687,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "LRG",
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "prereconstruction",
+    "realization_id": null,
+    "parameter": "qiso",
+    "variant": "pre",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/LRG1--sigma_0.003--prereconstruction--mean/profiles.npy",
+    "value": 0.9940359041719526,
+    "minos_bounds": [
+      0.9888459781142596,
+      0.9991982645127035
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.005176143199221994,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "measurement_bin": "LRG1",
+    "parameter": "qiso",
+    "variant": "pk",
+    "status": "missing",
+    "reason": "Requires matched P(k) measurements, window, covariance and native mean fits."
+  },
+  {
+    "measurement_bin": "LRG1",
+    "parameter": "qiso",
+    "variant": "ngc",
+    "status": "missing",
+    "reason": "Requires NGC-only measurements, window, covariance and native mean fits."
+  },
+  {
+    "tracer": "LRG",
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qiso",
+    "variant": "flat",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary--flat/fit/units/LRG1--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 0.9965089681881775,
+    "minos_bounds": [
+      0.9927176374337962,
+      1.0002981033103344
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.0037902329382691335,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "LRG",
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qiso",
+    "variant": "pcs2",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary--pcs2/fit/units/LRG1--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 0.9959807268225407,
+    "minos_bounds": [
+      0.9928853544788839,
+      0.999088674432364
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.0031016599767400566,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "LRG",
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qiso",
+    "variant": "reciso",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--reciso--R15/fit/units/LRG1--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 0.9991585540734464,
+    "minos_bounds": [
+      0.9951732230739435,
+      1.0031303482779346
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.003978562601995528,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "LRG",
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qiso",
+    "variant": "r25",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--scan--R25/fit/units/LRG1--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 0.9958279007517064,
+    "minos_bounds": [
+      0.991925378502083,
+      0.9997061920320947
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.0038904067650058494,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "LRG",
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qap",
+    "variant": "baseline",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/LRG1--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 1.00130542646759,
+    "minos_bounds": [
+      0.9892726493200312,
+      1.0134853256913812
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.01210633818567497,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "LRG",
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "prereconstruction",
+    "realization_id": null,
+    "parameter": "qap",
+    "variant": "pre",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/LRG1--sigma_0.003--prereconstruction--mean/profiles.npy",
+    "value": 0.9848111896702265,
+    "minos_bounds": [
+      0.9680889645392443,
+      1.001766897070575
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.01683896626566539,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "measurement_bin": "LRG1",
+    "parameter": "qap",
+    "variant": "pk",
+    "status": "missing",
+    "reason": "Requires matched P(k) measurements, window, covariance and native mean fits."
+  },
+  {
+    "measurement_bin": "LRG1",
+    "parameter": "qap",
+    "variant": "ngc",
+    "status": "missing",
+    "reason": "Requires NGC-only measurements, window, covariance and native mean fits."
+  },
+  {
+    "tracer": "LRG",
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qap",
+    "variant": "flat",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary--flat/fit/units/LRG1--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 1.0012802896855688,
+    "minos_bounds": [
+      0.9896591321612949,
+      1.0135396759679824
+    ],
+    "interval_flags": {
+      "is_valid": false,
+      "lower_valid": false,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": false,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": false,
+    "half_width": 0.011940271903343791,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "LRG",
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qap",
+    "variant": "pcs2",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary--pcs2/fit/units/LRG1--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 0.9978709021112485,
+    "minos_bounds": [
+      0.9864004182600523,
+      1.0095149821157032
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.011557281927825458,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "LRG",
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qap",
+    "variant": "reciso",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--reciso--R15/fit/units/LRG1--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 1.008432215028059,
+    "minos_bounds": [
+      0.995775613815587,
+      1.021291055095165
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.012757720639789027,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "LRG",
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qap",
+    "variant": "r25",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--scan--R25/fit/units/LRG1--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 1.0023130177428017,
+    "minos_bounds": [
+      0.989868079263896,
+      1.0149129498696703
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.012522435302887158,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "LRG",
+    "measurement_bin": "LRG2",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qiso",
+    "variant": "baseline",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/LRG2--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 0.9865604615436048,
+    "minos_bounds": [
+      0.9722055345753148,
+      1.0015157656911975
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.014655115557941356,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "LRG",
+    "measurement_bin": "LRG2",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "prereconstruction",
+    "realization_id": null,
+    "parameter": "qiso",
+    "variant": "pre",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/LRG2--sigma_0.003--prereconstruction--mean/profiles.npy",
+    "value": 0.9891773647592921,
+    "minos_bounds": [
+      0.9698178370662353,
+      1.0113125754338417
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.02074736918380321,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "measurement_bin": "LRG2",
+    "parameter": "qiso",
+    "variant": "pk",
+    "status": "missing",
+    "reason": "Requires matched P(k) measurements, window, covariance and native mean fits."
+  },
+  {
+    "measurement_bin": "LRG2",
+    "parameter": "qiso",
+    "variant": "ngc",
+    "status": "missing",
+    "reason": "Requires NGC-only measurements, window, covariance and native mean fits."
+  },
+  {
+    "tracer": "LRG",
+    "measurement_bin": "LRG2",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qiso",
+    "variant": "flat",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary--flat/fit/units/LRG2--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 0.9885120519200011,
+    "minos_bounds": [
+      0.9729352062023979,
+      1.0054035581854364
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.016234175991519217,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "LRG",
+    "measurement_bin": "LRG2",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qiso",
+    "variant": "pcs2",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary--pcs2/fit/units/LRG2--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 0.9947389646443754,
+    "minos_bounds": [
+      0.9844320339811636,
+      1.0060338666336779
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.010800916326257126,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "LRG",
+    "measurement_bin": "LRG2",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qiso",
+    "variant": "reciso",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--reciso--R15/fit/units/LRG2--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 0.9932959986567644,
+    "minos_bounds": [
+      0.9779608459269463,
+      1.0091830094850203
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.015611081779036973,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "LRG",
+    "measurement_bin": "LRG2",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qiso",
+    "variant": "r25",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--scan--R25/fit/units/LRG2--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 0.9941455489529369,
+    "minos_bounds": [
+      0.9798205049194183,
+      1.0095416047257093
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.014860549903145504,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "LRG",
+    "measurement_bin": "LRG2",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qap",
+    "variant": "baseline",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/LRG2--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 0.9832937342456192,
+    "minos_bounds": [
+      0.9490434222799293,
+      1.0196029514809353
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.03527976460050297,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "LRG",
+    "measurement_bin": "LRG2",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "prereconstruction",
+    "realization_id": null,
+    "parameter": "qap",
+    "variant": "pre",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/LRG2--sigma_0.003--prereconstruction--mean/profiles.npy",
+    "value": 0.9700495346710132,
+    "minos_bounds": [
+      0.9220305886517056,
+      1.0256286136437327
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.05179901249601354,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "measurement_bin": "LRG2",
+    "parameter": "qap",
+    "variant": "pk",
+    "status": "missing",
+    "reason": "Requires matched P(k) measurements, window, covariance and native mean fits."
+  },
+  {
+    "measurement_bin": "LRG2",
+    "parameter": "qap",
+    "variant": "ngc",
+    "status": "missing",
+    "reason": "Requires NGC-only measurements, window, covariance and native mean fits."
+  },
+  {
+    "tracer": "LRG",
+    "measurement_bin": "LRG2",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qap",
+    "variant": "flat",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary--flat/fit/units/LRG2--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 0.9903042776175157,
+    "minos_bounds": [
+      0.954045884304347,
+      1.0321365459264127
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.03904533081103284,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "LRG",
+    "measurement_bin": "LRG2",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qap",
+    "variant": "pcs2",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary--pcs2/fit/units/LRG2--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 1.0108356341717188,
+    "minos_bounds": [
+      0.9701048826843242,
+      1.0569809677141766
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.04343804251492622,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "LRG",
+    "measurement_bin": "LRG2",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qap",
+    "variant": "reciso",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--reciso--R15/fit/units/LRG2--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 0.9983797591454856,
+    "minos_bounds": [
+      0.9626686875274206,
+      1.0366590302461547
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.03699517135936703,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "LRG",
+    "measurement_bin": "LRG2",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qap",
+    "variant": "r25",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--scan--R25/fit/units/LRG2--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 1.0026186209596146,
+    "minos_bounds": [
+      0.9676005607664937,
+      1.041347939045766
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.03687368913963618,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "LRG",
+    "measurement_bin": "LRG3",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qiso",
+    "variant": "baseline",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/LRG3--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 0.9939481117029544,
+    "minos_bounds": [
+      0.9806296995529691,
+      1.0080816720584655
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.013725986252748235,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "LRG",
+    "measurement_bin": "LRG3",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "prereconstruction",
+    "realization_id": null,
+    "parameter": "qiso",
+    "variant": "pre",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/LRG3--sigma_0.003--prereconstruction--mean/profiles.npy",
+    "value": 0.999857208733321,
+    "minos_bounds": [
+      0.9873824414887882,
+      1.013149607720937
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.012883583116074404,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "measurement_bin": "LRG3",
+    "parameter": "qiso",
+    "variant": "pk",
+    "status": "missing",
+    "reason": "Requires matched P(k) measurements, window, covariance and native mean fits."
+  },
+  {
+    "measurement_bin": "LRG3",
+    "parameter": "qiso",
+    "variant": "ngc",
+    "status": "missing",
+    "reason": "Requires NGC-only measurements, window, covariance and native mean fits."
+  },
+  {
+    "tracer": "LRG",
+    "measurement_bin": "LRG3",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qiso",
+    "variant": "flat",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary--flat/fit/units/LRG3--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 0.994644116355803,
+    "minos_bounds": [
+      0.9807725493189806,
+      1.014428358740809
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.016827904710914166,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "LRG",
+    "measurement_bin": "LRG3",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qiso",
+    "variant": "pcs2",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary--pcs2/fit/units/LRG3--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 0.9919201430970855,
+    "minos_bounds": [
+      0.9796252539040455,
+      1.005078746009325
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.012726746052639681,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "LRG",
+    "measurement_bin": "LRG3",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qiso",
+    "variant": "reciso",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--reciso--R15/fit/units/LRG3--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 0.9931111272732426,
+    "minos_bounds": [
+      0.9796545499232936,
+      1.0074334574231918
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.013889453749949099,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "LRG",
+    "measurement_bin": "LRG3",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qiso",
+    "variant": "r25",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--scan--R25/fit/units/LRG3--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 1.004824056105565,
+    "minos_bounds": [
+      0.9923488763953214,
+      1.018179267794392
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.012915195699535253,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "LRG",
+    "measurement_bin": "LRG3",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qap",
+    "variant": "baseline",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/LRG3--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 0.938496568655157,
+    "minos_bounds": [
+      0.8922697738441501,
+      0.9853437633168314
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.04653699473634065,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "LRG",
+    "measurement_bin": "LRG3",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "prereconstruction",
+    "realization_id": null,
+    "parameter": "qap",
+    "variant": "pre",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/LRG3--sigma_0.003--prereconstruction--mean/profiles.npy",
+    "value": 0.9934070144263708,
+    "minos_bounds": [
+      0.9512477483242665,
+      1.0362003452554764
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.04247629846560497,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "measurement_bin": "LRG3",
+    "parameter": "qap",
+    "variant": "pk",
+    "status": "missing",
+    "reason": "Requires matched P(k) measurements, window, covariance and native mean fits."
+  },
+  {
+    "measurement_bin": "LRG3",
+    "parameter": "qap",
+    "variant": "ngc",
+    "status": "missing",
+    "reason": "Requires NGC-only measurements, window, covariance and native mean fits."
+  },
+  {
+    "tracer": "LRG",
+    "measurement_bin": "LRG3",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qap",
+    "variant": "flat",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary--flat/fit/units/LRG3--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 0.9370876162875423,
+    "minos_bounds": [
+      0.890328959934759,
+      1.0047578638612884
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.05721445196326469,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "LRG",
+    "measurement_bin": "LRG3",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qap",
+    "variant": "pcs2",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary--pcs2/fit/units/LRG3--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 0.9744946201045476,
+    "minos_bounds": [
+      0.9256708801221605,
+      1.0313246528458884
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.052826886361863945,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "LRG",
+    "measurement_bin": "LRG3",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qap",
+    "variant": "reciso",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--reciso--R15/fit/units/LRG3--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 0.9309436488550745,
+    "minos_bounds": [
+      0.88402463138129,
+      0.9777327696273082
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.0468540691230091,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  },
+  {
+    "tracer": "LRG",
+    "measurement_bin": "LRG3",
+    "condition": "sigma_0.003",
+    "reconstruction_state": "postreconstruction",
+    "realization_id": null,
+    "parameter": "qap",
+    "variant": "r25",
+    "status": "available",
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--scan--R25/fit/units/LRG3--sigma_0.003--postreconstruction--mean/profiles.npy",
+    "value": 0.9631422487217101,
+    "minos_bounds": [
+      0.9222825301580931,
+      1.0052249392477304
+    ],
+    "interval_flags": {
+      "is_valid": true,
+      "lower_valid": true,
+      "upper_valid": true,
+      "at_lower_limit": false,
+      "at_upper_limit": false
+    },
+    "maximization": {
+      "is_valid": true,
+      "is_above_max_edm": false,
+      "has_reached_call_limit": false,
+      "converged": true
+    },
+    "ordered_bounds": true,
+    "interval_valid": true,
+    "boundary": false,
+    "optimizer_ok": true,
+    "usable": true,
+    "half_width": 0.04147120454481862,
+    "interval_unavailable_reason": null,
+    "n_mocks": 25
+  }
+]

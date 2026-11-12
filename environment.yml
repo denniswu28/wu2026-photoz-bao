@@ -1,0 +1,53 @@
+# Conda part of the scientific environment. After creating it, install the git-pinned packages
+# exactly as listed, without letting pip resolve newer commits:
+#   python -m pip install --no-deps --no-build-isolation -r requirements-science.txt
+#   python -m pip install --no-deps -e .
+# Versions follow the environment the paper's results were produced with.
+name: pzbao
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy=1.26
+  - scipy
+  - matplotlib
+  - astropy
+  - h5py
+  - healpy
+  - pyyaml
+  - click
+  - joblib
+  - threadpoolctl
+  - requests
+  # MPI and build tools for pmesh, pfft-python, Corrfunc, pyclass and RascalC
+  - openmpi
+  - mpi4py
+  - fftw
+  - gsl
+  - compilers
+  - make
+  - cmake
+  - cython
+  # build backends, needed because the pinned packages build without isolation
+  - setuptools
+  - setuptools-scm
+  - wheel
+  - flit-core
+  # desilike's jax backend
+  - jax=0.7.1
+  - jaxlib=0.7.1
+  - interpax=0.3.12
+  - equinox=0.13.0
+  - jaxtyping
+  - lineax
+  # samplers and Corrfunc's runtime helpers
+  - emcee=3.1.6
+  - iminuit=2.32.0
+  - future
+  - wurlitzer
+  # tests and notebooks
+  - pytest
+  - black
+  - ipython
+  - ipykernel
+  - pip

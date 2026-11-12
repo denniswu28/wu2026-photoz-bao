@@ -1,0 +1,801 @@
+{
+  "fig_post1d": {
+    "caption": "",
+    "axes": [
+      {
+        "xlim": [
+          0.95,
+          1.05
+        ],
+        "ylim": [
+          0.0,
+          21.48163554948239
+        ],
+        "xlabel": "",
+        "ylabel": ""
+      },
+      {
+        "xlim": [
+          0.95,
+          1.05
+        ],
+        "ylim": [
+          0.0,
+          115.9792503857219
+        ],
+        "xlabel": "",
+        "ylabel": ""
+      },
+      {
+        "xlim": [
+          0.95,
+          1.05
+        ],
+        "ylim": [
+          0.0,
+          111.10092460207242
+        ],
+        "xlabel": "",
+        "ylabel": ""
+      },
+      {
+        "xlim": [
+          0.95,
+          1.05
+        ],
+        "ylim": [
+          0.0,
+          39.21912114149136
+        ],
+        "xlabel": "",
+        "ylabel": ""
+      },
+      {
+        "xlim": [
+          0.95,
+          1.05
+        ],
+        "ylim": [
+          0.0,
+          39.612854348640205
+        ],
+        "xlabel": "",
+        "ylabel": ""
+      },
+      {
+        "xlim": [
+          0.95,
+          1.05
+        ],
+        "ylim": [
+          0.0,
+          1.0
+        ],
+        "xlabel": "",
+        "ylabel": ""
+      }
+    ],
+    "pdf": "fig_post1d.pdf",
+    "png": "fig_post1d.png"
+  },
+  "fig_post2d": {
+    "caption": "",
+    "axes": [
+      {
+        "xlim": [
+          0.95,
+          1.05
+        ],
+        "ylim": [
+          0.95,
+          1.05
+        ],
+        "xlabel": "",
+        "ylabel": ""
+      },
+      {
+        "xlim": [
+          0.95,
+          1.05
+        ],
+        "ylim": [
+          0.95,
+          1.05
+        ],
+        "xlabel": "",
+        "ylabel": ""
+      },
+      {
+        "xlim": [
+          0.95,
+          1.05
+        ],
+        "ylim": [
+          0.95,
+          1.05
+        ],
+        "xlabel": "",
+        "ylabel": ""
+      },
+      {
+        "xlim": [
+          0.95,
+          1.05
+        ],
+        "ylim": [
+          0.95,
+          1.05
+        ],
+        "xlabel": "",
+        "ylabel": ""
+      },
+      {
+        "xlim": [
+          0.95,
+          1.05
+        ],
+        "ylim": [
+          0.95,
+          1.05
+        ],
+        "xlabel": "",
+        "ylabel": ""
+      },
+      {
+        "xlim": [
+          0.95,
+          1.05
+        ],
+        "ylim": [
+          0.95,
+          1.05
+        ],
+        "xlabel": "",
+        "ylabel": ""
+      }
+    ],
+    "pdf": "fig_post2d.pdf",
+    "png": "fig_post2d.png"
+  },
+  "fig_recon_quality": {
+    "caption": "",
+    "axes": [
+      {
+        "xlim": [
+          0.0007,
+          0.1
+        ],
+        "ylim": [
+          0.5618033299500126,
+          1.918401288384707
+        ],
+        "xlabel": "",
+        "ylabel": "$\\sigma_{\\rm pre}(\\alpha_{\\rm iso})/\\sigma_{\\rm post}(\\alpha_{\\rm iso})$"
+      },
+      {
+        "xlim": [
+          0.0007,
+          0.1
+        ],
+        "ylim": [
+          0.5618033299500126,
+          1.918401288384707
+        ],
+        "xlabel": "",
+        "ylabel": ""
+      },
+      {
+        "xlim": [
+          0.0007,
+          0.1
+        ],
+        "ylim": [
+          0.5618033299500126,
+          1.918401288384707
+        ],
+        "xlabel": "",
+        "ylabel": ""
+      },
+      {
+        "xlim": [
+          0.0007,
+          0.1
+        ],
+        "ylim": [
+          0.5618033299500126,
+          1.918401288384707
+        ],
+        "xlabel": "",
+        "ylabel": ""
+      },
+      {
+        "xlim": [
+          0.0007,
+          0.1
+        ],
+        "ylim": [
+          0.5618033299500126,
+          1.918401288384707
+        ],
+        "xlabel": "",
+        "ylabel": ""
+      },
+      {
+        "xlim": [
+          0.0007,
+          0.1
+        ],
+        "ylim": [
+          0.21875056615868377,
+          3.5166041553157688
+        ],
+        "xlabel": "$\\sigma_z/(1+z)$",
+        "ylabel": "$\\mathrm{FoM}_{\\rm 2D,diag}^{\\rm post}/\\mathrm{FoM}_{\\rm 2D,diag}^{\\rm pre}$"
+      },
+      {
+        "xlim": [
+          0.0007,
+          0.1
+        ],
+        "ylim": [
+          0.21875056615868377,
+          3.5166041553157688
+        ],
+        "xlabel": "$\\sigma_z/(1+z)$",
+        "ylabel": ""
+      },
+      {
+        "xlim": [
+          0.0007,
+          0.1
+        ],
+        "ylim": [
+          0.21875056615868377,
+          3.5166041553157688
+        ],
+        "xlabel": "$\\sigma_z/(1+z)$",
+        "ylabel": ""
+      },
+      {
+        "xlim": [
+          0.0007,
+          0.1
+        ],
+        "ylim": [
+          0.21875056615868377,
+          3.5166041553157688
+        ],
+        "xlabel": "$\\sigma_z/(1+z)$",
+        "ylabel": ""
+      },
+      {
+        "xlim": [
+          0.0007,
+          0.1
+        ],
+        "ylim": [
+          0.21875056615868377,
+          3.5166041553157688
+        ],
+        "xlabel": "$\\sigma_z/(1+z)$",
+        "ylabel": ""
+      }
+    ],
+    "pdf": "fig_recon_quality.pdf",
+    "png": "fig_recon_quality.png"
+  },
+  "fig_cf": {
+    "caption": "",
+    "axes": [
+      {
+        "xlim": [
+          45.0,
+          155.0
+        ],
+        "ylim": [
+          -32.5466074496464,
+          68.74628922647848
+        ],
+        "xlabel": "",
+        "ylabel": "$s^2\\xi_0(s)\\ [(h^{-1}{\\rm Mpc})^2]$"
+      },
+      {
+        "xlim": [
+          45.0,
+          155.0
+        ],
+        "ylim": [
+          -2.478579966198308,
+          3.9952892638782362
+        ],
+        "xlabel": "",
+        "ylabel": "$\\Delta\\xi_0/\\sigma_{\\rm post}$"
+      },
+      {
+        "xlim": [
+          45.05016809097082,
+          155.01272709234686
+        ],
+        "ylim": [
+          -32.5466074496464,
+          68.74628922647848
+        ],
+        "xlabel": "",
+        "ylabel": ""
+      },
+      {
+        "xlim": [
+          45.05016809097082,
+          155.01272709234686
+        ],
+        "ylim": [
+          -2.478579966198308,
+          3.9952892638782362
+        ],
+        "xlabel": "",
+        "ylabel": ""
+      },
+      {
+        "xlim": [
+          45.0501637473919,
+          155.01272907460913
+        ],
+        "ylim": [
+          -32.5466074496464,
+          68.74628922647848
+        ],
+        "xlabel": "",
+        "ylabel": ""
+      },
+      {
+        "xlim": [
+          45.0501637473919,
+          155.01272907460913
+        ],
+        "ylim": [
+          -2.478579966198308,
+          3.9952892638782362
+        ],
+        "xlabel": "$s\\ [h^{-1}{\\rm Mpc}]$",
+        "ylabel": ""
+      },
+      {
+        "xlim": [
+          45.05016998163684,
+          155.0127352399565
+        ],
+        "ylim": [
+          -32.5466074496464,
+          68.74628922647848
+        ],
+        "xlabel": "",
+        "ylabel": "$s^2\\xi_0(s)\\ [(h^{-1}{\\rm Mpc})^2]$"
+      },
+      {
+        "xlim": [
+          45.05016998163684,
+          155.0127352399565
+        ],
+        "ylim": [
+          -2.478579966198308,
+          3.9952892638782362
+        ],
+        "xlabel": "$s\\ [h^{-1}{\\rm Mpc}]$",
+        "ylabel": "$\\Delta\\xi_0/\\sigma_{\\rm post}$"
+      },
+      {
+        "xlim": [
+          45.050212827955804,
+          155.01274385146158
+        ],
+        "ylim": [
+          -32.5466074496464,
+          68.74628922647848
+        ],
+        "xlabel": "",
+        "ylabel": ""
+      },
+      {
+        "xlim": [
+          45.050212827955804,
+          155.01274385146158
+        ],
+        "ylim": [
+          -2.478579966198308,
+          3.9952892638782362
+        ],
+        "xlabel": "$s\\ [h^{-1}{\\rm Mpc}]$",
+        "ylabel": ""
+      },
+      {
+        "xlim": [
+          0.8,
+          1.2
+        ],
+        "ylim": [
+          0.0,
+          914.8158336178686
+        ],
+        "xlabel": "$\\alpha_{\\rm iso}$",
+        "ylabel": "$\\Delta\\chi^2$"
+      }
+    ],
+    "pdf": "fig_cf.pdf",
+    "png": "fig_cf.png"
+  },
+  "fig_lrg1_realizations": {
+    "caption": "",
+    "axes": [
+      {
+        "xlim": [
+          -1.5,
+          138.5
+        ],
+        "ylim": [
+          0.7446173199102833,
+          1.2576282309465303
+        ],
+        "xlabel": "",
+        "ylabel": "$\\alpha_{\\rm iso}$"
+      },
+      {
+        "xlim": [
+          -1.5,
+          138.5
+        ],
+        "ylim": [
+          0.7800000218067594,
+          1.2199999989493362
+        ],
+        "xlabel": "",
+        "ylabel": "$\\alpha_{\\rm AP}$"
+      },
+      {
+        "xlim": [
+          -1.5,
+          138.5
+        ],
+        "ylim": [
+          0.00732154720755631,
+          0.18558208805900644
+        ],
+        "xlabel": "",
+        "ylabel": "$\\sigma(\\alpha_{\\rm iso})$"
+      },
+      {
+        "xlim": [
+          -1.5,
+          138.5
+        ],
+        "ylim": [
+          0.02343460771214748,
+          0.15065292707413355
+        ],
+        "xlabel": "",
+        "ylabel": "$\\sigma(\\alpha_{\\rm AP})$"
+      },
+      {
+        "xlim": [
+          -1.5,
+          138.5
+        ],
+        "ylim": [
+          16.68509878161315,
+          78.41983485843348
+        ],
+        "xlabel": "",
+        "ylabel": "$\\chi^2$ (dof $=38$)"
+      }
+    ],
+    "pdf": "fig_lrg1_realizations.pdf",
+    "png": "fig_lrg1_realizations.png"
+  },
+  "fig_fom_2d": {
+    "caption": "FoM = 1/sqrt(det Cov(alpha_iso,alpha_AP)), ddof=1, for the four redshift precision classes and their joint combination (non-negative combination of the four tier posteriors, specification revision 2.14). Solid post-reconstruction bars and black-hatched pre-reconstruction bars in the same colour; signed percentage gains. One linear axis per panel; the unsmeared control is not shown; n/a marks bins whose designated report carries no per-realization profiles for the joint combination. All saved posteriors retain sampling limitations; a profile flag does not replace posterior diagnostics.",
+    "axes": [
+      {
+        "xlim": [
+          -0.6,
+          4.6
+        ],
+        "ylim": [
+          0.0,
+          1232.9119137094276
+        ],
+        "xlabel": "$\\sigma_z/(1+z)$",
+        "ylabel": ""
+      },
+      {
+        "xlim": [
+          -0.6,
+          4.6
+        ],
+        "ylim": [
+          0.0,
+          28223.65147192737
+        ],
+        "xlabel": "$\\sigma_z/(1+z)$",
+        "ylabel": ""
+      },
+      {
+        "xlim": [
+          -0.6,
+          4.6
+        ],
+        "ylim": [
+          0.0,
+          29712.839444367157
+        ],
+        "xlabel": "$\\sigma_z/(1+z)$",
+        "ylabel": ""
+      },
+      {
+        "xlim": [
+          -0.6,
+          4.6
+        ],
+        "ylim": [
+          0.0,
+          6053.715622806957
+        ],
+        "xlabel": "$\\sigma_z/(1+z)$",
+        "ylabel": ""
+      },
+      {
+        "xlim": [
+          -0.6,
+          4.6
+        ],
+        "ylim": [
+          0.0,
+          4998.632648779442
+        ],
+        "xlabel": "$\\sigma_z/(1+z)$",
+        "ylabel": ""
+      },
+      {
+        "xlim": [
+          0.0,
+          1.0
+        ],
+        "ylim": [
+          0.0,
+          1.0
+        ],
+        "xlabel": "",
+        "ylabel": ""
+      }
+    ],
+    "pdf": "fig_fom_2d.pdf",
+    "png": "fig_fom_2d.png"
+  },
+  "fig_survey_landscape": {
+    "caption": "",
+    "axes": [
+      {
+        "xlim": [
+          -0.6,
+          7.6
+        ],
+        "ylim": [
+          0.2725826084233295,
+          316.68706739667005
+        ],
+        "xlabel": "$\\sigma_z/(1+z)$",
+        "ylabel": "$V_{\\rm eff}\\ [(h^{-1}\\,{\\rm Gpc})^3]$"
+      }
+    ],
+    "pdf": "fig_survey_landscape.pdf",
+    "png": "fig_survey_landscape.png"
+  },
+  "fig_nz": {
+    "caption": "Radial selection: attained n(z) per tier, with the attained density of each measurement bin at its effective redshift.",
+    "axes": [
+      {
+        "xlim": [
+          0.1,
+          1.0
+        ],
+        "ylim": [
+          1.8983527306955284e-06,
+          0.0268
+        ],
+        "xlabel": "$z$",
+        "ylabel": "$\\bar n(z)\\ [h^3\\,{\\rm Mpc}^{-3}]$"
+      },
+      {
+        "xlim": [
+          0.1,
+          1.0
+        ],
+        "ylim": [
+          1.8983527306955284e-06,
+          0.0268
+        ],
+        "xlabel": "$z$",
+        "ylabel": ""
+      },
+      {
+        "xlim": [
+          0.1,
+          1.0
+        ],
+        "ylim": [
+          1.8983527306955284e-06,
+          0.0268
+        ],
+        "xlabel": "$z$",
+        "ylabel": ""
+      },
+      {
+        "xlim": [
+          0.1,
+          1.0
+        ],
+        "ylim": [
+          1.8983527306955284e-06,
+          0.0268
+        ],
+        "xlabel": "$z$",
+        "ylabel": ""
+      },
+      {
+        "xlim": [
+          0.1,
+          1.0
+        ],
+        "ylim": [
+          1.8983527306955284e-06,
+          0.0268
+        ],
+        "xlabel": "$z$",
+        "ylabel": ""
+      }
+    ],
+    "pdf": "fig_nz.pdf",
+    "png": "fig_nz.png"
+  },
+  "fig_pipeline": {
+    "caption": "Analysis sequence per tracer, realization and redshift-error condition, from paper/figures/source/fig_pipeline.svg.",
+    "axes": [
+      {
+        "xlim": [
+          -0.5,
+          509.5
+        ],
+        "ylim": [
+          939.5,
+          -0.5
+        ],
+        "xlabel": "",
+        "ylabel": ""
+      }
+    ],
+    "pdf": "fig_pipeline.pdf",
+    "png": "fig_pipeline.png"
+  },
+  "fig_los_damping": {
+    "caption": "",
+    "axes": [
+      {
+        "xlim": [
+          0.01,
+          0.5
+        ],
+        "ylim": [
+          0.0,
+          1.05
+        ],
+        "xlabel": "",
+        "ylabel": "$G(k)$"
+      },
+      {
+        "xlim": [
+          0.01,
+          0.5
+        ],
+        "ylim": [
+          0.0,
+          1.05
+        ],
+        "xlabel": "$k\\ [h\\,{\\rm Mpc}^{-1}]$",
+        "ylabel": "$G(k)$"
+      }
+    ],
+    "pdf": "fig_los_damping.pdf",
+    "png": "fig_los_damping.png"
+  },
+  "fig_literature_comparison": {
+    "caption": "",
+    "axes": [
+      {
+        "xlim": [
+          75.0,
+          0.49287604259664014
+        ],
+        "ylim": [
+          19.750000000000004,
+          -1.0
+        ],
+        "xlabel": "Fractional distance-scale error [%]",
+        "ylabel": ""
+      }
+    ],
+    "pdf": "fig_literature_comparison.pdf",
+    "png": "fig_literature_comparison.png"
+  },
+  "fig_distance_ratios": {
+    "caption": "Joint-tier distance ratios to the mock (Planck 2018) cosmology against effective redshift, in the DESI DR2 layout: D_V/r_d, D_M/D_H, D_M/r_d and D_H/r_d from the joint (alpha_iso, alpha_AP) constraint of each bin, pre- (hollow) and post-reconstruction (filled), one colour per redshift range; no model curves. Expected ratio unity for the exact mock cosmology. Bins whose designated report carries no per-realization profiles have no joint point.",
+    "axes": [
+      {
+        "xlim": [
+          0.11759836586626621,
+          0.9147026015875577
+        ],
+        "ylim": [
+          0.9665618768195098,
+          1.050942393802756
+        ],
+        "xlabel": "",
+        "ylabel": "$(D_V/r_d)\\,/\\,(D_V/r_d)^{\\rm fid}$"
+      },
+      {
+        "xlim": [
+          0.11759836586626621,
+          0.9147026015875577
+        ],
+        "ylim": [
+          0.9466476374472914,
+          1.110975186536101
+        ],
+        "xlabel": "",
+        "ylabel": "$(D_M/D_H)\\,/\\,(D_M/D_H)^{\\rm fid}$"
+      },
+      {
+        "xlim": [
+          0.11759836586626621,
+          0.9147026015875577
+        ],
+        "ylim": [
+          0.9807719769207859,
+          1.067996665417121
+        ],
+        "xlabel": "$z_{\\rm eff}$",
+        "ylabel": "$(D_M/r_d)\\,/\\,(D_M/r_d)^{\\rm fid}$"
+      },
+      {
+        "xlim": [
+          0.11759836586626621,
+          0.9147026015875577
+        ],
+        "ylim": [
+          0.9235246220034152,
+          1.0641470653758374
+        ],
+        "xlabel": "$z_{\\rm eff}$",
+        "ylabel": "$(D_H/r_d)\\,/\\,(D_H/r_d)^{\\rm fid}$"
+      }
+    ],
+    "pdf": "fig_distance_ratios.pdf",
+    "png": "fig_distance_ratios.png"
+  },
+  "fig_sigma_r_precision": {
+    "caption": "Direct fractional sigma_R/R for the four photometric mock tiers, plus a DESI DR1 density/volume forecast and the mock-footprint cosmic-variance reference. Mock points use effective redshift; DR1 uses bin centres. Effective volumes sum the attained cap densities and physical cap volumes, with the same frozen tracer-specific P0 in both mock and DR1 calculations. No common-area rescaling is applied. The original factor of 100 expressed percentages; every plotted value is now a dimensionless fraction. R is the combined distance-scale precision calibrated from DESI Table 7. The 0.001 tier is a constructed quarter-density proxy. This effective-volume diagnostic omits anisotropic photo-z information loss and reconstruction response; it is not fitted posterior precision.",
+    "axes": [
+      {
+        "xlim": [
+          0.1,
+          1.0
+        ],
+        "ylim": [
+          0.0,
+          0.06940128174572947
+        ],
+        "xlabel": "Redshift z",
+        "ylabel": "$\\sigma_R/R$"
+      }
+    ],
+    "pdf": "fig_sigma_r_precision.pdf",
+    "png": "fig_sigma_r_precision.png"
+  }
+}

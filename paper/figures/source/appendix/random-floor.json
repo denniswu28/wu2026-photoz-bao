@@ -1,0 +1,1160 @@
+{
+ "definition": "threshold_zeroed_cell_count / supported_cell_count",
+ "fields": [
+  {
+   "run": "unified-fit-v3--primary",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "BGS1",
+   "field_class": "native",
+   "routes": [
+    "BGS1|native|postreconstruction",
+    "BGS1|native|prereconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 80931655,
+   "threshold_zeroed_cell_count": 0,
+   "pooled_share": 0.0,
+   "realization_share_mean": 0.0,
+   "realization_share_max": 0.0
+  },
+  {
+   "run": "unified-fit-v3--primary",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "BGS1",
+   "field_class": "sigma_0.001",
+   "routes": [
+    "BGS1|sigma_0.001|postreconstruction",
+    "BGS1|sigma_0.001|prereconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 80930326,
+   "threshold_zeroed_cell_count": 0,
+   "pooled_share": 0.0,
+   "realization_share_mean": 0.0,
+   "realization_share_max": 0.0
+  },
+  {
+   "run": "unified-fit-v3--primary",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "BGS1",
+   "field_class": "sigma_0.003",
+   "routes": [
+    "BGS1|sigma_0.003|postreconstruction",
+    "BGS1|sigma_0.003|prereconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 80933641,
+   "threshold_zeroed_cell_count": 0,
+   "pooled_share": 0.0,
+   "realization_share_mean": 0.0,
+   "realization_share_max": 0.0
+  },
+  {
+   "run": "unified-fit-v3--primary",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "BGS1",
+   "field_class": "sigma_0.01",
+   "routes": [
+    "BGS1|sigma_0.01|postreconstruction",
+    "BGS1|sigma_0.01|prereconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 80956767,
+   "threshold_zeroed_cell_count": 0,
+   "pooled_share": 0.0,
+   "realization_share_mean": 0.0,
+   "realization_share_max": 0.0
+  },
+  {
+   "run": "unified-fit-v3--primary",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "BGS1",
+   "field_class": "sigma_0.03",
+   "routes": [
+    "BGS1|sigma_0.03|postreconstruction",
+    "BGS1|sigma_0.03|prereconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 81118593,
+   "threshold_zeroed_cell_count": 0,
+   "pooled_share": 0.0,
+   "realization_share_mean": 0.0,
+   "realization_share_max": 0.0
+  },
+  {
+   "run": "unified-fit-v3--primary",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "BGS2",
+   "field_class": "native",
+   "routes": [
+    "BGS2|native|postreconstruction",
+    "BGS2|native|prereconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 488637755,
+   "threshold_zeroed_cell_count": 0,
+   "pooled_share": 0.0,
+   "realization_share_mean": 0.0,
+   "realization_share_max": 0.0
+  },
+  {
+   "run": "unified-fit-v3--primary",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "BGS2",
+   "field_class": "sigma_0.001",
+   "routes": [
+    "BGS2|sigma_0.001|postreconstruction",
+    "BGS2|sigma_0.001|prereconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 488641751,
+   "threshold_zeroed_cell_count": 0,
+   "pooled_share": 0.0,
+   "realization_share_mean": 0.0,
+   "realization_share_max": 0.0
+  },
+  {
+   "run": "unified-fit-v3--primary",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "BGS2",
+   "field_class": "sigma_0.003",
+   "routes": [
+    "BGS2|sigma_0.003|postreconstruction",
+    "BGS2|sigma_0.003|prereconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 488642422,
+   "threshold_zeroed_cell_count": 0,
+   "pooled_share": 0.0,
+   "realization_share_mean": 0.0,
+   "realization_share_max": 0.0
+  },
+  {
+   "run": "unified-fit-v3--primary",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "BGS2",
+   "field_class": "sigma_0.01",
+   "routes": [
+    "BGS2|sigma_0.01|postreconstruction",
+    "BGS2|sigma_0.01|prereconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 488662560,
+   "threshold_zeroed_cell_count": 0,
+   "pooled_share": 0.0,
+   "realization_share_mean": 0.0,
+   "realization_share_max": 0.0
+  },
+  {
+   "run": "unified-fit-v3--primary",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "BGS2",
+   "field_class": "sigma_0.03",
+   "routes": [
+    "BGS2|sigma_0.03|postreconstruction",
+    "BGS2|sigma_0.03|prereconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 488622131,
+   "threshold_zeroed_cell_count": 0,
+   "pooled_share": 0.0,
+   "realization_share_mean": 0.0,
+   "realization_share_max": 0.0
+  },
+  {
+   "run": "unified-fit-v3--primary",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "LRG1",
+   "field_class": "native",
+   "routes": [
+    "LRG1|native|postreconstruction",
+    "LRG1|native|prereconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 989686770,
+   "threshold_zeroed_cell_count": 1,
+   "pooled_share": 1.0104207010870722e-09,
+   "realization_share_mean": 8.074755439881992e-10,
+   "realization_share_max": 4.037377719940996e-08
+  },
+  {
+   "run": "unified-fit-v3--primary",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "LRG1",
+   "field_class": "sigma_0.001",
+   "routes": [
+    "LRG1|sigma_0.001|postreconstruction",
+    "LRG1|sigma_0.001|prereconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 946433636,
+   "threshold_zeroed_cell_count": 5845,
+   "pooled_share": 6.1758160082974905e-06,
+   "realization_share_mean": 4.9894962618586425e-06,
+   "realization_share_max": 1.3948419587171449e-05
+  },
+  {
+   "run": "unified-fit-v3--primary",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "LRG1",
+   "field_class": "sigma_0.003",
+   "routes": [
+    "LRG1|sigma_0.003|postreconstruction",
+    "LRG1|sigma_0.003|prereconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 988304843,
+   "threshold_zeroed_cell_count": 4,
+   "pooled_share": 4.047334209005794e-09,
+   "realization_share_mean": 3.2341126952209327e-09,
+   "realization_share_max": 1.212845293012103e-07
+  },
+  {
+   "run": "unified-fit-v3--primary",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "LRG1",
+   "field_class": "sigma_0.01",
+   "routes": [
+    "LRG1|sigma_0.01|postreconstruction",
+    "LRG1|sigma_0.01|prereconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 989702410,
+   "threshold_zeroed_cell_count": 1,
+   "pooled_share": 1.0104047336815114e-09,
+   "realization_share_mean": 8.074696758800572e-10,
+   "realization_share_max": 4.037348379400286e-08
+  },
+  {
+   "run": "unified-fit-v3--primary",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "LRG1",
+   "field_class": "sigma_0.03",
+   "routes": [
+    "LRG1|sigma_0.03|postreconstruction",
+    "LRG1|sigma_0.03|prereconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 989772571,
+   "threshold_zeroed_cell_count": 1,
+   "pooled_share": 1.0103331101504126e-09,
+   "realization_share_mean": 8.074038937052774e-10,
+   "realization_share_max": 4.037019468526387e-08
+  },
+  {
+   "run": "unified-fit-v3--primary",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "LRG2",
+   "field_class": "native",
+   "routes": [
+    "LRG2|native|postreconstruction",
+    "LRG2|native|prereconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 1501246599,
+   "threshold_zeroed_cell_count": 23,
+   "pooled_share": 1.5320600902823428e-08,
+   "realization_share_mean": 1.2225928151283195e-08,
+   "realization_share_max": 2.1262669261810888e-07
+  },
+  {
+   "run": "unified-fit-v3--primary",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "LRG2",
+   "field_class": "sigma_0.001",
+   "routes": [
+    "LRG2|sigma_0.001|postreconstruction",
+    "LRG2|sigma_0.001|prereconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 920203774,
+   "threshold_zeroed_cell_count": 1625429,
+   "pooled_share": 0.001766379410654319,
+   "realization_share_mean": 0.0017786140752395724,
+   "realization_share_max": 0.001914933078147794
+  },
+  {
+   "run": "unified-fit-v3--primary",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "LRG2",
+   "field_class": "sigma_0.003",
+   "routes": [
+    "LRG2|sigma_0.003|postreconstruction",
+    "LRG2|sigma_0.003|prereconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 1386656592,
+   "threshold_zeroed_cell_count": 50460,
+   "pooled_share": 3.638968746199852e-05,
+   "realization_share_mean": 3.1167260998756206e-05,
+   "realization_share_max": 5.919864019146761e-05
+  },
+  {
+   "run": "unified-fit-v3--primary",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "LRG2",
+   "field_class": "sigma_0.01",
+   "routes": [
+    "LRG2|sigma_0.01|postreconstruction",
+    "LRG2|sigma_0.01|prereconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 1501203588,
+   "threshold_zeroed_cell_count": 27,
+   "pooled_share": 1.798556852370113e-08,
+   "realization_share_mean": 1.4352821329591768e-08,
+   "realization_share_max": 2.1263532244817678e-07
+  },
+  {
+   "run": "unified-fit-v3--primary",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "LRG2",
+   "field_class": "sigma_0.03",
+   "routes": [
+    "LRG2|sigma_0.03|postreconstruction",
+    "LRG2|sigma_0.03|prereconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 1500958615,
+   "threshold_zeroed_cell_count": 44,
+   "pooled_share": 2.9314599057083264e-08,
+   "realization_share_mean": 2.3394030063790737e-08,
+   "realization_share_max": 3.455979579733211e-07
+  },
+  {
+   "run": "unified-fit-v3--primary",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "LRG3",
+   "field_class": "native",
+   "routes": [
+    "LRG3|native|postreconstruction",
+    "LRG3|native|prereconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 1927024801,
+   "threshold_zeroed_cell_count": 4483,
+   "pooled_share": 2.326384174024961e-06,
+   "realization_share_mean": 1.8549801101028796e-06,
+   "realization_share_max": 5.3768614254799995e-06
+  },
+  {
+   "run": "unified-fit-v3--primary",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "LRG3",
+   "field_class": "sigma_0.001",
+   "routes": [
+    "LRG3|sigma_0.001|postreconstruction",
+    "LRG3|sigma_0.001|prereconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 697626824,
+   "threshold_zeroed_cell_count": 58639449,
+   "pooled_share": 0.08405561108412885,
+   "realization_share_mean": 0.08563134032509165,
+   "realization_share_max": 0.09183753688523213
+  },
+  {
+   "run": "unified-fit-v3--primary",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "LRG3",
+   "field_class": "sigma_0.003",
+   "routes": [
+    "LRG3|sigma_0.003|postreconstruction",
+    "LRG3|sigma_0.003|prereconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 1497246311,
+   "threshold_zeroed_cell_count": 1224365,
+   "pooled_share": 0.0008177445427681538,
+   "realization_share_mean": 0.0008301444896793501,
+   "realization_share_max": 0.0009140853003546836
+  },
+  {
+   "run": "unified-fit-v3--primary",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "LRG3",
+   "field_class": "sigma_0.01",
+   "routes": [
+    "LRG3|sigma_0.01|postreconstruction",
+    "LRG3|sigma_0.01|prereconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 1926988492,
+   "threshold_zeroed_cell_count": 4454,
+   "pooled_share": 2.311378619276155e-06,
+   "realization_share_mean": 1.84240815297341e-06,
+   "realization_share_max": 5.335446776871078e-06
+  },
+  {
+   "run": "unified-fit-v3--primary",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "LRG3",
+   "field_class": "sigma_0.03",
+   "routes": [
+    "LRG3|sigma_0.03|postreconstruction",
+    "LRG3|sigma_0.03|prereconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 1926189077,
+   "threshold_zeroed_cell_count": 4493,
+   "pooled_share": 2.3325851307379207e-06,
+   "realization_share_mean": 1.8590109072243585e-06,
+   "realization_share_max": 5.3169616704577774e-06
+  },
+  {
+   "run": "unified-fit-v3--self--R15",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "BGS1",
+   "field_class": "sigma_0.003",
+   "routes": [
+    "BGS1|sigma_0.003|postreconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 75568621,
+   "threshold_zeroed_cell_count": 10,
+   "pooled_share": 1.3233005800119074e-07,
+   "realization_share_mean": 2.081954260641839e-07,
+   "realization_share_max": 9.368949220295226e-06
+  },
+  {
+   "run": "unified-fit-v3--self--R15",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "BGS1",
+   "field_class": "sigma_0.01",
+   "routes": [
+    "BGS1|sigma_0.01|postreconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 77038606,
+   "threshold_zeroed_cell_count": 0,
+   "pooled_share": 0.0,
+   "realization_share_mean": 0.0,
+   "realization_share_max": 0.0
+  },
+  {
+   "run": "unified-fit-v3--self--R15",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "BGS1",
+   "field_class": "sigma_0.03",
+   "routes": [
+    "BGS1|sigma_0.03|postreconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 77744013,
+   "threshold_zeroed_cell_count": 0,
+   "pooled_share": 0.0,
+   "realization_share_mean": 0.0,
+   "realization_share_max": 0.0
+  },
+  {
+   "run": "unified-fit-v3--self--R15",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "BGS2",
+   "field_class": "sigma_0.003",
+   "routes": [
+    "BGS2|sigma_0.003|postreconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 455162003,
+   "threshold_zeroed_cell_count": 224,
+   "pooled_share": 4.921324682719616e-07,
+   "realization_share_mean": 3.7265903745755757e-07,
+   "realization_share_max": 2.3122157868207207e-06
+  },
+  {
+   "run": "unified-fit-v3--self--R15",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "BGS2",
+   "field_class": "sigma_0.01",
+   "routes": [
+    "BGS2|sigma_0.01|postreconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 474471131,
+   "threshold_zeroed_cell_count": 10,
+   "pooled_share": 2.1076097883814136e-08,
+   "realization_share_mean": 1.536095768245833e-08,
+   "realization_share_max": 3.83996795316345e-07
+  },
+  {
+   "run": "unified-fit-v3--self--R15",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "BGS2",
+   "field_class": "sigma_0.03",
+   "routes": [
+    "BGS2|sigma_0.03|postreconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 474412579,
+   "threshold_zeroed_cell_count": 15,
+   "pooled_share": 3.1618048643689104e-08,
+   "realization_share_mean": 2.3042835300490312e-08,
+   "realization_share_max": 5.37603275509237e-07
+  },
+  {
+   "run": "unified-fit-v3--self--R15",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "LRG1",
+   "field_class": "sigma_0.003",
+   "routes": [
+    "LRG1|sigma_0.003|postreconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 814788392,
+   "threshold_zeroed_cell_count": 89308,
+   "pooled_share": 0.00010960882712231865,
+   "realization_share_mean": 0.00010049529739805989,
+   "realization_share_max": 0.0001568057439067857
+  },
+  {
+   "run": "unified-fit-v3--self--R15",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "LRG1",
+   "field_class": "sigma_0.01",
+   "routes": [
+    "LRG1|sigma_0.01|postreconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 966170298,
+   "threshold_zeroed_cell_count": 864,
+   "pooled_share": 8.942522884304191e-07,
+   "realization_share_mean": 7.16849870677741e-07,
+   "realization_share_max": 3.223123714314545e-06
+  },
+  {
+   "run": "unified-fit-v3--self--R15",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "LRG1",
+   "field_class": "sigma_0.03",
+   "routes": [
+    "LRG1|sigma_0.03|postreconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 976628058,
+   "threshold_zeroed_cell_count": 85,
+   "pooled_share": 8.703415727587053e-08,
+   "realization_share_mean": 6.95234972136906e-08,
+   "realization_share_max": 8.180173223348177e-07
+  },
+  {
+   "run": "unified-fit-v3--self--R15",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "LRG2",
+   "field_class": "sigma_0.003",
+   "routes": [
+    "LRG2|sigma_0.003|postreconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 632037625,
+   "threshold_zeroed_cell_count": 15578540,
+   "pooled_share": 0.024648121225378,
+   "realization_share_mean": 0.025043010612354102,
+   "realization_share_max": 0.027008977601470405
+  },
+  {
+   "run": "unified-fit-v3--self--R15",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "LRG2",
+   "field_class": "sigma_0.01",
+   "routes": [
+    "LRG2|sigma_0.01|postreconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 1441706376,
+   "threshold_zeroed_cell_count": 26731,
+   "pooled_share": 1.854122340373141e-05,
+   "realization_share_mean": 1.4878177603884779e-05,
+   "realization_share_max": 3.6129437854397534e-05
+  },
+  {
+   "run": "unified-fit-v3--self--R15",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "LRG2",
+   "field_class": "sigma_0.03",
+   "routes": [
+    "LRG2|sigma_0.03|postreconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 1491647924,
+   "threshold_zeroed_cell_count": 265,
+   "pooled_share": 1.776558635159539e-07,
+   "realization_share_mean": 1.4174034375316436e-07,
+   "realization_share_max": 6.686164234766097e-07
+  },
+  {
+   "run": "unified-fit-v3--self--R15",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "LRG3",
+   "field_class": "sigma_0.003",
+   "routes": [
+    "LRG3|sigma_0.003|postreconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 474050189,
+   "threshold_zeroed_cell_count": 139224094,
+   "pooled_share": 0.29369062017186537,
+   "realization_share_mean": 0.2991219406988568,
+   "realization_share_max": 0.32033746743451524
+  },
+  {
+   "run": "unified-fit-v3--self--R15",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "LRG3",
+   "field_class": "sigma_0.01",
+   "routes": [
+    "LRG3|sigma_0.01|postreconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 1758946434,
+   "threshold_zeroed_cell_count": 122233,
+   "pooled_share": 6.949216737773608e-05,
+   "realization_share_mean": 6.456408575111103e-05,
+   "realization_share_max": 9.189696586174338e-05
+  },
+  {
+   "run": "unified-fit-v3--self--R15",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "LRG3",
+   "field_class": "sigma_0.03",
+   "routes": [
+    "LRG3|sigma_0.03|postreconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 1916122028,
+   "threshold_zeroed_cell_count": 7993,
+   "pooled_share": 4.171446224822587e-06,
+   "realization_share_mean": 3.3310022411525226e-06,
+   "realization_share_max": 1.0667768406615738e-05
+  },
+  {
+   "run": "unified-fit-v3--self--R25",
+   "smoothing_mpc_h": 25.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "BGS1",
+   "field_class": "sigma_0.003",
+   "routes": [
+    "BGS1|sigma_0.003|postreconstruction",
+    "BGS1|sigma_0.003|prereconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 75568621,
+   "threshold_zeroed_cell_count": 5,
+   "pooled_share": 6.616502900059537e-08,
+   "realization_share_mean": 1.0407110776773081e-07,
+   "realization_share_max": 1.0412848622171871e-06
+  },
+  {
+   "run": "unified-fit-v3--self--R25",
+   "smoothing_mpc_h": 25.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "BGS1",
+   "field_class": "sigma_0.01",
+   "routes": [
+    "BGS1|sigma_0.01|postreconstruction",
+    "BGS1|sigma_0.01|prereconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 77038606,
+   "threshold_zeroed_cell_count": 0,
+   "pooled_share": 0.0,
+   "realization_share_mean": 0.0,
+   "realization_share_max": 0.0
+  },
+  {
+   "run": "unified-fit-v3--self--R25",
+   "smoothing_mpc_h": 25.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "BGS1",
+   "field_class": "sigma_0.03",
+   "routes": [
+    "BGS1|sigma_0.03|postreconstruction",
+    "BGS1|sigma_0.03|prereconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 77744013,
+   "threshold_zeroed_cell_count": 0,
+   "pooled_share": 0.0,
+   "realization_share_mean": 0.0,
+   "realization_share_max": 0.0
+  },
+  {
+   "run": "unified-fit-v3--self--R25",
+   "smoothing_mpc_h": 25.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "BGS2",
+   "field_class": "sigma_0.003",
+   "routes": [
+    "BGS2|sigma_0.003|postreconstruction",
+    "BGS2|sigma_0.003|prereconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 455162003,
+   "threshold_zeroed_cell_count": 0,
+   "pooled_share": 0.0,
+   "realization_share_mean": 0.0,
+   "realization_share_max": 0.0
+  },
+  {
+   "run": "unified-fit-v3--self--R25",
+   "smoothing_mpc_h": 25.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "BGS2",
+   "field_class": "sigma_0.01",
+   "routes": [
+    "BGS2|sigma_0.01|postreconstruction",
+    "BGS2|sigma_0.01|prereconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 474471131,
+   "threshold_zeroed_cell_count": 0,
+   "pooled_share": 0.0,
+   "realization_share_mean": 0.0,
+   "realization_share_max": 0.0
+  },
+  {
+   "run": "unified-fit-v3--self--R25",
+   "smoothing_mpc_h": 25.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "BGS2",
+   "field_class": "sigma_0.03",
+   "routes": [
+    "BGS2|sigma_0.03|postreconstruction",
+    "BGS2|sigma_0.03|prereconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 474412579,
+   "threshold_zeroed_cell_count": 0,
+   "pooled_share": 0.0,
+   "realization_share_mean": 0.0,
+   "realization_share_max": 0.0
+  },
+  {
+   "run": "unified-fit-v3--self--R25",
+   "smoothing_mpc_h": 25.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "LRG1",
+   "field_class": "sigma_0.003",
+   "routes": [
+    "LRG1|sigma_0.003|postreconstruction",
+    "LRG1|sigma_0.003|prereconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 814788392,
+   "threshold_zeroed_cell_count": 52162,
+   "pooled_share": 6.401907601059688e-05,
+   "realization_share_mean": 5.395648921520774e-05,
+   "realization_share_max": 0.00010294786041165326
+  },
+  {
+   "run": "unified-fit-v3--self--R25",
+   "smoothing_mpc_h": 25.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "LRG1",
+   "field_class": "sigma_0.01",
+   "routes": [
+    "LRG1|sigma_0.01|postreconstruction",
+    "LRG1|sigma_0.01|prereconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 966170298,
+   "threshold_zeroed_cell_count": 2,
+   "pooled_share": 2.070028445440785e-09,
+   "realization_share_mean": 1.6529131892472377e-09,
+   "realization_share_max": 8.264565946236189e-08
+  },
+  {
+   "run": "unified-fit-v3--self--R25",
+   "smoothing_mpc_h": 25.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "LRG1",
+   "field_class": "sigma_0.03",
+   "routes": [
+    "LRG1|sigma_0.03|postreconstruction",
+    "LRG1|sigma_0.03|prereconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 976628058,
+   "threshold_zeroed_cell_count": 0,
+   "pooled_share": 0.0,
+   "realization_share_mean": 0.0,
+   "realization_share_max": 0.0
+  },
+  {
+   "run": "unified-fit-v3--self--R25",
+   "smoothing_mpc_h": 25.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "LRG2",
+   "field_class": "sigma_0.003",
+   "routes": [
+    "LRG2|sigma_0.003|postreconstruction",
+    "LRG2|sigma_0.003|prereconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 632037625,
+   "threshold_zeroed_cell_count": 23227600,
+   "pooled_share": 0.03675034377897993,
+   "realization_share_mean": 0.036622723429416755,
+   "realization_share_max": 0.03803984544553679
+  },
+  {
+   "run": "unified-fit-v3--self--R25",
+   "smoothing_mpc_h": 25.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "LRG2",
+   "field_class": "sigma_0.01",
+   "routes": [
+    "LRG2|sigma_0.01|postreconstruction",
+    "LRG2|sigma_0.01|prereconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 1441706376,
+   "threshold_zeroed_cell_count": 1341,
+   "pooled_share": 9.301477903708737e-07,
+   "realization_share_mean": 7.571877433543719e-07,
+   "realization_share_max": 2.7350067688654894e-06
+  },
+  {
+   "run": "unified-fit-v3--self--R25",
+   "smoothing_mpc_h": 25.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "LRG2",
+   "field_class": "sigma_0.03",
+   "routes": [
+    "LRG2|sigma_0.03|postreconstruction",
+    "LRG2|sigma_0.03|prereconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 1491647924,
+   "threshold_zeroed_cell_count": 0,
+   "pooled_share": 0.0,
+   "realization_share_mean": 0.0,
+   "realization_share_max": 0.0
+  },
+  {
+   "run": "unified-fit-v3--self--R25",
+   "smoothing_mpc_h": 25.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "LRG3",
+   "field_class": "sigma_0.003",
+   "routes": [
+    "LRG3|sigma_0.003|postreconstruction",
+    "LRG3|sigma_0.003|prereconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 474050189,
+   "threshold_zeroed_cell_count": 180969406,
+   "pooled_share": 0.38175157440977203,
+   "realization_share_mean": 0.3889753772753574,
+   "realization_share_max": 0.4183983688889012
+  },
+  {
+   "run": "unified-fit-v3--self--R25",
+   "smoothing_mpc_h": 25.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "LRG3",
+   "field_class": "sigma_0.01",
+   "routes": [
+    "LRG3|sigma_0.01|postreconstruction",
+    "LRG3|sigma_0.01|prereconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 1758946434,
+   "threshold_zeroed_cell_count": 79649,
+   "pooled_share": 4.528222034531837e-05,
+   "realization_share_mean": 4.1069562072061294e-05,
+   "realization_share_max": 6.639646486540705e-05
+  },
+  {
+   "run": "unified-fit-v3--self--R25",
+   "smoothing_mpc_h": 25.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "LRG3",
+   "field_class": "sigma_0.03",
+   "routes": [
+    "LRG3|sigma_0.03|postreconstruction",
+    "LRG3|sigma_0.03|prereconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 1916122028,
+   "threshold_zeroed_cell_count": 1828,
+   "pooled_share": 9.540102213156123e-07,
+   "realization_share_mean": 7.638681257821531e-07,
+   "realization_share_max": 2.41196032907456e-06
+  },
+  {
+   "run": "unified-fit-v3--sigma_0.003--R15",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "BGS1",
+   "field_class": "sigma_0.003",
+   "routes": [
+    "BGS1|sigma_0.01|postreconstruction",
+    "BGS1|sigma_0.03|postreconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 75568621,
+   "threshold_zeroed_cell_count": 10,
+   "pooled_share": 1.3233005800119074e-07,
+   "realization_share_mean": 2.081954260641839e-07,
+   "realization_share_max": 9.368949220295226e-06
+  },
+  {
+   "run": "unified-fit-v3--sigma_0.003--R15",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "BGS2",
+   "field_class": "sigma_0.003",
+   "routes": [
+    "BGS2|sigma_0.01|postreconstruction",
+    "BGS2|sigma_0.03|postreconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 455162003,
+   "threshold_zeroed_cell_count": 224,
+   "pooled_share": 4.921324682719616e-07,
+   "realization_share_mean": 3.7265903745755757e-07,
+   "realization_share_max": 2.3122157868207207e-06
+  },
+  {
+   "run": "unified-fit-v3--sigma_0.003--R15",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "LRG1",
+   "field_class": "sigma_0.003",
+   "routes": [
+    "LRG1|sigma_0.01|postreconstruction",
+    "LRG1|sigma_0.03|postreconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 814788392,
+   "threshold_zeroed_cell_count": 89308,
+   "pooled_share": 0.00010960882712231865,
+   "realization_share_mean": 0.00010049529739805989,
+   "realization_share_max": 0.0001568057439067857
+  },
+  {
+   "run": "unified-fit-v3--sigma_0.003--R15",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "LRG2",
+   "field_class": "sigma_0.003",
+   "routes": [
+    "LRG2|sigma_0.01|postreconstruction",
+    "LRG2|sigma_0.03|postreconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 632037625,
+   "threshold_zeroed_cell_count": 15578540,
+   "pooled_share": 0.024648121225378,
+   "realization_share_mean": 0.025043010612354102,
+   "realization_share_max": 0.027008977601470405
+  },
+  {
+   "run": "unified-fit-v3--sigma_0.003--R15",
+   "smoothing_mpc_h": 15.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "LRG3",
+   "field_class": "sigma_0.003",
+   "routes": [
+    "LRG3|sigma_0.01|postreconstruction",
+    "LRG3|sigma_0.03|postreconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 474050189,
+   "threshold_zeroed_cell_count": 139224094,
+   "pooled_share": 0.29369062017186537,
+   "realization_share_mean": 0.2991219406988568,
+   "realization_share_max": 0.32033746743451524
+  },
+  {
+   "run": "unified-fit-v3--sigma_0.003--R25",
+   "smoothing_mpc_h": 25.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "BGS1",
+   "field_class": "sigma_0.003",
+   "routes": [
+    "BGS1|sigma_0.01|postreconstruction",
+    "BGS1|sigma_0.03|postreconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 75568621,
+   "threshold_zeroed_cell_count": 5,
+   "pooled_share": 6.616502900059537e-08,
+   "realization_share_mean": 1.0407110776773081e-07,
+   "realization_share_max": 1.0412848622171871e-06
+  },
+  {
+   "run": "unified-fit-v3--sigma_0.003--R25",
+   "smoothing_mpc_h": 25.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "BGS2",
+   "field_class": "sigma_0.003",
+   "routes": [
+    "BGS2|sigma_0.01|postreconstruction",
+    "BGS2|sigma_0.03|postreconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 455162003,
+   "threshold_zeroed_cell_count": 0,
+   "pooled_share": 0.0,
+   "realization_share_mean": 0.0,
+   "realization_share_max": 0.0
+  },
+  {
+   "run": "unified-fit-v3--sigma_0.003--R25",
+   "smoothing_mpc_h": 25.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "LRG1",
+   "field_class": "sigma_0.003",
+   "routes": [
+    "LRG1|sigma_0.01|postreconstruction",
+    "LRG1|sigma_0.03|postreconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 814788392,
+   "threshold_zeroed_cell_count": 52162,
+   "pooled_share": 6.401907601059688e-05,
+   "realization_share_mean": 5.395648921520774e-05,
+   "realization_share_max": 0.00010294786041165326
+  },
+  {
+   "run": "unified-fit-v3--sigma_0.003--R25",
+   "smoothing_mpc_h": 25.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "LRG2",
+   "field_class": "sigma_0.003",
+   "routes": [
+    "LRG2|sigma_0.01|postreconstruction",
+    "LRG2|sigma_0.03|postreconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 632037625,
+   "threshold_zeroed_cell_count": 23227600,
+   "pooled_share": 0.03675034377897993,
+   "realization_share_mean": 0.036622723429416755,
+   "realization_share_max": 0.03803984544553679
+  },
+  {
+   "run": "unified-fit-v3--sigma_0.003--R25",
+   "smoothing_mpc_h": 25.0,
+   "floor": 0.01,
+   "floor_prescription": "pyrecon_native_mean_random_weight",
+   "bin": "LRG3",
+   "field_class": "sigma_0.003",
+   "routes": [
+    "LRG3|sigma_0.01|postreconstruction",
+    "LRG3|sigma_0.03|postreconstruction"
+   ],
+   "realization_caps": 50,
+   "supported_cell_count": 474050189,
+   "threshold_zeroed_cell_count": 180969406,
+   "pooled_share": 0.38175157440977203,
+   "realization_share_mean": 0.3889753772753574,
+   "realization_share_max": 0.4183983688889012
+  }
+ ]
+}

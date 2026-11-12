@@ -1,0 +1,3452 @@
+[
+  {
+    "route": {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS1",
+      "condition": "native",
+      "reconstruction_state": "prereconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS1",
+      "condition": "native",
+      "reconstruction_state": "prereconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/BGS1--native--prereconstruction",
+    "mean": [
+      1.0070533377404205,
+      0.967704215840841
+    ],
+    "covariance": [
+      [
+        0.001231968411062207,
+        0.0012578077952951996
+      ],
+      [
+        0.0012578077952951996,
+        0.009427261079871883
+      ]
+    ],
+    "fom": 315.72289617942715,
+    "retained_draws": 168000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/BGS1--native--prereconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "BGS_BRIGHT-21.5",
+        "measurement_bin": "BGS1",
+        "condition": "native",
+        "reconstruction_state": "prereconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": false,
+    "prior_contact": {
+      "qiso": false,
+      "qap": false
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [51.16529088]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [48.6510106]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [47.56724965]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [45.42502177]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [50.94240925]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [50.93828353]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [50.09931188]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [59.74401367]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS1",
+      "condition": "native",
+      "reconstruction_state": "postreconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS1",
+      "condition": "native",
+      "reconstruction_state": "postreconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/BGS1--native--postreconstruction",
+    "mean": [
+      1.016570625842612,
+      0.9649091878378087
+    ],
+    "covariance": [
+      [
+        0.0005395696929224067,
+        0.000781007869913264
+      ],
+      [
+        0.000781007869913264,
+        0.006026115094719334
+      ]
+    ],
+    "fom": 615.2785166365434,
+    "retained_draws": 192000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/BGS1--native--postreconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "BGS_BRIGHT-21.5",
+        "measurement_bin": "BGS1",
+        "condition": "native",
+        "reconstruction_state": "postreconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": false,
+    "prior_contact": {
+      "qiso": false,
+      "qap": false
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [46.22531828]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [51.31302142]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [48.69420242]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [49.57791294]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [53.75943445]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [56.16585589]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [42.324155]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [44.28667558]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS1",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "prereconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS1",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "prereconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/BGS1--sigma_0.001--prereconstruction",
+    "mean": [
+      1.0105667926607569,
+      0.9739008239202072
+    ],
+    "covariance": [
+      [
+        0.0010143128216902615,
+        0.0010927915938383308
+      ],
+      [
+        0.0010927915938383308,
+        0.008560768317090477
+      ]
+    ],
+    "fom": 365.41391456626525,
+    "retained_draws": 168000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/BGS1--sigma_0.001--prereconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "BGS_BRIGHT-21.5",
+        "measurement_bin": "BGS1",
+        "condition": "sigma_0.001",
+        "reconstruction_state": "prereconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": false,
+    "prior_contact": {
+      "qiso": false,
+      "qap": false
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [47.61029186]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [52.59962601]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [42.462138]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [45.40389708]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [46.9123478]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [52.19292867]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [48.50692611]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [51.34271087]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS1",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "postreconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS1",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "postreconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/BGS1--sigma_0.001--postreconstruction",
+    "mean": [
+      1.0178876009422289,
+      0.966358231920924
+    ],
+    "covariance": [
+      [
+        0.0005187421891026647,
+        0.0005204591491427731
+      ],
+      [
+        0.0005204591491427731,
+        0.005761024365128676
+      ]
+    ],
+    "fom": 606.6057752313961,
+    "retained_draws": 144000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/BGS1--sigma_0.001--postreconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "BGS_BRIGHT-21.5",
+        "measurement_bin": "BGS1",
+        "condition": "sigma_0.001",
+        "reconstruction_state": "postreconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": false,
+    "prior_contact": {
+      "qiso": false,
+      "qap": false
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [39.33221112]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [44.56715564]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [38.17108332]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [49.20837307]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [41.14254356]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [43.11592157]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [41.85708034]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [39.68203011]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS1",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "prereconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS1",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "prereconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/BGS1--sigma_0.003--prereconstruction",
+    "mean": [
+      1.0144462018163858,
+      0.9599030559704079
+    ],
+    "covariance": [
+      [
+        0.0007684611552879853,
+        0.000708873927564147
+      ],
+      [
+        0.000708873927564147,
+        0.0068640462271716855
+      ]
+    ],
+    "fom": 457.760565716535,
+    "retained_draws": 192000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/BGS1--sigma_0.003--prereconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "BGS_BRIGHT-21.5",
+        "measurement_bin": "BGS1",
+        "condition": "sigma_0.003",
+        "reconstruction_state": "prereconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": false,
+    "prior_contact": {
+      "qiso": false,
+      "qap": false
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [49.79199786]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [51.66895916]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [48.06219756]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [52.78365173]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [48.84214288]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [58.72238208]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [49.34343323]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [46.51334663]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS1",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "postreconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS1",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "postreconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/BGS1--sigma_0.003--postreconstruction",
+    "mean": [
+      1.018212623317345,
+      0.910448419693772
+    ],
+    "covariance": [
+      [
+        0.00046526953466510487,
+        0.00024750759898548946
+      ],
+      [
+        0.00024750759898548946,
+        0.003906871049788724
+      ]
+    ],
+    "fom": 754.5315403839808,
+    "retained_draws": 144000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/BGS1--sigma_0.003--postreconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "BGS_BRIGHT-21.5",
+        "measurement_bin": "BGS1",
+        "condition": "sigma_0.003",
+        "reconstruction_state": "postreconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": false,
+    "prior_contact": {
+      "qiso": false,
+      "qap": false
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [41.76081246]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [42.50791023]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [44.32940541]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [42.56849959]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [43.05201416]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [42.7820046]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [41.40538883]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [45.27154822]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS1",
+      "condition": "sigma_0.01",
+      "reconstruction_state": "prereconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS1",
+      "condition": "sigma_0.01",
+      "reconstruction_state": "prereconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/BGS1--sigma_0.01--prereconstruction",
+    "mean": [
+      1.0638383071912392,
+      1.0295175152328757
+    ],
+    "covariance": [
+      [
+        0.0032587773536010213,
+        0.003665596446195409
+      ],
+      [
+        0.003665596446195409,
+        0.012538801324822893
+      ]
+    ],
+    "fom": 190.9546023838754,
+    "retained_draws": 264000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/BGS1--sigma_0.01--prereconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "BGS_BRIGHT-21.5",
+        "measurement_bin": "BGS1",
+        "condition": "sigma_0.01",
+        "reconstruction_state": "prereconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": true,
+    "prior_contact": {
+      "qiso": false,
+      "qap": true
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 33;\ntau: [65.56413209]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 33;\ntau: [67.52415302]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 33;\ntau: [61.30696233]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 33;\ntau: [61.93398204]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 33;\ntau: [64.58236208]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 33;\ntau: [73.06945754]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 33;\ntau: [66.37549489]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 33;\ntau: [64.69745181]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS1",
+      "condition": "sigma_0.01",
+      "reconstruction_state": "postreconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS1",
+      "condition": "sigma_0.01",
+      "reconstruction_state": "postreconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/BGS1--sigma_0.01--postreconstruction",
+    "mean": [
+      1.0547777523381836,
+      1.0401436058385585
+    ],
+    "covariance": [
+      [
+        0.002469547024300465,
+        0.0034013844706994056
+      ],
+      [
+        0.0034013844706994056,
+        0.011888888035186833
+      ]
+    ],
+    "fom": 237.08432987194237,
+    "retained_draws": 192000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/BGS1--sigma_0.01--postreconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "BGS_BRIGHT-21.5",
+        "measurement_bin": "BGS1",
+        "condition": "sigma_0.01",
+        "reconstruction_state": "postreconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": true,
+    "prior_contact": {
+      "qiso": false,
+      "qap": true
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [63.96971593]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [68.13385581]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [51.87186248]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [60.48071358]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [56.82750079]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [53.96759058]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [52.46658645]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [54.78639702]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS1",
+      "condition": "sigma_0.03",
+      "reconstruction_state": "prereconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS1",
+      "condition": "sigma_0.03",
+      "reconstruction_state": "prereconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/BGS1--sigma_0.03--prereconstruction",
+    "mean": [
+      1.022038324221801,
+      1.0013692050980993
+    ],
+    "covariance": [
+      [
+        0.01216746726437136,
+        0.0015551491150573471
+      ],
+      [
+        0.0015551491150573471,
+        0.013261837084103613
+      ]
+    ],
+    "fom": 79.31900822721514,
+    "retained_draws": 360000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/BGS1--sigma_0.03--prereconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "BGS_BRIGHT-21.5",
+        "measurement_bin": "BGS1",
+        "condition": "sigma_0.03",
+        "reconstruction_state": "prereconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": true,
+    "prior_contact": {
+      "qiso": true,
+      "qap": true
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 45;\ntau: [111.58203059]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 45;\ntau: [80.67289997]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 45;\ntau: [89.49051749]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 45;\ntau: [90.53584551]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 45;\ntau: [85.15183815]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 45;\ntau: [86.03404351]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 45;\ntau: [99.59558721]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 45;\ntau: [92.66750325]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS1",
+      "condition": "sigma_0.03",
+      "reconstruction_state": "postreconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS1",
+      "condition": "sigma_0.03",
+      "reconstruction_state": "postreconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/BGS1--sigma_0.03--postreconstruction",
+    "mean": [
+      1.023038440726088,
+      0.9918433862728896
+    ],
+    "covariance": [
+      [
+        0.014476102584246177,
+        -0.001308396679048763
+      ],
+      [
+        -0.001308396679048763,
+        0.01337473033775287
+      ]
+    ],
+    "fom": 72.18719626300796,
+    "retained_draws": 360000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/BGS1--sigma_0.03--postreconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "BGS_BRIGHT-21.5",
+        "measurement_bin": "BGS1",
+        "condition": "sigma_0.03",
+        "reconstruction_state": "postreconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": true,
+    "prior_contact": {
+      "qiso": true,
+      "qap": true
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 45;\ntau: [101.8026656]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 45;\ntau: [101.62789585]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 45;\ntau: [99.94114011]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 45;\ntau: [106.19363018]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 45;\ntau: [114.08240271]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 45;\ntau: [118.74667537]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 45;\ntau: [124.32385541]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 45;\ntau: [113.5160148]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS2",
+      "condition": "native",
+      "reconstruction_state": "prereconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS2",
+      "condition": "native",
+      "reconstruction_state": "prereconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/BGS2--native--prereconstruction",
+    "mean": [
+      1.012451335928064,
+      1.009696206421595
+    ],
+    "covariance": [
+      [
+        4.9387522473287135e-05,
+        5.392999070687798e-05
+      ],
+      [
+        5.392999070687798e-05,
+        0.0006537571528785227
+      ]
+    ],
+    "fom": 5834.202234466046,
+    "retained_draws": 192000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/BGS2--native--prereconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "BGS_BRIGHT-21.5",
+        "measurement_bin": "BGS2",
+        "condition": "native",
+        "reconstruction_state": "prereconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": false,
+    "prior_contact": {
+      "qiso": false,
+      "qap": false
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [48.64714202]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [46.87604238]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [45.42093282]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [52.9818665]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [51.6173558]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [44.13337044]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [44.02627809]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [50.87121544]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS2",
+      "condition": "native",
+      "reconstruction_state": "postreconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS2",
+      "condition": "native",
+      "reconstruction_state": "postreconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/BGS2--native--postreconstruction",
+    "mean": [
+      0.997158940843866,
+      0.9999672826931436
+    ],
+    "covariance": [
+      [
+        1.3565522466652193e-05,
+        5.139240273412243e-06
+      ],
+      [
+        5.139240273412243e-06,
+        0.00016580357041121315
+      ]
+    ],
+    "fom": 21210.444973948357,
+    "retained_draws": 120000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/BGS2--native--postreconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "BGS_BRIGHT-21.5",
+        "measurement_bin": "BGS2",
+        "condition": "native",
+        "reconstruction_state": "postreconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": false,
+    "prior_contact": {
+      "qiso": false,
+      "qap": false
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 15;\ntau: [41.06480966]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 15;\ntau: [40.18964885]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 15;\ntau: [38.32464467]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 15;\ntau: [37.0401945]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 15;\ntau: [33.65658755]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 15;\ntau: [44.22814988]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 15;\ntau: [38.18588741]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 15;\ntau: [38.9472957]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS2",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "prereconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS2",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "prereconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/BGS2--sigma_0.001--prereconstruction",
+    "mean": [
+      1.014688104059426,
+      1.0101979142409265
+    ],
+    "covariance": [
+      [
+        5.5134631931277107e-05,
+        7.683970815151886e-05
+      ],
+      [
+        7.683970815151886e-05,
+        0.0007324712181957212
+      ]
+    ],
+    "fom": 5385.365367979006,
+    "retained_draws": 240000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/BGS2--sigma_0.001--prereconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "BGS_BRIGHT-21.5",
+        "measurement_bin": "BGS2",
+        "condition": "sigma_0.001",
+        "reconstruction_state": "prereconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": false,
+    "prior_contact": {
+      "qiso": false,
+      "qap": false
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 30;\ntau: [61.61525069]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 30;\ntau: [55.12714324]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 30;\ntau: [48.02386579]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 30;\ntau: [48.24733423]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 30;\ntau: [54.00701704]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 30;\ntau: [54.47349499]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 30;\ntau: [49.90929297]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 30;\ntau: [49.30431567]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS2",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "postreconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS2",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "postreconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/BGS2--sigma_0.001--postreconstruction",
+    "mean": [
+      0.9970082502491071,
+      0.9970272584751276
+    ],
+    "covariance": [
+      [
+        1.3800820453048682e-05,
+        1.0966726727646724e-05
+      ],
+      [
+        1.0966726727646724e-05,
+        0.00016614054818376916
+      ]
+    ],
+    "fom": 21454.057226253743,
+    "retained_draws": 192000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/BGS2--sigma_0.001--postreconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "BGS_BRIGHT-21.5",
+        "measurement_bin": "BGS2",
+        "condition": "sigma_0.001",
+        "reconstruction_state": "postreconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": false,
+    "prior_contact": {
+      "qiso": false,
+      "qap": false
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [42.61812072]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [49.47536524]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [45.28621455]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [43.09831611]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [46.76781149]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [49.34621464]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [46.91415476]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [51.65506547]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS2",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "prereconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS2",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "prereconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/BGS2--sigma_0.003--prereconstruction",
+    "mean": [
+      1.006501433777761,
+      0.97625351534053
+    ],
+    "covariance": [
+      [
+        8.792176631407413e-05,
+        0.000207319658684691
+      ],
+      [
+        0.000207319658684691,
+        0.0011768536525779705
+      ]
+    ],
+    "fom": 4065.9272560518975,
+    "retained_draws": 144000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/BGS2--sigma_0.003--prereconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "BGS_BRIGHT-21.5",
+        "measurement_bin": "BGS2",
+        "condition": "sigma_0.003",
+        "reconstruction_state": "prereconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": false,
+    "prior_contact": {
+      "qiso": false,
+      "qap": false
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [49.55556228]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [43.98252595]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [36.64458472]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [34.09072389]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [42.57666442]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [43.29673667]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [41.05211739]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [41.63575129]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS2",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "postreconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS2",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "postreconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/BGS2--sigma_0.003--postreconstruction",
+    "mean": [
+      0.9957832028768041,
+      0.9891809015487899
+    ],
+    "covariance": [
+      [
+        2.4892460556600694e-05,
+        5.213243297690391e-05
+      ],
+      [
+        5.213243297690391e-05,
+        0.0003336640248852664
+      ]
+    ],
+    "fom": 13377.488884197654,
+    "retained_draws": 264000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/BGS2--sigma_0.003--postreconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "BGS_BRIGHT-21.5",
+        "measurement_bin": "BGS2",
+        "condition": "sigma_0.003",
+        "reconstruction_state": "postreconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": false,
+    "prior_contact": {
+      "qiso": false,
+      "qap": false
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 33;\ntau: [44.67834181]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 33;\ntau: [55.86794078]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 33;\ntau: [55.79525871]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 33;\ntau: [55.8878362]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 33;\ntau: [42.57578175]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 33;\ntau: [42.26225723]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 33;\ntau: [53.79236228]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 33;\ntau: [55.7986007]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS2",
+      "condition": "sigma_0.01",
+      "reconstruction_state": "prereconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS2",
+      "condition": "sigma_0.01",
+      "reconstruction_state": "prereconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/BGS2--sigma_0.01--prereconstruction",
+    "mean": [
+      0.9976765636937683,
+      0.9614149369508239
+    ],
+    "covariance": [
+      [
+        0.0010593935477829267,
+        0.0031696281995585393
+      ],
+      [
+        0.0031696281995585393,
+        0.010408164609515411
+      ]
+    ],
+    "fom": 1010.2558906933178,
+    "retained_draws": 312000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/BGS2--sigma_0.01--prereconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "BGS_BRIGHT-21.5",
+        "measurement_bin": "BGS2",
+        "condition": "sigma_0.01",
+        "reconstruction_state": "prereconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": true,
+    "prior_contact": {
+      "qiso": false,
+      "qap": true
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 39;\ntau: [65.39299176]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 39;\ntau: [69.16186899]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 39;\ntau: [63.68068984]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 39;\ntau: [65.0694176]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 39;\ntau: [71.33134815]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 39;\ntau: [71.12816695]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 39;\ntau: [77.43897862]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 39;\ntau: [77.07214704]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS2",
+      "condition": "sigma_0.01",
+      "reconstruction_state": "postreconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS2",
+      "condition": "sigma_0.01",
+      "reconstruction_state": "postreconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/BGS2--sigma_0.01--postreconstruction",
+    "mean": [
+      1.000890570849819,
+      0.9862457787574578
+    ],
+    "covariance": [
+      [
+        0.0009185819670260095,
+        0.002849016025897556
+      ],
+      [
+        0.002849016025897556,
+        0.009364073909128925
+      ]
+    ],
+    "fom": 1436.2463734772034,
+    "retained_draws": 144000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/BGS2--sigma_0.01--postreconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "BGS_BRIGHT-21.5",
+        "measurement_bin": "BGS2",
+        "condition": "sigma_0.01",
+        "reconstruction_state": "postreconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": false,
+    "prior_contact": {
+      "qiso": false,
+      "qap": false
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [45.5919019]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [46.32972143]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [50.36359663]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [52.18488226]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [50.72892035]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [51.17573278]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [44.75541372]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [44.51897304]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS2",
+      "condition": "sigma_0.03",
+      "reconstruction_state": "prereconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS2",
+      "condition": "sigma_0.03",
+      "reconstruction_state": "prereconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/BGS2--sigma_0.03--prereconstruction",
+    "mean": [
+      1.0053987792330252,
+      1.0068611806580168
+    ],
+    "covariance": [
+      [
+        0.0021341438854027444,
+        0.004267109397477333
+      ],
+      [
+        0.004267109397477333,
+        0.013496386104772029
+      ]
+    ],
+    "fom": 307.2199191063517,
+    "retained_draws": 144000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/BGS2--sigma_0.03--prereconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "BGS_BRIGHT-21.5",
+        "measurement_bin": "BGS2",
+        "condition": "sigma_0.03",
+        "reconstruction_state": "prereconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": true,
+    "prior_contact": {
+      "qiso": false,
+      "qap": true
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [55.09920714]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [54.31995886]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [51.15634346]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [50.95101412]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [56.19472743]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [63.00815804]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [51.08275338]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [54.79987603]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS2",
+      "condition": "sigma_0.03",
+      "reconstruction_state": "postreconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS2",
+      "condition": "sigma_0.03",
+      "reconstruction_state": "postreconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/BGS2--sigma_0.03--postreconstruction",
+    "mean": [
+      1.0157964360130707,
+      0.9997209318938414
+    ],
+    "covariance": [
+      [
+        0.0022443809455121796,
+        0.004503201218246864
+      ],
+      [
+        0.004503201218246864,
+        0.0135859991548676
+      ]
+    ],
+    "fom": 312.90765026285294,
+    "retained_draws": 288000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/BGS2--sigma_0.03--postreconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "BGS_BRIGHT-21.5",
+        "measurement_bin": "BGS2",
+        "condition": "sigma_0.03",
+        "reconstruction_state": "postreconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": true,
+    "prior_contact": {
+      "qiso": false,
+      "qap": true
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 36;\ntau: [63.30531021]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 36;\ntau: [68.16926156]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 36;\ntau: [67.33693446]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 36;\ntau: [74.71392435]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 36;\ntau: [63.96279604]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 36;\ntau: [63.55504197]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 36;\ntau: [56.76173077]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 36;\ntau: [59.92299054]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG1",
+      "condition": "native",
+      "reconstruction_state": "prereconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG1",
+      "condition": "native",
+      "reconstruction_state": "prereconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/LRG1--native--prereconstruction",
+    "mean": [
+      0.9987261645391952,
+      0.9886980085997579
+    ],
+    "covariance": [
+      [
+        1.58399932229959e-05,
+        1.715872276981885e-05
+      ],
+      [
+        1.715872276981885e-05,
+        0.00018480747878050197
+      ]
+    ],
+    "fom": 19488.596069659103,
+    "retained_draws": 120000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/LRG1--native--prereconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "LRG",
+        "measurement_bin": "LRG1",
+        "condition": "native",
+        "reconstruction_state": "prereconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": false,
+    "prior_contact": {
+      "qiso": false,
+      "qap": false
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 15;\ntau: [39.58851794]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 15;\ntau: [39.14393457]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 15;\ntau: [35.90102814]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 15;\ntau: [37.35343955]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 15;\ntau: [32.94340044]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 15;\ntau: [33.57550642]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 15;\ntau: [37.99803756]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 15;\ntau: [40.55254676]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG1",
+      "condition": "native",
+      "reconstruction_state": "postreconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG1",
+      "condition": "native",
+      "reconstruction_state": "postreconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/LRG1--native--postreconstruction",
+    "mean": [
+      0.996914802348116,
+      0.995359574499245
+    ],
+    "covariance": [
+      [
+        5.291508227582765e-06,
+        6.096487010613143e-07
+      ],
+      [
+        6.096487010613143e-07,
+        5.549146975642413e-05
+      ]
+    ],
+    "fom": 58394.53171779655,
+    "retained_draws": 120000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/LRG1--native--postreconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "LRG",
+        "measurement_bin": "LRG1",
+        "condition": "native",
+        "reconstruction_state": "postreconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": false,
+    "prior_contact": {
+      "qiso": false,
+      "qap": false
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 15;\ntau: [39.43639697]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 15;\ntau: [38.31249544]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 15;\ntau: [42.42618462]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 15;\ntau: [35.80506582]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 15;\ntau: [38.37965066]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 15;\ntau: [38.48623379]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 15;\ntau: [39.68781938]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 15;\ntau: [40.45793255]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG1",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "prereconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG1",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "prereconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/LRG1--sigma_0.001--prereconstruction",
+    "mean": [
+      0.9983949446842818,
+      0.967375886994633
+    ],
+    "covariance": [
+      [
+        5.088802840481061e-05,
+        8.06209938664904e-05
+      ],
+      [
+        8.06209938664904e-05,
+        0.0005764950095071866
+      ]
+    ],
+    "fom": 6617.301943599272,
+    "retained_draws": 120000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/LRG1--sigma_0.001--prereconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "LRG",
+        "measurement_bin": "LRG1",
+        "condition": "sigma_0.001",
+        "reconstruction_state": "prereconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": false,
+    "prior_contact": {
+      "qiso": false,
+      "qap": false
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 15;\ntau: [38.33406086]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 15;\ntau: [38.19207757]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 15;\ntau: [40.79361739]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 15;\ntau: [40.73543653]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 15;\ntau: [37.48630469]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 15;\ntau: [36.41139833]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 15;\ntau: [34.79704801]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 15;\ntau: [37.43561358]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG1",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "postreconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG1",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "postreconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/LRG1--sigma_0.001--postreconstruction",
+    "mean": [
+      0.9930700718239701,
+      0.9888540195055994
+    ],
+    "covariance": [
+      [
+        1.8726111336043314e-05,
+        1.248044898658329e-05
+      ],
+      [
+        1.248044898658329e-05,
+        0.00020258871433392536
+      ]
+    ],
+    "fom": 16579.537078288737,
+    "retained_draws": 144000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/LRG1--sigma_0.001--postreconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "LRG",
+        "measurement_bin": "LRG1",
+        "condition": "sigma_0.001",
+        "reconstruction_state": "postreconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": false,
+    "prior_contact": {
+      "qiso": false,
+      "qap": false
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [44.16343777]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [47.40401454]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [43.35191744]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [49.17645812]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [42.49852629]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [40.71376043]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [46.11828771]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [44.82347212]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG1",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "prereconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG1",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "prereconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/LRG1--sigma_0.003--prereconstruction",
+    "mean": [
+      0.9932970823708495,
+      0.9844603430879955
+    ],
+    "covariance": [
+      [
+        2.8197685861858262e-05,
+        5.160896455853395e-05
+      ],
+      [
+        5.160896455853395e-05,
+        0.0002918754914893856
+      ]
+    ],
+    "fom": 13402.937474779312,
+    "retained_draws": 216000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/LRG1--sigma_0.003--prereconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "LRG",
+        "measurement_bin": "LRG1",
+        "condition": "sigma_0.003",
+        "reconstruction_state": "prereconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": false,
+    "prior_contact": {
+      "qiso": false,
+      "qap": false
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 27;\ntau: [52.32168236]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 27;\ntau: [51.87958622]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 27;\ntau: [43.183083]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 27;\ntau: [45.71302214]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 27;\ntau: [46.04358625]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 27;\ntau: [53.75269005]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 27;\ntau: [49.95459801]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 27;\ntau: [52.89215559]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG1",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "postreconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG1",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "postreconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/LRG1--sigma_0.003--postreconstruction",
+    "mean": [
+      0.9983656411522681,
+      1.0120693281774131
+    ],
+    "covariance": [
+      [
+        2.0195209116164308e-05,
+        5.544119199772648e-05
+      ],
+      [
+        5.544119199772648e-05,
+        0.0002826420789401718
+      ]
+    ],
+    "fom": 19483.554853299367,
+    "retained_draws": 312000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/LRG1--sigma_0.003--postreconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "LRG",
+        "measurement_bin": "LRG1",
+        "condition": "sigma_0.003",
+        "reconstruction_state": "postreconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": false,
+    "prior_contact": {
+      "qiso": false,
+      "qap": false
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 39;\ntau: [110.09566647]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 39;\ntau: [110.67126978]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 39;\ntau: [94.97383177]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 39;\ntau: [111.19426913]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 39;\ntau: [95.14569022]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 39;\ntau: [105.64754312]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 39;\ntau: [95.20543849]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 39;\ntau: [128.03329921]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG1",
+      "condition": "sigma_0.01",
+      "reconstruction_state": "prereconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG1",
+      "condition": "sigma_0.01",
+      "reconstruction_state": "prereconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/LRG1--sigma_0.01--prereconstruction",
+    "mean": [
+      0.9921852962426868,
+      0.9873116624144962
+    ],
+    "covariance": [
+      [
+        0.000948438738630321,
+        0.0029605641551250224
+      ],
+      [
+        0.0029605641551250224,
+        0.009551159161714713
+      ]
+    ],
+    "fom": 1845.0648305567279,
+    "retained_draws": 192000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/LRG1--sigma_0.01--prereconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "LRG",
+        "measurement_bin": "LRG1",
+        "condition": "sigma_0.01",
+        "reconstruction_state": "prereconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": false,
+    "prior_contact": {
+      "qiso": false,
+      "qap": false
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [62.10701145]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [61.2708469]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [55.49104037]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [56.7870581]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [62.46868704]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [60.92394873]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [53.53679556]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [53.35583053]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG1",
+      "condition": "sigma_0.01",
+      "reconstruction_state": "postreconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG1",
+      "condition": "sigma_0.01",
+      "reconstruction_state": "postreconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/LRG1--sigma_0.01--postreconstruction",
+    "mean": [
+      1.0172734745346885,
+      1.0731675743199025
+    ],
+    "covariance": [
+      [
+        0.0006044572764030354,
+        0.0019525659169829822
+      ],
+      [
+        0.0019525659169829822,
+        0.006529726802574468
+      ]
+    ],
+    "fom": 2727.4474617331334,
+    "retained_draws": 192000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/LRG1--sigma_0.01--postreconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "LRG",
+        "measurement_bin": "LRG1",
+        "condition": "sigma_0.01",
+        "reconstruction_state": "postreconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": true,
+    "prior_contact": {
+      "qiso": false,
+      "qap": true
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [54.32007109]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [55.398844]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [51.37438863]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [51.72137502]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [51.25246384]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [50.90249351]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [60.13629985]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [59.44623795]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG1",
+      "condition": "sigma_0.03",
+      "reconstruction_state": "prereconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG1",
+      "condition": "sigma_0.03",
+      "reconstruction_state": "prereconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/LRG1--sigma_0.03--prereconstruction",
+    "mean": [
+      1.0060335239162725,
+      1.0010079025310823
+    ],
+    "covariance": [
+      [
+        0.0015475983552761894,
+        0.004353526670341298
+      ],
+      [
+        0.004353526670341298,
+        0.013239175580745803
+      ]
+    ],
+    "fom": 806.941961126328,
+    "retained_draws": 312000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/LRG1--sigma_0.03--prereconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "LRG",
+        "measurement_bin": "LRG1",
+        "condition": "sigma_0.03",
+        "reconstruction_state": "prereconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": true,
+    "prior_contact": {
+      "qiso": false,
+      "qap": true
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 39;\ntau: [78.34154914]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 39;\ntau: [77.42957166]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 39;\ntau: [76.34100919]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 39;\ntau: [77.47553231]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 39;\ntau: [65.73061104]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 39;\ntau: [71.96353403]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 39;\ntau: [83.7552558]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 39;\ntau: [87.58519123]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG1",
+      "condition": "sigma_0.03",
+      "reconstruction_state": "postreconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG1",
+      "condition": "sigma_0.03",
+      "reconstruction_state": "postreconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/LRG1--sigma_0.03--postreconstruction",
+    "mean": [
+      1.0064919925787823,
+      1.0077073245881891
+    ],
+    "covariance": [
+      [
+        0.0015248590760070307,
+        0.004324682968438496
+      ],
+      [
+        0.004324682968438496,
+        0.013046811221989295
+      ]
+    ],
+    "fom": 916.0575858840485,
+    "retained_draws": 144000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/LRG1--sigma_0.03--postreconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "LRG",
+        "measurement_bin": "LRG1",
+        "condition": "sigma_0.03",
+        "reconstruction_state": "postreconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": true,
+    "prior_contact": {
+      "qiso": false,
+      "qap": true
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [46.60435368]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [47.02433969]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [50.95358436]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [53.71493163]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [55.9658522]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [56.43541153]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [56.72054274]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [56.15739278]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG2",
+      "condition": "native",
+      "reconstruction_state": "prereconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG2",
+      "condition": "native",
+      "reconstruction_state": "prereconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/LRG2--native--prereconstruction",
+    "mean": [
+      0.9950012735282187,
+      1.0039082796566268
+    ],
+    "covariance": [
+      [
+        1.61627530168646e-05,
+        -6.138014344066662e-07
+      ],
+      [
+        -6.138014344066662e-07,
+        0.0001355708850886596
+      ]
+    ],
+    "fom": 21364.683096968387,
+    "retained_draws": 144000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/LRG2--native--prereconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "LRG",
+        "measurement_bin": "LRG2",
+        "condition": "native",
+        "reconstruction_state": "prereconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": false,
+    "prior_contact": {
+      "qiso": false,
+      "qap": false
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [41.66850499]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [41.06059082]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [49.18045055]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [44.29954857]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [39.39383094]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [41.94257016]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [38.31868163]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [41.84343577]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG2",
+      "condition": "native",
+      "reconstruction_state": "postreconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG2",
+      "condition": "native",
+      "reconstruction_state": "postreconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/LRG2--native--postreconstruction",
+    "mean": [
+      0.9966188323541909,
+      1.0043748428031993
+    ],
+    "covariance": [
+      [
+        4.510002915992471e-06,
+        -2.24681087064367e-06
+      ],
+      [
+        -2.24681087064367e-06,
+        4.0992225799007025e-05
+      ]
+    ],
+    "fom": 74571.464569593,
+    "retained_draws": 168000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/LRG2--native--postreconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "LRG",
+        "measurement_bin": "LRG2",
+        "condition": "native",
+        "reconstruction_state": "postreconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": false,
+    "prior_contact": {
+      "qiso": false,
+      "qap": false
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [49.05323452]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [50.39860945]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [45.28728379]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [39.92289278]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [43.48538984]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [47.53721791]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [42.3583171]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [40.12451095]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG2",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "prereconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG2",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "prereconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/LRG2--sigma_0.001--prereconstruction",
+    "mean": [
+      0.9896410476915398,
+      1.0544439232845568
+    ],
+    "covariance": [
+      [
+        0.0012339258412801134,
+        0.0010675184376410087
+      ],
+      [
+        0.0010675184376410087,
+        0.007658324837394211
+      ]
+    ],
+    "fom": 346.8917880324448,
+    "retained_draws": 168000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/LRG2--sigma_0.001--prereconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "LRG",
+        "measurement_bin": "LRG2",
+        "condition": "sigma_0.001",
+        "reconstruction_state": "prereconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": false,
+    "prior_contact": {
+      "qiso": false,
+      "qap": false
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [48.68878135]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [51.29915838]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [53.7403291]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [49.74907402]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [49.27954467]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [48.79489238]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [40.910209]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [43.77729193]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG2",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "postreconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG2",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "postreconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/LRG2--sigma_0.001--postreconstruction",
+    "mean": [
+      0.8873005213271445,
+      0.9631282914094376
+    ],
+    "covariance": [
+      [
+        0.00185612008519454,
+        0.0005484125088169725
+      ],
+      [
+        0.0005484125088169725,
+        0.010564343057133945
+      ]
+    ],
+    "fom": 227.5789596783276,
+    "retained_draws": 168000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/LRG2--sigma_0.001--postreconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "LRG",
+        "measurement_bin": "LRG2",
+        "condition": "sigma_0.001",
+        "reconstruction_state": "postreconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": true,
+    "prior_contact": {
+      "qiso": false,
+      "qap": true
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [54.75260848]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [58.88493475]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [47.06664778]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [56.18997167]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [47.62096596]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [53.89453287]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [48.12143253]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [58.80805423]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG2",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "prereconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG2",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "prereconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/LRG2--sigma_0.003--prereconstruction",
+    "mean": [
+      0.9879822690384029,
+      0.9785897023490023
+    ],
+    "covariance": [
+      [
+        0.0004845124169488372,
+        0.00097871922384382
+      ],
+      [
+        0.00097871922384382,
+        0.0032464382690694563
+      ]
+    ],
+    "fom": 1275.1033216662836,
+    "retained_draws": 168000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/LRG2--sigma_0.003--prereconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "LRG",
+        "measurement_bin": "LRG2",
+        "condition": "sigma_0.003",
+        "reconstruction_state": "prereconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": false,
+    "prior_contact": {
+      "qiso": false,
+      "qap": false
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [52.22083629]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [49.74354752]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [53.58046773]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [55.90250513]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [50.89802045]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [47.75295557]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [53.19694633]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [51.52021527]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG2",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "postreconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG2",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "postreconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/LRG2--sigma_0.003--postreconstruction",
+    "mean": [
+      0.9856254384539914,
+      0.9909374004940938
+    ],
+    "covariance": [
+      [
+        0.00025393316985123206,
+        0.0003943617426852975
+      ],
+      [
+        0.0003943617426852975,
+        0.001536623952804469
+      ]
+    ],
+    "fom": 2064.2545429855595,
+    "retained_draws": 264000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/LRG2--sigma_0.003--postreconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "LRG",
+        "measurement_bin": "LRG2",
+        "condition": "sigma_0.003",
+        "reconstruction_state": "postreconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": false,
+    "prior_contact": {
+      "qiso": false,
+      "qap": false
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 33;\ntau: [55.10884996]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 33;\ntau: [54.0901448]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 33;\ntau: [57.52329752]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 33;\ntau: [53.77283546]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 33;\ntau: [52.26601302]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 33;\ntau: [55.65261492]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 33;\ntau: [54.26109445]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 33;\ntau: [50.95577279]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG2",
+      "condition": "sigma_0.01",
+      "reconstruction_state": "prereconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG2",
+      "condition": "sigma_0.01",
+      "reconstruction_state": "prereconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/LRG2--sigma_0.01--prereconstruction",
+    "mean": [
+      0.9829422452750073,
+      0.9553040086542545
+    ],
+    "covariance": [
+      [
+        0.0009686495256397563,
+        0.002840074014088574
+      ],
+      [
+        0.002840074014088574,
+        0.008615812093004745
+      ]
+    ],
+    "fom": 1890.8967962865624,
+    "retained_draws": 288000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/LRG2--sigma_0.01--prereconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "LRG",
+        "measurement_bin": "LRG2",
+        "condition": "sigma_0.01",
+        "reconstruction_state": "prereconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": false,
+    "prior_contact": {
+      "qiso": false,
+      "qap": false
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 36;\ntau: [58.47485599]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 36;\ntau: [58.75528843]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 36;\ntau: [65.67105247]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 36;\ntau: [65.80251187]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 36;\ntau: [67.94774053]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 36;\ntau: [67.31197974]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 36;\ntau: [63.95035318]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 36;\ntau: [61.83800061]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG2",
+      "condition": "sigma_0.01",
+      "reconstruction_state": "postreconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG2",
+      "condition": "sigma_0.01",
+      "reconstruction_state": "postreconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/LRG2--sigma_0.01--postreconstruction",
+    "mean": [
+      1.0033468553206977,
+      1.029118860419529
+    ],
+    "covariance": [
+      [
+        0.0008275265136420466,
+        0.0024947756361324213
+      ],
+      [
+        0.0024947756361324213,
+        0.007770825385889169
+      ]
+    ],
+    "fom": 2199.749842262256,
+    "retained_draws": 192000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/LRG2--sigma_0.01--postreconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "LRG",
+        "measurement_bin": "LRG2",
+        "condition": "sigma_0.01",
+        "reconstruction_state": "postreconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": false,
+    "prior_contact": {
+      "qiso": false,
+      "qap": false
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [55.76412925]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [56.46983052]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [51.71774425]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [51.18007383]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [50.0826274]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [51.45639271]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [52.92713043]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [53.09261391]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG2",
+      "condition": "sigma_0.03",
+      "reconstruction_state": "prereconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG2",
+      "condition": "sigma_0.03",
+      "reconstruction_state": "prereconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/LRG2--sigma_0.03--prereconstruction",
+    "mean": [
+      1.0049021345201712,
+      1.0010747073397386
+    ],
+    "covariance": [
+      [
+        0.0015676870848304796,
+        0.0044169843674826
+      ],
+      [
+        0.0044169843674826,
+        0.013272751985640855
+      ]
+    ],
+    "fom": 877.8109078836328,
+    "retained_draws": 288000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/LRG2--sigma_0.03--prereconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "LRG",
+        "measurement_bin": "LRG2",
+        "condition": "sigma_0.03",
+        "reconstruction_state": "prereconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": true,
+    "prior_contact": {
+      "qiso": false,
+      "qap": true
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 36;\ntau: [79.75147694]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 36;\ntau: [78.12357191]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 36;\ntau: [72.51063988]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 36;\ntau: [73.85408112]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 36;\ntau: [76.25969114]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 36;\ntau: [78.6674387]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 36;\ntau: [81.09566673]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 36;\ntau: [77.58221521]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG2",
+      "condition": "sigma_0.03",
+      "reconstruction_state": "postreconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG2",
+      "condition": "sigma_0.03",
+      "reconstruction_state": "postreconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/LRG2--sigma_0.03--postreconstruction",
+    "mean": [
+      0.996471487632314,
+      0.9999185487009865
+    ],
+    "covariance": [
+      [
+        0.001550599433627458,
+        0.004399171632420845
+      ],
+      [
+        0.004399171632420845,
+        0.013345790538600933
+      ]
+    ],
+    "fom": 863.4612131047651,
+    "retained_draws": 240000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/LRG2--sigma_0.03--postreconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "LRG",
+        "measurement_bin": "LRG2",
+        "condition": "sigma_0.03",
+        "reconstruction_state": "postreconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": true,
+    "prior_contact": {
+      "qiso": false,
+      "qap": true
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 30;\ntau: [69.16329152]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 30;\ntau: [68.6989972]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 30;\ntau: [70.29659192]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 30;\ntau: [70.18112271]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 30;\ntau: [66.31203387]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 30;\ntau: [65.77793149]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 30;\ntau: [59.96040937]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 30;\ntau: [60.38097646]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG3",
+      "condition": "native",
+      "reconstruction_state": "prereconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG3",
+      "condition": "native",
+      "reconstruction_state": "prereconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/LRG3--native--prereconstruction",
+    "mean": [
+      1.0020119126245348,
+      0.9880872847654808
+    ],
+    "covariance": [
+      [
+        9.497504093796344e-06,
+        -2.5308787750586418e-06
+      ],
+      [
+        -2.5308787750586418e-06,
+        0.00010137463449996346
+      ]
+    ],
+    "fom": 32335.53617943489,
+    "retained_draws": 192000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/LRG3--native--prereconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "LRG",
+        "measurement_bin": "LRG3",
+        "condition": "native",
+        "reconstruction_state": "prereconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": false,
+    "prior_contact": {
+      "qiso": false,
+      "qap": false
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [44.71401004]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [44.74483297]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [39.66844158]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [47.90594662]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [47.60660467]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [41.33325103]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [44.84821355]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [51.78562647]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG3",
+      "condition": "native",
+      "reconstruction_state": "postreconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG3",
+      "condition": "native",
+      "reconstruction_state": "postreconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/LRG3--native--postreconstruction",
+    "mean": [
+      0.9988914460762416,
+      0.9963706448364295
+    ],
+    "covariance": [
+      [
+        3.3009375872250525e-06,
+        -3.7273269520602595e-07
+      ],
+      [
+        -3.7273269520602595e-07,
+        3.654589806017906e-05
+      ]
+    ],
+    "fom": 91098.71376678695,
+    "retained_draws": 168000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/LRG3--native--postreconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "LRG",
+        "measurement_bin": "LRG3",
+        "condition": "native",
+        "reconstruction_state": "postreconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": false,
+    "prior_contact": {
+      "qiso": false,
+      "qap": false
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [45.39540774]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [46.79353632]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [39.85752147]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [54.27879723]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [47.20915274]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [47.14653531]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [44.716367]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [42.48502989]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG3",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "prereconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG3",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "prereconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/LRG3--sigma_0.001--prereconstruction",
+    "mean": [
+      0.9833886719684698,
+      1.0612209641814467
+    ],
+    "covariance": [
+      [
+        0.0007529121336488958,
+        -0.0009074036933300134
+      ],
+      [
+        -0.0009074036933300134,
+        0.004949434760714862
+      ]
+    ],
+    "fom": 586.9058008130712,
+    "retained_draws": 216000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/LRG3--sigma_0.001--prereconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "LRG",
+        "measurement_bin": "LRG3",
+        "condition": "sigma_0.001",
+        "reconstruction_state": "prereconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": false,
+    "prior_contact": {
+      "qiso": false,
+      "qap": false
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 27;\ntau: [49.65637511]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 27;\ntau: [53.5642091]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 27;\ntau: [52.60584486]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 27;\ntau: [49.60100432]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 27;\ntau: [47.08062958]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 27;\ntau: [48.42947671]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 27;\ntau: [63.73856858]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 27;\ntau: [50.37306856]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG3",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "postreconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG3",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "postreconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/LRG3--sigma_0.001--postreconstruction",
+    "mean": [
+      0.9491306713185343,
+      0.9786914458390743
+    ],
+    "covariance": [
+      [
+        0.010084618017875278,
+        0.0012646342611392412
+      ],
+      [
+        0.0012646342611392412,
+        0.013364890507420561
+      ]
+    ],
+    "fom": 86.652212028785,
+    "retained_draws": 288000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/LRG3--sigma_0.001--postreconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "LRG",
+        "measurement_bin": "LRG3",
+        "condition": "sigma_0.001",
+        "reconstruction_state": "postreconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": true,
+    "prior_contact": {
+      "qiso": true,
+      "qap": true
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 36;\ntau: [89.26368591]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 36;\ntau: [87.14604274]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 36;\ntau: [91.42417187]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 36;\ntau: [101.36235712]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 36;\ntau: [83.55085612]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 36;\ntau: [84.63716321]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 36;\ntau: [91.20304277]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 36;\ntau: [96.44109423]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG3",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "prereconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG3",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "prereconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/LRG3--sigma_0.003--prereconstruction",
+    "mean": [
+      1.0031606412595022,
+      0.9998725741701145
+    ],
+    "covariance": [
+      [
+        0.00019137699274722445,
+        0.00014897717803484238
+      ],
+      [
+        0.00014897717803484238,
+        0.0021836161981067105
+      ]
+    ],
+    "fom": 1589.7071902240339,
+    "retained_draws": 216000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/LRG3--sigma_0.003--prereconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "LRG",
+        "measurement_bin": "LRG3",
+        "condition": "sigma_0.003",
+        "reconstruction_state": "prereconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": false,
+    "prior_contact": {
+      "qiso": false,
+      "qap": false
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 27;\ntau: [58.25803637]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 27;\ntau: [57.07154622]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 27;\ntau: [45.56501027]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 27;\ntau: [46.72350246]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 27;\ntau: [46.92050977]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 27;\ntau: [53.57472256]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 27;\ntau: [54.98678177]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 27;\ntau: [50.90602476]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG3",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "postreconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG3",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "postreconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/LRG3--sigma_0.003--postreconstruction",
+    "mean": [
+      0.9956167534094766,
+      0.9443269303118935
+    ],
+    "covariance": [
+      [
+        0.00021969429285752956,
+        0.00018349368614533913
+      ],
+      [
+        0.00018349368614533913,
+        0.0024778294827586425
+      ]
+    ],
+    "fom": 1399.3268591113751,
+    "retained_draws": 192000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/LRG3--sigma_0.003--postreconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "LRG",
+        "measurement_bin": "LRG3",
+        "condition": "sigma_0.003",
+        "reconstruction_state": "postreconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": false,
+    "prior_contact": {
+      "qiso": false,
+      "qap": false
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [45.88531839]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [52.36175879]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [51.88636616]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [53.37904359]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [50.85784976]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [57.07765342]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [48.44047602]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 24;\ntau: [47.59418037]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG3",
+      "condition": "sigma_0.01",
+      "reconstruction_state": "prereconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG3",
+      "condition": "sigma_0.01",
+      "reconstruction_state": "prereconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/LRG3--sigma_0.01--prereconstruction",
+    "mean": [
+      1.0006231429659505,
+      0.9723757004203423
+    ],
+    "covariance": [
+      [
+        0.0007257773386368255,
+        0.0021957773141161588
+      ],
+      [
+        0.0021957773141161588,
+        0.007005770273331288
+      ]
+    ],
+    "fom": 1949.2351886593503,
+    "retained_draws": 288000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/LRG3--sigma_0.01--prereconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "LRG",
+        "measurement_bin": "LRG3",
+        "condition": "sigma_0.01",
+        "reconstruction_state": "prereconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": false,
+    "prior_contact": {
+      "qiso": false,
+      "qap": false
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 36;\ntau: [54.75968867]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 36;\ntau: [53.66279234]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 36;\ntau: [67.95338534]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 36;\ntau: [72.82614944]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 36;\ntau: [62.6389338]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 36;\ntau: [57.23210773]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 36;\ntau: [51.14877853]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 36;\ntau: [51.61033581]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG3",
+      "condition": "sigma_0.01",
+      "reconstruction_state": "postreconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG3",
+      "condition": "sigma_0.01",
+      "reconstruction_state": "postreconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/LRG3--sigma_0.01--postreconstruction",
+    "mean": [
+      1.024380007515054,
+      1.0683095146407955
+    ],
+    "covariance": [
+      [
+        0.000613080900962677,
+        0.0019061485151617263
+      ],
+      [
+        0.0019061485151617263,
+        0.006224308647069487
+      ]
+    ],
+    "fom": 2340.1652808741906,
+    "retained_draws": 168000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/LRG3--sigma_0.01--postreconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "LRG",
+        "measurement_bin": "LRG3",
+        "condition": "sigma_0.01",
+        "reconstruction_state": "postreconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": true,
+    "prior_contact": {
+      "qiso": false,
+      "qap": true
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [51.09672298]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [51.17679461]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [54.33761171]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [58.30872736]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [48.91186341]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [47.69760388]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [47.04811419]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 21;\ntau: [48.31296316]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG3",
+      "condition": "sigma_0.03",
+      "reconstruction_state": "prereconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG3",
+      "condition": "sigma_0.03",
+      "reconstruction_state": "prereconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/LRG3--sigma_0.03--prereconstruction",
+    "mean": [
+      1.0106432150349802,
+      1.0038625656095852
+    ],
+    "covariance": [
+      [
+        0.001639979803602624,
+        0.004355450471129416
+      ],
+      [
+        0.004355450471129416,
+        0.013169812740116865
+      ]
+    ],
+    "fom": 616.8283718457801,
+    "retained_draws": 144000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/LRG3--sigma_0.03--prereconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "LRG",
+        "measurement_bin": "LRG3",
+        "condition": "sigma_0.03",
+        "reconstruction_state": "prereconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": true,
+    "prior_contact": {
+      "qiso": false,
+      "qap": true
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [56.1042593]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [57.67830141]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [50.59718693]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [53.62197164]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [49.66525214]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [49.41271223]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [52.6752101]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 18;\ntau: [54.40312607]"
+    ]
+  },
+  {
+    "route": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG3",
+      "condition": "sigma_0.03",
+      "reconstruction_state": "postreconstruction"
+    },
+    "status": "available",
+    "identity": {
+      "tracer": "LRG",
+      "measurement_bin": "LRG3",
+      "condition": "sigma_0.03",
+      "reconstruction_state": "postreconstruction",
+      "realization_id": null,
+      "run_name": "unified-fit-v3--primary",
+      "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+      "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+    },
+    "covariance_identity": {
+      "run_name": "per-bin-v2--primary",
+      "code_commit": "c6f33a3ea3d5256d5a39cad3c3242287264b5e7b",
+      "analysis_config_sha256": "a1d00dc768cf196dd09b0f72947533a06cf5d0f6fce996ebc6aa6a16e1f3d422"
+    },
+    "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/sample/units/LRG3--sigma_0.03--postreconstruction",
+    "mean": [
+      1.005294385347172,
+      1.004754198395215
+    ],
+    "covariance": [
+      [
+        0.0016713975266411181,
+        0.004477086765414607
+      ],
+      [
+        0.004477086765414607,
+        0.013551810115060757
+      ]
+    ],
+    "fom": 619.4407835844896,
+    "retained_draws": 336000,
+    "profile": {
+      "source": "<storage>/runs/core-sensitivity/unified-fit-v3--primary/fit/units/LRG3--sigma_0.03--postreconstruction--mean/profiles.npy",
+      "identity": {
+        "tracer": "LRG",
+        "measurement_bin": "LRG3",
+        "condition": "sigma_0.03",
+        "reconstruction_state": "postreconstruction",
+        "realization_id": null,
+        "run_name": "unified-fit-v3--primary",
+        "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+        "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+      }
+    },
+    "profile_flagged": true,
+    "prior_contact": {
+      "qiso": false,
+      "qap": true
+    },
+    "sampling_limits": [
+      "ensemble 0 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 42;\ntau: [77.69022228]",
+      "ensemble 0 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 42;\ntau: [85.4378925]",
+      "ensemble 1 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 42;\ntau: [73.07128275]",
+      "ensemble 1 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 42;\ntau: [75.03910276]",
+      "ensemble 2 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 42;\ntau: [70.09204966]",
+      "ensemble 2 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 42;\ntau: [71.82569013]",
+      "ensemble 3 qiso: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 42;\ntau: [67.45846801]",
+      "ensemble 3 qap: The chain is shorter than 50 times the integrated autocorrelation time for 1 parameter(s). Use this estimate with caution and run a longer chain!\nN/50 = 42;\ntau: [68.76247573]"
+    ]
+  }
+]

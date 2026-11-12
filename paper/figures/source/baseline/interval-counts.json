@@ -1,0 +1,352 @@
+[
+  {
+    "measurement_bin": "BGS1",
+    "condition": "native",
+    "parameter": "qiso",
+    "available_pairs": 25,
+    "usable_pairs": 8
+  },
+  {
+    "measurement_bin": "BGS1",
+    "condition": "native",
+    "parameter": "qap",
+    "available_pairs": 25,
+    "usable_pairs": 0
+  },
+  {
+    "measurement_bin": "BGS1",
+    "condition": "sigma_0.001",
+    "parameter": "qiso",
+    "available_pairs": 25,
+    "usable_pairs": 10
+  },
+  {
+    "measurement_bin": "BGS1",
+    "condition": "sigma_0.001",
+    "parameter": "qap",
+    "available_pairs": 25,
+    "usable_pairs": 1
+  },
+  {
+    "measurement_bin": "BGS1",
+    "condition": "sigma_0.003",
+    "parameter": "qiso",
+    "available_pairs": 25,
+    "usable_pairs": 10
+  },
+  {
+    "measurement_bin": "BGS1",
+    "condition": "sigma_0.003",
+    "parameter": "qap",
+    "available_pairs": 25,
+    "usable_pairs": 0
+  },
+  {
+    "measurement_bin": "BGS1",
+    "condition": "sigma_0.01",
+    "parameter": "qiso",
+    "available_pairs": 25,
+    "usable_pairs": 4
+  },
+  {
+    "measurement_bin": "BGS1",
+    "condition": "sigma_0.01",
+    "parameter": "qap",
+    "available_pairs": 25,
+    "usable_pairs": 0
+  },
+  {
+    "measurement_bin": "BGS1",
+    "condition": "sigma_0.03",
+    "parameter": "qiso",
+    "available_pairs": 25,
+    "usable_pairs": 3
+  },
+  {
+    "measurement_bin": "BGS1",
+    "condition": "sigma_0.03",
+    "parameter": "qap",
+    "available_pairs": 25,
+    "usable_pairs": 0
+  },
+  {
+    "measurement_bin": "BGS2",
+    "condition": "native",
+    "parameter": "qiso",
+    "available_pairs": 25,
+    "usable_pairs": 23
+  },
+  {
+    "measurement_bin": "BGS2",
+    "condition": "native",
+    "parameter": "qap",
+    "available_pairs": 25,
+    "usable_pairs": 13
+  },
+  {
+    "measurement_bin": "BGS2",
+    "condition": "sigma_0.001",
+    "parameter": "qiso",
+    "available_pairs": 25,
+    "usable_pairs": 25
+  },
+  {
+    "measurement_bin": "BGS2",
+    "condition": "sigma_0.001",
+    "parameter": "qap",
+    "available_pairs": 25,
+    "usable_pairs": 11
+  },
+  {
+    "measurement_bin": "BGS2",
+    "condition": "sigma_0.003",
+    "parameter": "qiso",
+    "available_pairs": 25,
+    "usable_pairs": 24
+  },
+  {
+    "measurement_bin": "BGS2",
+    "condition": "sigma_0.003",
+    "parameter": "qap",
+    "available_pairs": 25,
+    "usable_pairs": 9
+  },
+  {
+    "measurement_bin": "BGS2",
+    "condition": "sigma_0.01",
+    "parameter": "qiso",
+    "available_pairs": 25,
+    "usable_pairs": 19
+  },
+  {
+    "measurement_bin": "BGS2",
+    "condition": "sigma_0.01",
+    "parameter": "qap",
+    "available_pairs": 25,
+    "usable_pairs": 0
+  },
+  {
+    "measurement_bin": "BGS2",
+    "condition": "sigma_0.03",
+    "parameter": "qiso",
+    "available_pairs": 25,
+    "usable_pairs": 6
+  },
+  {
+    "measurement_bin": "BGS2",
+    "condition": "sigma_0.03",
+    "parameter": "qap",
+    "available_pairs": 25,
+    "usable_pairs": 0
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "native",
+    "parameter": "qiso",
+    "available_pairs": 25,
+    "usable_pairs": 23
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "native",
+    "parameter": "qap",
+    "available_pairs": 25,
+    "usable_pairs": 19
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.001",
+    "parameter": "qiso",
+    "available_pairs": 25,
+    "usable_pairs": 24
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.001",
+    "parameter": "qap",
+    "available_pairs": 25,
+    "usable_pairs": 11
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.003",
+    "parameter": "qiso",
+    "available_pairs": 25,
+    "usable_pairs": 25
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.003",
+    "parameter": "qap",
+    "available_pairs": 25,
+    "usable_pairs": 19
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.01",
+    "parameter": "qiso",
+    "available_pairs": 25,
+    "usable_pairs": 24
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.01",
+    "parameter": "qap",
+    "available_pairs": 25,
+    "usable_pairs": 0
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.03",
+    "parameter": "qiso",
+    "available_pairs": 25,
+    "usable_pairs": 17
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.03",
+    "parameter": "qap",
+    "available_pairs": 25,
+    "usable_pairs": 0
+  },
+  {
+    "measurement_bin": "LRG2",
+    "condition": "native",
+    "parameter": "qiso",
+    "available_pairs": 25,
+    "usable_pairs": 23
+  },
+  {
+    "measurement_bin": "LRG2",
+    "condition": "native",
+    "parameter": "qap",
+    "available_pairs": 25,
+    "usable_pairs": 23
+  },
+  {
+    "measurement_bin": "LRG2",
+    "condition": "sigma_0.001",
+    "parameter": "qiso",
+    "available_pairs": 25,
+    "usable_pairs": 9
+  },
+  {
+    "measurement_bin": "LRG2",
+    "condition": "sigma_0.001",
+    "parameter": "qap",
+    "available_pairs": 25,
+    "usable_pairs": 0
+  },
+  {
+    "measurement_bin": "LRG2",
+    "condition": "sigma_0.003",
+    "parameter": "qiso",
+    "available_pairs": 25,
+    "usable_pairs": 20
+  },
+  {
+    "measurement_bin": "LRG2",
+    "condition": "sigma_0.003",
+    "parameter": "qap",
+    "available_pairs": 25,
+    "usable_pairs": 3
+  },
+  {
+    "measurement_bin": "LRG2",
+    "condition": "sigma_0.01",
+    "parameter": "qiso",
+    "available_pairs": 25,
+    "usable_pairs": 25
+  },
+  {
+    "measurement_bin": "LRG2",
+    "condition": "sigma_0.01",
+    "parameter": "qap",
+    "available_pairs": 25,
+    "usable_pairs": 0
+  },
+  {
+    "measurement_bin": "LRG2",
+    "condition": "sigma_0.03",
+    "parameter": "qiso",
+    "available_pairs": 25,
+    "usable_pairs": 13
+  },
+  {
+    "measurement_bin": "LRG2",
+    "condition": "sigma_0.03",
+    "parameter": "qap",
+    "available_pairs": 25,
+    "usable_pairs": 0
+  },
+  {
+    "measurement_bin": "LRG3",
+    "condition": "native",
+    "parameter": "qiso",
+    "available_pairs": 25,
+    "usable_pairs": 25
+  },
+  {
+    "measurement_bin": "LRG3",
+    "condition": "native",
+    "parameter": "qap",
+    "available_pairs": 25,
+    "usable_pairs": 25
+  },
+  {
+    "measurement_bin": "LRG3",
+    "condition": "sigma_0.001",
+    "parameter": "qiso",
+    "available_pairs": 25,
+    "usable_pairs": 5
+  },
+  {
+    "measurement_bin": "LRG3",
+    "condition": "sigma_0.001",
+    "parameter": "qap",
+    "available_pairs": 25,
+    "usable_pairs": 0
+  },
+  {
+    "measurement_bin": "LRG3",
+    "condition": "sigma_0.003",
+    "parameter": "qiso",
+    "available_pairs": 25,
+    "usable_pairs": 16
+  },
+  {
+    "measurement_bin": "LRG3",
+    "condition": "sigma_0.003",
+    "parameter": "qap",
+    "available_pairs": 25,
+    "usable_pairs": 3
+  },
+  {
+    "measurement_bin": "LRG3",
+    "condition": "sigma_0.01",
+    "parameter": "qiso",
+    "available_pairs": 25,
+    "usable_pairs": 23
+  },
+  {
+    "measurement_bin": "LRG3",
+    "condition": "sigma_0.01",
+    "parameter": "qap",
+    "available_pairs": 25,
+    "usable_pairs": 0
+  },
+  {
+    "measurement_bin": "LRG3",
+    "condition": "sigma_0.03",
+    "parameter": "qiso",
+    "available_pairs": 25,
+    "usable_pairs": 15
+  },
+  {
+    "measurement_bin": "LRG3",
+    "condition": "sigma_0.03",
+    "parameter": "qap",
+    "available_pairs": 25,
+    "usable_pairs": 0
+  }
+]

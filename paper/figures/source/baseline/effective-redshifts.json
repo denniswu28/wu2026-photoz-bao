@@ -1,0 +1,127 @@
+[
+  {
+    "measurement_bin": "LRG1",
+    "condition": "native",
+    "z_eff": 0.5100192592001569
+  },
+  {
+    "measurement_bin": "LRG2",
+    "condition": "native",
+    "z_eff": 0.7063393626903584
+  },
+  {
+    "measurement_bin": "LRG3",
+    "condition": "native",
+    "z_eff": 0.8717833432740228
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.001",
+    "z_eff": 0.5100310027173696
+  },
+  {
+    "measurement_bin": "LRG2",
+    "condition": "sigma_0.001",
+    "z_eff": 0.7062536312316108
+  },
+  {
+    "measurement_bin": "LRG3",
+    "condition": "sigma_0.001",
+    "z_eff": 0.8718112910089795
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.003",
+    "z_eff": 0.5099633678869409
+  },
+  {
+    "measurement_bin": "LRG2",
+    "condition": "sigma_0.003",
+    "z_eff": 0.7063382699428542
+  },
+  {
+    "measurement_bin": "LRG3",
+    "condition": "sigma_0.003",
+    "z_eff": 0.8717857618099476
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.01",
+    "z_eff": 0.5099450730151117
+  },
+  {
+    "measurement_bin": "LRG2",
+    "condition": "sigma_0.01",
+    "z_eff": 0.706217558606551
+  },
+  {
+    "measurement_bin": "LRG3",
+    "condition": "sigma_0.01",
+    "z_eff": 0.8721179057269555
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.03",
+    "z_eff": 0.509837799809274
+  },
+  {
+    "measurement_bin": "LRG2",
+    "condition": "sigma_0.03",
+    "z_eff": 0.7047521610522463
+  },
+  {
+    "measurement_bin": "LRG3",
+    "condition": "sigma_0.03",
+    "z_eff": 0.8741674049459318
+  },
+  {
+    "measurement_bin": "BGS1",
+    "condition": "native",
+    "z_eff": 0.16020822237256221
+  },
+  {
+    "measurement_bin": "BGS2",
+    "condition": "native",
+    "z_eff": 0.317892045238505
+  },
+  {
+    "measurement_bin": "BGS1",
+    "condition": "sigma_0.001",
+    "z_eff": 0.1601902634725827
+  },
+  {
+    "measurement_bin": "BGS2",
+    "condition": "sigma_0.001",
+    "z_eff": 0.3178889496150779
+  },
+  {
+    "measurement_bin": "BGS1",
+    "condition": "sigma_0.003",
+    "z_eff": 0.16012365673898743
+  },
+  {
+    "measurement_bin": "BGS2",
+    "condition": "sigma_0.003",
+    "z_eff": 0.31785753210194234
+  },
+  {
+    "measurement_bin": "BGS1",
+    "condition": "sigma_0.01",
+    "z_eff": 0.16000638602019188
+  },
+  {
+    "measurement_bin": "BGS2",
+    "condition": "sigma_0.01",
+    "z_eff": 0.31773113451465307
+  },
+  {
+    "measurement_bin": "BGS1",
+    "condition": "sigma_0.03",
+    "z_eff": 0.1590012000917195
+  },
+  {
+    "measurement_bin": "BGS2",
+    "condition": "sigma_0.03",
+    "z_eff": 0.31528627217106797
+  }
+]

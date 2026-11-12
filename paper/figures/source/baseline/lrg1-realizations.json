@@ -1,0 +1,452 @@
+[
+  {
+    "measurement_bin": "LRG1",
+    "condition": "desi_baseline",
+    "state": "prerecon",
+    "quantity": "qiso_bf",
+    "mean": 1.0026051833473402,
+    "std": 0.026818770790402104,
+    "count": 24
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "desi_baseline",
+    "state": "prerecon",
+    "quantity": "qap_bf",
+    "mean": 0.9816124629797092,
+    "std": 0.04183460532111712,
+    "count": 19
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "desi_baseline",
+    "state": "prerecon",
+    "quantity": "qiso_minos",
+    "mean": 0.020270863330741115,
+    "std": 0.008108885179792604,
+    "count": 24
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "desi_baseline",
+    "state": "prerecon",
+    "quantity": "qap_minos",
+    "mean": 0.061860567465072056,
+    "std": 0.020432237107939552,
+    "count": 19
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "desi_baseline",
+    "state": "prerecon",
+    "quantity": "chi2",
+    "mean": 37.29958409659921,
+    "std": 8.609265862989776,
+    "count": 25
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "desi_baseline",
+    "state": "postrecon",
+    "quantity": "qiso_bf",
+    "mean": 0.9980286226325399,
+    "std": 0.015541085034199154,
+    "count": 24
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "desi_baseline",
+    "state": "postrecon",
+    "quantity": "qap_bf",
+    "mean": 0.9946206260359759,
+    "std": 0.039744305792449176,
+    "count": 25
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "desi_baseline",
+    "state": "postrecon",
+    "quantity": "qiso_minos",
+    "mean": 0.011577305826195233,
+    "std": 0.0026681181471536436,
+    "count": 24
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "desi_baseline",
+    "state": "postrecon",
+    "quantity": "qap_minos",
+    "mean": 0.038027527936309855,
+    "std": 0.00988868704352167,
+    "count": 25
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "desi_baseline",
+    "state": "postrecon",
+    "quantity": "chi2",
+    "mean": 38.122361548453576,
+    "std": 6.656563205139225,
+    "count": 25
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.001",
+    "state": "prerecon",
+    "quantity": "qiso_bf",
+    "mean": 0.998078724129147,
+    "std": 0.0479457423631817,
+    "count": 25
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.001",
+    "state": "prerecon",
+    "quantity": "qap_bf",
+    "mean": 0.9556425760752081,
+    "std": 0.05095676784310946,
+    "count": 12
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.001",
+    "state": "prerecon",
+    "quantity": "qiso_minos",
+    "mean": 0.03290100488773055,
+    "std": 0.015248210703420102,
+    "count": 25
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.001",
+    "state": "prerecon",
+    "quantity": "qap_minos",
+    "mean": 0.07882421783604251,
+    "std": 0.023332544433959393,
+    "count": 12
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.001",
+    "state": "prerecon",
+    "quantity": "chi2",
+    "mean": 38.75690638117752,
+    "std": 8.858554837777694,
+    "count": 25
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.001",
+    "state": "postrecon",
+    "quantity": "qiso_bf",
+    "mean": 0.992217385935378,
+    "std": 0.031186995970143645,
+    "count": 24
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.001",
+    "state": "postrecon",
+    "quantity": "qap_bf",
+    "mean": 0.9909387110809627,
+    "std": 0.053725170093531394,
+    "count": 20
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.001",
+    "state": "postrecon",
+    "quantity": "qiso_minos",
+    "mean": 0.02550273804757494,
+    "std": 0.015131272573348696,
+    "count": 24
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.001",
+    "state": "postrecon",
+    "quantity": "qap_minos",
+    "mean": 0.06755797678270378,
+    "std": 0.01915749288937673,
+    "count": 20
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.001",
+    "state": "postrecon",
+    "quantity": "chi2",
+    "mean": 39.886594679514424,
+    "std": 8.697987457784025,
+    "count": 25
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.003",
+    "state": "prerecon",
+    "quantity": "qiso_bf",
+    "mean": 0.9919580508634062,
+    "std": 0.028148227606081013,
+    "count": 25
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.003",
+    "state": "prerecon",
+    "quantity": "qap_bf",
+    "mean": 0.9790027170225925,
+    "std": 0.05053271107466476,
+    "count": 19
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.003",
+    "state": "prerecon",
+    "quantity": "qiso_minos",
+    "mean": 0.026126513561999465,
+    "std": 0.013838868816948903,
+    "count": 25
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.003",
+    "state": "prerecon",
+    "quantity": "qap_minos",
+    "mean": 0.07804858976555422,
+    "std": 0.022897708950080024,
+    "count": 19
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.003",
+    "state": "prerecon",
+    "quantity": "chi2",
+    "mean": 38.520999211637125,
+    "std": 10.04433816827708,
+    "count": 25
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.003",
+    "state": "postrecon",
+    "quantity": "qiso_bf",
+    "mean": 0.9960731298098842,
+    "std": 0.023736684264339922,
+    "count": 25
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.003",
+    "state": "postrecon",
+    "quantity": "qap_bf",
+    "mean": 0.9868230672289685,
+    "std": 0.04750161337036151,
+    "count": 22
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.003",
+    "state": "postrecon",
+    "quantity": "qiso_minos",
+    "mean": 0.01865968458648566,
+    "std": 0.005776110434326307,
+    "count": 25
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.003",
+    "state": "postrecon",
+    "quantity": "qap_minos",
+    "mean": 0.060519911442817674,
+    "std": 0.019560512666216855,
+    "count": 22
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.003",
+    "state": "postrecon",
+    "quantity": "chi2",
+    "mean": 39.675017957713614,
+    "std": 10.000266287635315,
+    "count": 25
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.01",
+    "state": "prerecon",
+    "quantity": "qiso_bf",
+    "mean": 0.9977162033209694,
+    "std": 0.0710843402512449,
+    "count": 24
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.01",
+    "state": "prerecon",
+    "quantity": "qap_bf",
+    "mean": null,
+    "std": null,
+    "count": 0
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.01",
+    "state": "prerecon",
+    "quantity": "qiso_minos",
+    "mean": 0.07536909670774596,
+    "std": 0.018675621458988906,
+    "count": 24
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.01",
+    "state": "prerecon",
+    "quantity": "qap_minos",
+    "mean": null,
+    "std": null,
+    "count": 0
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.01",
+    "state": "prerecon",
+    "quantity": "chi2",
+    "mean": 41.414502762106686,
+    "std": 8.851625954993661,
+    "count": 25
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.01",
+    "state": "postrecon",
+    "quantity": "qiso_bf",
+    "mean": 1.0110129984135763,
+    "std": 0.06070133249478622,
+    "count": 25
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.01",
+    "state": "postrecon",
+    "quantity": "qap_bf",
+    "mean": null,
+    "std": null,
+    "count": 0
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.01",
+    "state": "postrecon",
+    "quantity": "qiso_minos",
+    "mean": 0.06281125586321185,
+    "std": 0.01935182433191773,
+    "count": 25
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.01",
+    "state": "postrecon",
+    "quantity": "qap_minos",
+    "mean": null,
+    "std": null,
+    "count": 0
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.01",
+    "state": "postrecon",
+    "quantity": "chi2",
+    "mean": 40.97353369805573,
+    "std": 9.242041495639176,
+    "count": 25
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.03",
+    "state": "prerecon",
+    "quantity": "qiso_bf",
+    "mean": 0.9943685078917139,
+    "std": 0.06792182273969367,
+    "count": 20
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.03",
+    "state": "prerecon",
+    "quantity": "qap_bf",
+    "mean": null,
+    "std": null,
+    "count": 0
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.03",
+    "state": "prerecon",
+    "quantity": "qiso_minos",
+    "mean": 0.11378532086068001,
+    "std": 0.018532777378726727,
+    "count": 20
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.03",
+    "state": "prerecon",
+    "quantity": "qap_minos",
+    "mean": null,
+    "std": null,
+    "count": 0
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.03",
+    "state": "prerecon",
+    "quantity": "chi2",
+    "mean": 41.96913405673143,
+    "std": 9.064665236029771,
+    "count": 25
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.03",
+    "state": "postrecon",
+    "quantity": "qiso_bf",
+    "mean": 0.9983995881674874,
+    "std": 0.06571602080474953,
+    "count": 19
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.03",
+    "state": "postrecon",
+    "quantity": "qap_bf",
+    "mean": null,
+    "std": null,
+    "count": 0
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.03",
+    "state": "postrecon",
+    "quantity": "qiso_minos",
+    "mean": 0.10612968190449489,
+    "std": 0.012557288272846582,
+    "count": 19
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.03",
+    "state": "postrecon",
+    "quantity": "qap_minos",
+    "mean": null,
+    "std": null,
+    "count": 0
+  },
+  {
+    "measurement_bin": "LRG1",
+    "condition": "sigma_0.03",
+    "state": "postrecon",
+    "quantity": "chi2",
+    "mean": 42.04039051551025,
+    "std": 10.064679764333365,
+    "count": 25
+  }
+]

@@ -1,0 +1,521 @@
+{
+  "absolute_panel": {
+    "cosmic_variance_curve": "infinite-density SPHEREx f_sky=0.65 limit",
+    "finite_curve_area_policy": "all finite-density scenarios use the SPHEREx f_sky=0.65 shell volumes",
+    "spherex_shell_volume_mpc_h3": [
+      437147103.88838184,
+      2937794454.439941,
+      6404486444.370737,
+      9922483597.855286,
+      13012932754.076519
+    ]
+  },
+  "bins": [
+    {
+      "bin": "BGS1",
+      "redshift_center": 0.15000000000000002,
+      "tracer": "BGS_BRIGHT-21.5",
+      "zmax": 0.2,
+      "zmin": 0.1
+    },
+    {
+      "bin": "BGS2",
+      "redshift_center": 0.30000000000000004,
+      "tracer": "BGS_BRIGHT-21.5",
+      "zmax": 0.4,
+      "zmin": 0.2
+    },
+    {
+      "bin": "LRG1",
+      "redshift_center": 0.5,
+      "tracer": "LRG",
+      "zmax": 0.6,
+      "zmin": 0.4
+    },
+    {
+      "bin": "LRG2",
+      "redshift_center": 0.7,
+      "tracer": "LRG",
+      "zmax": 0.8,
+      "zmin": 0.6
+    },
+    {
+      "bin": "LRG3",
+      "redshift_center": 0.9,
+      "tracer": "LRG",
+      "zmax": 1.0,
+      "zmin": 0.8
+    }
+  ],
+  "calibration": {
+    "coefficient_mean_pct_gpc_h3_sqrt": 0.8904213925105751,
+    "coefficient_pct_gpc_h3_sqrt": 0.8891647766302937,
+    "coefficient_std_pct_gpc_h3_sqrt": 0.04301532442608382,
+    "formula": "sigma_R_over_R_pct = coefficient / sqrt(V_eff_gpc_h3)",
+    "fractional_residual_rms": 0.04430166253506886,
+    "rows": [
+      {
+        "coefficient_pct_gpc_h3_sqrt": 0.9900000000000001,
+        "fractional_residual": -0.1018537609795014,
+        "sigma_r_pct": 4.95,
+        "tracer": "BGS",
+        "veff_gpc_h3": 0.04,
+        "zmax": 0.1,
+        "zmin": 0.0
+      },
+      {
+        "coefficient_pct_gpc_h3_sqrt": 0.8958694101262751,
+        "fractional_residual": -0.007483940650497618,
+        "sigma_r_pct": 1.91,
+        "tracer": "BGS",
+        "veff_gpc_h3": 0.22,
+        "zmax": 0.2,
+        "zmin": 0.1
+      },
+      {
+        "coefficient_pct_gpc_h3_sqrt": 0.8891647766302937,
+        "fractional_residual": 0.0,
+        "sigma_r_pct": 1.21,
+        "tracer": "BGS",
+        "veff_gpc_h3": 0.54,
+        "zmax": 0.3,
+        "zmin": 0.2
+      },
+      {
+        "coefficient_pct_gpc_h3_sqrt": 0.9019329243352856,
+        "fractional_residual": -0.014156427113914119,
+        "sigma_r_pct": 0.99,
+        "tracer": "BGS",
+        "veff_gpc_h3": 0.83,
+        "zmax": 0.4,
+        "zmin": 0.3
+      },
+      {
+        "coefficient_pct_gpc_h3_sqrt": 0.906015452406856,
+        "fractional_residual": -0.018598662673796618,
+        "sigma_r_pct": 0.88,
+        "tracer": "LRG",
+        "veff_gpc_h3": 1.06,
+        "zmax": 0.5,
+        "zmin": 0.4
+      },
+      {
+        "coefficient_pct_gpc_h3_sqrt": 0.8818117712981608,
+        "fractional_residual": 0.008338520273219028,
+        "sigma_r_pct": 0.74,
+        "tracer": "LRG",
+        "veff_gpc_h3": 1.42,
+        "zmax": 0.6,
+        "zmin": 0.5
+      },
+      {
+        "coefficient_pct_gpc_h3_sqrt": 0.862322445492404,
+        "fractional_residual": 0.031127951357641237,
+        "sigma_r_pct": 0.65,
+        "tracer": "LRG",
+        "veff_gpc_h3": 1.76,
+        "zmax": 0.7,
+        "zmin": 0.6
+      },
+      {
+        "coefficient_pct_gpc_h3_sqrt": 0.8488621796263512,
+        "fractional_residual": 0.047478375137036545,
+        "sigma_r_pct": 0.59,
+        "tracer": "LRG",
+        "veff_gpc_h3": 2.07,
+        "zmax": 0.8,
+        "zmin": 0.7
+      },
+      {
+        "coefficient_pct_gpc_h3_sqrt": 0.8377350416450299,
+        "fractional_residual": 0.06139140948941685,
+        "sigma_r_pct": 0.55,
+        "tracer": "LRG",
+        "veff_gpc_h3": 2.32,
+        "zmax": 0.9,
+        "zmin": 0.8
+      },
+      {
+        "coefficient_pct_gpc_h3_sqrt": 0.8529531053932566,
+        "fractional_residual": 0.04245446907698579,
+        "sigma_r_pct": 0.59,
+        "tracer": "LRG",
+        "veff_gpc_h3": 2.09,
+        "zmax": 1.0,
+        "zmin": 0.9
+      },
+      {
+        "coefficient_pct_gpc_h3_sqrt": 0.9279682106624128,
+        "fractional_residual": -0.04181547771385395,
+        "sigma_r_pct": 0.83,
+        "tracer": "LRG",
+        "veff_gpc_h3": 1.25,
+        "zmax": 1.1,
+        "zmin": 1.0
+      }
+    ],
+    "selection": "BGS and LRG rows spanning 0.0 <= z < 1.1",
+    "source": "DESI Collaboration (2024), arXiv:2306.06307, Table 7",
+    "source_url": "https://arxiv.org/pdf/2306.06307"
+  },
+  "coefficient_policy": {
+    "basis": "DESI Collaboration (2024), arXiv:2306.06307, Table 7",
+    "bin_redshift_centers": [
+      0.15000000000000002,
+      0.30000000000000004,
+      0.5,
+      0.7,
+      0.9
+    ],
+    "bin_tracers": [
+      "BGS",
+      "BGS",
+      "LRG",
+      "LRG",
+      "LRG"
+    ],
+    "coefficient_of_z": [
+      0.8958694101262751,
+      0.8955488504827896,
+      0.8939136118525084,
+      0.8555923125593776,
+      0.8453440735191433
+    ],
+    "coefficient_ratio_to_median": [
+      1.007540372349645,
+      1.0071798546459407,
+      1.0053407819866769,
+      0.9622426967944602,
+      0.9507170051458633
+    ],
+    "coefficient_single_median": 0.8891647766302937,
+    "density_ratio_invariance": "A(z) cancels in any fixed-redshift ratio of scenarios, so every density comparison is identical under either choice",
+    "interpolated_in": "redshift, never effective volume: V_eff is the quantity varied by these scenarios, so an A(V_eff) would move with the counterfactual",
+    "tracer_policy": "interpolation is confined to rows of the same tracer; no project bin center falls in the BGS/LRG gap near z=0.4, so no curve crosses it",
+    "used": "redshift-dependent A(z) interpolated within tracer"
+  },
+  "density_scaling": {
+    "density_policy": "scenario shell-mean nbar on the common SPHEREx footprint",
+    "formula": "R_over_R_CV = 1 + 1 / (nbar * P0)",
+    "p0_h3_mpc3": 10000.0
+  },
+  "forecast_scope": "single-panel effective-volume and density forecast; every scenario density is applied to the SPHEREx f_sky=0.65 geometry and compared with that geometry's infinite-density limit; excludes additional anisotropic photo-z information loss and reconstruction response and is not a substitute for fitted alpha_iso precision",
+  "geometry_policy": {
+    "cosmic_variance_reference": "tracer-specific DESI complete-mock NGC+SGC footprint",
+    "desi_cap_policy": "sum NGC and SGC effective volumes after cap normalization",
+    "legacy_f_sky_rejected": 0.34,
+    "policy": "scenario-specific physical geometry",
+    "spherex_f_sky": 0.65
+  },
+  "input": {
+    "path": "paper/figures/source/fig_survey_veff_comparison_data.json",
+    "sha256": "6e9968d4d2f0fe5ea43d649acf0b82f49d02394bb75d833b4549234647c09fb1"
+  },
+  "scenarios": [
+    {
+      "absolute_panel_shell_volume_mpc_h3": [
+        437147103.88838184,
+        2937794454.439941,
+        6404486444.370737,
+        9922483597.855286,
+        13012932754.076519
+      ],
+      "density_only_r_over_r_cv": [
+        1.3260367693778847,
+        1.3117033685531365,
+        1.2704003070478513,
+        1.2751169256595696,
+        1.3801952850766652
+      ],
+      "key": "desi_dr1",
+      "label": "DESI DR1",
+      "n_p0": [
+        3.067138721525532,
+        3.2081783544457556,
+        3.6982206526231316,
+        3.6348181690478847,
+        2.630227252287868
+      ],
+      "nbar_h3_mpc3": [
+        0.0003067138721525532,
+        0.00032081783544457554,
+        0.00036982206526231314,
+        0.00036348181690478847,
+        0.0002630227252287868
+      ],
+      "sigma_r_over_r_pct": [
+        1.7967451101206249,
+        0.6853528313201734,
+        0.44873917494106863,
+        0.34634321933930995,
+        0.32343458622011795
+      ],
+      "sigma_r_over_r_pct_single_a": [
+        1.7832983763524102,
+        0.6804671759058357,
+        0.44635528865575796,
+        0.3599333312615316,
+        0.3402006953378257
+      ],
+      "source_policy": "cap-resolved DR1 v1.5 count density and random-catalog geometry",
+      "source_veff_mpc_h3": [
+        69276026.61233234,
+        475666800.3049669,
+        848304540.0697691,
+        1303650800.1960108,
+        1458798838.9401608
+      ],
+      "veff_gpc_h3": [
+        0.2486087856032667,
+        1.7074584296390525,
+        3.9682875153329187,
+        6.10267677827168,
+        6.83115447983051
+      ],
+      "veff_mpc_h3": [
+        248608785.60326672,
+        1707458429.6390524,
+        3968287515.3329186,
+        6102676778.27168,
+        6831154479.83051
+      ]
+    },
+    {
+      "absolute_panel_shell_volume_mpc_h3": [
+        437147103.88838184,
+        2937794454.439941,
+        6404486444.370737,
+        9922483597.855286,
+        13012932754.076519
+      ],
+      "density_only_r_over_r_cv": [
+        1.1308373786484756,
+        1.1308373786484756,
+        1.2277099371392148,
+        1.230043770423714,
+        1.425302238666161
+      ],
+      "key": "desi_dr2_projection",
+      "label": "DESI DR2",
+      "n_p0": [
+        7.643075781017654,
+        7.643075781017654,
+        4.391551868852483,
+        4.346998826171717,
+        2.3512690719339133
+      ],
+      "nbar_h3_mpc3": [
+        0.0007643075781017653,
+        0.0007643075781017653,
+        0.0004391551868852483,
+        0.00043469988261717166,
+        0.00023512690719339132
+      ],
+      "sigma_r_over_r_pct": [
+        1.5322550455229935,
+        0.5908520308782146,
+        0.43365980093237755,
+        0.33410059172138235,
+        0.3340049374070937
+      ],
+      "sigma_r_over_r_pct_single_a": [
+        1.5207877397008738,
+        0.5866400406568099,
+        0.43135602245779037,
+        0.347210316933949,
+        0.35131898935146233
+      ],
+      "source_policy": "published BGS [0.1,0.4) mean repeated for BGS1/BGS2; published LRG3 [0.8,1.1) mean applied to project LRG3 [0.8,1.0); approximate published cap fractions with uniform density",
+      "source_veff_mpc_h3": [
+        157507616.4339395,
+        1058510963.4166298,
+        1589529211.622363,
+        2453324539.566235,
+        2396276870.862679
+      ],
+      "veff_gpc_h3": [
+        0.3418434753706601,
+        2.297317898935056,
+        4.249059070054854,
+        6.558118473326083,
+        6.405621172642364
+      ],
+      "veff_mpc_h3": [
+        341843475.3706601,
+        2297317898.9350557,
+        4249059070.0548544,
+        6558118473.326082,
+        6405621172.6423645
+      ]
+    },
+    {
+      "absolute_panel_shell_volume_mpc_h3": [
+        437147103.88838184,
+        2937794454.439941,
+        6404486444.370737,
+        9922483597.855286,
+        13012932754.076519
+      ],
+      "density_only_r_over_r_cv": [
+        1.0100300902708124,
+        1.024330900243309,
+        1.1996007984031936,
+        2.4184397163120566,
+        4.1645569620253164
+      ],
+      "key": "spherex_sample_1",
+      "label": "SPHEREx sample 1",
+      "n_p0": [
+        99.7,
+        41.1,
+        5.010000000000001,
+        0.7050000000000001,
+        0.316
+      ],
+      "nbar_h3_mpc3": [
+        0.00997,
+        0.00411,
+        0.000501,
+        7.05e-05,
+        3.16e-05
+      ],
+      "sigma_r_over_r_pct": [
+        1.3685643322094152,
+        0.535203384790313,
+        0.42373090556394216,
+        0.6568889332970788,
+        0.975921141281069
+      ],
+      "sigma_r_over_r_pct_single_a": [
+        1.358322077970772,
+        0.5313880955040109,
+        0.4214798734480838,
+        0.6826645039607856,
+        1.026510660899916
+      ],
+      "source_policy": "native SPHEREx forecast density and f_sky=0.65; [0.0,0.2) mean applied to project BGS1 [0.1,0.2)",
+      "source_veff_mpc_h3": [
+        428508046.0500297,
+        2799889286.555872,
+        4450520629.852906,
+        1696484347.476896,
+        750304536.3419733
+      ],
+      "veff_gpc_h3": [
+        0.42850804605002973,
+        2.7998892865558718,
+        4.450520629852906,
+        1.696484347476896,
+        0.7503045363419736
+      ],
+      "veff_mpc_h3": [
+        428508046.05002975,
+        2799889286.555872,
+        4450520629.852906,
+        1696484347.476896,
+        750304536.3419735
+      ]
+    },
+    {
+      "absolute_panel_shell_volume_mpc_h3": [
+        437147103.88838184,
+        2937794454.439941,
+        6404486444.370737,
+        9922483597.855286,
+        13012932754.076519
+      ],
+      "density_only_r_over_r_cv": [
+        1.2105728263689988,
+        1.2106095802841461,
+        1.1840743694749019,
+        1.7143585193712736,
+        2.592972449997415
+      ],
+      "key": "project_mock_achieved_sigma_0p003",
+      "label": "DESI mocks",
+      "n_p0": [
+        4.748950836836102,
+        4.748122087565245,
+        5.4325868552620395,
+        1.3998573165756143,
+        0.6277572471524056
+      ],
+      "nbar_h3_mpc3": [
+        0.00047489508368361025,
+        0.0004748122087565245,
+        0.000543258685526204,
+        0.00013998573165756144,
+        6.277572471524056e-05
+      ],
+      "sigma_r_over_r_pct": [
+        1.640294489906079,
+        0.6325322655733165,
+        0.4182465579387016,
+        0.46564862935506246,
+        0.6076364558791365
+      ],
+      "sigma_r_over_r_pct_single_a": [
+        1.6280186232942837,
+        0.6280231506374538,
+        0.41602466092362733,
+        0.4839201491539377,
+        0.639134939829871
+      ],
+      "source_policy": "25-mock physical density inferred from project pipeline counts and shown on the tracer-specific complete-mock NGC+SGC footprint; the legacy selection used incorrect cap volumes",
+      "source_veff_mpc_h3": [
+        83486575.82298054,
+        561027409.3535424,
+        1206519619.1415725,
+        891713061.8052875,
+        511195967.24163616
+      ],
+      "veff_gpc_h3": [
+        0.2982948554089899,
+        2.004532924052802,
+        4.568002678049271,
+        3.3761138979871834,
+        1.9354385211151504
+      ],
+      "veff_mpc_h3": [
+        298294855.4089899,
+        2004532924.052802,
+        4568002678.049271,
+        3376113897.9871836,
+        1935438521.1151505
+      ]
+    }
+  ],
+  "spherex_cosmic_variance": {
+    "key": "spherex_cosmic_variance",
+    "label": "cosmic-variance limit",
+    "sigma_r_over_r_pct": [
+      1.354973822455598,
+      0.5224907153178591,
+      0.3532265951539684,
+      0.27161683165656336,
+      0.23433972693375213
+    ],
+    "sigma_r_over_r_pct_single_a": [
+      1.3448332787853625,
+      0.5187660504801627,
+      0.3513501108111314,
+      0.2822747655673629,
+      0.24648736234374882
+    ],
+    "source_policy": "infinite-density limit on the SPHEREx f_sky=0.65 footprint",
+    "veff_gpc_h3": [
+      0.43714710388838185,
+      2.937794454439941,
+      6.404486444370737,
+      9.922483597855285,
+      13.01293275407652
+    ],
+    "veff_mpc_h3": [
+      437147103.88838184,
+      2937794454.439941,
+      6404486444.370737,
+      9922483597.855286,
+      13012932754.076519
+    ]
+  }
+}
