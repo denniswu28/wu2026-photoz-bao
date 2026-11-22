@@ -1,11 +1,12 @@
 {
-  "started_utc": "2026-10-28T08:26:42.568614+00:00",
-  "finished_utc": "2026-10-28T08:26:56.794884+00:00",
-  "slurm_job_id": "24438501",
+  "started_utc": "2026-11-22T03:14:12.950741+00:00",
+  "finished_utc": "2026-11-22T03:14:26.482815+00:00",
+  "slurm_job_id": "24753926",
   "renderer_checkout": "<checkout>",
-  "renderer_commit": "2dba4503af582c2ec403fd76521308c4292cf5da",
+  "renderer_commit": "af575556d13935ecdbb57639298908e238d19ec1",
   "renderer_diff": "",
   "method": "redrawn from the saved rows of the source render",
+  "spherex_forecast": null,
   "source_render": {
     "observed_utc": "2026-10-26T06:52:32.785147+00:00",
     "baseline_report": "<storage>/runs/core-sensitivity/unified-fit-v3--primary",
@@ -36,6 +37,16 @@
     ],
     "fig_los_damping": [
       "los-damping.json"
+    ],
+    "fig_nz": [
+      "density.json",
+      "survey-window.json"
+    ],
+    "fig_gain_density": [
+      "posterior-summary.json",
+      "precision-values.json",
+      "../robustness/density.json",
+      "../appendix/matched-density-posterior.json"
     ]
   },
   "visual_review": "Pending",

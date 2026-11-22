@@ -283,10 +283,58 @@ def test_distance_ratios_follow_the_fitted_ap_convention():
         assert row["error"] == pytest.approx(expected, rel=1e-4)
 
 
+def test_replot_forms_the_saved_spherex_predictions_from_their_forecast_record():
+    """Applying the current forecast record returns the saved rows, and the earlier record
+    changes only the SPHEREx predictions."""
+    from pzbao.figures.replot_baseline import apply_spherex_forecast
+
+    source = ROOT / "paper/figures/source"
+    joint = json.loads((source / "baseline/joint-constraint.json").read_text())
+    table = json.loads((source / "baseline/literature-comparison.json").read_text())
+    current = json.loads((source / "forecast/spherex-prediction-unreconstructed.json").read_text())
+    earlier = json.loads((source / "forecast/spherex-prediction.json").read_text())
+    states = ("prerecon", "postrecon")
+
+    def rows(rows_table):
+        return rows_table["current"] + rows_table["joint_by_bin"]
+
+    def predictions(rows_table):
+        found = [row[state]["spherex_prediction"] for row in rows(rows_table) for state in states]
+        return [item["sigma"] for item in found], [item["kind"] for item in found]
+
+    def everything_else(rows_table):
+        stripped = json.loads(json.dumps(rows_table))
+        for row in rows(stripped):
+            for state in states:
+                del row[state]["spherex_prediction"]
+        return stripped
+
+    # Combined rows pass through a linear solve, so the last digit depends on the platform.
+    again = apply_spherex_forecast(table, joint, current)
+    assert everything_else(again) == everything_else(table)
+    assert predictions(again)[1] == predictions(table)[1]
+    assert predictions(again)[0] == pytest.approx(predictions(table)[0], rel=1e-12)
+    before = apply_spherex_forecast(table, joint, earlier)
+    assert everything_else(before) == everything_else(table)
+    lrg1 = next(r for r in before["joint_by_bin"] if r["measurement_bin"] == "LRG1")
+    # The value the 2026-10-26 render saved from the earlier record.
+    assert lrg1["prerecon"]["spherex_prediction"]["sigma"] == pytest.approx(
+        0.007722709247844823, rel=1e-12
+    )
+    # Only the predictions before reconstruction differ between the two records.
+    for old, new in zip(rows(before), rows(table)):
+        assert new["postrecon"]["spherex_prediction"]["sigma"] == pytest.approx(
+            old["postrecon"]["spherex_prediction"]["sigma"], rel=2e-4
+        )
+
+
 def test_baseline_replot_draws_the_saved_rows_without_run_inputs(monkeypatch):
-    """The survey, FoM, distance-ratio, paired-gain, literature and photo-z response figures
-    redraw from their committed rows alone."""
+    """The survey, FoM, distance-ratio, paired-gain, literature, photo-z response, radial
+    selection n(z) and gain-against-density figures redraw from their committed rows alone."""
     from types import SimpleNamespace
+
+    from matplotlib.backends.backend_agg import FigureCanvasAgg
+    from matplotlib.colors import to_rgba
 
     from pzbao import catalog, run
     from pzbao.figures.replot_baseline import REPLOT_FIGURES, draw_from_saved_rows
@@ -342,6 +390,86 @@ def test_baseline_replot_draws_the_saved_rows_without_run_inputs(monkeypatch):
             if ax.axison:  # not the FoM legend panel
                 assert not ax.xaxis.get_minorticklocs().size
                 assert ax.yaxis.get_minorticklocs().size
+    # The n(z) key sits in the first panel, boxed on an opaque white face so it does not blend
+    # with the shading, inside that panel and centred across it.
+    radial = namespace["figures"]["fig_nz"]
+    assert [ax.get_legend() is not None for ax in radial.axes] == [True] + [False] * 4
+    key = radial.axes[0].get_legend()
+    assert key.get_frame_on()
+    assert key.get_frame().get_facecolor() == pytest.approx(to_rgba("white"))
+    canvas = FigureCanvasAgg(radial)
+    canvas.draw()
+    box = key.get_window_extent(canvas.get_renderer())
+    panel = radial.axes[0].get_window_extent(canvas.get_renderer())
+    assert panel.x0 <= box.x0 and box.x1 <= panel.x1 and panel.y0 <= box.y0 and box.y1 <= panel.y1
+    assert box.x0 - panel.x0 == pytest.approx(panel.x1 - box.x1, abs=1.0)
+    # The gain against density: every main and matched sample once per panel, at the density and
+    # effective volume of its saved rows, with the ratio of its saved posterior widths.
+    source = ROOT / "paper/figures/source"
+    summary = json.loads((source / "baseline/posterior-summary.json").read_text())
+    volumes = json.loads((source / "baseline/precision-values.json").read_text())["rows"]
+    matched = json.loads((source / "appendix/matched-density-posterior.json").read_text())["rows"]
+    density = json.loads((source / "robustness/density.json").read_text())
+
+    def width(rows, name, tier, state):
+        (row,) = [
+            r
+            for r in rows
+            if (r["measurement_bin"], r["condition"], r["reconstruction_state"], r["parameter"])
+            == (name, tier, state, "qiso")
+        ]
+        return row
+
+    expected, contact = [], 0
+    for name in data.BINS:
+        for tier in data.TIERS:
+            (row,) = [r for r in volumes if (r["measurement_bin"], r["condition"]) == (name, tier)]
+            pre, post = (width(summary, name, tier, state) for state in data.STATES)
+            contact += pre["prior_contact"] or post["prior_contact"]
+            expected.append(
+                (
+                    sum(cap["count"] for cap in row["caps"])
+                    / row["volume_mpc_h3"]
+                    * row["p0_mpc_h3"],
+                    row["veff_mpc_h3"] / 1e9,
+                    pre["sd"] / post["sd"],
+                )
+            )
+    routes = sorted({(r["measurement_bin"], r["condition"]) for r in matched})
+    assert len(routes) == 4
+    for name, tier in routes:
+        (row,) = [
+            r
+            for r in density["summary"]
+            if (r["measurement_bin"], r["condition"], r["variant"], r["parameter"])
+            == (name, tier, "matched", "qiso")
+            and r["reconstruction_state"] == data.STATES[0]
+        ]
+        pre, post = (width(matched, name, tier, state) for state in data.STATES)
+        contact += pre["prior_contact"] or post["prior_contact"]
+        expected.append(
+            (
+                row["attained_nbar_h3_mpc3"] * density["matching"]["inputs"]["p0_h3_mpc3"],
+                row["veff_attained_mpc_h3"] / 1e9,
+                pre["sd"] / post["sd"],
+            )
+        )
+    gain = namespace["figures"]["fig_gain_density"]
+    assert [ax.get_xscale() for ax in gain.axes] == ["log", "log"]
+    for column, ax in enumerate(gain.axes):
+        markers = [line for line in ax.lines if line.get_gid() in ("main", "matched")]
+        assert [line.get_gid() for line in markers].count("matched") == 4
+        drawn = sorted((line.get_xdata()[0], line.get_ydata()[0]) for line in markers)
+        assert drawn == pytest.approx(sorted((row[column], row[2]) for row in expected))
+        # Open markers are the samples whose posterior reaches a prior bound in either state.
+        assert sum(to_rgba(line.get_mfc()) == to_rgba("white") for line in markers) == contact
+        # One arrow per matched sample, and the dotted line of no gain.
+        assert sum(text.arrow_patch is not None for text in ax.texts) == 4
+        assert [line.get_ydata()[0] for line in ax.lines if line.get_linestyle() == ":"] == [1.0]
+    # The threshold of Sec. IV C: among the samples with sigma_0 <= 0.003, every one below
+    # n P0 = 0.4 is widened by reconstruction and every one above is narrowed.
+    precise = [row for row in expected[:25] if expected.index(row) % 5 < 3] + expected[25:]
+    assert all((row[2] > 1) == (row[0] > 0.4) for row in precise)
 
 
 def _paper_robustness_namespace(captured):
@@ -489,11 +617,13 @@ def test_paper_robustness_figures_draw_each_available_row_and_flag_the_rest():
         ]
     )
     namespace["paper_robustness_density"](density)
-    # Four routes, each at both densities before and after reconstruction.
-    assert [_filled(axis) for axis in namespace["figures"]["fig_robustness_density"].axes] == [
-        16,
-        16,
-    ]
+    # Four routes, each at both densities before and after reconstruction: circles at the target
+    # density and squares at the matched density, so the two differ in shape as well as hue.
+    for axis in namespace["figures"]["fig_robustness_density"].axes:
+        assert _filled(axis) == 8
+        assert sum(line.get_marker() == "s" for line in axis.lines) == 8
+    legend = namespace["figures"]["fig_robustness_density"].legends[0]
+    assert [handle.get_marker() for handle in legend.legend_handles] == ["o", "o", "s", "s"]
     # Rows are named by redshift range and precision, never by tracer bin.
     rows = [
         t.get_text()

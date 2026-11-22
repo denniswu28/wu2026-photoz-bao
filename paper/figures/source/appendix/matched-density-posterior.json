@@ -1,0 +1,186 @@
+{
+ "definition": "mean and standard deviation (ddof=1) of the retained posterior draws",
+ "run": {
+  "run_name": "unified-fit-v3--density",
+  "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+  "analysis_config_sha256": "9f80ccf624713e46c1f9ed9db72fa5110901e5cec8323e5b6f216dbad86a0377"
+ },
+ "rows": [
+  {
+   "tracer": "LRG",
+   "measurement_bin": "LRG2",
+   "condition": "sigma_0.001",
+   "reconstruction_state": "prereconstruction",
+   "parameter": "qiso",
+   "mean": 0.9923529041332777,
+   "sd": 0.019160148147603813,
+   "draws": 192000,
+   "prior_contact": false
+  },
+  {
+   "tracer": "LRG",
+   "measurement_bin": "LRG2",
+   "condition": "sigma_0.001",
+   "reconstruction_state": "prereconstruction",
+   "parameter": "qap",
+   "mean": 1.0070860006895435,
+   "sd": 0.04675860763591494,
+   "draws": 192000,
+   "prior_contact": false
+  },
+  {
+   "tracer": "LRG",
+   "measurement_bin": "LRG2",
+   "condition": "sigma_0.001",
+   "reconstruction_state": "postreconstruction",
+   "parameter": "qiso",
+   "mean": 0.9880941810073317,
+   "sd": 0.011693068798008155,
+   "draws": 144000,
+   "prior_contact": false
+  },
+  {
+   "tracer": "LRG",
+   "measurement_bin": "LRG2",
+   "condition": "sigma_0.001",
+   "reconstruction_state": "postreconstruction",
+   "parameter": "qap",
+   "mean": 0.9802367044657765,
+   "sd": 0.03098867984532285,
+   "draws": 144000,
+   "prior_contact": false
+  },
+  {
+   "tracer": "LRG",
+   "measurement_bin": "LRG2",
+   "condition": "sigma_0.003",
+   "reconstruction_state": "prereconstruction",
+   "parameter": "qiso",
+   "mean": 0.9931781285281287,
+   "sd": 0.005038005118526746,
+   "draws": 240000,
+   "prior_contact": false
+  },
+  {
+   "tracer": "LRG",
+   "measurement_bin": "LRG2",
+   "condition": "sigma_0.003",
+   "reconstruction_state": "prereconstruction",
+   "parameter": "qap",
+   "mean": 0.9974427479796579,
+   "sd": 0.013483586506947325,
+   "draws": 240000,
+   "prior_contact": false
+  },
+  {
+   "tracer": "LRG",
+   "measurement_bin": "LRG2",
+   "condition": "sigma_0.003",
+   "reconstruction_state": "postreconstruction",
+   "parameter": "qiso",
+   "mean": 0.9948703186408202,
+   "sd": 0.003356304718941966,
+   "draws": 192000,
+   "prior_contact": false
+  },
+  {
+   "tracer": "LRG",
+   "measurement_bin": "LRG2",
+   "condition": "sigma_0.003",
+   "reconstruction_state": "postreconstruction",
+   "parameter": "qap",
+   "mean": 0.9987127168156072,
+   "sd": 0.009638875592944178,
+   "draws": 192000,
+   "prior_contact": false
+  },
+  {
+   "tracer": "LRG",
+   "measurement_bin": "LRG3",
+   "condition": "sigma_0.001",
+   "reconstruction_state": "prereconstruction",
+   "parameter": "qiso",
+   "mean": 1.0026530435791277,
+   "sd": 0.015500759818693019,
+   "draws": 192000,
+   "prior_contact": false
+  },
+  {
+   "tracer": "LRG",
+   "measurement_bin": "LRG3",
+   "condition": "sigma_0.001",
+   "reconstruction_state": "prereconstruction",
+   "parameter": "qap",
+   "mean": 0.9750608089764751,
+   "sd": 0.05030086993316187,
+   "draws": 192000,
+   "prior_contact": false
+  },
+  {
+   "tracer": "LRG",
+   "measurement_bin": "LRG3",
+   "condition": "sigma_0.001",
+   "reconstruction_state": "postreconstruction",
+   "parameter": "qiso",
+   "mean": 0.9762970662042106,
+   "sd": 0.0171177651320881,
+   "draws": 288000,
+   "prior_contact": false
+  },
+  {
+   "tracer": "LRG",
+   "measurement_bin": "LRG3",
+   "condition": "sigma_0.001",
+   "reconstruction_state": "postreconstruction",
+   "parameter": "qap",
+   "mean": 0.8659081396659531,
+   "sd": 0.044452736603674395,
+   "draws": 288000,
+   "prior_contact": true
+  },
+  {
+   "tracer": "LRG",
+   "measurement_bin": "LRG3",
+   "condition": "sigma_0.003",
+   "reconstruction_state": "prereconstruction",
+   "parameter": "qiso",
+   "mean": 1.0121521679123742,
+   "sd": 0.007747419256356046,
+   "draws": 168000,
+   "prior_contact": false
+  },
+  {
+   "tracer": "LRG",
+   "measurement_bin": "LRG3",
+   "condition": "sigma_0.003",
+   "reconstruction_state": "prereconstruction",
+   "parameter": "qap",
+   "mean": 0.9884223217190848,
+   "sd": 0.025827112952185458,
+   "draws": 168000,
+   "prior_contact": false
+  },
+  {
+   "tracer": "LRG",
+   "measurement_bin": "LRG3",
+   "condition": "sigma_0.003",
+   "reconstruction_state": "postreconstruction",
+   "parameter": "qiso",
+   "mean": 1.005916671654138,
+   "sd": 0.005499090867016899,
+   "draws": 144000,
+   "prior_contact": false
+  },
+  {
+   "tracer": "LRG",
+   "measurement_bin": "LRG3",
+   "condition": "sigma_0.003",
+   "reconstruction_state": "postreconstruction",
+   "parameter": "qap",
+   "mean": 0.9969766066031601,
+   "sd": 0.019127153248360392,
+   "draws": 144000,
+   "prior_contact": false
+  }
+ ]
+}

@@ -68,6 +68,7 @@ REVIEWED_PAPER_FIGURE_NAMES = frozenset(
         "fig_cf",
         "fig_distance_ratios",
         "fig_fom_2d",
+        "fig_gain_density",
         "fig_literature_comparison",
         "fig_los_damping",
         "fig_lrg1_realizations",

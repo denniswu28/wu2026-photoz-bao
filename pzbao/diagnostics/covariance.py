@@ -384,6 +384,32 @@ def forecast_sigma_perp(artifact, target_density):
     return float(np.sqrt(rec + shot * n / target_density))
 
 
+def unreconstructed_damping(linear_power, drag_scale_mpc_h, growth_rate):
+    """The transverse-damping formula in the limit S -> 0, with parallel = (1 + f) transverse.
+
+    Without reconstruction the whole displacement field damps the peak and no displacement-noise
+    term exists: Sigma_perp^2 = (2/3) int dk/(2 pi^2) P_lin(k, z_eff) [1 - j0(k r_d)], on the
+    quadrature grid of the post-reconstruction term.
+    """
+    from pzbao.theory import _damping_wavenumber_grid, _one_minus_spherical_j0
+
+    k = _damping_wavenumber_grid()
+    power = np.asarray(linear_power(k), float)
+    require(
+        power.shape == k.shape
+        and np.isfinite(power).all()
+        and np.all(power >= 0)
+        and np.isfinite([drag_scale_mpc_h, growth_rate]).all()
+        and drag_scale_mpc_h > 0
+        and growth_rate >= 0,
+        "Invalid unreconstructed damping inputs",
+    )
+    integrand = power * _one_minus_spherical_j0(k, drag_scale_mpc_h)
+    perp = float(np.sqrt((2 / 3) * np.trapz(integrand, k) / (2 * np.pi**2)))
+    require(np.isfinite(perp) and perp > 0, "Invalid unreconstructed damping")
+    return perp, float((1 + growth_rate) * perp)
+
+
 def trapezoid_weights(x):
     x = np.asarray(x, float)
     require(
@@ -668,6 +694,7 @@ def forecast_route(
     index=None,
     profile=None,
     n_realizations=None,
+    unreconstructed_prereconstruction=False,
 ):
     """Calculate the retained conditional forecast from a loaded native run and explicit route.
 
@@ -675,6 +702,10 @@ def forecast_route(
     data vector is the mean of the source's realizations (C/25); ``n_realizations=1`` forecasts
     one survey, as a single-realization precision comparison needs. The prior curvature is the
     same in both. It writes no products and does not replace the run covariance or measured results.
+
+    The model is evaluated at the damping-prior centres. ``unreconstructed_prereconstruction``
+    instead evaluates a pre-reconstruction route at the unreconstructed transverse and parallel
+    damping (decision of 2026-11-21); priors and post-reconstruction routes are unaffected.
     """
     from pzbao import catalog, covariance, likelihood as native_likelihood, selection
 
@@ -726,6 +757,14 @@ def forecast_route(
     names, current_point, steps, prior = parameter_point(
         likelihood, metadata, config, route["tracer"]
     )
+    if unreconstructed_prereconstruction and route["reconstruction_state"] == "prereconstruction":
+        interpolator = cosmology.get_fourier().pk_interpolator(of="delta_m")
+        perp, parallel = unreconstructed_damping(
+            lambda k: interpolator(k, z=metadata["z_eff"]),
+            float(cosmology.rs_drag),
+            metadata["fitting_growth_rate"],
+        )
+        current_point.update(sigmaper=perp, sigmapar=parallel)
     target_point = dict(current_point)
     if target is not None and route["reconstruction_state"] == "postreconstruction":
         target_point["sigmaper"] = forecast_sigma_perp(
@@ -795,6 +834,8 @@ def forecast_route(
         cap_area_deg2=areas,
         current_sigma_perp=current_point["sigmaper"],
         target_sigma_perp=target_point["sigmaper"],
+        current_sigma_parallel=current_point.get("sigmapar"),
+        target_sigma_parallel=target_point.get("sigmapar"),
         density_noise_only_ratio=results["noise_only"]["fom"] / results["current"]["fom"],
         **ratio_terms(
             results["current"]["fom"], results["target"]["fom"], results["target_area"]["fom"]

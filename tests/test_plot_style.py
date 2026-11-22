@@ -51,7 +51,7 @@ def test_prd_savefig_rejects_retired_name_before_writing():
 
 
 def test_reviewed_paper_figure_output_count():
-    assert len(REVIEWED_PAPER_FIGURE_NAMES) == 18
+    assert len(REVIEWED_PAPER_FIGURE_NAMES) == 19
 
 
 def test_reviewed_output_names_match_active_pdf_png_pairs():

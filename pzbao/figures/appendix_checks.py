@@ -1,6 +1,6 @@
 """Recompute check numbers of the paper (Secs. IV-V, Appendices B and D) from archived run products.
 
-Eight read-only checks, each written to paper/figures/source/appendix/:
+Thirteen read-only checks, each written to paper/figures/source/appendix/:
 
 - alpha-sn-leave-one-out.json: the leave-one-out spread of alpha_SN for the 50 measurements of
   the independent samples, from each route's saved covariance.npz (Appendix B).
@@ -20,6 +20,16 @@ Eight read-only checks, each written to paper/figures/source/appendix/:
   uniform prior, from the review gain table (Sec. IV B).
 - template-b1.json: the template bias b1 of the pre-reconstruction fits against the fixed
   reconstruction bias (Sec. V).
+- matched-density-posterior.json: the posterior means and standard deviations of the
+  matched-density samples, from the retained draws of the density run (Sec. IV C).
+- convergence.json: the last Gelman-Rubin value and the effective sample size of the 50 fits to
+  the mean, from the review tables of the fit run (Sec. III E).
+- interval-coverage.json: how often the profile-likelihood intervals of single realizations
+  contain the true value, and their pulls, from the same tables (Sec. IV B).
+- threshold-interval.json: the reconstruction gain of every main sample against its shot-noise
+  level, with the interval of the paired gain over realizations (Sec. IV C).
+- combined-gain-uncertainty.json: the gain in the combined figure of merit with the interval that
+  the 25 realizations leave on it (Sec. IV D).
 
 Restore the runs from the Tier 2 archive, to their original root or with BAO_STORAGE_ROOT and a
 relocation map, as for the figure re-renders.
@@ -700,16 +710,430 @@ def template_b1(core_run):
     }
 
 
+def matched_density_posterior(density_run):
+    """Posterior means and standard deviations of the matched-density samples.
+
+    One row per matched route and dilation: the mean and standard deviation of the retained draws
+    (ddof=1, as posterior-summary.json gives them for the main samples) and the prior contact of
+    the mean-fit profile under the rule applied to the main samples.
+    """
+    from pzbao.figures.data import interval
+    from pzbao.fitting import read_profiles
+
+    density_run = Path(density_run)
+    metadata = _read_yaml(density_run / "run.yaml")
+    if metadata.get("workload") != "density":
+        raise ValueError(f"{density_run}: not a matched-density run")
+    workload = _read_yaml(density_run / "analysis.yaml")["analysis"]["workloads"]["density"]
+    run = {key: metadata[key] for key in ("run_name", "code_commit", "analysis_config_sha256")}
+    rows = []
+    for measurement_bin in workload["measurement_bins"]:
+        for condition in workload["sigma_z_tiers"]:
+            for state in workload["reconstruction_states"]:
+                route = {
+                    "tracer": TRACERS[measurement_bin],
+                    "measurement_bin": measurement_bin,
+                    "condition": condition,
+                    "reconstruction_state": state,
+                }
+                unit = "--".join([measurement_bin, condition, state, "mean"])
+                profile = read_profiles(
+                    density_run / "fit" / "units" / unit / "profiles.npy",
+                    identity={**route, "realization_id": None, **run},
+                )
+                for name, values in zip(("qiso", "qap"), _posterior_draws(density_run, route)):
+                    fitted = next(p for p in profile["parameters"] if p["basename"] == name)
+                    rows.append(
+                        {
+                            **route,
+                            "parameter": name,
+                            "mean": float(values.mean()),
+                            "sd": float(values.std(ddof=1)),
+                            "draws": int(values.size),
+                            "prior_contact": interval(fitted, profile["maximization"])["boundary"],
+                        }
+                    )
+                print("matched posterior", measurement_bin, condition, state, flush=True)
+    return {
+        "definition": "mean and standard deviation (ddof=1) of the retained posterior draws",
+        "run": run,
+        "rows": rows,
+    }
+
+
+def _routes():
+    for measurement_bin in BINS:
+        for condition in CLASSES:
+            for state in STATES:
+                yield measurement_bin, condition, state
+
+
+def _by_route(rows, expected):
+    grouped = {}
+    for row in rows:
+        grouped.setdefault(row["route"], []).append(row)
+    if set(grouped) != set(expected):
+        raise ValueError("review table does not cover the 50 fits of the main samples")
+    return grouped
+
+
+def _optional_float(text):
+    return float(text) if text not in ("", None) else None
+
+
+def convergence(core_run):
+    """Sampler convergence of the 50 fits to the mean, from the review tables of the fit run.
+
+    The Gelman-Rubin value is the last one of the saved history. The autocorrelation time of a
+    dilation is the sampler's own estimate; where the sampler withheld it because the chain is
+    shorter than 50 autocorrelation times, the value it printed with that warning is kept and
+    flagged, and the effective sample size is the retained draws divided by it.
+    """
+    import re
+
+    core_run = Path(core_run)
+    expected = ["|".join(route) for route in _routes()]
+    history = _by_route(_review_table(core_run.parent, core_run.name, "gr"), expected)
+    sampler = _by_route(_review_table(core_run.parent, core_run.name, "sampler"), expected)
+    rows = []
+    for route in expected:
+        last = max(history[route], key=lambda row: int(row["step"]))
+        record = {
+            "route": route,
+            "gelman_rubin_statistic": last["statistic"],
+            "gelman_rubin_last": float(last["value"]),
+            "steps": int(last["step"]),
+            "retained_steps": int(last["retained_steps"]),
+            "stopping_rule_reached": last["stopping_rule_reached"] == "True",
+        }
+        for parameter in ("qiso", "qap"):
+            members = [row for row in sampler[route] if row["parameter"] == parameter]
+            taus, withheld, sizes = [], 0, []
+            for row in members:
+                tau = _optional_float(row["tau"])
+                if tau is None:
+                    printed = re.search(r"tau: \[([0-9.eE+-]+)\]", row["unavailable_reason"])
+                    if printed is None:
+                        raise ValueError(f"{route}: no autocorrelation time for {parameter}")
+                    tau, withheld = float(printed.group(1)), withheld + 1
+                taus.append(tau)
+                sizes.append(int(row["retained_draws"]) / tau)
+            record[parameter] = {
+                "ensembles": len(members),
+                "ensembles_shorter_than_50_tau": withheld,
+                "tau_max": max(taus),
+                "effective_sample_size": float(sum(sizes)),
+                "effective_sample_size_min_ensemble": float(min(sizes)),
+                "retained_draws": sum(int(row["retained_draws"]) for row in members),
+            }
+        rows.append(record)
+    return {
+        "definition": (
+            "last saved Gelman-Rubin value; effective sample size = retained draws / integrated"
+            " autocorrelation time, summed over ensembles"
+        ),
+        "run": core_run.name,
+        "rows": rows,
+    }
+
+
+def interval_coverage(core_run):
+    """Coverage and pulls of the single-realization profile-likelihood intervals.
+
+    One row per fit and dilation: how many of the realizations' intervals contain the true
+    value, over all finite intervals and over the valid intervals clear of the prior bounds, the
+    scatter of the pulls of the latter, and the offset and scatter of the best fits.
+    """
+    core_run = Path(core_run)
+    expected = ["|".join(route) for route in _routes()]
+    coverage = _by_route(
+        _review_table(core_run.parent, core_run.name, "interval_coverage"), expected
+    )
+    pulls = _by_route(_review_table(core_run.parent, core_run.name, "profile_recovery"), expected)
+    recovery = _by_route(
+        _review_table(core_run.parent, core_run.name, "ensemble_recovery"), expected
+    )
+    rows = []
+    for route in expected:
+        for parameter in ("qiso", "qap"):
+            record, clear = {"route": route, "parameter": parameter}, set()
+            for row in coverage[route]:
+                if row["parameter"] != parameter or row["interval_kind"] != "native_minos":
+                    continue
+                record[row["subset"]] = {
+                    "contains_truth": int(row["numerator"]),
+                    "intervals": int(row["denominator"]),
+                    "fraction": _optional_float(row["fraction"]),
+                    "wilson68": [
+                        _optional_float(row["wilson_lower"]),
+                        _optional_float(row["wilson_upper"]),
+                    ],
+                }
+                if row["subset"] == "valid_non_boundary":
+                    clear = set(json.loads(row["mock_ids"]))
+            values = [
+                float(row["pull"])
+                for row in pulls[route]
+                if row["parameter"] == parameter
+                and row["pull"] != ""
+                and int(row["realization_id"]) in clear
+            ]
+            record["pull_definition"] = "best fit minus truth, over the interval half-width"
+            record["pulls"] = len(values)
+            record["pull_mean"] = float(np.mean(values)) if values else None
+            record["pull_std"] = float(np.std(values, ddof=1)) if len(values) > 1 else None
+            (row,) = [row for row in recovery[route] if row["parameter"] == parameter]
+            record["best_fit_mean_offset"] = float(row["mean_offset_from_truth"])
+            record["best_fit_scatter"] = float(row["mock_scatter_ddof1"])
+            record["best_fit_mean_offset_standard_error"] = float(row["mean_offset_standard_error"])
+            rows.append(record)
+    return {
+        "definition": (
+            "profile-likelihood intervals of the fits to single realizations; pulls use the"
+            " valid intervals clear of the prior bounds"
+        ),
+        "run": core_run.name,
+        "rows": rows,
+    }
+
+
+def _mock_fits(core_run, measurement_bin, condition, state):
+    """Best fits and errors of the dilations in the fits to the single realizations of one route."""
+    from pzbao.figures.data import interval
+
+    core_run = Path(core_run)
+    fits = {}
+    for mock in _read_yaml(core_run / "analysis.yaml")["analysis"]["mock_ids"]:
+        unit = "--".join([measurement_bin, condition, state, f"mock-{mock}"])
+        saved = json.loads((core_run / "fit" / "units" / unit / "fit.json").read_text())
+        record = {}
+        for name in ("qiso", "qap"):
+            fitted = next(p for p in saved["parameters"] if p["basename"] == name)
+            flagged = interval(fitted, saved["optimizer"]["maximization"])
+            record[name] = flagged["value"]
+            record[name + "_err"] = fitted["parabolic_error"]
+            record["optimizer_ok"] = flagged["optimizer_ok"]
+        fits[mock] = record
+    return fits
+
+
+def threshold_interval(core_run, *, resamples=4000, seed=20260615):
+    """Reconstruction gain of every main sample against its shot-noise level, with intervals.
+
+    Three gains of the isotropic dilation per sample: the ratio of the posterior standard
+    deviations of the fits to the mean (the estimator of the gain figures), the ratio of the
+    profile-likelihood half-widths of the same fits where both intervals are valid and clear of
+    the prior bounds, and the median over realizations of the paired ratio of the parabolic
+    errors with the bootstrap 68% interval of that median.
+    """
+    from pzbao.figures.data import _gain_summary
+
+    core_run = Path(core_run)
+    config = _read_yaml(core_run / "analysis.yaml")
+    gains = {
+        (row["measurement_bin"], row["condition"]): row
+        for row in _review_table(core_run.parent, core_run.name, "aggregate_gains")
+        if row["parameter"] == "qiso"
+    }
+    profiles = _review_table(core_run.parent, core_run.name, "profiles")
+    rows = []
+    for measurement_bin in BINS:
+        power = config["tracers"][TRACERS[measurement_bin]]["fkp_p0_h3_mpc3"]
+        for condition in CLASSES:
+            density, intervals, fits = set(), {}, {}
+            for state in STATES:
+                unit = "--".join([measurement_bin, condition, state, "mean"])
+                saved = json.loads((core_run / "fit" / "units" / unit / "fit.json").read_text())
+                density.add(saved["attained_density_h3_mpc3"])
+                route = "|".join([measurement_bin, condition, state])
+                intervals[state] = _mean_interval(profiles, route, "qiso")
+                fits[state] = _mock_fits(core_run, measurement_bin, condition, state)
+            if len(density) != 1:
+                raise ValueError(f"{measurement_bin} {condition}: density differs between states")
+            (density,) = density
+            pre, post = (intervals[state] for state in STATES)
+            paired, railed = [], 0
+            for mock, before in fits[STATES[0]].items():
+                after = fits[STATES[1]][mock]
+                if not (before["optimizer_ok"] and after["optimizer_ok"]):
+                    continue
+                if any(x <= 0.805 or x >= 1.195 for x in (before["qiso"], after["qiso"])):
+                    railed += 1
+                errors = (before["qiso_err"], after["qiso_err"])
+                if all(e is not None and np.isfinite(e) and e > 0 for e in errors):
+                    paired.append(errors[0] / errors[1])
+            gain = gains[measurement_bin, condition]
+            rows.append(
+                {
+                    "bin": measurement_bin,
+                    "condition": condition,
+                    "density_h3_mpc3": density,
+                    "fkp_p0_h3_mpc3": power,
+                    "nbar_p0": density * power,
+                    "gain_posterior_std": float(gain["pre_fom"]) / float(gain["post_fom"]),
+                    "gain_profile_half_width": (
+                        pre["half_width"] / post["half_width"]
+                        if pre["usable"] and post["usable"]
+                        else None
+                    ),
+                    "paired_realizations": (
+                        {
+                            **_gain_summary(np.asarray(paired), resamples, seed),
+                            "n_railed": railed,
+                        }
+                        if len(paired) > 1
+                        else None
+                    ),
+                }
+            )
+        print("threshold interval", measurement_bin, flush=True)
+    return {
+        "definition": (
+            "gain = width before / width after reconstruction of the isotropic dilation;"
+            " nbar_p0 = attained density times the FKP power of the tracer"
+        ),
+        "run": core_run.name,
+        "paired_resamples": resamples,
+        "paired_seed": seed,
+        "rows": sorted(rows, key=lambda row: row["nbar_p0"]),
+    }
+
+
+def combined_gain_uncertainty(core_run, *, resamples=4000):
+    """Uncertainty of the gain in the combined figure of merit from the 25 realizations.
+
+    The combination of the four redshift precision classes with redshift errors is the one of
+    the figures: the posteriors of the fits to the mean, weighted with the correlation between
+    classes that the best fits of the realizations measure. That correlation is the only input
+    from a finite ensemble. Each resample draws realizations with replacement, the same ones
+    before and after reconstruction, re-measures both correlations and recombines; the jackknife
+    leaves one realization out at a time. The class posteriors stay fixed, so the interval does
+    not include their own uncertainty.
+    """
+    from pzbao.fitting import combine_tier_posteriors, estimate_correlation
+
+    core_run = Path(core_run)
+    classes = [condition for condition in CLASSES if condition != "native"]
+    seed = int(_read_yaml(core_run / "analysis.yaml")["fitting"]["sampling"]["seed"])
+    rng = np.random.default_rng(seed)
+
+    def gain(means, covariances, estimates, chosen):
+        foms = []
+        for state in STATES:
+            record = combine_tier_posteriors(
+                classes, means[state], covariances[state], estimate_correlation(chosen[state])
+            )
+            foms.append(record["two_dimensional_fom"])
+        return 100 * (foms[1] / foms[0] - 1), foms
+
+    rows = []
+    for measurement_bin in BINS:
+        means, covariances, fits, combination = {}, {}, {}, {}
+        for state in STATES:
+            draws = []
+            for condition in classes:
+                route = {
+                    "tracer": TRACERS[measurement_bin],
+                    "measurement_bin": measurement_bin,
+                    "condition": condition,
+                    "reconstruction_state": state,
+                }
+                draws.append(np.stack(_posterior_draws(core_run, route), axis=1))
+                fits[state, condition] = _mock_fits(core_run, measurement_bin, condition, state)
+            means[state] = np.array([d.mean(axis=0) for d in draws])
+            covariances[state] = np.array([np.cov(d, rowvar=False, ddof=1) for d in draws])
+        # A realization enters when its optimizer succeeded in every class of both states, so
+        # that the same realizations are resampled before and after reconstruction.
+        cohort = sorted(set.intersection(*(set(members) for members in fits.values())))
+        used = [m for m in cohort if all(members[m]["optimizer_ok"] for members in fits.values())]
+        estimates = {
+            state: np.array(
+                [
+                    [[fits[state, c][m][name] for name in ("qiso", "qap")] for c in classes]
+                    for m in used
+                ]
+            )
+            for state in STATES
+        }
+        point, foms = gain(means, covariances, estimates, estimates)
+        for state in STATES:
+            record = combine_tier_posteriors(
+                classes, means[state], covariances[state], estimate_correlation(estimates[state])
+            )
+            combination[state] = {
+                "removed_classes": record["removed_tiers"],
+                "stacked_minimum_eigenvalue": record["stacked_minimum_eigenvalue"],
+                "cross_term_clipped": record["cross_term_clipped"],
+            }
+        resampled, skipped = [], 0
+        for _ in range(int(resamples)):
+            index = rng.integers(0, len(used), len(used))
+            try:
+                value = gain(
+                    means, covariances, estimates, {s: estimates[s][index] for s in STATES}
+                )[0]
+            except ValueError:
+                value = np.nan
+            # A resample whose correlation cannot be measured or combined is counted, not used.
+            if np.isfinite(value):
+                resampled.append(value)
+            else:
+                skipped += 1
+        left_out = np.array(
+            [
+                gain(
+                    means,
+                    covariances,
+                    estimates,
+                    {s: np.delete(estimates[s], i, axis=0) for s in STATES},
+                )[0]
+                for i in range(len(used))
+            ]
+        )
+        count = len(left_out)
+        rows.append(
+            {
+                "bin": measurement_bin,
+                "classes": classes,
+                "realizations_used": len(used),
+                "realizations_excluded": sorted(set(cohort) - set(used)),
+                "fom_pre": foms[0],
+                "fom_post": foms[1],
+                "gain_percent": point,
+                "bootstrap_gain_percent_16_84": np.percentile(resampled, [16, 84]).tolist(),
+                "bootstrap_gain_percent_2p5_97p5": np.percentile(resampled, [2.5, 97.5]).tolist(),
+                "bootstrap_resamples_used": len(resampled),
+                "bootstrap_resamples_skipped": skipped,
+                "jackknife_gain_percent_standard_error": float(
+                    np.sqrt((count - 1) / count * np.sum((left_out - left_out.mean()) ** 2))
+                ),
+                "jackknife_gain_percent_min_max": [float(left_out.min()), float(left_out.max())],
+                "combination": combination,
+            }
+        )
+        print("combined gain", measurement_bin, flush=True)
+    return {
+        "definition": (
+            "gain_percent = 100 (FoM after / FoM before - 1) of the combined classes;"
+            " intervals resample the realizations that measure the correlation between classes,"
+            " paired before and after reconstruction, with the class posteriors fixed"
+        ),
+        "run": core_run.name,
+        "resamples": int(resamples),
+        "seed": seed,
+        "rows": rows,
+    }
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
-    parser.add_argument(
-        "--primary-run", type=Path, required=True, help="restored per-bin-v2--primary"
-    )
-    parser.add_argument(
-        "--transfer-root", type=Path, required=True, help="restored runs/reconstruction-transfer"
-    )
+    parser.add_argument("--primary-run", type=Path, help="restored per-bin-v2--primary")
+    parser.add_argument("--transfer-root", type=Path, help="restored runs/reconstruction-transfer")
     parser.add_argument(
         "--core-run", type=Path, help="restored unified-fit-v3--primary (the fits and draws)"
+    )
+    parser.add_argument(
+        "--density-run", type=Path, help="restored unified-fit-v3--density (the matched samples)"
     )
     parser.add_argument("--paper-dir", type=Path, default=Path("paper"))
     products = {
@@ -723,8 +1147,28 @@ def main():
         "random-floor": lambda: random_floor(args.core_run, args.transfer_root),
         "prior-width-ratios": lambda: prior_width_ratios(args.core_run),
         "template-b1": lambda: template_b1(args.core_run),
+        "matched-density-posterior": lambda: matched_density_posterior(args.density_run),
+        "convergence": lambda: convergence(args.core_run),
+        "interval-coverage": lambda: interval_coverage(args.core_run),
+        "threshold-interval": lambda: threshold_interval(args.core_run),
+        "combined-gain-uncertainty": lambda: combined_gain_uncertainty(args.core_run),
     }
-    core_products = {"alpha-perp-narrowing", "random-floor", "prior-width-ratios", "template-b1"}
+    # The runs each product reads.
+    needs = {
+        "cross-sigma-checks": ("transfer_root",),
+        "alpha-sn-leave-one-out": ("primary_run",),
+        "cross-cap": ("primary_run",),
+        "cross-sigma-alpha-perp": ("transfer_root",),
+        "alpha-perp-narrowing": ("core_run",),
+        "random-floor": ("core_run", "transfer_root"),
+        "prior-width-ratios": ("core_run",),
+        "template-b1": ("core_run",),
+        "matched-density-posterior": ("density_run",),
+        "convergence": ("core_run",),
+        "interval-coverage": ("core_run",),
+        "threshold-interval": ("core_run",),
+        "combined-gain-uncertainty": ("core_run",),
+    }
     parser.add_argument(
         "--products",
         nargs="+",
@@ -732,13 +1176,13 @@ def main():
         help="default: every product whose runs are given",
     )
     args = parser.parse_args()
+    absent = {name: [run for run in needs[name] if getattr(args, run) is None] for name in products}
     if args.products is None:
-        args.products = [
-            name for name in products if args.core_run is not None or name not in core_products
-        ]
-    missing = sorted(core_products & set(args.products)) if args.core_run is None else []
-    if missing:
-        parser.error("--core-run is required for " + ", ".join(missing))
+        args.products = [name for name in products if not absent[name]]
+    for name in args.products:
+        if absent[name]:
+            flags = ", ".join("--" + run.replace("_", "-") for run in absent[name])
+            parser.error(f"{name} requires {flags}")
     out = args.paper_dir / "figures" / "source" / "appendix"
     out.mkdir(parents=True, exist_ok=True)
     for name in args.products:

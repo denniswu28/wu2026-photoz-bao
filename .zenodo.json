@@ -1,0 +1,30 @@
+{
+  "title": "wu2026-photoz-bao: analysis code for BAO reconstruction in the presence of photometric redshift uncertainty",
+  "upload_type": "software",
+  "description": "Analysis code, figure scripts and figure source tables for the paper \"BAO reconstruction in the presence of photometric redshift uncertainty\" (T. Wu, E. Paillas, T. Eifler).",
+  "creators": [
+    {
+      "name": "Wu, Tianrui",
+      "affiliation": "Department of Physics, University of Arizona"
+    },
+    {
+      "name": "Paillas, Enrique",
+      "affiliation": "Instituto de Estudios Astrofísicos, Universidad Diego Portales"
+    },
+    {
+      "name": "Eifler, Tim",
+      "affiliation": "Department of Astronomy & Steward Observatory, University of Arizona; Department of Physics, University of Arizona"
+    }
+  ],
+  "license": "mit",
+  "access_right": "open",
+  "version": "1.0.0",
+  "keywords": [
+    "cosmology",
+    "baryon acoustic oscillations",
+    "photometric redshift",
+    "reconstruction",
+    "DESI",
+    "SPHEREx"
+  ]
+}
