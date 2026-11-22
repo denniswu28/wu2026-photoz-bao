@@ -1,5 +1,7 @@
 # wu2026-photoz-bao
 
+[![DOI](https://zenodo.org/badge/1454775766.svg)](https://doi.org/10.5281/zenodo.24433146)
+
 Analysis code for *BAO Reconstruction in the Presence of Photometric Redshift Uncertainty*
 (Wu, Paillas & Eifler 2026).
 

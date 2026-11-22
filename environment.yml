@@ -13,7 +13,8 @@ dependencies:
   - matplotlib
   - astropy
   - h5py
-  - healpy
+  # later healpy builds are compiled for the NumPy 2 C API and fail to import with numpy 1.26
+  - healpy=1.19.0=*_0
   - pyyaml
   - click
   - joblib
@@ -48,8 +49,11 @@ dependencies:
   - iminuit=2.32.0
   - future
   - wurlitzer
+  # pycorr's jackknife subsampler and desilike's profile tables
+  - scikit-learn=1.8.0
+  - tabulate=0.9.0
   # tests and notebooks
-  - pytest
+  - pytest=9.0.2
   - black
   - ipython
   - ipykernel
