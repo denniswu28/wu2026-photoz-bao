@@ -33,6 +33,8 @@ dependencies:
   - setuptools-scm
   - wheel
   - flit-core
+  - hatchling
+  - hatch-build-scripts
   # desilike's jax backend
   - jax=0.7.1
   - jaxlib=0.7.1

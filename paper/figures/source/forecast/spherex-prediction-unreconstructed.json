@@ -1,0 +1,1680 @@
+{
+  "started_utc": "2026-11-22T02:33:18.232599+00:00",
+  "finished_utc": "2026-11-22T02:37:46.480566+00:00",
+  "slurm_job_id": "24753926",
+  "fit_run": "<storage>/runs/core-sensitivity/unified-fit-v3--primary",
+  "density_run": null,
+  "matched_record": "<checkout>/paper/figures/source/forecast/spherex-prediction.json",
+  "pipeline_veff_fraction": 0.9,
+  "run_identity": {
+    "run_name": "unified-fit-v3--primary",
+    "code_commit": "d4f8c7a8dc864f302599de6f7d06538979bd2900",
+    "analysis_config_sha256": "f47cc6ad34a372a1f8386c16a446c460650196d78d73d1f2109e800e44f09063"
+  },
+  "renderer_checkout": "<checkout>",
+  "renderer_commit": "c3a32fd6ef42badc0a25ca8ca4e9509e0e13fb86",
+  "renderer_diff": "",
+  "method": "matched V_eff pipeline (median usable single-realization Minos half-width) where the density run attains at least the pipeline V_eff fraction; otherwise the conditional density-and-area forecast (exploratory revisions 2.11-F1/F3) at the condition's target density and the configured sky fraction, one survey (n_realizations=1)",
+  "prereconstruction_damping": "unreconstructed: the transverse formula in the limit S -> 0, parallel = (1 + f) transverse",
+  "selection_source": "saved baseline rows (density.json, effective-redshifts.json) under <checkout>/paper/figures/source/baseline: record counts, volumes and effective redshifts, one radial density for both caps",
+  "target_fsky": 0.7272205216643038,
+  "rows": [
+    {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS1",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "prereconstruction",
+      "current": {
+        "sigma": {
+          "qiso": 0.06771716344648947,
+          "qap": 0.2465658755629343
+        },
+        "fom": 62.91791083586968
+      },
+      "target": {
+        "sigma": {
+          "qiso": 0.055939983946467466,
+          "qap": 0.2078613766873356
+        },
+        "fom": 92.9221107746726
+      },
+      "target_area": {
+        "sigma": {
+          "qiso": 0.028133837945797185,
+          "qap": 0.1052950996268755
+        },
+        "fom": 365.9706263115371
+      },
+      "status": "available",
+      "attained_nbar_h3_mpc3": 0.0004497972597008664,
+      "target_nbar_h3_mpc3": 0.0024925,
+      "area_factor": 3.997439352871067,
+      "target_fsky": 0.7272205216643038,
+      "current_sigma_perp": 6.978870731133041,
+      "target_sigma_perp": 6.978870731133041,
+      "target_sigma_parallel": 11.279457591879982,
+      "n_realizations_normalization": 1,
+      "prediction": {
+        "kind": "conditional_forecast",
+        "sigma_qiso": 0.028133837945797185,
+        "veff_fraction": null
+      }
+    },
+    {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS1",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "postreconstruction",
+      "current": {
+        "sigma": {
+          "qiso": 0.07321935927390015,
+          "qap": 0.27941998532518825
+        },
+        "fom": 57.050454179365005
+      },
+      "target": {
+        "sigma": {
+          "qiso": 0.05746885142551748,
+          "qap": 0.22400094080267077
+        },
+        "fom": 108.30982888083358
+      },
+      "target_area": {
+        "sigma": {
+          "qiso": 0.0290686189642582,
+          "qap": 0.11377865225978448
+        },
+        "fom": 425.67399159976407
+      },
+      "status": "available",
+      "attained_nbar_h3_mpc3": 0.0004497972597008664,
+      "target_nbar_h3_mpc3": 0.0024925,
+      "area_factor": 3.997439352871067,
+      "target_fsky": 0.7272205216643038,
+      "current_sigma_perp": 6.0,
+      "target_sigma_perp": 4.489235024124404,
+      "target_sigma_parallel": 13.0,
+      "n_realizations_normalization": 1,
+      "prediction": {
+        "kind": "conditional_forecast",
+        "sigma_qiso": 0.0290686189642582,
+        "veff_fraction": null
+      }
+    },
+    {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS1",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "prereconstruction",
+      "current": {
+        "sigma": {
+          "qiso": 0.0786611134222509,
+          "qap": 0.2854557754795338
+        },
+        "fom": 49.924998358831694
+      },
+      "target": {
+        "sigma": {
+          "qiso": 0.05496352285723854,
+          "qap": 0.20019782304352612
+        },
+        "fom": 100.3094031254146
+      },
+      "target_area": {
+        "sigma": {
+          "qiso": 0.02768087299340329,
+          "qap": 0.10134063812490095
+        },
+        "fom": 394.8472326399573
+      },
+      "status": "available",
+      "attained_nbar_h3_mpc3": 0.00045034487593142254,
+      "target_nbar_h3_mpc3": 0.00997,
+      "area_factor": 3.997439352871067,
+      "target_fsky": 0.7272205216643038,
+      "current_sigma_perp": 6.979117818482088,
+      "target_sigma_perp": 6.979117818482088,
+      "target_sigma_parallel": 11.279616092479875,
+      "n_realizations_normalization": 1,
+      "prediction": {
+        "kind": "conditional_forecast",
+        "sigma_qiso": 0.02768087299340329,
+        "veff_fraction": null
+      }
+    },
+    {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS1",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "postreconstruction",
+      "current": {
+        "sigma": {
+          "qiso": 0.08409384609171314,
+          "qap": 0.3096885521998028
+        },
+        "fom": 48.3126343973699
+      },
+      "target": {
+        "sigma": {
+          "qiso": 0.05542914086517666,
+          "qap": 0.20077496472959888
+        },
+        "fom": 129.55276385227256
+      },
+      "target_area": {
+        "sigma": {
+          "qiso": 0.02807452680287299,
+          "qap": 0.10206975231231757
+        },
+        "fom": 508.34777583505576
+      },
+      "status": "available",
+      "attained_nbar_h3_mpc3": 0.00045034487593142254,
+      "target_nbar_h3_mpc3": 0.00997,
+      "area_factor": 3.997439352871067,
+      "target_fsky": 0.7272205216643038,
+      "current_sigma_perp": 6.0,
+      "target_sigma_perp": 4.4675929949122395,
+      "target_sigma_parallel": 13.0,
+      "n_realizations_normalization": 1,
+      "prediction": {
+        "kind": "conditional_forecast",
+        "sigma_qiso": 0.02807452680287299,
+        "veff_fraction": null
+      }
+    },
+    {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS1",
+      "condition": "sigma_0.01",
+      "reconstruction_state": "prereconstruction",
+      "current": {
+        "sigma": {
+          "qiso": 0.3879427797087959,
+          "qap": 1.3036099763111395
+        },
+        "fom": 6.905931782024015
+      },
+      "target": {
+        "sigma": {
+          "qiso": 0.17357366762991114,
+          "qap": 0.6265369685167282
+        },
+        "fom": 23.547485239137938
+      },
+      "target_area": {
+        "sigma": {
+          "qiso": 0.08712214413974678,
+          "qap": 0.31393346425080865
+        },
+        "fom": 93.18077990138511
+      },
+      "status": "available",
+      "attained_nbar_h3_mpc3": 0.0004543253103236729,
+      "target_nbar_h3_mpc3": 0.0123,
+      "area_factor": 3.997439352871067,
+      "target_fsky": 0.7272205216643038,
+      "current_sigma_perp": 6.979552873338559,
+      "target_sigma_perp": 6.979552873338559,
+      "target_sigma_parallel": 11.279895105100383,
+      "n_realizations_normalization": 1,
+      "prediction": {
+        "kind": "conditional_forecast",
+        "sigma_qiso": 0.08712214413974678,
+        "veff_fraction": null
+      }
+    },
+    {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS1",
+      "condition": "sigma_0.01",
+      "reconstruction_state": "postreconstruction",
+      "current": {
+        "sigma": {
+          "qiso": 0.3964441241691606,
+          "qap": 1.3195475096420728
+        },
+        "fom": 7.4924370492901335
+      },
+      "target": {
+        "sigma": {
+          "qiso": 0.16676063865643953,
+          "qap": 0.5684921870487766
+        },
+        "fom": 35.40285558274828
+      },
+      "target_area": {
+        "sigma": {
+          "qiso": 0.08384646666289244,
+          "qap": 0.28533275789804446
+        },
+        "fom": 140.14413384617364
+      },
+      "status": "available",
+      "attained_nbar_h3_mpc3": 0.0004543253103236729,
+      "target_nbar_h3_mpc3": 0.0123,
+      "area_factor": 3.997439352871067,
+      "target_fsky": 0.7272205216643038,
+      "current_sigma_perp": 6.0,
+      "target_sigma_perp": 4.466490488504433,
+      "target_sigma_parallel": 13.0,
+      "n_realizations_normalization": 1,
+      "prediction": {
+        "kind": "conditional_forecast",
+        "sigma_qiso": 0.08384646666289244,
+        "veff_fraction": null
+      }
+    },
+    {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS1",
+      "condition": "sigma_0.03",
+      "reconstruction_state": "prereconstruction",
+      "current": {
+        "sigma": {
+          "qiso": 12.117630660127562,
+          "qap": 36.9877139619426
+        },
+        "fom": 0.13205005507074183
+      },
+      "target": {
+        "sigma": {
+          "qiso": 5.075080699714927,
+          "qap": 15.420021407779817
+        },
+        "fom": 0.5073549566212311
+      },
+      "target_area": {
+        "sigma": {
+          "qiso": 2.5585243336959467,
+          "qap": 7.775413607023835
+        },
+        "fom": 2.007465276246281
+      },
+      "status": "available",
+      "attained_nbar_h3_mpc3": 0.00048322636989450924,
+      "target_nbar_h3_mpc3": 0.0134,
+      "area_factor": 3.997439352871067,
+      "target_fsky": 0.7272205216643038,
+      "current_sigma_perp": 6.983283101662086,
+      "target_sigma_perp": 6.983283101662086,
+      "target_sigma_parallel": 11.282284019383113,
+      "n_realizations_normalization": 1,
+      "prediction": {
+        "kind": "conditional_forecast",
+        "sigma_qiso": 2.5585243336959467,
+        "veff_fraction": null
+      }
+    },
+    {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS1",
+      "condition": "sigma_0.03",
+      "reconstruction_state": "postreconstruction",
+      "current": {
+        "sigma": {
+          "qiso": 11.816415214030863,
+          "qap": 36.02248501439688
+        },
+        "fom": 0.1490855199043771
+      },
+      "target": {
+        "sigma": {
+          "qiso": 4.576071894557929,
+          "qap": 13.848725559688724
+        },
+        "fom": 0.8086563558104287
+      },
+      "target_area": {
+        "sigma": {
+          "qiso": 2.306952317323542,
+          "qap": 6.982624483111231
+        },
+        "fom": 3.2012432885643904
+      },
+      "status": "available",
+      "attained_nbar_h3_mpc3": 0.00048322636989450924,
+      "target_nbar_h3_mpc3": 0.0134,
+      "area_factor": 3.997439352871067,
+      "target_fsky": 0.7272205216643038,
+      "current_sigma_perp": 6.0,
+      "target_sigma_perp": 4.468385449293765,
+      "target_sigma_parallel": 13.0,
+      "n_realizations_normalization": 1,
+      "prediction": {
+        "kind": "conditional_forecast",
+        "sigma_qiso": 2.306952317323542,
+        "veff_fraction": null
+      }
+    },
+    {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS2",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "prereconstruction",
+      "current": {
+        "sigma": {
+          "qiso": 0.024989067247471613,
+          "qap": 0.09115767550540906
+        },
+        "fom": 461.64841082937556
+      },
+      "target": {
+        "sigma": {
+          "qiso": 0.021801555234355573,
+          "qap": 0.08099129854061259
+        },
+        "fom": 607.3129001299751
+      },
+      "target_area": {
+        "sigma": {
+          "qiso": 0.010961301196624546,
+          "qap": 0.04093274634755598
+        },
+        "fom": 2394.9246688021326
+      },
+      "status": "available",
+      "attained_nbar_h3_mpc3": 0.000468744646411071,
+      "target_nbar_h3_mpc3": 0.0010275,
+      "area_factor": 3.997439352871067,
+      "target_fsky": 0.7272205216643038,
+      "current_sigma_perp": 6.420519004273015,
+      "target_sigma_perp": 6.420519004273015,
+      "target_sigma_parallel": 10.854280952349416,
+      "n_realizations_normalization": 1,
+      "prediction": {
+        "kind": "conditional_forecast",
+        "sigma_qiso": 0.010961301196624546,
+        "veff_fraction": null
+      }
+    },
+    {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS2",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "postreconstruction",
+      "current": {
+        "sigma": {
+          "qiso": 0.01949386903403203,
+          "qap": 0.07033861590917913
+        },
+        "fom": 756.5719340744066
+      },
+      "target": {
+        "sigma": {
+          "qiso": 0.01568802073806427,
+          "qap": 0.05854691273754008
+        },
+        "fom": 1182.2087869338052
+      },
+      "target_area": {
+        "sigma": {
+          "qiso": 0.007868238681794471,
+          "qap": 0.02947230638079247
+        },
+        "fom": 4688.251740146228
+      },
+      "status": "available",
+      "attained_nbar_h3_mpc3": 0.000468744646411071,
+      "target_nbar_h3_mpc3": 0.0010275,
+      "area_factor": 3.997439352871067,
+      "target_fsky": 0.7272205216643038,
+      "current_sigma_perp": 5.0,
+      "target_sigma_perp": 4.179728836365582,
+      "target_sigma_parallel": 9.0,
+      "n_realizations_normalization": 1,
+      "prediction": {
+        "kind": "conditional_forecast",
+        "sigma_qiso": 0.007868238681794471,
+        "veff_fraction": null
+      }
+    },
+    {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS2",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "prereconstruction",
+      "current": {
+        "sigma": {
+          "qiso": 0.030302259466431173,
+          "qap": 0.10967358656673505
+        },
+        "fom": 344.8642924305293
+      },
+      "target": {
+        "sigma": {
+          "qiso": 0.020992867003214,
+          "qap": 0.0766542553247065
+        },
+        "fom": 703.9450117912088
+      },
+      "target_area": {
+        "sigma": {
+          "qiso": 0.010547316860001352,
+          "qap": 0.03869925034994542
+        },
+        "fom": 2781.3303035472104
+      },
+      "status": "available",
+      "attained_nbar_h3_mpc3": 0.00046886869958475113,
+      "target_nbar_h3_mpc3": 0.00411,
+      "area_factor": 3.997439352871067,
+      "target_fsky": 0.7272205216643038,
+      "current_sigma_perp": 6.420624778259769,
+      "target_sigma_perp": 6.420624778259769,
+      "target_sigma_parallel": 10.854373989886305,
+      "n_realizations_normalization": 1,
+      "prediction": {
+        "kind": "conditional_forecast",
+        "sigma_qiso": 0.010547316860001352,
+        "veff_fraction": null
+      }
+    },
+    {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS2",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "postreconstruction",
+      "current": {
+        "sigma": {
+          "qiso": 0.025109625938104934,
+          "qap": 0.0910861555313846
+        },
+        "fom": 506.0171480930319
+      },
+      "target": {
+        "sigma": {
+          "qiso": 0.01551866716432075,
+          "qap": 0.05697049761562245
+        },
+        "fom": 1352.3799949274107
+      },
+      "target_area": {
+        "sigma": {
+          "qiso": 0.007785028344382765,
+          "qap": 0.028670286657486794
+        },
+        "fom": 5366.673236472199
+      },
+      "status": "available",
+      "attained_nbar_h3_mpc3": 0.00046886869958475113,
+      "target_nbar_h3_mpc3": 0.00411,
+      "area_factor": 3.997439352871067,
+      "target_fsky": 0.7272205216643038,
+      "current_sigma_perp": 5.0,
+      "target_sigma_perp": 4.122747582088328,
+      "target_sigma_parallel": 9.0,
+      "n_realizations_normalization": 1,
+      "prediction": {
+        "kind": "conditional_forecast",
+        "sigma_qiso": 0.007785028344382765,
+        "veff_fraction": null
+      }
+    },
+    {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS2",
+      "condition": "sigma_0.01",
+      "reconstruction_state": "prereconstruction",
+      "current": {
+        "sigma": {
+          "qiso": 0.20189737073985356,
+          "qap": 0.6679076875197801
+        },
+        "fom": 34.18925232661478
+      },
+      "target": {
+        "sigma": {
+          "qiso": 0.08040823454785695,
+          "qap": 0.27502561363329947
+        },
+        "fom": 136.92960317022326
+      },
+      "target_area": {
+        "sigma": {
+          "qiso": 0.040661093329034975,
+          "qap": 0.13898817379660786
+        },
+        "fom": 536.9904063489187
+      },
+      "status": "available",
+      "attained_nbar_h3_mpc3": 0.00046957896481444915,
+      "target_nbar_h3_mpc3": 0.00856,
+      "area_factor": 3.997439352871067,
+      "target_fsky": 0.7272205216643038,
+      "current_sigma_perp": 6.421050345976042,
+      "target_sigma_perp": 6.421050345976042,
+      "target_sigma_parallel": 10.854748267161078,
+      "n_realizations_normalization": 1,
+      "prediction": {
+        "kind": "conditional_forecast",
+        "sigma_qiso": 0.040661093329034975,
+        "veff_fraction": null
+      }
+    },
+    {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS2",
+      "condition": "sigma_0.01",
+      "reconstruction_state": "postreconstruction",
+      "current": {
+        "sigma": {
+          "qiso": 0.1903441750923486,
+          "qap": 0.6243449281497374
+        },
+        "fom": 42.482787470005775
+      },
+      "target": {
+        "sigma": {
+          "qiso": 0.07370418849049423,
+          "qap": 0.24401316217105523
+        },
+        "fom": 211.59169568761374
+      },
+      "target_area": {
+        "sigma": {
+          "qiso": 0.03724261575069991,
+          "qap": 0.12324168661320306
+        },
+        "fom": 832.542820224426
+      },
+      "status": "available",
+      "attained_nbar_h3_mpc3": 0.00046957896481444915,
+      "target_nbar_h3_mpc3": 0.00856,
+      "area_factor": 3.997439352871067,
+      "target_fsky": 0.7272205216643038,
+      "current_sigma_perp": 5.0,
+      "target_sigma_perp": 4.11305279715101,
+      "target_sigma_parallel": 9.0,
+      "n_realizations_normalization": 1,
+      "prediction": {
+        "kind": "conditional_forecast",
+        "sigma_qiso": 0.03724261575069991,
+        "veff_fraction": null
+      }
+    },
+    {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS2",
+      "condition": "sigma_0.03",
+      "reconstruction_state": "prereconstruction",
+      "current": {
+        "sigma": {
+          "qiso": 6.141725558286048,
+          "qap": 18.74718397835518
+        },
+        "fom": 0.6414733806801521
+      },
+      "target": {
+        "sigma": {
+          "qiso": 3.108528358620983,
+          "qap": 9.420527779050667
+        },
+        "fom": 2.2319216271218387
+      },
+      "target_area": {
+        "sigma": {
+          "qiso": 1.5923973066506782,
+          "qap": 4.82754017577005
+        },
+        "fom": 8.66021214984401
+      },
+      "status": "available",
+      "attained_nbar_h3_mpc3": 0.0004710785487668766,
+      "target_nbar_h3_mpc3": 0.00857,
+      "area_factor": 3.997439352871067,
+      "target_fsky": 0.7272205216643038,
+      "current_sigma_perp": 6.4292889933353505,
+      "target_sigma_perp": 6.4292889933353505,
+      "target_sigma_parallel": 10.861979127595362,
+      "n_realizations_normalization": 1,
+      "prediction": {
+        "kind": "conditional_forecast",
+        "sigma_qiso": 1.5923973066506782,
+        "veff_fraction": null
+      }
+    },
+    {
+      "tracer": "BGS_BRIGHT-21.5",
+      "measurement_bin": "BGS2",
+      "condition": "sigma_0.03",
+      "reconstruction_state": "postreconstruction",
+      "current": {
+        "sigma": {
+          "qiso": 5.600681430151001,
+          "qap": 17.06529070120401
+        },
+        "fom": 0.7999650315988094
+      },
+      "target": {
+        "sigma": {
+          "qiso": 2.7472067072804442,
+          "qap": 8.30238220165334
+        },
+        "fom": 3.4934173771749886
+      },
+      "target_area": {
+        "sigma": {
+          "qiso": 1.4039368544125697,
+          "qap": 4.243831921137436
+        },
+        "fom": 13.612652121308605
+      },
+      "status": "available",
+      "attained_nbar_h3_mpc3": 0.0004710785487668766,
+      "target_nbar_h3_mpc3": 0.00857,
+      "area_factor": 3.997439352871067,
+      "target_fsky": 0.7272205216643038,
+      "current_sigma_perp": 5.0,
+      "target_sigma_perp": 4.118293027492765,
+      "target_sigma_parallel": 9.0,
+      "n_realizations_normalization": 1,
+      "prediction": {
+        "kind": "conditional_forecast",
+        "sigma_qiso": 1.4039368544125697,
+        "veff_fraction": null
+      }
+    },
+    {
+      "tracer": "LRG",
+      "measurement_bin": "LRG1",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "prereconstruction",
+      "current": {
+        "sigma": {
+          "qiso": 0.023336389747471705,
+          "qap": 0.07771146416560076
+        },
+        "fom": 565.2430296608119
+      },
+      "target": {
+        "sigma": {
+          "qiso": 0.0233355940903445,
+          "qap": 0.07770866267167505
+        },
+        "fom": 565.2822376541618
+      },
+      "target_area": {
+        "sigma": {
+          "qiso": 0.011633151881757902,
+          "qap": 0.03808155274521557
+        },
+        "fom": 2315.8519756512646
+      },
+      "status": "available",
+      "attained_nbar_h3_mpc3": 0.00012524923083451884,
+      "target_nbar_h3_mpc3": 0.00012525,
+      "area_factor": 4.235890557615709,
+      "target_fsky": 0.7272205216643038,
+      "current_sigma_perp": 5.815102416710758,
+      "target_sigma_perp": 5.815102416710758,
+      "target_sigma_parallel": 10.247535423195362,
+      "n_realizations_normalization": 1,
+      "prediction": {
+        "kind": "conditional_forecast",
+        "sigma_qiso": 0.011633151881757902,
+        "veff_fraction": null
+      }
+    },
+    {
+      "tracer": "LRG",
+      "measurement_bin": "LRG1",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "postreconstruction",
+      "current": {
+        "sigma": {
+          "qiso": 0.019258983298633018,
+          "qap": 0.062065749995683886
+        },
+        "fom": 839.9112618576657
+      },
+      "target": {
+        "sigma": {
+          "qiso": 0.01817283874568543,
+          "qap": 0.059538672655956394
+        },
+        "fom": 935.0116646639862
+      },
+      "target_area": {
+        "sigma": {
+          "qiso": 0.009023236766592056,
+          "qap": 0.02908792797741914
+        },
+        "fom": 3852.7775879101987
+      },
+      "status": "available",
+      "attained_nbar_h3_mpc3": 0.00012524923083451884,
+      "target_nbar_h3_mpc3": 0.00012525,
+      "area_factor": 4.235890557615709,
+      "target_fsky": 0.7272205216643038,
+      "current_sigma_perp": 5.0,
+      "target_sigma_perp": 4.090026544736047,
+      "target_sigma_parallel": 8.0,
+      "n_realizations_normalization": 1,
+      "prediction": {
+        "kind": "conditional_forecast",
+        "sigma_qiso": 0.009023236766592056,
+        "veff_fraction": null
+      }
+    },
+    {
+      "tracer": "LRG",
+      "measurement_bin": "LRG1",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "prereconstruction",
+      "current": {
+        "sigma": {
+          "qiso": 0.020075546663516217,
+          "qap": 0.06525827960303639
+        },
+        "fom": 884.8429525128183
+      },
+      "target": {
+        "sigma": {
+          "qiso": 0.02007484718801142,
+          "qap": 0.06525632112921749
+        },
+        "fom": 884.899627149331
+      },
+      "target_area": {
+        "sigma": {
+          "qiso": 0.009978289934000672,
+          "qap": 0.03194974670111903
+        },
+        "fom": 3641.6074121065703
+      },
+      "status": "available",
+      "attained_nbar_h3_mpc3": 0.0005009992879922879,
+      "target_nbar_h3_mpc3": 0.000501,
+      "area_factor": 4.235890557615709,
+      "target_fsky": 0.7272205216643038,
+      "current_sigma_perp": 5.8153010886436585,
+      "target_sigma_perp": 5.8153010886436585,
+      "target_sigma_parallel": 10.247758188823896,
+      "n_realizations_normalization": 1,
+      "prediction": {
+        "kind": "conditional_forecast",
+        "sigma_qiso": 0.009978289934000672,
+        "veff_fraction": null
+      }
+    },
+    {
+      "tracer": "LRG",
+      "measurement_bin": "LRG1",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "postreconstruction",
+      "current": {
+        "sigma": {
+          "qiso": 0.016831383890103087,
+          "qap": 0.05401099503917162
+        },
+        "fom": 1236.4831377161915
+      },
+      "target": {
+        "sigma": {
+          "qiso": 0.015878971262139302,
+          "qap": 0.05136010075822661
+        },
+        "fom": 1458.2390559637206
+      },
+      "target_area": {
+        "sigma": {
+          "qiso": 0.007902838734301827,
+          "qap": 0.025105127147779283
+        },
+        "fom": 5996.747859814918
+      },
+      "status": "available",
+      "attained_nbar_h3_mpc3": 0.0005009992879922879,
+      "target_nbar_h3_mpc3": 0.000501,
+      "area_factor": 4.235890557615709,
+      "target_fsky": 0.7272205216643038,
+      "current_sigma_perp": 5.0,
+      "target_sigma_perp": 3.8136122870257463,
+      "target_sigma_parallel": 8.0,
+      "n_realizations_normalization": 1,
+      "prediction": {
+        "kind": "conditional_forecast",
+        "sigma_qiso": 0.007902838734301827,
+        "veff_fraction": null
+      }
+    },
+    {
+      "tracer": "LRG",
+      "measurement_bin": "LRG1",
+      "condition": "sigma_0.01",
+      "reconstruction_state": "prereconstruction",
+      "current": {
+        "sigma": {
+          "qiso": 0.1308910755165929,
+          "qap": 0.4154588137031524
+        },
+        "fom": 92.8304889097449
+      },
+      "target": {
+        "sigma": {
+          "qiso": 0.08068132569955479,
+          "qap": 0.2573465543355983
+        },
+        "fom": 199.97631335388155
+      },
+      "target_area": {
+        "sigma": {
+          "qiso": 0.03985154327994285,
+          "qap": 0.12724785224695848
+        },
+        "fom": 829.9638716137886
+      },
+      "status": "available",
+      "attained_nbar_h3_mpc3": 0.0005366050687962896,
+      "target_nbar_h3_mpc3": 0.00282,
+      "area_factor": 4.235890557615709,
+      "target_fsky": 0.7272205216643038,
+      "current_sigma_perp": 5.815354830090936,
+      "target_sigma_perp": 5.815354830090936,
+      "target_sigma_parallel": 10.247818445116922,
+      "n_realizations_normalization": 1,
+      "prediction": {
+        "kind": "conditional_forecast",
+        "sigma_qiso": 0.03985154327994285,
+        "veff_fraction": null
+      }
+    },
+    {
+      "tracer": "LRG",
+      "measurement_bin": "LRG1",
+      "condition": "sigma_0.01",
+      "reconstruction_state": "postreconstruction",
+      "current": {
+        "sigma": {
+          "qiso": 0.12524770518039174,
+          "qap": 0.39656123949854555
+        },
+        "fom": 107.24814299817966
+      },
+      "target": {
+        "sigma": {
+          "qiso": 0.07583723896186208,
+          "qap": 0.23879554042787982
+        },
+        "fom": 285.43859905640403
+      },
+      "target_area": {
+        "sigma": {
+          "qiso": 0.03741169717383736,
+          "qap": 0.11788166752918412
+        },
+        "fom": 1187.3467807174736
+      },
+      "status": "available",
+      "attained_nbar_h3_mpc3": 0.0005366050687962896,
+      "target_nbar_h3_mpc3": 0.00282,
+      "area_factor": 4.235890557615709,
+      "target_fsky": 0.7272205216643038,
+      "current_sigma_perp": 5.0,
+      "target_sigma_perp": 3.7342717456430163,
+      "target_sigma_parallel": 8.0,
+      "n_realizations_normalization": 1,
+      "prediction": {
+        "kind": "conditional_forecast",
+        "sigma_qiso": 0.03741169717383736,
+        "veff_fraction": null
+      }
+    },
+    {
+      "tracer": "LRG",
+      "measurement_bin": "LRG1",
+      "condition": "sigma_0.03",
+      "reconstruction_state": "prereconstruction",
+      "current": {
+        "sigma": {
+          "qiso": 3.667715438637972,
+          "qap": 11.158131177388952
+        },
+        "fom": 1.9300400976738035
+      },
+      "target": {
+        "sigma": {
+          "qiso": 2.4652914018892673,
+          "qap": 7.4637016443133986
+        },
+        "fom": 4.206191969187248
+      },
+      "target_area": {
+        "sigma": {
+          "qiso": 1.209746090521674,
+          "qap": 3.663200738402832
+        },
+        "fom": 17.548800521953858
+      },
+      "status": "available",
+      "attained_nbar_h3_mpc3": 0.000540673456368814,
+      "target_nbar_h3_mpc3": 0.00362,
+      "area_factor": 4.235890557615709,
+      "target_fsky": 0.7272205216643038,
+      "current_sigma_perp": 5.815669961376721,
+      "target_sigma_perp": 5.815669961376721,
+      "target_sigma_parallel": 10.248171756289,
+      "n_realizations_normalization": 1,
+      "prediction": {
+        "kind": "conditional_forecast",
+        "sigma_qiso": 1.209746090521674,
+        "veff_fraction": null
+      }
+    },
+    {
+      "tracer": "LRG",
+      "measurement_bin": "LRG1",
+      "condition": "sigma_0.03",
+      "reconstruction_state": "postreconstruction",
+      "current": {
+        "sigma": {
+          "qiso": 3.4935554612853488,
+          "qap": 10.61853546622029
+        },
+        "fom": 2.1976118423404833
+      },
+      "target": {
+        "sigma": {
+          "qiso": 2.232050631174985,
+          "qap": 6.742688545605579
+        },
+        "fom": 6.118131907409432
+      },
+      "target_area": {
+        "sigma": {
+          "qiso": 1.0931083109132707,
+          "qap": 3.3024965694827495
+        },
+        "fom": 25.618798983163785
+      },
+      "status": "available",
+      "attained_nbar_h3_mpc3": 0.000540673456368814,
+      "target_nbar_h3_mpc3": 0.00362,
+      "area_factor": 4.235890557615709,
+      "target_fsky": 0.7272205216643038,
+      "current_sigma_perp": 5.0,
+      "target_sigma_perp": 3.730640462518836,
+      "target_sigma_parallel": 8.0,
+      "n_realizations_normalization": 1,
+      "prediction": {
+        "kind": "conditional_forecast",
+        "sigma_qiso": 1.0931083109132707,
+        "veff_fraction": null
+      }
+    },
+    {
+      "tracer": "LRG",
+      "measurement_bin": "LRG2",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "prereconstruction",
+      "current": {
+        "sigma": {
+          "qiso": 0.07428595787772013,
+          "qap": 0.21254543433268036
+        },
+        "fom": 63.54526741018289
+      },
+      "target": {
+        "sigma": {
+          "qiso": 0.07430188697128347,
+          "qap": 0.21257227920827684
+        },
+        "fom": 63.52404836142852
+      },
+      "target_area": {
+        "sigma": {
+          "qiso": 0.03656961072469456,
+          "qap": 0.10346320873122201
+        },
+        "fom": 264.9779028246724
+      },
+      "status": "available",
+      "attained_nbar_h3_mpc3": 1.7624610748392492e-05,
+      "target_nbar_h3_mpc3": 1.7625e-05,
+      "area_factor": 4.235890557615709,
+      "target_fsky": 0.7272205216643038,
+      "current_sigma_perp": 5.2794241704135185,
+      "target_sigma_perp": 5.2794241704135185,
+      "target_sigma_parallel": 9.594041299603244,
+      "n_realizations_normalization": 1,
+      "prediction": {
+        "kind": "matched_veff_pipeline",
+        "sigma_qiso": 0.03592831750869624,
+        "veff_fraction": 0.9999877834777476,
+        "bounded": false,
+        "usable_intervals": 18
+      }
+    },
+    {
+      "tracer": "LRG",
+      "measurement_bin": "LRG2",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "postreconstruction",
+      "current": {
+        "sigma": {
+          "qiso": 0.06802479804622832,
+          "qap": 0.1928576430787489
+        },
+        "fom": 77.31057696677757
+      },
+      "target": {
+        "sigma": {
+          "qiso": 0.07136197517964772,
+          "qap": 0.1990861557037975
+        },
+        "fom": 71.96931692641826
+      },
+      "target_area": {
+        "sigma": {
+          "qiso": 0.03510557663502704,
+          "qap": 0.09680067834055035
+        },
+        "fom": 300.41494228328935
+      },
+      "status": "available",
+      "attained_nbar_h3_mpc3": 1.7624610748392492e-05,
+      "target_nbar_h3_mpc3": 1.7625e-05,
+      "area_factor": 4.235890557615709,
+      "target_fsky": 0.7272205216643038,
+      "current_sigma_perp": 5.0,
+      "target_sigma_perp": 5.665378927113605,
+      "target_sigma_parallel": 8.0,
+      "n_realizations_normalization": 1,
+      "prediction": {
+        "kind": "matched_veff_pipeline",
+        "sigma_qiso": 0.037191980446226014,
+        "veff_fraction": 0.9999877834777476,
+        "bounded": false,
+        "usable_intervals": 19
+      }
+    },
+    {
+      "tracer": "LRG",
+      "measurement_bin": "LRG2",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "prereconstruction",
+      "current": {
+        "sigma": {
+          "qiso": 0.04990668921545952,
+          "qap": 0.11862418074101261
+        },
+        "fom": 183.16786493518515
+      },
+      "target": {
+        "sigma": {
+          "qiso": 0.049907589293006954,
+          "qap": 0.11861909411712697
+        },
+        "fom": 183.17268727289104
+      },
+      "target_area": {
+        "sigma": {
+          "qiso": 0.025349775873192423,
+          "qap": 0.058452607307044886
+        },
+        "fom": 739.6506643912908
+      },
+      "status": "available",
+      "attained_nbar_h3_mpc3": 7.049958769658458e-05,
+      "target_nbar_h3_mpc3": 7.05e-05,
+      "area_factor": 4.235890557615709,
+      "target_fsky": 0.7272205216643038,
+      "current_sigma_perp": 5.27921002325732,
+      "target_sigma_perp": 5.27921002325732,
+      "target_sigma_parallel": 9.59375968515404,
+      "n_realizations_normalization": 1,
+      "prediction": {
+        "kind": "matched_veff_pipeline",
+        "sigma_qiso": 0.022186378414430108,
+        "veff_fraction": 0.979290031844815,
+        "bounded": true,
+        "usable_intervals": 25
+      }
+    },
+    {
+      "tracer": "LRG",
+      "measurement_bin": "LRG2",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "postreconstruction",
+      "current": {
+        "sigma": {
+          "qiso": 0.045407590756068796,
+          "qap": 0.10868131722169136
+        },
+        "fom": 215.35448903147093
+      },
+      "target": {
+        "sigma": {
+          "qiso": 0.042934120441347284,
+          "qap": 0.10628391100782833
+        },
+        "fom": 239.60112565042917
+      },
+      "target_area": {
+        "sigma": {
+          "qiso": 0.02162391310405358,
+          "qap": 0.0522378960515249
+        },
+        "fom": 976.3249182289516
+      },
+      "status": "available",
+      "attained_nbar_h3_mpc3": 7.049958769658458e-05,
+      "target_nbar_h3_mpc3": 7.05e-05,
+      "area_factor": 4.235890557615709,
+      "target_fsky": 0.7272205216643038,
+      "current_sigma_perp": 5.0,
+      "target_sigma_perp": 4.069856088172108,
+      "target_sigma_parallel": 8.0,
+      "n_realizations_normalization": 1,
+      "prediction": {
+        "kind": "matched_veff_pipeline",
+        "sigma_qiso": 0.015944549575942324,
+        "veff_fraction": 0.979290031844815,
+        "bounded": true,
+        "usable_intervals": 25
+      }
+    },
+    {
+      "tracer": "LRG",
+      "measurement_bin": "LRG2",
+      "condition": "sigma_0.01",
+      "reconstruction_state": "prereconstruction",
+      "current": {
+        "sigma": {
+          "qiso": 0.16251264731808052,
+          "qap": 0.486320902298434
+        },
+        "fom": 88.78691189755193
+      },
+      "target": {
+        "sigma": {
+          "qiso": 0.13286044710449288,
+          "qap": 0.3986665244234246
+        },
+        "fom": 130.73037007352616
+      },
+      "target_area": {
+        "sigma": {
+          "qiso": 0.06720821630844877,
+          "qap": 0.20220626464175287
+        },
+        "fom": 529.0012056718015
+      },
+      "status": "available",
+      "attained_nbar_h3_mpc3": 0.0005336830579072504,
+      "target_nbar_h3_mpc3": 0.000937,
+      "area_factor": 4.235890557615709,
+      "target_fsky": 0.7272205216643038,
+      "current_sigma_perp": 5.279515443188772,
+      "target_sigma_perp": 5.279515443188772,
+      "target_sigma_parallel": 9.594161323213367,
+      "n_realizations_normalization": 1,
+      "prediction": {
+        "kind": "conditional_forecast",
+        "sigma_qiso": 0.06720821630844877,
+        "veff_fraction": null
+      }
+    },
+    {
+      "tracer": "LRG",
+      "measurement_bin": "LRG2",
+      "condition": "sigma_0.01",
+      "reconstruction_state": "postreconstruction",
+      "current": {
+        "sigma": {
+          "qiso": 0.15618334483975954,
+          "qap": 0.46749045664536654
+        },
+        "fom": 95.79399570698311
+      },
+      "target": {
+        "sigma": {
+          "qiso": 0.12392704841489574,
+          "qap": 0.3736790691955416
+        },
+        "fom": 173.87186187027794
+      },
+      "target_area": {
+        "sigma": {
+          "qiso": 0.062234042226623563,
+          "qap": 0.18806227259847128
+        },
+        "fom": 709.1119004848903
+      },
+      "status": "available",
+      "attained_nbar_h3_mpc3": 0.0005336830579072504,
+      "target_nbar_h3_mpc3": 0.000937,
+      "area_factor": 4.235890557615709,
+      "target_fsky": 0.7272205216643038,
+      "current_sigma_perp": 5.0,
+      "target_sigma_perp": 3.4318065995319174,
+      "target_sigma_parallel": 8.0,
+      "n_realizations_normalization": 1,
+      "prediction": {
+        "kind": "conditional_forecast",
+        "sigma_qiso": 0.062234042226623563,
+        "veff_fraction": null
+      }
+    },
+    {
+      "tracer": "LRG",
+      "measurement_bin": "LRG2",
+      "condition": "sigma_0.03",
+      "reconstruction_state": "prereconstruction",
+      "current": {
+        "sigma": {
+          "qiso": 2.8554356230550684,
+          "qap": 8.663823014439817
+        },
+        "fom": 2.7095455140161944
+      },
+      "target": {
+        "sigma": {
+          "qiso": 2.0709832140591846,
+          "qap": 6.264160159359168
+        },
+        "fom": 6.400057499694285
+      },
+      "target_area": {
+        "sigma": {
+          "qiso": 1.0215002208532802,
+          "qap": 3.090463943676876
+        },
+        "fom": 26.54345053072291
+      },
+      "status": "available",
+      "attained_nbar_h3_mpc3": 0.0005334342757854069,
+      "target_nbar_h3_mpc3": 0.00294,
+      "area_factor": 4.235890557615709,
+      "target_fsky": 0.7272205216643038,
+      "current_sigma_perp": 5.283225416060389,
+      "target_sigma_perp": 5.283225416060389,
+      "target_sigma_parallel": 9.59903752938261,
+      "n_realizations_normalization": 1,
+      "prediction": {
+        "kind": "conditional_forecast",
+        "sigma_qiso": 1.0215002208532802,
+        "veff_fraction": null
+      }
+    },
+    {
+      "tracer": "LRG",
+      "measurement_bin": "LRG2",
+      "condition": "sigma_0.03",
+      "reconstruction_state": "postreconstruction",
+      "current": {
+        "sigma": {
+          "qiso": 2.7979452605586923,
+          "qap": 8.486298766927229
+        },
+        "fom": 2.8458953435583987
+      },
+      "target": {
+        "sigma": {
+          "qiso": 1.9047097594477997,
+          "qap": 5.7513169818752825
+        },
+        "fom": 8.764023103507318
+      },
+      "target_area": {
+        "sigma": {
+          "qiso": 0.935942512147129,
+          "qap": 2.8265427797913314
+        },
+        "fom": 36.521680387553964
+      },
+      "status": "available",
+      "attained_nbar_h3_mpc3": 0.0005334342757854069,
+      "target_nbar_h3_mpc3": 0.00294,
+      "area_factor": 4.235890557615709,
+      "target_fsky": 0.7272205216643038,
+      "current_sigma_perp": 5.0,
+      "target_sigma_perp": 3.3952773983556965,
+      "target_sigma_parallel": 8.0,
+      "n_realizations_normalization": 1,
+      "prediction": {
+        "kind": "conditional_forecast",
+        "sigma_qiso": 0.935942512147129,
+        "veff_fraction": null
+      }
+    },
+    {
+      "tracer": "LRG",
+      "measurement_bin": "LRG3",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "prereconstruction",
+      "current": {
+        "sigma": {
+          "qiso": 0.12865453357158957,
+          "qap": 0.39145328103846105
+        },
+        "fom": 20.003540708274905
+      },
+      "target": {
+        "sigma": {
+          "qiso": 0.13317854617354585,
+          "qap": 0.40398284193509976
+        },
+        "fom": 18.73708176171444
+      },
+      "target_area": {
+        "sigma": {
+          "qiso": 0.06484271908074085,
+          "qap": 0.19654775271430666
+        },
+        "fom": 79.06526093210087
+      },
+      "status": "available",
+      "attained_nbar_h3_mpc3": 7.899554609910453e-06,
+      "target_nbar_h3_mpc3": 7.9e-06,
+      "area_factor": 4.235890557615709,
+      "target_fsky": 0.7272205216643038,
+      "current_sigma_perp": 4.886197952713352,
+      "target_sigma_perp": 4.886197952713352,
+      "target_sigma_parallel": 9.05140829927351,
+      "n_realizations_normalization": 1,
+      "prediction": {
+        "kind": "matched_veff_pipeline",
+        "sigma_qiso": 0.036166632476183125,
+        "veff_fraction": 0.9999748155346689,
+        "bounded": false,
+        "usable_intervals": 19
+      }
+    },
+    {
+      "tracer": "LRG",
+      "measurement_bin": "LRG3",
+      "condition": "sigma_0.001",
+      "reconstruction_state": "postreconstruction",
+      "current": {
+        "sigma": {
+          "qiso": 0.1376696808087512,
+          "qap": 0.40971473547998005
+        },
+        "fom": 18.04945667353656
+      },
+      "target": {
+        "sigma": {
+          "qiso": 0.15826438219348285,
+          "qap": 0.4557216788775681
+        },
+        "fom": 14.437304349614816
+      },
+      "target_area": {
+        "sigma": {
+          "qiso": 0.07704480356679264,
+          "qap": 0.22166080334888483
+        },
+        "fom": 60.9279587097318
+      },
+      "status": "available",
+      "attained_nbar_h3_mpc3": 7.899554609910453e-06,
+      "target_nbar_h3_mpc3": 7.9e-06,
+      "area_factor": 4.235890557615709,
+      "target_fsky": 0.7272205216643038,
+      "current_sigma_perp": 6.0,
+      "target_sigma_perp": 7.480461029093971,
+      "target_sigma_parallel": 9.0,
+      "n_realizations_normalization": 1,
+      "prediction": {
+        "kind": "matched_veff_pipeline",
+        "sigma_qiso": 0.05755024360815564,
+        "veff_fraction": 0.9999748155346689,
+        "bounded": false,
+        "usable_intervals": 14
+      }
+    },
+    {
+      "tracer": "LRG",
+      "measurement_bin": "LRG3",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "prereconstruction",
+      "current": {
+        "sigma": {
+          "qiso": 0.06340743021467883,
+          "qap": 0.2104272564087098
+        },
+        "fom": 74.98000706870168
+      },
+      "target": {
+        "sigma": {
+          "qiso": 0.0647526049300975,
+          "qap": 0.2146073211377374
+        },
+        "fom": 71.96902084993468
+      },
+      "target_area": {
+        "sigma": {
+          "qiso": 0.03161014653597857,
+          "qap": 0.10484993747338009
+        },
+        "fom": 301.7748965094482
+      },
+      "status": "available",
+      "attained_nbar_h3_mpc3": 3.1599673184330756e-05,
+      "target_nbar_h3_mpc3": 3.16e-05,
+      "area_factor": 4.235890557615709,
+      "target_fsky": 0.7272205216643038,
+      "current_sigma_perp": 4.886254794879488,
+      "target_sigma_perp": 4.886254794879488,
+      "target_sigma_parallel": 9.051490304271981,
+      "n_realizations_normalization": 1,
+      "prediction": {
+        "kind": "matched_veff_pipeline",
+        "sigma_qiso": 0.03184101728259872,
+        "veff_fraction": 0.9999978894537127,
+        "bounded": false,
+        "usable_intervals": 24
+      }
+    },
+    {
+      "tracer": "LRG",
+      "measurement_bin": "LRG3",
+      "condition": "sigma_0.003",
+      "reconstruction_state": "postreconstruction",
+      "current": {
+        "sigma": {
+          "qiso": 0.06836333770868898,
+          "qap": 0.22379269280019534
+        },
+        "fom": 65.55216843294691
+      },
+      "target": {
+        "sigma": {
+          "qiso": 0.06357804482007474,
+          "qap": 0.21117082016094418
+        },
+        "fom": 74.53383045907687
+      },
+      "target_area": {
+        "sigma": {
+          "qiso": 0.031040170235878378,
+          "qap": 0.10318358060727957
+        },
+        "fom": 312.4808235719929
+      },
+      "status": "available",
+      "attained_nbar_h3_mpc3": 3.1599673184330756e-05,
+      "target_nbar_h3_mpc3": 3.16e-05,
+      "area_factor": 4.235890557615709,
+      "target_fsky": 0.7272205216643038,
+      "current_sigma_perp": 6.0,
+      "target_sigma_perp": 4.615813404729758,
+      "target_sigma_parallel": 9.0,
+      "n_realizations_normalization": 1,
+      "prediction": {
+        "kind": "matched_veff_pipeline",
+        "sigma_qiso": 0.027792151754518324,
+        "veff_fraction": 0.9999978894537127,
+        "bounded": false,
+        "usable_intervals": 25
+      }
+    },
+    {
+      "tracer": "LRG",
+      "measurement_bin": "LRG3",
+      "condition": "sigma_0.01",
+      "reconstruction_state": "prereconstruction",
+      "current": {
+        "sigma": {
+          "qiso": 0.11322742930381564,
+          "qap": 0.35494813296824934
+        },
+        "fom": 106.28510434965665
+      },
+      "target": {
+        "sigma": {
+          "qiso": 0.10033580206284402,
+          "qap": 0.3157096516025779
+        },
+        "fom": 134.3335750785201
+      },
+      "target_area": {
+        "sigma": {
+          "qiso": 0.04958062472528208,
+          "qap": 0.15635632995758694
+        },
+        "fom": 556.4394568037746
+      },
+      "status": "available",
+      "attained_nbar_h3_mpc3": 0.00038037354856320136,
+      "target_nbar_h3_mpc3": 0.00043,
+      "area_factor": 4.235890557615709,
+      "target_fsky": 0.7272205216643038,
+      "current_sigma_perp": 4.885515345735996,
+      "target_sigma_perp": 4.885515345735996,
+      "target_sigma_parallel": 9.05042343893827,
+      "n_realizations_normalization": 1,
+      "prediction": {
+        "kind": "conditional_forecast",
+        "sigma_qiso": 0.04958062472528208,
+        "veff_fraction": null
+      }
+    },
+    {
+      "tracer": "LRG",
+      "measurement_bin": "LRG3",
+      "condition": "sigma_0.01",
+      "reconstruction_state": "postreconstruction",
+      "current": {
+        "sigma": {
+          "qiso": 0.1151487093897764,
+          "qap": 0.36259427578227466
+        },
+        "fom": 91.56240888219045
+      },
+      "target": {
+        "sigma": {
+          "qiso": 0.09795225743254556,
+          "qap": 0.3068234323037252
+        },
+        "fom": 163.14306820226736
+      },
+      "target_area": {
+        "sigma": {
+          "qiso": 0.04853070960584274,
+          "qap": 0.1522817117799144
+        },
+        "fom": 674.6209247882019
+      },
+      "status": "available",
+      "attained_nbar_h3_mpc3": 0.00038037354856320136,
+      "target_nbar_h3_mpc3": 0.00043,
+      "area_factor": 4.235890557615709,
+      "target_fsky": 0.7272205216643038,
+      "current_sigma_perp": 6.0,
+      "target_sigma_perp": 3.255920773029245,
+      "target_sigma_parallel": 9.0,
+      "n_realizations_normalization": 1,
+      "prediction": {
+        "kind": "conditional_forecast",
+        "sigma_qiso": 0.04853070960584274,
+        "veff_fraction": null
+      }
+    },
+    {
+      "tracer": "LRG",
+      "measurement_bin": "LRG3",
+      "condition": "sigma_0.03",
+      "reconstruction_state": "prereconstruction",
+      "current": {
+        "sigma": {
+          "qiso": 3.462024231874213,
+          "qap": 10.514518157456294
+        },
+        "fom": 1.5766163632992933
+      },
+      "target": {
+        "sigma": {
+          "qiso": 1.805987817547636,
+          "qap": 5.464393794997688
+        },
+        "fom": 7.869391543661239
+      },
+      "target_area": {
+        "sigma": {
+          "qiso": 0.8887963511340974,
+          "qap": 2.68961087920383
+        },
+        "fom": 32.83325443707444
+      },
+      "status": "available",
+      "attained_nbar_h3_mpc3": 0.0003650335567672115,
+      "target_nbar_h3_mpc3": 0.00204,
+      "area_factor": 4.235890557615709,
+      "target_fsky": 0.7272205216643038,
+      "current_sigma_perp": 4.880956757104425,
+      "target_sigma_perp": 4.880956757104425,
+      "target_sigma_parallel": 9.04384266956529,
+      "n_realizations_normalization": 1,
+      "prediction": {
+        "kind": "conditional_forecast",
+        "sigma_qiso": 0.8887963511340974,
+        "veff_fraction": null
+      }
+    },
+    {
+      "tracer": "LRG",
+      "measurement_bin": "LRG3",
+      "condition": "sigma_0.03",
+      "reconstruction_state": "postreconstruction",
+      "current": {
+        "sigma": {
+          "qiso": 3.639626548609798,
+          "qap": 11.07472815642064
+        },
+        "fom": 1.3410361693021036
+      },
+      "target": {
+        "sigma": {
+          "qiso": 1.7018334097775052,
+          "qap": 5.141569072921136
+        },
+        "fom": 10.146347716774992
+      },
+      "target_area": {
+        "sigma": {
+          "qiso": 0.8375363720359783,
+          "qap": 2.5306531545115907
+        },
+        "fom": 42.34157021443612
+      },
+      "status": "available",
+      "attained_nbar_h3_mpc3": 0.0003650335567672115,
+      "target_nbar_h3_mpc3": 0.00204,
+      "area_factor": 4.235890557615709,
+      "target_fsky": 0.7272205216643038,
+      "current_sigma_perp": 6.0,
+      "target_sigma_perp": 3.1484796449765544,
+      "target_sigma_parallel": 9.0,
+      "n_realizations_normalization": 1,
+      "prediction": {
+        "kind": "conditional_forecast",
+        "sigma_qiso": 0.8375363720359783,
+        "veff_fraction": null
+      }
+    }
+  ],
+  "scientific_acceptance": "Not established by this forecast"
+}

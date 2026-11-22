@@ -1,0 +1,276 @@
+{
+ "definition": "gain_percent = 100 (FoM after / FoM before - 1) of the combined classes; intervals resample the realizations that measure the correlation between classes, paired before and after reconstruction, with the class posteriors fixed",
+ "run": "unified-fit-v3--primary",
+ "resamples": 4000,
+ "seed": 4201,
+ "rows": [
+  {
+   "bin": "BGS1",
+   "classes": [
+    "sigma_0.001",
+    "sigma_0.003",
+    "sigma_0.01",
+    "sigma_0.03"
+   ],
+   "realizations_used": 25,
+   "realizations_excluded": [],
+   "fom_pre": 669.6353252471908,
+   "fom_post": 948.3937797764827,
+   "gain_percent": 41.62839743055524,
+   "bootstrap_gain_percent_16_84": [
+    14.837744151759996,
+    64.06123575919034
+   ],
+   "bootstrap_gain_percent_2p5_97p5": [
+    -8.393463588491459,
+    93.70929122370227
+   ],
+   "bootstrap_resamples_used": 4000,
+   "bootstrap_resamples_skipped": 0,
+   "jackknife_gain_percent_standard_error": 24.793386273276987,
+   "jackknife_gain_percent_min_max": [
+    32.30921743663786,
+    54.90016014433918
+   ],
+   "combination": {
+    "prereconstruction": {
+     "removed_classes": {
+      "qiso": [
+       "sigma_0.03"
+      ],
+      "qap": []
+     },
+     "stacked_minimum_eigenvalue": -0.00018698099209281334,
+     "cross_term_clipped": false
+    },
+    "postreconstruction": {
+     "removed_classes": {
+      "qiso": [
+       "sigma_0.01",
+       "sigma_0.03"
+      ],
+      "qap": []
+     },
+     "stacked_minimum_eigenvalue": -0.0005269463485889399,
+     "cross_term_clipped": false
+    }
+   }
+  },
+  {
+   "bin": "BGS2",
+   "classes": [
+    "sigma_0.001",
+    "sigma_0.003",
+    "sigma_0.01",
+    "sigma_0.03"
+   ],
+   "realizations_used": 25,
+   "realizations_excluded": [],
+   "fom_pre": 5853.773200178431,
+   "fom_post": 21710.501132251822,
+   "gain_percent": 270.8804627345326,
+   "bootstrap_gain_percent_16_84": [
+    249.33508002524073,
+    313.75071375910596
+   ],
+   "bootstrap_gain_percent_2p5_97p5": [
+    203.07965340098193,
+    362.86262651554586
+   ],
+   "bootstrap_resamples_used": 4000,
+   "bootstrap_resamples_skipped": 0,
+   "jackknife_gain_percent_standard_error": 34.1635001956038,
+   "jackknife_gain_percent_min_max": [
+    259.43722108374953,
+    288.40826613410513
+   ],
+   "combination": {
+    "prereconstruction": {
+     "removed_classes": {
+      "qiso": [
+       "sigma_0.003",
+       "sigma_0.01",
+       "sigma_0.03"
+      ],
+      "qap": [
+       "sigma_0.01"
+      ]
+     },
+     "stacked_minimum_eigenvalue": -0.00025038846974218774,
+     "cross_term_clipped": false
+    },
+    "postreconstruction": {
+     "removed_classes": {
+      "qiso": [
+       "sigma_0.003",
+       "sigma_0.01",
+       "sigma_0.03"
+      ],
+      "qap": []
+     },
+     "stacked_minimum_eigenvalue": -0.0001806262972193379,
+     "cross_term_clipped": false
+    }
+   }
+  },
+  {
+   "bin": "LRG1",
+   "classes": [
+    "sigma_0.001",
+    "sigma_0.003",
+    "sigma_0.01",
+    "sigma_0.03"
+   ],
+   "realizations_used": 25,
+   "realizations_excluded": [],
+   "fom_pre": 15858.548975407613,
+   "fom_post": 22856.03034182089,
+   "gain_percent": 44.12434818131536,
+   "bootstrap_gain_percent_16_84": [
+    14.746113876248462,
+    81.11692269262063
+   ],
+   "bootstrap_gain_percent_2p5_97p5": [
+    -15.238771610332861,
+    128.1419896917351
+   ],
+   "bootstrap_resamples_used": 4000,
+   "bootstrap_resamples_skipped": 0,
+   "jackknife_gain_percent_standard_error": 37.355801978273924,
+   "jackknife_gain_percent_min_max": [
+    29.052610859067073,
+    71.17268216949122
+   ],
+   "combination": {
+    "prereconstruction": {
+     "removed_classes": {
+      "qiso": [
+       "sigma_0.01"
+      ],
+      "qap": [
+       "sigma_0.03"
+      ]
+     },
+     "stacked_minimum_eigenvalue": -7.81098037097667e-05,
+     "cross_term_clipped": false
+    },
+    "postreconstruction": {
+     "removed_classes": {
+      "qiso": [
+       "sigma_0.01"
+      ],
+      "qap": []
+     },
+     "stacked_minimum_eigenvalue": -1.012538649570769e-05,
+     "cross_term_clipped": false
+    }
+   }
+  },
+  {
+   "bin": "LRG2",
+   "classes": [
+    "sigma_0.001",
+    "sigma_0.003",
+    "sigma_0.01",
+    "sigma_0.03"
+   ],
+   "realizations_used": 25,
+   "realizations_excluded": [],
+   "fom_pre": 2562.06138111073,
+   "fom_post": 4656.704325236121,
+   "gain_percent": 81.75615773956596,
+   "bootstrap_gain_percent_16_84": [
+    -23.61314690407887,
+    545.3126584121796
+   ],
+   "bootstrap_gain_percent_2p5_97p5": [
+    -71.49649219412221,
+    1173.1121325389129
+   ],
+   "bootstrap_resamples_used": 4000,
+   "bootstrap_resamples_skipped": 0,
+   "jackknife_gain_percent_standard_error": 115.24453580640572,
+   "jackknife_gain_percent_min_max": [
+    6.365263068823768,
+    121.75800365998448
+   ],
+   "combination": {
+    "prereconstruction": {
+     "removed_classes": {
+      "qiso": [
+       "sigma_0.001"
+      ],
+      "qap": []
+     },
+     "stacked_minimum_eigenvalue": -0.00023805567642614354,
+     "cross_term_clipped": false
+    },
+    "postreconstruction": {
+     "removed_classes": {
+      "qiso": [
+       "sigma_0.001"
+      ],
+      "qap": [
+       "sigma_0.03"
+      ]
+     },
+     "stacked_minimum_eigenvalue": -0.00016918276605881893,
+     "cross_term_clipped": false
+    }
+   }
+  },
+  {
+   "bin": "LRG3",
+   "classes": [
+    "sigma_0.001",
+    "sigma_0.003",
+    "sigma_0.01",
+    "sigma_0.03"
+   ],
+   "realizations_used": 25,
+   "realizations_excluded": [],
+   "fom_pre": 3057.396979570601,
+   "fom_post": 3845.102037522648,
+   "gain_percent": 25.76391169401484,
+   "bootstrap_gain_percent_16_84": [
+    -2.4964178467064624,
+    82.24275612198794
+   ],
+   "bootstrap_gain_percent_2p5_97p5": [
+    -25.500923070300168,
+    298.4567156141818
+   ],
+   "bootstrap_resamples_used": 4000,
+   "bootstrap_resamples_skipped": 0,
+   "jackknife_gain_percent_standard_error": 39.370746719312834,
+   "jackknife_gain_percent_min_max": [
+    9.074282051142003,
+    43.88161666735157
+   ],
+   "combination": {
+    "prereconstruction": {
+     "removed_classes": {
+      "qiso": [
+       "sigma_0.001"
+      ],
+      "qap": []
+     },
+     "stacked_minimum_eigenvalue": -0.00028525129615963293,
+     "cross_term_clipped": false
+    },
+    "postreconstruction": {
+     "removed_classes": {
+      "qiso": [
+       "sigma_0.001"
+      ],
+      "qap": [
+       "sigma_0.001"
+      ]
+     },
+     "stacked_minimum_eigenvalue": -0.00010741376754888378,
+     "cross_term_clipped": false
+    }
+   }
+  }
+ ]
+}

@@ -1,0 +1,1206 @@
+{
+ "definition": "last saved Gelman-Rubin value; effective sample size = retained draws / integrated autocorrelation time, summed over ensembles",
+ "run": "unified-fit-v3--primary",
+ "rows": [
+  {
+   "route": "BGS1|native|prereconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.006059055719682682,
+   "steps": 2100,
+   "retained_steps": 1050,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 51.16529088,
+    "effective_sample_size": 3366.6247093458373,
+    "effective_sample_size_min_ensemble": 820.8689773406014,
+    "retained_draws": 168000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 59.74401367,
+    "effective_sample_size": 3315.418464807428,
+    "effective_sample_size_min_ensemble": 702.9993035283798,
+    "retained_draws": 168000
+   }
+  },
+  {
+   "route": "BGS1|native|postreconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.004666241798374049,
+   "steps": 2400,
+   "retained_steps": 1200,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 53.75943445,
+    "effective_sample_size": 4051.1063076051214,
+    "effective_sample_size_min_ensemble": 892.8665357267352,
+    "retained_draws": 192000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 56.16585589,
+    "effective_sample_size": 3842.067324738396,
+    "effective_sample_size_min_ensemble": 854.6117430135364,
+    "retained_draws": 192000
+   }
+  },
+  {
+   "route": "BGS1|sigma_0.001|prereconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.005510115078304567,
+   "steps": 2100,
+   "retained_steps": 1050,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 48.50692611,
+    "effective_sample_size": 3632.4210821863553,
+    "effective_sample_size_min_ensemble": 865.8557317104751,
+    "retained_draws": 168000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 52.59962601,
+    "effective_sample_size": 3346.2545856353745,
+    "effective_sample_size_min_ensemble": 798.48476473987,
+    "retained_draws": 168000
+   }
+  },
+  {
+   "route": "BGS1|sigma_0.001|postreconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.005503835654461664,
+   "steps": 1800,
+   "retained_steps": 900,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 41.85708034,
+    "effective_sample_size": 3593.4788668847705,
+    "effective_sample_size_min_ensemble": 860.0695439714465,
+    "retained_draws": 144000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 49.20837307,
+    "effective_sample_size": 3281.522588425723,
+    "effective_sample_size_min_ensemble": 731.5828131279447,
+    "retained_draws": 144000
+   }
+  },
+  {
+   "route": "BGS1|sigma_0.003|prereconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.004465316849581846,
+   "steps": 2400,
+   "retained_steps": 1200,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 49.79199786,
+    "effective_sample_size": 3918.2479016738525,
+    "effective_sample_size_min_ensemble": 964.0103242083486,
+    "retained_draws": 192000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 58.72238208,
+    "effective_sample_size": 3687.730911690791,
+    "effective_sample_size_min_ensemble": 817.4055326060778,
+    "retained_draws": 192000
+   }
+  },
+  {
+   "route": "BGS1|sigma_0.003|postreconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.006949798816926034,
+   "steps": 1800,
+   "retained_steps": 900,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 44.32940541,
+    "effective_sample_size": 3379.8040773329117,
+    "effective_sample_size_min_ensemble": 812.1020272444028,
+    "retained_draws": 144000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 45.27154822,
+    "effective_sample_size": 3329.2736937391883,
+    "effective_sample_size_min_ensemble": 795.2014325875423,
+    "retained_draws": 144000
+   }
+  },
+  {
+   "route": "BGS1|sigma_0.01|prereconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.005263851507476325,
+   "steps": 3300,
+   "retained_steps": 1650,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 66.37549489,
+    "effective_sample_size": 4099.491516276112,
+    "effective_sample_size_min_ensemble": 994.3428686954081,
+    "retained_draws": 264000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 73.06945754,
+    "effective_sample_size": 3966.4619563381293,
+    "effective_sample_size_min_ensemble": 903.2501707552707,
+    "retained_draws": 264000
+   }
+  },
+  {
+   "route": "BGS1|sigma_0.01|postreconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.008024627666560757,
+   "steps": 2400,
+   "retained_steps": 1200,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 63.96971593,
+    "effective_sample_size": 3435.2416764979034,
+    "effective_sample_size_min_ensemble": 750.3550594553969,
+    "retained_draws": 192000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 68.13385581,
+    "effective_sample_size": 3263.689593633121,
+    "effective_sample_size_min_ensemble": 704.4955760885478,
+    "retained_draws": 192000
+   }
+  },
+  {
+   "route": "BGS1|sigma_0.03|prereconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.008675802792111442,
+   "steps": 4500,
+   "retained_steps": 2250,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 111.58203059,
+    "effective_sample_size": 3772.8646177454184,
+    "effective_sample_size_min_ensemble": 806.5814856040612,
+    "retained_draws": 360000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 92.66750325,
+    "effective_sample_size": 4127.009451230487,
+    "effective_sample_size_min_ensemble": 971.2142535792342,
+    "retained_draws": 360000
+   }
+  },
+  {
+   "route": "BGS1|sigma_0.03|postreconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.008622605008185014,
+   "steps": 4500,
+   "retained_steps": 2250,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 124.32385541,
+    "effective_sample_size": 3297.412560481253,
+    "effective_sample_size_min_ensemble": 723.915773872959,
+    "retained_draws": 360000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 118.74667537,
+    "effective_sample_size": 3283.8477098639523,
+    "effective_sample_size_min_ensemble": 757.9159561273702,
+    "retained_draws": 360000
+   }
+  },
+  {
+   "route": "BGS2|native|prereconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.006470374179202487,
+   "steps": 2400,
+   "retained_steps": 1200,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 51.6173558,
+    "effective_sample_size": 4063.6564248694726,
+    "effective_sample_size_min_ensemble": 929.9197770994693,
+    "retained_draws": 192000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 52.9818665,
+    "effective_sample_size": 3961.119089664464,
+    "effective_sample_size_min_ensemble": 905.9703474206594,
+    "retained_draws": 192000
+   }
+  },
+  {
+   "route": "BGS2|native|postreconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.0036145375525351575,
+   "steps": 1500,
+   "retained_steps": 750,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 41.06480966,
+    "effective_sample_size": 3190.325158086691,
+    "effective_sample_size_min_ensemble": 730.5525156061323,
+    "retained_draws": 120000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 44.22814988,
+    "effective_sample_size": 3004.9645631772264,
+    "effective_sample_size_min_ensemble": 678.3010386235039,
+    "retained_draws": 120000
+   }
+  },
+  {
+   "route": "BGS2|sigma_0.001|prereconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.006158404338931556,
+   "steps": 3000,
+   "retained_steps": 1500,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 61.61525069,
+    "effective_sample_size": 4536.31136359548,
+    "effective_sample_size_min_ensemble": 973.7848881257225,
+    "retained_draws": 240000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 55.12714324,
+    "effective_sample_size": 4650.370193242366,
+    "effective_sample_size_min_ensemble": 1088.3930578224536,
+    "retained_draws": 240000
+   }
+  },
+  {
+   "route": "BGS2|sigma_0.001|postreconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.004652199897202225,
+   "steps": 2400,
+   "retained_steps": 1200,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 46.91415476,
+    "effective_sample_size": 4235.698978359984,
+    "effective_sample_size_min_ensemble": 1023.1453650940721,
+    "retained_draws": 192000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 51.65506547,
+    "effective_sample_size": 3985.8723067460787,
+    "effective_sample_size_min_ensemble": 929.2409091587974,
+    "retained_draws": 192000
+   }
+  },
+  {
+   "route": "BGS2|sigma_0.003|prereconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.0075236391963964255,
+   "steps": 1800,
+   "retained_steps": 900,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 49.55556228,
+    "effective_sample_size": 3431.334776401783,
+    "effective_sample_size_min_ensemble": 726.4573005264668,
+    "retained_draws": 144000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 43.98252595,
+    "effective_sample_size": 3570.625592339216,
+    "effective_sample_size_min_ensemble": 818.5068779570628,
+    "retained_draws": 144000
+   }
+  },
+  {
+   "route": "BGS2|sigma_0.003|postreconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.0063606727088953985,
+   "steps": 3300,
+   "retained_steps": 1650,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 55.79525871,
+    "effective_sample_size": 5437.239063866424,
+    "effective_sample_size_min_ensemble": 1182.8962088524386,
+    "retained_draws": 264000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 55.8878362,
+    "effective_sample_size": 5106.796539141472,
+    "effective_sample_size_min_ensemble": 1180.936756324089,
+    "retained_draws": 264000
+   }
+  },
+  {
+   "route": "BGS2|sigma_0.01|prereconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.007958369405854038,
+   "steps": 3900,
+   "retained_steps": 1950,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 77.43897862,
+    "effective_sample_size": 4518.382537434254,
+    "effective_sample_size_min_ensemble": 1007.2446898189733,
+    "retained_draws": 312000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 77.07214704,
+    "effective_sample_size": 4435.159621368812,
+    "effective_sample_size_min_ensemble": 1012.0387584313494,
+    "retained_draws": 312000
+   }
+  },
+  {
+   "route": "BGS2|sigma_0.01|postreconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.007738036411649718,
+   "steps": 1800,
+   "retained_steps": 900,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 50.72892035,
+    "effective_sample_size": 3018.4422526691833,
+    "effective_sample_size_min_ensemble": 709.6543697681908,
+    "retained_draws": 144000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 52.18488226,
+    "effective_sample_size": 2978.996361561208,
+    "effective_sample_size_min_ensemble": 689.854962604643,
+    "retained_draws": 144000
+   }
+  },
+  {
+   "route": "BGS2|sigma_0.03|prereconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.0058324050304803254,
+   "steps": 1800,
+   "retained_steps": 900,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 56.19472743,
+    "effective_sample_size": 2702.460306855267,
+    "effective_sample_size_min_ensemble": 640.6294975777588,
+    "retained_draws": 144000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 63.00815804,
+    "effective_sample_size": 2597.591212412518,
+    "effective_sample_size_min_ensemble": 571.3545851815858,
+    "retained_draws": 144000
+   }
+  },
+  {
+   "route": "BGS2|sigma_0.03|postreconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.0053307551606420756,
+   "steps": 3600,
+   "retained_steps": 1800,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 67.33693446,
+    "effective_sample_size": 4600.7097121578445,
+    "effective_sample_size_min_ensemble": 1069.2497449935147,
+    "retained_draws": 288000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 74.71392435,
+    "effective_sample_size": 4354.28875789452,
+    "effective_sample_size_min_ensemble": 963.6757890365051,
+    "retained_draws": 288000
+   }
+  },
+  {
+   "route": "LRG1|native|prereconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.006886552322253436,
+   "steps": 1500,
+   "retained_steps": 750,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 39.58851794,
+    "effective_sample_size": 3293.593407333535,
+    "effective_sample_size_min_ensemble": 757.7954811409643,
+    "retained_draws": 120000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 40.55254676,
+    "effective_sample_size": 3202.8305527404054,
+    "effective_sample_size_min_ensemble": 739.7809113579825,
+    "retained_draws": 120000
+   }
+  },
+  {
+   "route": "LRG1|native|postreconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.006427845686794775,
+   "steps": 1500,
+   "retained_steps": 750,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 42.42618462,
+    "effective_sample_size": 3005.3927245464984,
+    "effective_sample_size_min_ensemble": 707.1104853924995,
+    "retained_draws": 120000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 40.45793255,
+    "effective_sample_size": 3141.915066405498,
+    "effective_sample_size_min_ensemble": 741.5109499953921,
+    "retained_draws": 120000
+   }
+  },
+  {
+   "route": "LRG1|sigma_0.001|prereconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.005263612261974471,
+   "steps": 1500,
+   "retained_steps": 750,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 40.79361739,
+    "effective_sample_size": 3180.437377391262,
+    "effective_sample_size_min_ensemble": 735.4091624969276,
+    "retained_draws": 120000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 40.73543653,
+    "effective_sample_size": 3147.2565027200044,
+    "effective_sample_size_min_ensemble": 736.4595191684325,
+    "retained_draws": 120000
+   }
+  },
+  {
+   "route": "LRG1|sigma_0.001|postreconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.006942387557276719,
+   "steps": 1800,
+   "retained_steps": 900,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 46.11828771,
+    "effective_sample_size": 3273.256627446424,
+    "effective_sample_size_min_ensemble": 780.6014010401776,
+    "retained_draws": 144000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 49.17645812,
+    "effective_sample_size": 3178.859520094971,
+    "effective_sample_size_min_ensemble": 732.0576018743174,
+    "retained_draws": 144000
+   }
+  },
+  {
+   "route": "LRG1|sigma_0.003|prereconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.006204542477581398,
+   "steps": 2700,
+   "retained_steps": 1350,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 52.32168236,
+    "effective_sample_size": 4536.349949606236,
+    "effective_sample_size_min_ensemble": 1032.0769051050827,
+    "retained_draws": 216000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 53.75269005,
+    "effective_sample_size": 4247.700713779564,
+    "effective_sample_size_min_ensemble": 1004.6008850863084,
+    "retained_draws": 216000
+   }
+  },
+  {
+   "route": "LRG1|sigma_0.003|postreconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.008101998744407313,
+   "steps": 3900,
+   "retained_steps": 1950,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 110.09566647,
+    "effective_sample_size": 3168.8299457372136,
+    "effective_sample_size_min_ensemble": 708.4747520126439,
+    "retained_draws": 312000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 128.03329921,
+    "effective_sample_size": 2753.78543983736,
+    "effective_sample_size_min_ensemble": 609.2165122767362,
+    "retained_draws": 312000
+   }
+  },
+  {
+   "route": "LRG1|sigma_0.01|prereconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.006680241997131686,
+   "steps": 2400,
+   "retained_steps": 1200,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 62.46868704,
+    "effective_sample_size": 3302.8286961474346,
+    "effective_sample_size_min_ensemble": 768.3849665235416,
+    "retained_draws": 192000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 61.2708469,
+    "effective_sample_size": 3316.157880372347,
+    "effective_sample_size_min_ensemble": 783.4068309573178,
+    "retained_draws": 192000
+   }
+  },
+  {
+   "route": "LRG1|sigma_0.01|postreconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.008473234670641316,
+   "steps": 2400,
+   "retained_steps": 1200,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 60.13629985,
+    "effective_sample_size": 3552.6960908680603,
+    "effective_sample_size_min_ensemble": 798.1867876761294,
+    "retained_draws": 192000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 59.44623795,
+    "effective_sample_size": 3544.9252643176465,
+    "effective_sample_size_min_ensemble": 807.452273773365,
+    "retained_draws": 192000
+   }
+  },
+  {
+   "route": "LRG1|sigma_0.03|prereconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.0037311074938712885,
+   "steps": 3900,
+   "retained_steps": 1950,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 83.7552558,
+    "effective_sample_size": 4135.318135044333,
+    "effective_sample_size_min_ensemble": 931.2848400374654,
+    "retained_draws": 312000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 87.58519123,
+    "effective_sample_size": 3988.5803201264343,
+    "effective_sample_size_min_ensemble": 890.5615082254128,
+    "retained_draws": 312000
+   }
+  },
+  {
+   "route": "LRG1|sigma_0.03|postreconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.0091249032544507,
+   "steps": 1800,
+   "retained_steps": 900,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 56.72054274,
+    "effective_sample_size": 2756.925457318779,
+    "effective_sample_size_min_ensemble": 634.6906827922924,
+    "retained_draws": 144000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 56.43541153,
+    "effective_sample_size": 2714.7184572043725,
+    "effective_sample_size_min_ensemble": 637.897359548146,
+    "retained_draws": 144000
+   }
+  },
+  {
+   "route": "LRG2|native|prereconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.00416961777565894,
+   "steps": 1800,
+   "retained_steps": 900,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 49.18045055,
+    "effective_sample_size": 3449.2982508718633,
+    "effective_sample_size_min_ensemble": 731.9981740183549,
+    "retained_draws": 144000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 44.29954857,
+    "effective_sample_size": 3408.068957960848,
+    "effective_sample_size_min_ensemble": 812.6493646569455,
+    "retained_draws": 144000
+   }
+  },
+  {
+   "route": "LRG2|native|postreconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.007625891113346217,
+   "steps": 2100,
+   "retained_steps": 1050,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 49.05323452,
+    "effective_sample_size": 3741.0077478695057,
+    "effective_sample_size_min_ensemble": 856.2126516422836,
+    "retained_draws": 168000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 50.39860945,
+    "effective_sample_size": 3815.644288380123,
+    "effective_sample_size_min_ensemble": 833.3563258658518,
+    "retained_draws": 168000
+   }
+  },
+  {
+   "route": "LRG2|sigma_0.001|prereconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.00783818163351957,
+   "steps": 2100,
+   "retained_steps": 1050,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 53.7403291,
+    "effective_sample_size": 3523.0768888117163,
+    "effective_sample_size_min_ensemble": 781.5359656961982,
+    "retained_draws": 168000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 51.29915838,
+    "effective_sample_size": 3483.111038752896,
+    "effective_sample_size_min_ensemble": 818.7268822011422,
+    "retained_draws": 168000
+   }
+  },
+  {
+   "route": "LRG2|sigma_0.001|postreconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.00648962814966092,
+   "steps": 2100,
+   "retained_steps": 1050,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 54.75260848,
+    "effective_sample_size": 3414.1948159215576,
+    "effective_sample_size_min_ensemble": 767.0867409968556,
+    "retained_draws": 168000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 58.88493475,
+    "effective_sample_size": 2954.2074892153396,
+    "effective_sample_size_min_ensemble": 713.2554392445854,
+    "retained_draws": 168000
+   }
+  },
+  {
+   "route": "LRG2|sigma_0.003|prereconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.0038315283665337763,
+   "steps": 2100,
+   "retained_steps": 1050,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 53.58046773,
+    "effective_sample_size": 3202.8428434104953,
+    "effective_sample_size_min_ensemble": 783.8677372441817,
+    "retained_draws": 168000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 55.90250513,
+    "effective_sample_size": 3290.3793227013675,
+    "effective_sample_size_min_ensemble": 751.308012088724,
+    "retained_draws": 168000
+   }
+  },
+  {
+   "route": "LRG2|sigma_0.003|postreconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.003636356517445094,
+   "steps": 3300,
+   "retained_steps": 1650,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 57.52329752,
+    "effective_sample_size": 4824.102995337678,
+    "effective_sample_size_min_ensemble": 1147.3612057280404,
+    "retained_draws": 264000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 55.65261492,
+    "effective_sample_size": 4928.739817837782,
+    "effective_sample_size_min_ensemble": 1185.9281022980547,
+    "retained_draws": 264000
+   }
+  },
+  {
+   "route": "LRG2|sigma_0.01|prereconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.006164229036301316,
+   "steps": 3600,
+   "retained_steps": 1800,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 67.94774053,
+    "effective_sample_size": 4513.183192283237,
+    "effective_sample_size_min_ensemble": 1059.6378840325215,
+    "retained_draws": 288000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 67.31197974,
+    "effective_sample_size": 4553.583511729925,
+    "effective_sample_size_min_ensemble": 1069.646150330268,
+    "retained_draws": 288000
+   }
+  },
+  {
+   "route": "LRG2|sigma_0.01|postreconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.005927078896871052,
+   "steps": 2400,
+   "retained_steps": 1200,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 55.76412925,
+    "effective_sample_size": 3654.206572979475,
+    "effective_sample_size_min_ensemble": 860.7683944065171,
+    "retained_draws": 192000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 56.46983052,
+    "effective_sample_size": 3624.7856658778146,
+    "effective_sample_size_min_ensemble": 850.0114053467855,
+    "retained_draws": 192000
+   }
+  },
+  {
+   "route": "LRG2|sigma_0.03|prereconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.005195325184671473,
+   "steps": 3600,
+   "retained_steps": 1800,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 81.09566673,
+    "effective_sample_size": 3727.74490603576,
+    "effective_sample_size_min_ensemble": 887.8402867038121,
+    "retained_draws": 288000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 78.6674387,
+    "effective_sample_size": 3739.8051948525003,
+    "effective_sample_size_min_ensemble": 915.2452550867148,
+    "retained_draws": 288000
+   }
+  },
+  {
+   "route": "LRG2|sigma_0.03|postreconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.004493922031707287,
+   "steps": 3000,
+   "retained_steps": 1500,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 70.29659192,
+    "effective_sample_size": 3626.5120797314476,
+    "effective_sample_size_min_ensemble": 853.5264421962606,
+    "retained_draws": 240000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 70.18112271,
+    "effective_sample_size": 3634.1564317415787,
+    "effective_sample_size_min_ensemble": 854.9307517910468,
+    "retained_draws": 240000
+   }
+  },
+  {
+   "route": "LRG3|native|prereconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.004713971204198808,
+   "steps": 2400,
+   "retained_steps": 1200,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 47.60660467,
+    "effective_sample_size": 4362.059142195223,
+    "effective_sample_size_min_ensemble": 1008.2634611883569,
+    "retained_draws": 192000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 51.78562647,
+    "effective_sample_size": 4162.90361351501,
+    "effective_sample_size_min_ensemble": 926.898123513229,
+    "retained_draws": 192000
+   }
+  },
+  {
+   "route": "LRG3|native|postreconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.00507741090773095,
+   "steps": 2100,
+   "retained_steps": 1050,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 47.20915274,
+    "effective_sample_size": 3807.8685456847843,
+    "effective_sample_size_min_ensemble": 889.6579913499206,
+    "retained_draws": 168000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 54.27879723,
+    "effective_sample_size": 3550.765764209629,
+    "effective_sample_size_min_ensemble": 773.7828055037762,
+    "retained_draws": 168000
+   }
+  },
+  {
+   "route": "LRG3|sigma_0.001|prereconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.005249943966320059,
+   "steps": 2700,
+   "retained_steps": 1350,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 63.73856858,
+    "effective_sample_size": 4108.154827708059,
+    "effective_sample_size_min_ensemble": 847.2107423031181,
+    "retained_draws": 216000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 53.5642091,
+    "effective_sample_size": 4283.848297278192,
+    "effective_sample_size_min_ensemble": 1008.1358598833489,
+    "retained_draws": 216000
+   }
+  },
+  {
+   "route": "LRG3|sigma_0.001|postreconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.008101292846112162,
+   "steps": 3600,
+   "retained_steps": 1800,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 91.42417187,
+    "effective_sample_size": 3245.3348394271716,
+    "effective_sample_size_min_ensemble": 787.5378964589357,
+    "retained_draws": 288000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 101.36235712,
+    "effective_sample_size": 3133.782021464684,
+    "effective_sample_size_min_ensemble": 710.3228658619418,
+    "retained_draws": 288000
+   }
+  },
+  {
+   "route": "LRG3|sigma_0.003|prereconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.003758042532283401,
+   "steps": 2700,
+   "retained_steps": 1350,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 58.25803637,
+    "effective_sample_size": 4244.967474764668,
+    "effective_sample_size_min_ensemble": 926.9107468202845,
+    "retained_draws": 216000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 57.07154622,
+    "effective_sample_size": 4170.63225199457,
+    "effective_sample_size_min_ensemble": 946.1807779281155,
+    "retained_draws": 216000
+   }
+  },
+  {
+   "route": "LRG3|sigma_0.003|postreconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.008822038147801914,
+   "steps": 2400,
+   "retained_steps": 1200,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 51.88636616,
+    "effective_sample_size": 3905.898711710874,
+    "effective_sample_size_min_ensemble": 925.0985095387917,
+    "retained_draws": 192000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 57.07765342,
+    "effective_sample_size": 3665.4150908491047,
+    "effective_sample_size_min_ensemble": 840.9595896803426,
+    "retained_draws": 192000
+   }
+  },
+  {
+   "route": "LRG3|sigma_0.01|prereconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.0045464028375712395,
+   "steps": 3600,
+   "retained_steps": 1800,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 67.95338534,
+    "effective_sample_size": 4931.488778959281,
+    "effective_sample_size_min_ensemble": 1059.5498611254325,
+    "retained_draws": 288000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 72.82614944,
+    "effective_sample_size": 4983.472125823201,
+    "effective_sample_size_min_ensemble": 988.6558681688829,
+    "retained_draws": 288000
+   }
+  },
+  {
+   "route": "LRG3|sigma_0.01|postreconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.00638862442725574,
+   "steps": 2100,
+   "retained_steps": 1050,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 54.33761171,
+    "effective_sample_size": 3346.3063304281695,
+    "effective_sample_size_min_ensemble": 772.9452708402815,
+    "retained_draws": 168000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 58.30872736,
+    "effective_sample_size": 3290.867571306947,
+    "effective_sample_size_min_ensemble": 720.3038361768835,
+    "retained_draws": 168000
+   }
+  },
+  {
+   "route": "LRG3|sigma_0.03|prereconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.009317199518472874,
+   "steps": 1800,
+   "retained_steps": 900,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 56.1042593,
+    "effective_sample_size": 2761.450816885994,
+    "effective_sample_size_min_ensemble": 641.6625127782411,
+    "retained_draws": 144000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 57.67830141,
+    "effective_sample_size": 2685.802251860712,
+    "effective_sample_size_min_ensemble": 624.151528736914,
+    "retained_draws": 144000
+   }
+  },
+  {
+   "route": "LRG3|sigma_0.03|postreconstruction",
+   "gelman_rubin_statistic": "max_generalized_covariance_ratio_minus_one",
+   "gelman_rubin_last": 0.009774348661961918,
+   "steps": 4200,
+   "retained_steps": 2100,
+   "stopping_rule_reached": true,
+   "qiso": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 77.69022228,
+    "effective_sample_size": 4674.414238818144,
+    "effective_sample_size_min_ensemble": 1081.2171407781432,
+    "retained_draws": 336000
+   },
+   "qap": {
+    "ensembles": 4,
+    "ensembles_shorter_than_50_tau": 4,
+    "tau_max": 85.4378925,
+    "effective_sample_size": 4493.681179761552,
+    "effective_sample_size_min_ensemble": 983.1703187201158,
+    "retained_draws": 336000
+   }
+  }
+ ]
+}

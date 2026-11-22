@@ -9,7 +9,7 @@
         "usable_intervals": 25,
         "realizations": 25,
         "spherex_prediction": {
-          "sigma": 0.009559841663174338,
+          "sigma": 0.011633151881757902,
           "kind": "conditional_forecast"
         }
       },
@@ -18,7 +18,7 @@
         "usable_intervals": 24,
         "realizations": 25,
         "spherex_prediction": {
-          "sigma": 0.009023236766592061,
+          "sigma": 0.009023236766592056,
           "kind": "conditional_forecast"
         }
       }
@@ -32,7 +32,7 @@
         "usable_intervals": 25,
         "realizations": 25,
         "spherex_prediction": {
-          "sigma": 0.008370567195578832,
+          "sigma": 0.009978289934000672,
           "kind": "conditional_forecast"
         }
       },
@@ -41,7 +41,7 @@
         "usable_intervals": 25,
         "realizations": 25,
         "spherex_prediction": {
-          "sigma": 0.007902838734301856,
+          "sigma": 0.007902838734301827,
           "kind": "conditional_forecast"
         }
       }
@@ -55,7 +55,7 @@
         "usable_intervals": 24,
         "realizations": 25,
         "spherex_prediction": {
-          "sigma": 0.0380547330681381,
+          "sigma": 0.03985154327994285,
           "kind": "conditional_forecast"
         }
       },
@@ -64,7 +64,7 @@
         "usable_intervals": 25,
         "realizations": 25,
         "spherex_prediction": {
-          "sigma": 0.03741169717383796,
+          "sigma": 0.03741169717383736,
           "kind": "conditional_forecast"
         }
       }
@@ -78,7 +78,7 @@
         "usable_intervals": 20,
         "realizations": 25,
         "spherex_prediction": {
-          "sigma": 1.1514812580796305,
+          "sigma": 1.209746090521674,
           "kind": "conditional_forecast"
         }
       },
@@ -87,7 +87,7 @@
         "usable_intervals": 19,
         "realizations": 25,
         "spherex_prediction": {
-          "sigma": 1.0931083109119246,
+          "sigma": 1.0931083109132707,
           "kind": "conditional_forecast"
         }
       }
@@ -101,7 +101,7 @@
       "status": "available",
       "prerecon": {
         "spherex_prediction": {
-          "sigma": 0.007722709247844823,
+          "sigma": 0.00927339659154134,
           "kind": "conditional_forecast"
         },
         "median_minos_half_width": 0.022278580470930683,
@@ -120,7 +120,7 @@
       },
       "postrecon": {
         "spherex_prediction": {
-          "sigma": 0.007421053488532155,
+          "sigma": 0.007421053488532136,
           "kind": "conditional_forecast"
         },
         "median_minos_half_width": 0.01657239241835439,
@@ -149,7 +149,7 @@
       "status": "available",
       "prerecon": {
         "spherex_prediction": {
-          "sigma": 0.028460076111729408,
+          "sigma": 0.025948924929995756,
           "kind": "conditional_forecast"
         },
         "median_minos_half_width": 0.0376547866314007,
@@ -166,7 +166,7 @@
       },
       "postrecon": {
         "spherex_prediction": {
-          "sigma": 0.027463609665438888,
+          "sigma": 0.027463609665438978,
           "kind": "conditional_forecast"
         },
         "median_minos_half_width": 0.05552375312786105,
@@ -193,7 +193,7 @@
       "status": "available",
       "prerecon": {
         "spherex_prediction": {
-          "sigma": 0.007868016068778773,
+          "sigma": 0.010207946939113503,
           "kind": "conditional_forecast"
         },
         "median_minos_half_width": 0.029604590148340687,
@@ -213,7 +213,7 @@
       },
       "postrecon": {
         "spherex_prediction": {
-          "sigma": 0.007393140638949603,
+          "sigma": 0.007393140638949612,
           "kind": "conditional_forecast"
         },
         "median_minos_half_width": 0.017295241456085315,
@@ -241,7 +241,7 @@
       "status": "available",
       "prerecon": {
         "spherex_prediction": {
-          "sigma": 0.007722709247844823,
+          "sigma": 0.00927339659154134,
           "kind": "conditional_forecast"
         },
         "median_minos_half_width": 0.022278580470930683,
@@ -260,7 +260,7 @@
       },
       "postrecon": {
         "spherex_prediction": {
-          "sigma": 0.007421053488532155,
+          "sigma": 0.007421053488532136,
           "kind": "conditional_forecast"
         },
         "median_minos_half_width": 0.01657239241835439,
@@ -287,7 +287,7 @@
       "status": "available",
       "prerecon": {
         "spherex_prediction": {
-          "sigma": 0.021060472730085548,
+          "sigma": 0.02112786450049988,
           "kind": "mixed"
         },
         "median_minos_half_width": 0.03734969471174909,
@@ -304,7 +304,7 @@
       },
       "postrecon": {
         "spherex_prediction": {
-          "sigma": 0.01371199633354328,
+          "sigma": 0.013711996333543745,
           "kind": "mixed"
         },
         "median_minos_half_width": 0.02688809470977203,
@@ -329,7 +329,7 @@
       "status": "available",
       "prerecon": {
         "spherex_prediction": {
-          "sigma": 0.027177085161509212,
+          "sigma": 0.027093484034930934,
           "kind": "mixed"
         },
         "median_minos_half_width": 0.03127171670242363,
@@ -348,7 +348,7 @@
       },
       "postrecon": {
         "spherex_prediction": {
-          "sigma": 0.022850550346555296,
+          "sigma": 0.022850550346554817,
           "kind": "mixed"
         },
         "median_minos_half_width": 0.030419710671690046,
@@ -425,6 +425,6 @@
   "current_definition": "Median native Minos half-width of alpha_iso over usable intervals (valid, no prior-boundary contact) of the 25 individual LRG1 fits",
   "joint_definition": "Consensus combination of the tiers' median Minos half-widths with the measured alpha_iso correlation (Sanchez et al. 2017; BOSS DR12 and eBOSS DR16 practice), non-negative weights; usable interval counts per tier are kept in current",
   "interpretation": "Context only: distinct estimators, footprints, densities and redshifts",
-  "spherex_forecast": "<checkout>/paper/figures/source/forecast/spherex-prediction.json",
+  "spherex_forecast": "<checkout>/paper/figures/source/forecast/spherex-prediction-unreconstructed.json",
   "spherex_prediction_definition": "one survey at the SPHEREx effective volume: the matched-V_eff pipeline's median usable Minos half-width where it attains at least 90 per cent of that volume, else the one-survey conditional density-and-area forecast (revisions 2.11-F1/F3); joint rows combine the tier predictions with the measured correlation; predictions above 50 per cent are drawn at the axis edge"
 }

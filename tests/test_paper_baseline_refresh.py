@@ -574,13 +574,17 @@ def test_literature_forest_half_fills_combinations_that_mix_pipeline_and_forecas
     diamonds = [
         line for line in ax.lines if line.get_marker() == "D" and line.get_markersize() == 4
     ]
-    # LRG1: four tiers and the joint row, before and after reconstruction, all forecast (open).
+    # One diamond per row, the prediction after reconstruction; none before reconstruction.
+    # LRG1: four tiers and the joint row, all forecast (open).
     # LRG2: only its joint row is drawn, mixing two matched tiers with two forecast tiers.
     half = [line for line in diamonds if line.get_fillstyle() == "left"]
     open_ = [line for line in diamonds if line.get_markerfacecolor() == "white"]
-    assert len(half) == 2 and len(open_) == 10 and len(diamonds) == 12
+    assert len(half) == 1 and len(open_) == 5 and len(diamonds) == 6
     labels = [text.get_text() for text in ax.get_legend().get_texts()]
-    assert labels[2:] == [r"SPHEREx, matched $V_{\rm eff}$ and forecast", "SPHEREx, forecast"]
+    assert labels[2:] == [
+        r"SPHEREx, matched $V_{\rm eff}$ and forecast",
+        "SPHEREx, forecast (post)",
+    ]
     joint = next(
         r
         for r in namespace["supporting_tables"]["literature-comparison"]["joint_by_bin"]

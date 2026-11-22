@@ -1,50 +1,87 @@
 {
-  "started_utc": "2026-10-28T06:47:42.002489+00:00",
-  "finished_utc": "2026-10-28T06:47:47.695677+00:00",
-  "slurm_job_id": "24435282",
+  "started_utc": "2026-11-22T00:56:30.161021+00:00",
+  "finished_utc": "2026-11-22T00:56:37.118581+00:00",
+  "slurm_job_id": "24753926",
   "renderer_checkout": "<checkout>",
-  "renderer_commit": "8b170c18d35dff30e3e797ce2d2b6afde79735c2",
+  "renderer_commit": "cf1e59e3f524b115538e5583f34d6b4b477b4ab0",
   "renderer_diff": "",
   "method": "redrawn from the saved rows of the source render",
   "source_render": {
-    "started_utc": "2026-10-27T00:34:04.442452+00:00",
-    "finished_utc": "2026-10-27T00:34:13.286773+00:00",
-    "slurm_job_id": "24419180",
+    "started_utc": "2026-10-28T06:47:42.002489+00:00",
+    "finished_utc": "2026-10-28T06:47:47.695677+00:00",
+    "slurm_job_id": "24435282",
     "renderer_checkout": "<checkout>",
-    "renderer_commit": "1562838acb27e7ea7b0568220d0ca55bb70b54ec",
+    "renderer_commit": "8b170c18d35dff30e3e797ce2d2b6afde79735c2",
     "renderer_diff": "",
     "method": "redrawn from the saved rows of the source render",
     "source_render": {
-      "started_utc": "2026-10-26T08:23:28.438258+00:00",
-      "finished_utc": "2026-10-26T08:23:36.541504+00:00",
-      "slurm_job_id": "24412497",
+      "started_utc": "2026-10-27T00:34:04.442452+00:00",
+      "finished_utc": "2026-10-27T00:34:13.286773+00:00",
+      "slurm_job_id": "24419180",
       "renderer_checkout": "<checkout>",
-      "renderer_commit": "d990aca0535aa523cabbaaaed44c3cf2112a2441",
-      "renderer_diff": "diff --cc pzbao/figures/comparisons.ipynb\nindex 8738b19,b3adb96..0000000\n--- a/pzbao/figures/comparisons.ipynb\n+++ b/pzbao/figures/comparisons.ipynb\n@@@ -1368,7 -1382,7 +1382,7 @@@\n      \"                               va=\\\"center\\\", fontsize=7)\\n\",\n      \"    show(fig, \\\"fig_robustness_transfer\\\",\\n\",\n      \"         \\\"alpha_iso from the mean of 25 realizations with C/25 for the sigma_0.01 and 0.03 target \\\"\\n\",\n-     \"         \\\"classes at 25 Mpc/h: self-reconstruction (grey band), cross-sigma_z sample and pre-reconstruction; \\\"\\n\",\n -    \"         \\\"classes at 25 Mpc/h: self-reconstruction (shaded band, all rows), cross-sample and pre-reconstruction; \\\"\\n\",\n++    \"         \\\"classes at 25 Mpc/h: self-reconstruction (shaded band, all rows), cross-sigma_z sample and pre-reconstruction; \\\"\\n\",\n      \"         \\\"open markers: flagged intervals. alpha_AP reaches the prior bounds and is not shown.\\\")\\n\",\n      \"\\n\",\n      \"\\n\",\n",
+      "renderer_commit": "1562838acb27e7ea7b0568220d0ca55bb70b54ec",
+      "renderer_diff": "",
       "method": "redrawn from the saved rows of the source render",
       "source_render": {
-        "started_utc": "2026-10-26T07:44:19.060682+00:00",
-        "finished_utc": "2026-10-26T07:44:26.838190+00:00",
+        "started_utc": "2026-10-26T08:23:28.438258+00:00",
+        "finished_utc": "2026-10-26T08:23:36.541504+00:00",
         "slurm_job_id": "24412497",
         "renderer_checkout": "<checkout>",
-        "renderer_commit": "32be517fe751b37577d772d850b4d4dd25a2810c",
-        "renderer_diff": "",
+        "renderer_commit": "d990aca0535aa523cabbaaaed44c3cf2112a2441",
+        "renderer_diff": "diff --cc pzbao/figures/comparisons.ipynb\nindex 8738b19,b3adb96..0000000\n--- a/pzbao/figures/comparisons.ipynb\n+++ b/pzbao/figures/comparisons.ipynb\n@@@ -1368,7 -1382,7 +1382,7 @@@\n      \"                               va=\\\"center\\\", fontsize=7)\\n\",\n      \"    show(fig, \\\"fig_robustness_transfer\\\",\\n\",\n      \"         \\\"alpha_iso from the mean of 25 realizations with C/25 for the sigma_0.01 and 0.03 target \\\"\\n\",\n-     \"         \\\"classes at 25 Mpc/h: self-reconstruction (grey band), cross-sigma_z sample and pre-reconstruction; \\\"\\n\",\n -    \"         \\\"classes at 25 Mpc/h: self-reconstruction (shaded band, all rows), cross-sample and pre-reconstruction; \\\"\\n\",\n++    \"         \\\"classes at 25 Mpc/h: self-reconstruction (shaded band, all rows), cross-sigma_z sample and pre-reconstruction; \\\"\\n\",\n      \"         \\\"open markers: flagged intervals. alpha_AP reaches the prior bounds and is not shown.\\\")\\n\",\n      \"\\n\",\n      \"\\n\",\n",
         "method": "redrawn from the saved rows of the source render",
         "source_render": {
-          "started_utc": "2026-10-26T03:27:38.009498+00:00",
-          "finished_utc": "2026-10-26T03:27:46.687744+00:00",
+          "started_utc": "2026-10-26T07:44:19.060682+00:00",
+          "finished_utc": "2026-10-26T07:44:26.838190+00:00",
           "slurm_job_id": "24412497",
           "renderer_checkout": "<checkout>",
-          "renderer_commit": "1330bd3a94cba9a7adf7c4b4143e60fe33ae349d",
+          "renderer_commit": "32be517fe751b37577d772d850b4d4dd25a2810c",
           "renderer_diff": "",
           "method": "redrawn from the saved rows of the source render",
           "source_render": {
-            "started_utc": "2026-10-25T05:18:48.085523+00:00",
-            "finished_utc": "2026-10-25T06:00:59.741513+00:00",
-            "slurm_job_id": "24403188",
+            "started_utc": "2026-10-26T03:27:38.009498+00:00",
+            "finished_utc": "2026-10-26T03:27:46.687744+00:00",
+            "slurm_job_id": "24412497",
             "renderer_checkout": "<checkout>",
-            "renderer_commit": "159ce8fa9c8ccaf681b0114ad2e2dc71040a6609",
+            "renderer_commit": "1330bd3a94cba9a7adf7c4b4143e60fe33ae349d",
             "renderer_diff": "",
+            "method": "redrawn from the saved rows of the source render",
+            "source_render": {
+              "started_utc": "2026-10-25T05:18:48.085523+00:00",
+              "finished_utc": "2026-10-25T06:00:59.741513+00:00",
+              "slurm_job_id": "24403188",
+              "renderer_checkout": "<checkout>",
+              "renderer_commit": "159ce8fa9c8ccaf681b0114ad2e2dc71040a6609",
+              "renderer_diff": "",
+              "runs": {
+                "baseline": "<storage>/runs/core-sensitivity/unified-fit-v3--primary",
+                "flat": "<storage>/runs/core-sensitivity/unified-fit-v3--primary--flat",
+                "pcs2_lrg": "<storage>/runs/core-sensitivity/unified-fit-v3--primary--pcs2",
+                "pcs2_bgs": "<storage>/runs/core-sensitivity/unified-fit-v3--primary--pcs2",
+                "reciso": "<storage>/runs/core-sensitivity/unified-fit-v3--reciso--R15",
+                "scan": [
+                  "<storage>/runs/core-sensitivity/unified-fit-v3--scan--R15",
+                  "<storage>/runs/core-sensitivity/unified-fit-v3--scan--R25",
+                  "<storage>/runs/core-sensitivity/unified-fit-v3--scan--R35"
+                ],
+                "transfer": [
+                  [
+                    "<storage>/runs/reconstruction-transfer/unified-fit-v3--sigma_0.003--R25",
+                    "<storage>/runs/reconstruction-transfer/unified-fit-v3--self--R25"
+                  ]
+                ],
+                "density": "<storage>/runs/core-sensitivity/unified-fit-v3--density",
+                "density_primary": "<storage>/runs/core-sensitivity/unified-fit-v3--primary"
+              },
+              "figures": [
+                "fig_robustness_choices",
+                "fig_robustness_smoothing",
+                "fig_robustness_transfer",
+                "fig_robustness_density"
+              ],
+              "visual_review": "Pending",
+              "scientific_acceptance": "Not established by this rendering"
+            },
             "runs": {
               "baseline": "<storage>/runs/core-sensitivity/unified-fit-v3--primary",
               "flat": "<storage>/runs/core-sensitivity/unified-fit-v3--primary--flat",
@@ -66,7 +103,8 @@
               "density_primary": "<storage>/runs/core-sensitivity/unified-fit-v3--primary"
             },
             "figures": [
-              "fig_robustness_choices",
+              "fig_robustness_choices_iso",
+              "fig_robustness_choices_ap",
               "fig_robustness_smoothing",
               "fig_robustness_transfer",
               "fig_robustness_density"

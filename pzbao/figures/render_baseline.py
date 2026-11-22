@@ -102,6 +102,7 @@ def main():
             "fig_post1d",
             "fig_post2d",
             "fig_fom_2d",
+            "fig_gain_density",
             "fig_recon_quality",
             "fig_nz",
             "fig_pipeline",

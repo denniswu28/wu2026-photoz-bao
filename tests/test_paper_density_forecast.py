@@ -67,7 +67,12 @@ def test_loaded_route_forecast_keeps_mean_normalization_source_and_fixed_priors(
     monkeypatch.setattr(covariance, "likelihood_covariance_run", lambda r, s: provider)
     monkeypatch.setattr(covariance, "read_route_covariance", covariance_reader)
     monkeypatch.setattr(selection, "read_preparation", preparation_reader)
-    monkeypatch.setattr(catalog, "build_mock_cosmology", lambda c: None)
+    power = lambda k, z: 2.0e4 * np.asarray(k) / (1 + (np.asarray(k) / 0.02) ** 2.5)
+    cosmology = SimpleNamespace(
+        rs_drag=100.0,
+        get_fourier=lambda: SimpleNamespace(pk_interpolator=lambda of: power),
+    )
+    monkeypatch.setattr(catalog, "build_mock_cosmology", lambda c: cosmology)
     monkeypatch.setattr(
         likelihood,
         "_route_likelihood",
@@ -75,7 +80,12 @@ def test_loaded_route_forecast_keeps_mean_normalization_source_and_fixed_priors(
             None,
             observable,
             native,
-            dict(ap_mode="qisoqap", attained_density_h3_mpc3=0.1),
+            dict(
+                ap_mode="qisoqap",
+                attained_density_h3_mpc3=0.1,
+                z_eff=0.5,
+                fitting_growth_rate=0.8,
+            ),
             {"realization_ids": np.arange(25)},
             None,
         ),
@@ -121,6 +131,27 @@ def test_loaded_route_forecast_keeps_mean_normalization_source_and_fixed_priors(
     assert single["n_mocks_normalization"] == 1
     with pytest.raises(ValueError, match="normalization"):
         forecast.forecast_route(run, route, target_fsky=fsky, n_realizations=26)
+    # The damping-prior centre is the default evaluation point. On request a pre-reconstruction
+    # route is evaluated at the unreconstructed damping instead, parallel = (1 + f) transverse.
+    assert result["current_sigma_perp"] == 5.0
+    points = []
+    monkeypatch.setattr(
+        forecast, "derivative_matrix", lambda *a: points.append(dict(a[3])) or np.eye(3)
+    )
+    moved = forecast.forecast_route(
+        run, route, target_fsky=fsky, unreconstructed_prereconstruction=True
+    )
+    perp, parallel = forecast.unreconstructed_damping(lambda k: power(k, 0.5), 100.0, 0.8)
+    assert moved["current_sigma_perp"] == moved["target_sigma_perp"] == perp
+    assert moved["current_sigma_parallel"] == parallel == pytest.approx(1.8 * perp)
+    assert [(p["sigmaper"], p["sigmapar"]) for p in points] == [(perp, parallel)] * 2
+    points.clear()
+    post = dict(route, reconstruction_state="postreconstruction")
+    monkeypatch.setattr(covariance, "read_route_covariance", lambda *a: saved)
+    unmoved = forecast.forecast_route(
+        run, post, target_fsky=fsky, unreconstructed_prereconstruction=True
+    )
+    assert unmoved["current_sigma_perp"] == 5.0 and "sigmapar" not in points[0]
     saved["arrays"]["c4"] *= -1
     with pytest.raises(ValueError, match="Invalid source covariance"):
         forecast.forecast_route(run, route, target_fsky=fsky)
@@ -481,3 +512,62 @@ def test_changed_input_is_rejected(tmp_path):
     path.write_text('{"changed": true}')
     with pytest.raises(ValueError, match="Changed input"):
         inputs.verify()
+
+
+def test_unreconstructed_damping_is_the_formula_without_smoothing():
+    from pzbao.theory import reconstruction_transverse_damping_squared
+
+    power = lambda k: 2.0e4 * np.asarray(k) / (1 + (np.asarray(k) / 0.02) ** 2.5)
+    perp, parallel = forecast.unreconstructed_damping(power, 100.0, 0.8)
+    # S(k) = exp(-k^2 R^2 / 2) vanishes on the whole quadrature grid at this radius.
+    limit = reconstruction_transverse_damping_squared(
+        linear_power=power, smoothing_radius_mpc_h=1.0e8, drag_scale_mpc_h=100.0
+    )
+    assert perp == pytest.approx(np.sqrt(limit), rel=1e-12)
+    smoothed = reconstruction_transverse_damping_squared(
+        linear_power=power, smoothing_radius_mpc_h=15.0, drag_scale_mpc_h=100.0
+    )
+    assert perp > np.sqrt(smoothed)
+    assert parallel == pytest.approx(1.8 * perp)
+    with pytest.raises(ValueError, match="unreconstructed damping"):
+        forecast.unreconstructed_damping(power, 0.0, 0.8)
+
+
+def test_saved_selection_returns_the_saved_counts_volumes_and_redshifts():
+    # The saved volumes are those of the configured cosmology, so the check needs its engine.
+    pytest.importorskip("cosmoprimo")
+    import json
+    from pathlib import Path
+
+    from pzbao import catalog
+    from pzbao.config import load_analysis_config
+    from pzbao.figures.render_spherex_forecast import saved_selection
+
+    config = load_analysis_config()
+    cosmology = catalog.build_mock_cosmology(config)
+    source = Path(__file__).resolve().parents[1] / "paper/figures/source/baseline"
+    record = saved_selection(source, config, cosmology)(None, "LRG")
+    row = next(
+        r
+        for r in json.loads((source / "density.json").read_text())
+        if (r["measurement_bin"], r["condition"]) == ("LRG2", "sigma_0.003")
+    )
+    redshift = next(
+        r["z_eff"]
+        for r in json.loads((source / "effective-redshifts.json").read_text())
+        if (r["measurement_bin"], r["condition"]) == ("LRG2", "sigma_0.003")
+    )
+    route = dict(tracer="LRG", measurement_bin="LRG2", condition="sigma_0.003")
+    # The forecast's own reader accepts the stand-in and recovers the saved totals; the two
+    # caps carry the one saved radial density.
+    volume, density = forecast.radial_cells(record, dict(config=config), route, cosmology)
+    assert volume.sum() == pytest.approx(row["volume_mpc_h3"], rel=1e-9)
+    assert (volume * density).sum() == pytest.approx(row["mean_count"], rel=1e-9)
+    np.testing.assert_allclose(density.reshape(2, -1), [row["density"]] * 2, rtol=1e-9)
+    assert record["effective_redshifts"]["sigma_0.003"]["LRG2"]["z_eff"] == redshift
+    groups = record["conditions"]["sigma_0.003"]
+    assert set(groups) == {"NGC", "SGC"} and set(groups["NGC"]["counts"]) == {
+        "LRG1",
+        "LRG2",
+        "LRG3",
+    }

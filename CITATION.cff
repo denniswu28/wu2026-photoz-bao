@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite the paper it accompanies and this repository."
-title: "wu2026-photoz-bao: analysis code for BAO reconstruction under photometric-redshift uncertainty"
+title: "wu2026-photoz-bao: analysis code for BAO reconstruction in the presence of photometric redshift uncertainty"
 type: software
 license:
   - MIT
@@ -15,6 +15,9 @@ authors:
   - family-names: Paillas
     given-names: Enrique
     affiliation: "Instituto de Estudios Astrofísicos, Universidad Diego Portales"
+  - family-names: Eifler
+    given-names: Tim
+    affiliation: "Department of Astronomy & Steward Observatory, University of Arizona; Department of Physics, University of Arizona"
 keywords:
   - cosmology
   - baryon acoustic oscillations
