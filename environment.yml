@@ -27,6 +27,7 @@ dependencies:
   - compilers
   - make
   - cmake
+  - pkg-config
   - cython
   # build backends, needed because the pinned packages build without isolation
   - setuptools
